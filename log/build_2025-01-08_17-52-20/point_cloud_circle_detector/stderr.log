@@ -1,0 +1,25 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING **  features related to /opt/ros/iron/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so will be disabled[0m
+[0m** WARNING **  features related to /opt/ros/iron/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so will be disabled[0m
+[0mPCL Libraries: TESSSSt[0m
+[0mPCL Libraries: /usr/local/share/pcl-1.14[0m
+[0mPCL Libraries: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;FLANN::FLANN;QHULL::QHULL[0m
+[0mPCL Libraries: /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1[0m
+[31mCMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "pcl_conversions", but CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl_conversions"
+  with any of the following names:
+
+    pcl_conversionsConfig.cmake
+    pcl_conversions-config.cmake
+
+  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+  set "pcl_conversions_DIR" to a directory containing one of the above files.
+  If "pcl_conversions" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

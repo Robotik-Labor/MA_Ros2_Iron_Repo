@@ -1,0 +1,8 @@
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:182: CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_launches_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:168: CMakeFiles/moveit_setup_app_plugins.dir/src/perception_widget.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_setup_app_plugins.dir/build.make:196: CMakeFiles/moveit_setup_app_plugins.dir/include/moveit_setup_app_plugins/moc_perception_widget.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:161: CMakeFiles/moveit_setup_app_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

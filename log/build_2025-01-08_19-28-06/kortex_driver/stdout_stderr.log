@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 3.30.0 (/opt/ros/iron/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found kortex_api: 0.2.2 (/home/buhrmann/ws_moveit/install/kortex_api/share/kortex_api/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/kortex_driver
+[35m[1mConsolidate compiler generated dependencies of target kortex_driver[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/hardware_interface.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libkortex_driver.so[0m
+[100%] Built target kortex_driver

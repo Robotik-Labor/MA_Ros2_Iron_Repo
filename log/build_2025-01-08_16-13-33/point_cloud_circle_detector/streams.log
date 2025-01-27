@@ -1,0 +1,71 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.034s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.116s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.128s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.164s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.418s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.422s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.422s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.525s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.530s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.535s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.655s] -- Found Qhull version 8.0.2
+[0.751s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.858s] -- looking for PCL_COMMON
+[0.858s] -- looking for PCL_KDTREE
+[0.858s] -- looking for PCL_OCTREE
+[0.859s] -- looking for PCL_SEARCH
+[0.859s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.859s] -- looking for PCL_FILTERS
+[0.859s] -- looking for PCL_2D
+[0.859s] -- looking for PCL_GEOMETRY
+[0.859s] -- looking for PCL_IO
+[0.859s] -- looking for PCL_FEATURES
+[0.860s] -- looking for PCL_ML
+[0.860s] -- looking for PCL_SEGMENTATION
+[0.860s] -- looking for PCL_VISUALIZATION
+[0.860s] -- looking for PCL_SURFACE
+[0.860s] -- looking for PCL_REGISTRATION
+[0.860s] -- looking for PCL_KEYPOINTS
+[0.861s] -- looking for PCL_TRACKING
+[0.861s] -- looking for PCL_RECOGNITION
+[0.861s] -- looking for PCL_STEREO
+[0.861s] -- looking for PCL_APPS
+[0.862s] -- looking for PCL_IN_HAND_SCANNER
+[0.862s] -- looking for PCL_MODELER
+[0.862s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.862s] -- looking for PCL_OUTOFCORE
+[0.862s] -- looking for PCL_PEOPLE
+[0.863s] [0mPCL Libraries: TESSSSt[0m
+[0.863s] [0mPCL Libraries: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL[0m
+[0.863s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.872s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.988s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.035s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.210s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.306s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[1.306s]   By not providing "Findpcl_features.cmake" in CMAKE_MODULE_PATH this project
+[1.306s]   has asked CMake to find a package configuration file provided by
+[1.306s]   "pcl_features", but CMake did not find one.
+[1.306s] 
+[1.306s]   Could not find a package configuration file provided by "pcl_features" with
+[1.306s]   any of the following names:
+[1.306s] 
+[1.306s]     pcl_featuresConfig.cmake
+[1.306s]     pcl_features-config.cmake
+[1.307s] 
+[1.307s]   Add the installation prefix of "pcl_features" to CMAKE_PREFIX_PATH or set
+[1.307s]   "pcl_features_DIR" to a directory containing one of the above files.  If
+[1.307s]   "pcl_features" provides a separate development package or SDK, be sure it
+[1.307s]   has been installed.
+[1.307s] 
+[1.307s] [0m
+[1.307s] -- Configuring incomplete, errors occurred!
+[1.307s] See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
+[1.314s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[1.316s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

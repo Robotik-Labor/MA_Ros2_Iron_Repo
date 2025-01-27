@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[0.069s] [ 25%] Built target point_cloud_cylinder_detector
+[0.071s] [ 62%] Built target point_cloud_plantpot_detector
+[0.071s] [ 75%] Built target point_cloud_circle_detector
+[0.076s] [ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[14.922s] [100%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
+[16.190s] [100%] Built target point_cloud_plantpot_ppf_detector
+[16.201s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[16.208s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[16.213s] -- Install configuration: ""
+[16.213s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector
+[16.220s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector" to ""
+[16.220s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+[16.220s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+[16.221s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector

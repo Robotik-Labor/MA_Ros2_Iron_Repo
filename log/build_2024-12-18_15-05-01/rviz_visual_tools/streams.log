@@ -1,0 +1,28 @@
+[0.154s] Invoking command in '/home/buhrmann/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/rviz_visual_tools -- -j28 -l28
+[0.186s] [  2%] [34m[1mAutomatic MOC for target gtest[0m
+[0.186s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[0.187s] [  7%] [34m[1mAutomatic MOC for target gtest_main[0m
+[0.189s] [ 10%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[0.197s] [ 10%] Built target gtest_autogen
+[0.198s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[0.199s] [ 10%] Built target gtest_main_autogen
+[0.210s] [ 10%] Built target rviz_visual_tools_gui_autogen
+[0.225s] [ 17%] Built target gtest_main
+[0.231s] [ 25%] Built target rviz_visual_tools_remote_control
+[0.238s] [ 33%] Built target gtest
+[0.242s] [ 35%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[0.242s] [ 48%] Built target rviz_visual_tools_gui
+[0.244s] [ 48%] Built target rviz_visual_tools_autogen
+[0.278s] [ 58%] Built target rviz_visual_tools
+[0.284s] [ 61%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[0.285s] [ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[0.286s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[0.297s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[0.300s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[0.303s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[0.317s] [ 74%] Built target rviz_visual_tools_demo
+[0.318s] [ 82%] Built target rviz_visual_tools_rvt_test
+[0.325s] [ 89%] Built target rviz_visual_tools_imarker_simple
+[0.339s] [ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[0.355s] [ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[0.377s] [100%] Built target rviz_visual_tools_imarker_simple_demo

@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:228: CMakeFiles/moveit_setup_controllers.dir/src/ros2_controllers_widget.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:144: CMakeFiles/moveit_setup_controllers.dir/src/controllers_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_controllers.dir/build.make:256: CMakeFiles/moveit_setup_controllers.dir/src/urdf_modifications_widget.cpp.o] Error 1

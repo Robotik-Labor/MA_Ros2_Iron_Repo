@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_driver': CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection_cpp:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation2:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_driver -- -j28 -l28
+[0.036s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.117s] -- Found hardware_interface: 3.28.1 (/opt/ros/iron/share/hardware_interface/cmake)
+[0.138s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.616s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.636s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.641s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.657s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.663s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Found serial: 1.2.1 (/home/buhrmann/ws_moveit/install/serial/share/serial/cmake)
+[0.794s] -- Found ament_cmake_gtest: 2.0.6 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[0.794s] -- Found ament_cmake_gmock: 2.0.6 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+[0.801s] [31mCMake Error at tests/CMakeLists.txt:4 (find_package):
+[0.801s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.801s]   project has asked CMake to find a package configuration file provided by
+[0.801s]   "ament_lint_auto", but CMake did not find one.
+[0.801s] 
+[0.802s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.802s]   with any of the following names:
+[0.802s] 
+[0.802s]     ament_lint_autoConfig.cmake
+[0.802s]     ament_lint_auto-config.cmake
+[0.802s] 
+[0.802s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.802s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.802s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.802s]   sure it has been installed.
+[0.802s] 
+[0.802s] [0m
+[0.802s] -- Configuring incomplete, errors occurred!
+[0.802s] See also "/home/buhrmann/ws_moveit/build/robotiq_driver/CMakeFiles/CMakeOutput.log".
+[0.805s] gmake: *** [Makefile:1002: cmake_check_build_system] Error 1

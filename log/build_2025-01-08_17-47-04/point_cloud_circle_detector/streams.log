@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.060s] [ 16%] [32mBuilding CXX object CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o[0m
+[0.060s] [ 33%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_cylinder_detector.dir/src/point_cloud_cylinder_detector.cpp.o[0m
+[0.776s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_cylinder_detector.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kpcl/visualization/pcl_visualizer.h: No such file or directory
+[0.777s]    13 | #include [01;31m[K<pcl/visualization/pcl_visualizer.h>[m[K
+[0.777s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.777s] compilation terminated.
+[0.791s] gmake[2]: *** [CMakeFiles/point_cloud_cylinder_detector.dir/build.make:76: CMakeFiles/point_cloud_cylinder_detector.dir/src/point_cloud_cylinder_detector.cpp.o] Error 1
+[0.791s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/point_cloud_cylinder_detector.dir/all] Error 2
+[0.792s] gmake[1]: *** Waiting for unfinished jobs....
+[0.852s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kpcl/visualization/pcl_visualizer.h: No such file or directory
+[0.852s]    13 | #include [01;31m[K<pcl/visualization/pcl_visualizer.h>[m[K
+[0.852s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.852s] compilation terminated.
+[0.867s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o] Error 1
+[0.867s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
+[5.393s] [ 66%] [32m[1mLinking CXX executable point_cloud_circle_detector[0m
+[6.240s] /usr/bin/ld: warning: libpcl_features.so.1.14, needed by /usr/local/lib/libpcl_segmentation.so, may conflict with libpcl_features.so.1.12
+[6.298s] /usr/bin/ld: warning: libpcl_filters.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_filters.so.1.14
+[6.307s] /usr/bin/ld: warning: libpcl_common.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_common.so.1.14
+[6.521s] [ 66%] Built target point_cloud_circle_detector
+[6.522s] gmake: *** [Makefile:146: all] Error 2
+[6.524s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

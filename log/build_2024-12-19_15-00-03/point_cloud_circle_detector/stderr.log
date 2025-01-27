@@ -1,0 +1,7 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCircleDetector::visualize_point_cloud_and_circle(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::ModelCoefficients::Ptr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:93:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   93 |     void visualize_point_cloud_and_circle([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr cloud[m[K, pcl::ModelCoefficients::Ptr coefficients)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:93:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcoefficients[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   93 |     void visualize_point_cloud_and_circle(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, [01;35m[Kpcl::ModelCoefficients::Ptr coefficients[m[K)
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

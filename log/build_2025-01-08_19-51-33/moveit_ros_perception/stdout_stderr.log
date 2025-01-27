@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_point_containment_filter[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_lazy_free_space_updater[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_semantic_world[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_mesh_filter[0m
+[ 20%] Built target moveit_point_containment_filter
+[ 20%] Built target moveit_lazy_free_space_updater
+[ 30%] Built target moveit_semantic_world
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libXi.so', needed by 'mesh_filter/libmoveit_mesh_filter.so.2.11.0'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:351: mesh_filter/CMakeFiles/moveit_mesh_filter.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target moveit_pointcloud_octomap_updater_core[0m
+[ 40%] Built target moveit_pointcloud_octomap_updater_core
+gmake: *** [Makefile:146: all] Error 2

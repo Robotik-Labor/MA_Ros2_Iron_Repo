@@ -1,0 +1,4 @@
+source;share/picknik_accessories/local_setup.bash
+source;share/picknik_accessories/local_setup.dsv
+source;share/picknik_accessories/local_setup.sh
+source;share/picknik_accessories/local_setup.zsh

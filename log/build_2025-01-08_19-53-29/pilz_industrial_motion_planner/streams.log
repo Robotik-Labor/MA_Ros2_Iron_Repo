@@ -1,0 +1,185 @@
+[0.034s] Invoking command in '/home/buhrmann/ws_moveit/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/opt/ros/iron CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/usr/local/share/pcl-1.14:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron LD_LIBRARY_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64 PYTHONPATH=/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/pilz_industrial_motion_planner -- -j28 -l28
+[0.056s] -- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.056s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.168s] [0mpilz_industrial_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.168s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[0.169s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/iron/share/generate_parameter_library/cmake)
+[0.169s] -- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+[0.185s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.288s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.471s] -- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[0.524s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.571s] -- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[0.580s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.596s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.623s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.820s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.634s] -- Found moveit_ros_move_group: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake)
+[1.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.954s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.568s] -- Found tf2_eigen_kdl: 0.31.8 (/opt/ros/iron/share/tf2_eigen_kdl/cmake)
+[2.573s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.937s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[2.937s] -- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+[2.938s] -- Found ros_testing: 0.5.2 (/opt/ros/iron/share/ros_testing/cmake)
+[2.938s] -- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+[2.938s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.955s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.955s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.955s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.956s] -- Found moveit_resources_prbt_support: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake)
+[2.956s] -- Found moveit_resources_prbt_moveit_config: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config/share/moveit_resources_prbt_moveit_config/cmake)
+[2.959s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.960s] -- Found pilz_industrial_motion_planner_testutils: 2.11.0 (/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake)
+[3.087s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.123s] -- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.131s] -- Configuring done
+[3.623s] -- Generating done
+[3.629s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/pilz_industrial_motion_planner
+[3.688s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[3.688s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[3.689s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[3.691s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[3.703s] [  1%] Built target cartesian_limits_parameters
+[3.703s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.704s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.704s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.704s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.704s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.720s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_base[0m
+[3.729s] [35m[1mConsolidate compiler generated dependencies of target trajectory_generation_common[0m
+[3.729s] [35m[1mConsolidate compiler generated dependencies of target joint_limits_common[0m
+[3.752s] [  8%] [32mBuilding CXX object CMakeFiles/planning_context_loader_base.dir/src/planning_context_loader.cpp.o[0m
+[3.761s] [ 10%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o[0m
+[3.769s] [ 11%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_container.cpp.o[0m
+[3.773s] [ 12%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/limits_container.cpp.o[0m
+[3.776s] [ 13%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_validator.cpp.o[0m
+[3.802s] [ 15%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o[0m
+[3.810s] [ 16%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_functions.cpp.o[0m
+[3.818s] [ 17%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o[0m
+[4.577s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.681s] [ 18%] Built target gtest_main
+[5.291s] [ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.473s] [ 20%] Built target gmock_main
+[13.539s] [ 21%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.621s] [ 21%] Built target gmock
+[13.800s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.886s] [ 22%] Built target gtest
+[14.939s] [ 23%] [32m[1mLinking CXX shared library libplanning_context_loader_base.so[0m
+[15.809s] [ 25%] [32m[1mLinking CXX shared library libjoint_limits_common.so[0m
+[16.092s] [ 25%] Built target joint_limits_common
+[16.097s] [ 25%] Built target planning_context_loader_base
+[16.107s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_aggregator[0m
+[16.108s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_container[0m
+[16.108s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limits_validator[0m
+[16.109s] [35m[1mConsolidate compiler generated dependencies of target unittest_joint_limit[0m
+[16.111s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner[0m
+[16.126s] [ 27%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_container.dir/src/unittest_joint_limits_container.cpp.o[0m
+[16.126s] [ 27%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_validator.dir/src/unittest_joint_limits_validator.cpp.o[0m
+[16.131s] [ 28%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limit.dir/src/unittest_joint_limit.cpp.o[0m
+[16.131s] [ 30%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_aggregator.dir/src/unittest_joint_limits_aggregator.cpp.o[0m
+[16.136s] [ 31%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner.dir/src/pilz_industrial_motion_planner.cpp.o[0m
+[16.412s] [ 32%] [32m[1mLinking CXX shared library libtrajectory_generation_common.so[0m
+[16.695s] [ 32%] Built target trajectory_generation_common
+[16.723s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner_test_utils[0m
+[16.725s] [35m[1mConsolidate compiler generated dependencies of target command_list_manager[0m
+[16.725s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_ptp[0m
+[16.725s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_lin[0m
+[16.725s] [35m[1mConsolidate compiler generated dependencies of target planning_context_loader_circ[0m
+[16.753s] [ 33%] [32mBuilding CXX object test/CMakeFiles/pilz_industrial_motion_planner_test_utils.dir/test_utils.cpp.o[0m
+[16.753s] [ 35%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/planning_context_loader_ptp.cpp.o[0m
+[16.753s] [ 36%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/path_circle_generator.cpp.o[0m
+[16.754s] [ 37%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/planning_context_loader_circ.cpp.o[0m
+[16.755s] [ 38%] [32mBuilding CXX object CMakeFiles/command_list_manager.dir/src/command_list_manager.cpp.o[0m
+[16.756s] [ 40%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/trajectory_generator_circ.cpp.o[0m
+[16.757s] [ 41%] [32mBuilding CXX object CMakeFiles/command_list_manager.dir/src/plan_components_builder.cpp.o[0m
+[16.757s] [ 42%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/planning_context_loader_lin.cpp.o[0m
+[16.758s] [ 43%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/trajectory_generator_ptp.cpp.o[0m
+[16.758s] [ 47%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/velocity_profile_atrap.cpp.o[0m
+[16.758s] [ 47%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/trajectory_generator_lin.cpp.o[0m
+[16.758s] [ 47%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/velocity_profile_atrap.cpp.o[0m
+[17.445s] [ 48%] [32m[1mLinking CXX executable unittest_joint_limits_container[0m
+[17.699s] [ 48%] Built target unittest_joint_limits_container
+[18.251s] [ 50%] [32m[1mLinking CXX executable unittest_joint_limits_validator[0m
+[18.543s] [ 50%] Built target unittest_joint_limits_validator
+[22.191s] [ 51%] [32m[1mLinking CXX executable unittest_joint_limit[0m
+[22.594s] [ 51%] Built target unittest_joint_limit
+[23.235s] [ 52%] [32m[1mLinking CXX executable unittest_joint_limits_aggregator[0m
+[23.672s] [ 52%] Built target unittest_joint_limits_aggregator
+[26.850s] [ 53%] [32m[1mLinking CXX shared library libplanning_context_loader_ptp.so[0m
+[26.853s] [ 55%] [32m[1mLinking CXX shared library libplanning_context_loader_circ.so[0m
+[27.084s] [ 55%] Built target planning_context_loader_ptp
+[27.198s] [ 55%] Built target planning_context_loader_circ
+[27.685s] [ 56%] [32m[1mLinking CXX shared library libcommand_list_manager.so[0m
+[27.963s] [ 56%] Built target command_list_manager
+[27.986s] [35m[1mConsolidate compiler generated dependencies of target sequence_capability[0m
+[28.028s] [ 58%] [32mBuilding CXX object CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o[0m
+[28.028s] [ 58%] [32mBuilding CXX object CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o[0m
+[29.089s] [ 60%] [32m[1mLinking CXX shared library libplanning_context_loader_lin.so[0m
+[29.389s] [ 60%] Built target planning_context_loader_lin
+[29.554s] [ 61%] [32m[1mLinking CXX static library libpilz_industrial_motion_planner_test_utils.a[0m
+[29.644s] [ 61%] Built target pilz_industrial_motion_planner_test_utils
+[29.659s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_lin[0m
+[29.659s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_ptp[0m
+[29.662s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_functions[0m
+[29.663s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_common[0m
+[29.663s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator_circ[0m
+[29.664s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_blender_transition_window[0m
+[29.681s] [ 62%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_ptp.dir/src/unittest_trajectory_generator_ptp.cpp.o[0m
+[29.691s] [ 63%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_lin.dir/src/unittest_trajectory_generator_lin.cpp.o[0m
+[29.693s] [ 65%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_functions.dir/src/unittest_trajectory_functions.cpp.o[0m
+[29.693s] [ 66%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_common.dir/src/unittest_trajectory_generator_common.cpp.o[0m
+[29.700s] [ 67%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_circ.dir/src/unittest_trajectory_generator_circ.cpp.o[0m
+[29.700s] [ 68%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_blender_transition_window.dir/src/unittest_trajectory_blender_transition_window.cpp.o[0m
+[29.707s] [ 70%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_blender_transition_window.dir/__/__/src/trajectory_blender_transition_window.cpp.o[0m
+[33.306s] [ 71%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner.so[0m
+[33.525s] [ 71%] Built target pilz_industrial_motion_planner
+[33.546s] [35m[1mConsolidate compiler generated dependencies of target unittest_velocity_profile_atrap[0m
+[33.546s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner_direct[0m
+[33.546s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context[0m
+[33.547s] [35m[1mConsolidate compiler generated dependencies of target unittest_trajectory_generator[0m
+[33.547s] [35m[1mConsolidate compiler generated dependencies of target unittest_planning_context_loaders[0m
+[33.547s] [35m[1mConsolidate compiler generated dependencies of target unittest_get_solver_tip_frame[0m
+[33.547s] [35m[1mConsolidate compiler generated dependencies of target unittest_pilz_industrial_motion_planner[0m
+[33.568s] [ 72%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_velocity_profile_atrap.dir/__/__/src/velocity_profile_atrap.cpp.o[0m
+[33.568s] [ 73%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_velocity_profile_atrap.dir/src/unittest_velocity_profile_atrap.cpp.o[0m
+[33.570s] [ 75%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_get_solver_tip_frame.dir/src/unittest_get_solver_tip_frame.cpp.o[0m
+[33.573s] [ 76%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_pilz_industrial_motion_planner_direct.dir/src/unittest_pilz_industrial_motion_planner_direct.cpp.o[0m
+[33.577s] [ 78%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_pilz_industrial_motion_planner.dir/src/unittest_pilz_industrial_motion_planner.cpp.o[0m
+[33.577s] [ 78%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_planning_context.dir/src/unittest_planning_context.cpp.o[0m
+[33.579s] [ 80%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_planning_context_loaders.cpp.o[0m
+[33.585s] [ 81%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/src/unittest_trajectory_generator.cpp.o[0m
+[33.588s] [ 82%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/__/__/src/trajectory_generator.cpp.o[0m
+[37.883s] [ 83%] [32m[1mLinking CXX executable unittest_velocity_profile_atrap[0m
+[42.499s] [ 85%] [32m[1mLinking CXX executable unittest_get_solver_tip_frame[0m
+[44.116s] [ 86%] [32m[1mLinking CXX executable unittest_trajectory_blender_transition_window[0m
+[44.191s] [ 87%] [32m[1mLinking CXX executable unittest_trajectory_generator_lin[0m
+[44.611s] [ 87%] Built target unittest_trajectory_blender_transition_window
+[44.612s] [ 87%] Built target unittest_trajectory_generator_lin
+[45.305s] [ 88%] [32m[1mLinking CXX executable unittest_trajectory_generator[0m
+[45.602s] [ 88%] Built target unittest_velocity_profile_atrap
+[45.734s] [ 88%] Built target unittest_trajectory_generator
+[45.801s] [ 90%] [32m[1mLinking CXX executable unittest_trajectory_generator_common[0m
+[46.298s] [ 91%] [32m[1mLinking CXX executable unittest_pilz_industrial_motion_planner_direct[0m
+[46.445s] [ 91%] Built target unittest_trajectory_generator_common
+[46.778s] [ 91%] Built target unittest_pilz_industrial_motion_planner_direct
+[47.029s] [ 92%] [32m[1mLinking CXX executable unittest_planning_context[0m
+[47.549s] [ 93%] [32m[1mLinking CXX shared library libsequence_capability.so[0m
+[47.618s] [ 93%] Built target unittest_planning_context
+[48.165s] [ 93%] Built target sequence_capability
+[49.449s] [ 95%] [32m[1mLinking CXX executable unittest_trajectory_functions[0m
+[49.896s] [ 96%] [32m[1mLinking CXX executable unittest_pilz_industrial_motion_planner[0m
+[49.919s] [ 97%] [32m[1mLinking CXX executable unittest_trajectory_generator_ptp[0m
+[50.147s] [ 97%] Built target unittest_trajectory_functions
+[50.413s] [ 97%] Built target unittest_pilz_industrial_motion_planner
+[50.546s] [ 97%] Built target unittest_get_solver_tip_frame
+[50.640s] [ 97%] Built target unittest_trajectory_generator_ptp
+[50.643s] [ 98%] [32m[1mLinking CXX executable unittest_trajectory_generator_circ[0m
+[51.043s] [ 98%] Built target unittest_trajectory_generator_circ
+[54.087s] [100%] [32m[1mLinking CXX executable unittest_planning_context_loaders[0m
+[54.480s] [100%] Built target unittest_planning_context_loaders

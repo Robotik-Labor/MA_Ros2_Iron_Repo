@@ -1,0 +1,106 @@
+[0.213s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/object_detection
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.491s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+[0.565s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.597s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[0.979s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[1.094s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.099s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.200s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.220s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.356s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.470s] -- Checking for module 'eigen3'
+[1.484s] --   Found eigen3, version 3.4.0
+[1.513s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.513s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.535s] -- Checking for module 'flann'
+[1.547s] --   Found flann, version 1.9.1
+[1.577s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.577s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.425s] -- Checking for module 'libusb-1.0'
+[2.440s] --   Found libusb-1.0, version 1.0.25
+[2.473s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.473s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.527s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.637s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.642s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.647s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.805s] -- Found Qhull version 8.0.2
+[2.945s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.098s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.098s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.099s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.099s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.100s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.100s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.101s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.101s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.101s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.103s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.104s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.105s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.106s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.107s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.108s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.109s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.110s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.111s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.112s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.113s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.114s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.114s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.114s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.115s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.116s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.135s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.217s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.218s] -- Added test 'lint_cmake' to check CMake code style
+[3.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.221s] -- Added test 'xmllint' to check XML markup files
+[3.223s] -- Configuring done
+[3.228s] -- Generating done
+[3.230s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/object_detection
+[3.242s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/object_detection
+[3.243s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection -- -j28 -l28
+[3.283s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection -- -j28 -l28
+[3.313s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection
+[3.320s] -- Install configuration: ""
+[3.320s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection.py
+[3.320s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook.py
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_coords_publisher.py
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook_publisher.py
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/package_run_dependencies/object_detection
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/parent_prefix_path/object_detection
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/ament_prefix_path.sh
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/ament_prefix_path.dsv
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/path.sh
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/path.dsv
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.bash
+[3.321s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.sh
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.zsh
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.dsv
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/package.dsv
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/packages/object_detection
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/cmake/object_detectionConfig.cmake
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/cmake/object_detectionConfig-version.cmake
+[3.322s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/package.xml
+[3.324s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection

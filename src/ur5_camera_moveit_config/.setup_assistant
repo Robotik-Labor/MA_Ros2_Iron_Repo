@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur5_description_controller
+    relative_path: urdf/ur.urdf.xacro
+  srdf:
+    relative_path: config/ur5.srdf
+  package_settings:
+    author_name: buhrmann
+    author_email: la.buhrmann@ostfalia.de
+    generated_timestamp: 1733423419

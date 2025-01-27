@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Findfeatures.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "features",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "features" with any
+  of the following names:
+
+    featuresConfig.cmake
+    features-config.cmake
+
+  Add the installation prefix of "features" to CMAKE_PREFIX_PATH or set
+  "features_DIR" to a directory containing one of the above files.  If
+  "features" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

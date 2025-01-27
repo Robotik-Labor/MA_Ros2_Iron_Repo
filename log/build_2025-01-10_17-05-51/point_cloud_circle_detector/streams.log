@@ -1,0 +1,74 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[0.076s] [ 20%] Built target point_cloud_plantpot_detector
+[0.077s] [ 40%] Built target point_cloud_plantpot_ppf_detector
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o[0m
+[0.077s] [ 70%] Built target point_cloud_circle_detector
+[0.077s] [ 90%] Built target point_cloud_cylinder_detector
+[3.069s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.069s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:145:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[KsetInputCloud[m[K’
+[3.069s]   145 |             pfh_features.[01;31m[KsetInputCloud[m[K(cloud_filtered_voxel);  // Set input cloud
+[3.069s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.069s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:146:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[KsetInputNormals[m[K’
+[3.069s]   146 |             pfh_features.[01;31m[KsetInputNormals[m[K(normals);  // Set input normals
+[3.069s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.069s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:147:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[Kcompute[m[K’
+[3.069s]   147 |             pfh_features.[01;31m[Kcompute[m[K(*cloud_pfh_features);  // Compute PPF features
+[3.069s]       |                          [01;31m[K^~~~~~~[m[K
+[3.069s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:147:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’)
+[3.069s]   147 |             pfh_features.compute([01;31m[K*cloud_pfh_features[m[K);  // Compute PPF features
+[3.069s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:176:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[KsetInputCloud[m[K’
+[3.070s]   176 |             pfh_custom.[01;31m[KsetInputCloud[m[K(object_voxel);
+[3.070s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:177:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[KsetInputNormals[m[K’
+[3.070s]   177 |             pfh_custom.[01;31m[KsetInputNormals[m[K(custom_object_normals);
+[3.070s]       |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:178:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PFHSignature125> >[m[K’} has no member named ‘[01m[Kcompute[m[K’
+[3.070s]   178 |             pfh_custom.[01;31m[Kcompute[m[K(*custom_object_pfh_features);
+[3.070s]       |                        [01;31m[K^~~~~~~[m[K
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:178:32:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’)
+[3.070s]   178 |             pfh_custom.compute([01;31m[K*custom_object_pfh_features[m[K);
+[3.070s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.070s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.070s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:5[m[K:
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:187:101:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’
+[3.070s]   187 |             RCLCPP_INFO(this->get_logger(), "Source feature points: %zu", custom_object_pfh_features[01;31m[K->[m[Kpoints.size());
+[3.070s]       |                                                                                                     [01;31m[K^~[m[K
+[3.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:188:93:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’
+[3.071s]   188 |             RCLCPP_INFO(this->get_logger(), "Target feature points: %zu", cloud_pfh_features[01;31m[K->[m[Kpoints.size());
+[3.071s]       |                                                                                             [01;31m[K^~[m[K
+[3.080s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:199:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’ to ‘[01m[Kconst FeatureCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PPFSignature> >&[m[K’}
+[3.080s]   199 |             sac_ia.setSourceFeatures([01;31m[Kcustom_object_pfh_features[m[K);  // Set the PPF features for the source
+[3.080s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.080s]       |                                      [01;31m[K|[m[K
+[3.080s]       |                                      [01;31m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K
+[3.080s] In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/ia_ransac.h:335[m[K,
+[3.080s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:4[m[K:
+[3.080s] [01m[K/usr/include/pcl-1.12/pcl/registration/impl/ia_ransac.hpp:51:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::SampleConsensusInitialAlignment<PointSource, PointTarget, FeatureT>::setSourceFeatures(const FeatureCloudConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; FeatureT = pcl::PPFSignature; pcl::SampleConsensusInitialAlignment<PointSource, PointTarget, FeatureT>::FeatureCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PPFSignature> >][m[K’
+[3.080s]    51 |     [01;36m[Kconst FeatureCloudConstPtr& features[m[K)
+[3.080s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.080s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:200:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K’ to ‘[01m[Kconst FeatureCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PPFSignature> >&[m[K’}
+[3.081s]   200 |             sac_ia.setTargetFeatures([01;31m[Kcloud_pfh_features[m[K);  // Set the PPF features for the target
+[3.081s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.081s]       |                                      [01;31m[K|[m[K
+[3.081s]       |                                      [01;31m[Kpcl::PFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::PFHSignature125>[m[K
+[3.081s] In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/ia_ransac.h:335[m[K,
+[3.081s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:4[m[K:
+[3.081s] [01m[K/usr/include/pcl-1.12/pcl/registration/impl/ia_ransac.hpp:65:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::SampleConsensusInitialAlignment<PointSource, PointTarget, FeatureT>::setTargetFeatures(const FeatureCloudConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; FeatureT = pcl::PPFSignature; pcl::SampleConsensusInitialAlignment<PointSource, PointTarget, FeatureT>::FeatureCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PPFSignature> >][m[K’
+[3.081s]    65 |     [01;36m[Kconst FeatureCloudConstPtr& features[m[K)
+[3.081s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.253s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o] Error 1
+[9.253s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all] Error 2
+[9.253s] gmake: *** [Makefile:146: all] Error 2
+[9.255s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

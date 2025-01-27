@@ -1,0 +1,25 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:526: CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:288: CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:316: CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:148: CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:330: CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:246: CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:218: CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:428: CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o] Error 1

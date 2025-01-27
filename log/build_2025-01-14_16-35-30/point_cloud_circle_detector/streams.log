@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[0.059s] [ 12%] Built target rgb_edge_filter
+[0.060s] [ 25%] Built target point_cloud_circle_detector
+[0.062s] [ 37%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.063s] [ 50%] Built target point_cloud_plantpot_detector
+[0.064s] [ 56%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o[0m
+[0.066s] [ 68%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.066s] [ 81%] Built target point_cloud_cylinder_detector
+[0.067s] [ 93%] Built target point_cloud_plantpot_ppf_detector
+[3.222s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[3.222s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:269:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.222s]   269 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+[3.222s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[15.104s] [100%] [32m[1mLinking CXX executable point_cloud_plantpot_pfh_detector[0m
+[16.337s] [100%] Built target point_cloud_plantpot_pfh_detector
+[16.348s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[16.359s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[16.370s] -- Install configuration: ""
+[16.370s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector
+[16.370s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector
+[16.377s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector" to ""
+[16.377s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_edge_pfh_detector
+[16.377s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_rgb_edge_pfh_detector
+[16.377s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/rgb_edge_filter
+[16.377s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+[16.377s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+[16.378s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector

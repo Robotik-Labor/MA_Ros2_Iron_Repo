@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.032s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.093s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.163s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.166s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[0.167s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.227s] -- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[0.642s] [0m** WARNING **  features related to /opt/ros/iron/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so will be disabled[0m
+[0.653s] -- Found Qhull version 8.0.2
+[1.125s] [0m** WARNING **  features related to /opt/ros/iron/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so will be disabled[0m
+[1.130s] -- looking for PCL_COMMON
+[1.130s] -- looking for PCL_KDTREE
+[1.130s] -- looking for PCL_OCTREE
+[1.130s] -- looking for PCL_SEARCH
+[1.130s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.131s] -- looking for PCL_FILTERS
+[1.131s] -- looking for PCL_2D
+[1.131s] -- looking for PCL_GEOMETRY
+[1.131s] -- looking for PCL_IO
+[1.131s] -- looking for PCL_FEATURES
+[1.131s] -- looking for PCL_ML
+[1.132s] -- looking for PCL_SEGMENTATION
+[1.132s] -- looking for PCL_SURFACE
+[1.132s] -- looking for PCL_REGISTRATION
+[1.132s] -- looking for PCL_KEYPOINTS
+[1.132s] -- looking for PCL_TRACKING
+[1.132s] -- looking for PCL_RECOGNITION
+[1.133s] -- looking for PCL_STEREO
+[1.133s] [0mPCL Libraries: TESSSSt[0m
+[1.133s] [0mPCL Libraries: /usr/local/share/pcl-1.14[0m
+[1.133s] [0mPCL Libraries: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;FLANN::FLANN;QHULL::QHULL[0m
+[1.133s] [0mPCL Libraries: /usr/lib/x86_64-linux-gnu/cmake/vtk-9.1[0m
+[1.133s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.143s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.147s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.261s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.307s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.310s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.467s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.563s] -- Configuring incomplete, errors occurred!
+[1.563s] See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
+[1.563s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[1.563s]   By not providing "Findpcl_features.cmake" in CMAKE_MODULE_PATH this project
+[1.563s]   has asked CMake to find a package configuration file provided by
+[1.563s]   "pcl_features", but CMake did not find one.
+[1.563s] 
+[1.563s]   Could not find a package configuration file provided by "pcl_features" with
+[1.563s]   any of the following names:
+[1.563s] 
+[1.563s]     pcl_featuresConfig.cmake
+[1.563s]     pcl_features-config.cmake
+[1.563s] 
+[1.564s]   Add the installation prefix of "pcl_features" to CMAKE_PREFIX_PATH or set
+[1.564s]   "pcl_features_DIR" to a directory containing one of the above files.  If
+[1.564s]   "pcl_features" provides a separate development package or SDK, be sure it
+[1.564s]   has been installed.
+[1.564s] 
+[1.564s] [0m
+[1.572s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[1.574s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

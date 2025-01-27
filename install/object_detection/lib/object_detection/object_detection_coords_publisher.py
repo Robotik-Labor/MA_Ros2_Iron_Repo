@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/src/object_detection/src/object_detection_coords_publisher.py

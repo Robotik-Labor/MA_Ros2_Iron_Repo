@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target object_detection[0m
+[0.103s] [ 50%] [32m[1mLinking CXX executable object_detection[0m
+[0.877s] /usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o: in function `PPFTestNode::compute_ppf_features(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > const&)':
+[0.877s] object_detection.cpp:(.text._ZN11PPFTestNode20compute_ppf_featuresERKSt10shared_ptrIN3pcl10PointCloudINS1_8PointXYZEEEE[_ZN11PPFTestNode20compute_ppf_featuresERKSt10shared_ptrIN3pcl10PointCloudINS1_8PointXYZEEEE]+0x1e5): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[0.879s] /usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+[0.901s] collect2: error: ld returned 1 exit status
+[0.903s] gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:346: object_detection] Error 1
+[0.903s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+[0.903s] gmake: *** [Makefile:146: all] Error 2
+[0.904s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28

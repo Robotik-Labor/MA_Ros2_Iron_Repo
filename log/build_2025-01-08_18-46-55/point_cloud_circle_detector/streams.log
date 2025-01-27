@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[0.071s] [ 25%] Built target point_cloud_plantpot_detector
+[0.074s] [ 50%] Built target point_cloud_cylinder_detector
+[0.075s] [ 75%] Built target point_cloud_circle_detector
+[0.080s] [ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[6.391s] [100%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
+[7.198s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o: in function `PointCloudCustomObjectMatcher::listener_callback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)':
+[7.198s] point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0xfc9): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[7.199s] /usr/bin/ld: point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0x12f6): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[7.201s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+[7.232s] collect2: error: ld returned 1 exit status
+[7.233s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:263: point_cloud_plantpot_ppf_detector] Error 1
+[7.233s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+[7.233s] gmake: *** [Makefile:146: all] Error 2
+[7.235s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

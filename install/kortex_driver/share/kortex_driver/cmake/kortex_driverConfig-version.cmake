@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/kortex_driver/ament_cmake_core/kortex_driverConfig-version.cmake

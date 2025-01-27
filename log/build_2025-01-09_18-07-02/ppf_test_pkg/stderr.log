@@ -1,0 +1,28 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0mPCL version: 1.14.1[0m
+[0mPCL LIBRARIES: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL[0m
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:1:26:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    1 | #define PCL_NO_PRECOMPILE[01;35m[K"[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:1:9:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+    1 | #define [01;35m[KPCL_NO_PRECOMPILE[m[K"
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/pcl-1.14/pcl/features/ppf.h:104[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:4[m[K:
+/usr/local/include/pcl-1.14/pcl/features/impl/ppf.hpp: In instantiation of ‘[01m[Kvoid pcl::PPFEstimation<PointInT, PointNT, PointOutT>::computeFeature(pcl::PPFEstimation<PointInT, PointNT, PointOutT>::PointCloudOut&) [with PointInT = pcl::PointXYZ; PointNT = pcl::PointXYZ; PointOutT = pcl::PPFSignature; pcl::PPFEstimation<PointInT, PointNT, PointOutT>::PointCloudOut = pcl::PointCloud<pcl::PPFSignature>][m[K’:
+[01m[K/usr/local/include/pcl-1.14/pcl/features/impl/ppf.hpp:61:1:[m[K   required from here
+[01m[K/usr/local/include/pcl-1.14/pcl/features/impl/ppf.hpp:80:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector4fMap[m[K’; did you mean ‘[01m[KgetVector4fMap[m[K’?
+   80 |                                       [01;31m[K(*normals_)[i].getNormalVector4fMap[m[K (),
+      |                                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KgetVector4fMap[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/features/impl/ppf.hpp:82:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector4fMap[m[K’; did you mean ‘[01m[KgetVector4fMap[m[K’?
+   82 |                                       [01;31m[K(*normals_)[j].getNormalVector4fMap[m[K (),
+      |                                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KgetVector4fMap[m[K
+[01m[K/usr/local/include/pcl-1.14/pcl/features/impl/ppf.hpp:87:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector3fMap[m[K’; did you mean ‘[01m[KgetVector3fMap[m[K’?
+   87 |                           model_reference_normal = [01;31m[K(*normals_)[i].getNormalVector3fMap[m[K (),
+      |                                                    [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[KgetVector3fMap[m[K
+gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:76: CMakeFiles/object_detection.dir/src/object_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

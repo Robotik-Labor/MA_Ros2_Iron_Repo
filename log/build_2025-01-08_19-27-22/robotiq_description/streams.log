@@ -1,0 +1,72 @@
+[0.160s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/robotiq_description
+[0.182s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.261s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.310s] -- Configuring done
+[0.313s] -- Generating done
+[0.314s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/robotiq_description
+[0.316s] Invoked command in '/home/buhrmann/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/robotiq_description
+[0.317s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_description -- -j28 -l28
+[0.343s] Invoked command in '/home/buhrmann/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_description -- -j28 -l28
+[0.345s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/robotiq_description
+[0.353s] -- Install configuration: ""
+[0.353s] -- Execute custom install script
+[0.353s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[0.363s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[0.370s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[0.376s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[0.385s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[0.391s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[0.396s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.406s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[0.415s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.424s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[0.433s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[0.441s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[0.447s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[0.454s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[0.463s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[0.472s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[0.481s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[0.490s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[0.499s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[0.509s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[0.519s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[0.524s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[0.532s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.543s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[0.551s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.559s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[0.568s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[0.577s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[0.585s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[0.592s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[0.598s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[0.609s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[0.615s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[0.623s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[0.628s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[0.634s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[0.643s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[0.650s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[0.657s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[0.664s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[0.669s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[0.678s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[0.683s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[0.690s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[0.699s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[0.706s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[0.715s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[0.721s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[0.727s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/environment/path.sh
+[0.735s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[0.742s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.bash
+[0.748s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.sh
+[0.758s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[0.763s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[0.772s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/package.dsv
+[0.778s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[0.784s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[0.789s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[0.797s] -- Symlinking: /home/buhrmann/ws_moveit/install/robotiq_description/share/robotiq_description/package.xml
+[0.805s] Invoked command in '/home/buhrmann/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/robotiq_description

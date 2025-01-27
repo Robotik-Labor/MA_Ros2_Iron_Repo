@@ -1,0 +1,14 @@
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:57:14:[m[K [01;31m[Kerror: [m[K‘[01m[KPCA[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   57 |         pcl::[01;31m[KPCA[m[K<pcl::PPFSignature> pca;
+      |              [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:57:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   57 |         pcl::PCA<pcl::PPFSignature[01;31m[K>[m[K pca;
+      |                                   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:57:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpca[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl[m[K’?
+   57 |         pcl::PCA<pcl::PPFSignature> [01;31m[Kpca[m[K;
+      |                                     [01;31m[K^~~[m[K
+      |                                     [32m[Kpcl[m[K
+gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:76: CMakeFiles/object_detection.dir/src/object_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

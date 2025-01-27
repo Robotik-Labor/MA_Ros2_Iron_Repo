@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target object_detection[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/object_detection.dir/src/object_detection.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:57:89:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<Eigen::aligned_allocator<pcl::PPFSignature>, pcl::PPFSignature>::value_type[m[K’ {aka ‘[01m[Kstruct pcl::PPFSignature[m[K’} has no member named ‘[01m[Kdescriptor[m[K’
+   57 |     Eigen::MatrixXf feature_matrix(ppf_features->points.size(), ppf_features->points[0].[01;31m[Kdescriptor[m[K.size());
+      |                                                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:60:56:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<Eigen::aligned_allocator<pcl::PPFSignature>, pcl::PPFSignature>::value_type[m[K’ {aka ‘[01m[Kstruct pcl::PPFSignature[m[K’} has no member named ‘[01m[Kdescriptor[m[K’
+   60 |         for (size_t j = 0; j < ppf_features->points[i].[01;31m[Kdescriptor[m[K.size(); ++j)
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:62:60:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<Eigen::aligned_allocator<pcl::PPFSignature>, pcl::PPFSignature>::value_type[m[K’ {aka ‘[01m[Kstruct pcl::PPFSignature[m[K’} has no member named ‘[01m[Kdescriptor[m[K’
+   62 |             feature_matrix(i, j) = ppf_features->points[i].[01;31m[Kdescriptor[m[K[j];
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:76: CMakeFiles/object_detection.dir/src/object_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

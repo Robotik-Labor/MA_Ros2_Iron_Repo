@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[ 25%] Built target point_cloud_circle_detector
+[ 50%] Built target point_cloud_cylinder_detector
+[ 75%] Built target point_cloud_plantpot_detector
+[ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+In file included from [01m[K/usr/include/pcl-1.12/pcl/features/ppf.h:104[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:16[m[K:
+/usr/include/pcl-1.12/pcl/features/impl/ppf.hpp: In instantiation of ‘[01m[Kvoid pcl::PPFEstimation<PointInT, PointNT, PointOutT>::computeFeature(pcl::PPFEstimation<PointInT, PointNT, PointOutT>::PointCloudOut&) [with PointInT = pcl::PointXYZ; PointNT = pcl::PointXYZ; PointOutT = pcl::PPFSignature; pcl::PPFEstimation<PointInT, PointNT, PointOutT>::PointCloudOut = pcl::PointCloud<pcl::PPFSignature>][m[K’:
+[01m[K/usr/include/pcl-1.12/pcl/features/impl/ppf.hpp:61:1:[m[K   required from here
+[01m[K/usr/include/pcl-1.12/pcl/features/impl/ppf.hpp:80:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector4fMap[m[K’; did you mean ‘[01m[KgetVector4fMap[m[K’?
+   80 |                                       [01;31m[K(*normals_)[i].getNormalVector4fMap[m[K (),
+      |                                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KgetVector4fMap[m[K
+[01m[K/usr/include/pcl-1.12/pcl/features/impl/ppf.hpp:82:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector4fMap[m[K’; did you mean ‘[01m[KgetVector4fMap[m[K’?
+   82 |                                       [01;31m[K(*normals_)[j].getNormalVector4fMap[m[K (),
+      |                                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KgetVector4fMap[m[K
+[01m[K/usr/include/pcl-1.12/pcl/features/impl/ppf.hpp:87:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[KgetNormalVector3fMap[m[K’; did you mean ‘[01m[KgetVector3fMap[m[K’?
+   87 |                           model_reference_normal = [01;31m[K(*normals_)[i].getNormalVector3fMap[m[K (),
+      |                                                    [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[KgetVector3fMap[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

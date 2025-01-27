@@ -1,0 +1,186 @@
+-- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.5.2 (/opt/ros/iron/share/ament_index_cpp/cmake)
+-- Found generate_parameter_library: 0.3.9 (/opt/ros/iron/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found message_filters: 4.7.1 (/opt/ros/iron/share/message_filters/cmake)
+-- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_occupancy_map_monitor: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+-- Found ros_testing: 0.5.2 (/opt/ros/iron/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/moveit_ros_planning
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_plugin_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_rdf_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_pipeline_test_plugins[0m
+[35m[1mConsolidate compiler generated dependencies of target srdf_publisher_node[0m
+[  1%] Built target planning_pipeline_parameters
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] Built target kinematics_parameters
+[  6%] Built target default_response_adapter_parameters
+[  7%] Built target default_request_adapter_parameters
+[  8%] [32mBuilding CXX object CMakeFiles/srdf_publisher.dir/rclcpp_components/node_main_srdf_publisher.cpp.o[0m
+[  9%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 14%] [32mBuilding CXX object srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/src/srdf_publisher_node.cpp.o[0m
+[ 15%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o[0m
+[ 18%] [32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o[0m
+[ 18%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/test/planning_pipeline_test_plugins.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_default_planning_response_adapter_plugins[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_default_planning_request_adapter_plugins[0m
+[ 19%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o[0m
+[ 20%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_ruckig_traj_smoothing.cpp.o[0m
+[ 21%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_time_optimal_parameterization.cpp.o[0m
+[ 22%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/validate_path.cpp.o[0m
+[ 24%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/display_motion_path.cpp.o[0m
+[ 25%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_for_stacked_constraints.cpp.o[0m
+[ 26%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_bounds.cpp.o[0m
+[ 27%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_collision.cpp.o[0m
+[ 28%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/validate_workspace_bounds.cpp.o[0m
+[ 30%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/resolve_constraint_frames.cpp.o[0m
+[ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 31%] Built target gtest_main
+[ 32%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 32%] Built target gmock_main
+[ 33%] [32m[1mLinking CXX executable srdf_publisher[0m
+[ 33%] Built target srdf_publisher
+[ 34%] [32m[1mLinking CXX shared library libsrdf_publisher_node.so[0m
+[ 34%] Built target srdf_publisher_node
+[ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 36%] Built target gtest
+[ 37%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 38%] [32m[1mLinking CXX shared library libmoveit_collision_plugin_loader.so[0m
+[ 38%] Built target gmock
+[ 38%] Built target moveit_collision_plugin_loader
+[ 39%] [32m[1mLinking CXX shared library libmoveit_pipeline_test_plugins.so[0m
+[ 39%] Built target moveit_pipeline_test_plugins
+[ 40%] [32m[1mLinking CXX shared library libmoveit_default_planning_request_adapter_plugins.so[0m
+[ 40%] Built target moveit_default_planning_request_adapter_plugins
+[ 42%] [32m[1mLinking CXX shared library libmoveit_default_planning_response_adapter_plugins.so[0m
+[ 43%] [32m[1mLinking CXX shared library libmoveit_rdf_loader.so[0m
+[ 43%] Built target moveit_default_planning_response_adapter_plugins
+[ 43%] Built target moveit_rdf_loader
+[35m[1mConsolidate compiler generated dependencies of target moveit_constraint_sampler_manager_loader[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematics_plugin_loader[0m
+[ 45%] [32mBuilding CXX object constraint_sampler_manager_loader/CMakeFiles/moveit_constraint_sampler_manager_loader.dir/src/constraint_sampler_manager_loader.cpp.o[0m
+[ 45%] [32mBuilding CXX object kinematics_plugin_loader/CMakeFiles/moveit_kinematics_plugin_loader.dir/src/kinematics_plugin_loader.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libmoveit_planning_pipeline.so[0m
+[ 46%] Built target moveit_planning_pipeline
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_test[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_pipeline_interfaces[0m
+[ 48%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline_test.dir/test/planning_pipeline_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/planning_pipeline_interfaces.cpp.o[0m
+[ 50%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/plan_responses_container.cpp.o[0m
+[ 51%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/solution_selection_functions.cpp.o[0m
+[ 53%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/stopping_criterion_function.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libmoveit_constraint_sampler_manager_loader.so[0m
+[ 55%] [32m[1mLinking CXX shared library libmoveit_kinematics_plugin_loader.so[0m
+[ 55%] Built target moveit_constraint_sampler_manager_loader
+[ 55%] Built target moveit_kinematics_plugin_loader
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_model_loader[0m
+[ 56%] [32mBuilding CXX object robot_model_loader/CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmoveit_robot_model_loader.so[0m
+[ 57%] Built target moveit_robot_model_loader
+[35m[1mConsolidate compiler generated dependencies of target moveit_print_planning_model_info[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_monitor[0m
+[ 59%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_model_info.dir/src/print_planning_model_info.cpp.o[0m
+[ 60%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o[0m
+[ 61%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o[0m
+[ 62%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor_middleware_handle.cpp.o[0m
+[ 63%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor_middleware_handle.cpp.o[0m
+[ 65%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libmoveit_planning_pipeline_interfaces.so[0m
+[ 66%] Built target moveit_planning_pipeline_interfaces
+[ 67%] [32m[1mLinking CXX executable moveit_planning_pipeline_test[0m
+[ 67%] Built target moveit_planning_pipeline_test
+[ 68%] [32m[1mLinking CXX executable moveit_print_planning_model_info[0m
+[ 68%] Built target moveit_print_planning_model_info
+[ 69%] [32m[1mLinking CXX shared library libmoveit_planning_scene_monitor.so[0m
+[ 69%] Built target moveit_planning_scene_monitor
+[35m[1mConsolidate compiler generated dependencies of target current_state_monitor_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_trajectory_execution_manager[0m
+[35m[1mConsolidate compiler generated dependencies of target trajectory_monitor_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_scene[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_evaluate_collision_checking_speed[0m
+[35m[1mConsolidate compiler generated dependencies of target planning_scene_monitor_test[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_print_planning_scene_info[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_publish_scene_from_text[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_visualize_robot_collision_volume[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_display_random_state[0m
+[ 71%] [32mBuilding CXX object trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o[0m
+[ 72%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/current_state_monitor_tests.dir/test/current_state_monitor_tests.cpp.o[0m
+[ 73%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o[0m
+[ 74%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_publish_scene_from_text.dir/src/publish_scene_from_text.cpp.o[0m
+[ 75%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o[0m
+[ 77%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/planning_scene_monitor_test.dir/test/planning_scene_monitor_test.cpp.o[0m
+[ 78%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/trajectory_monitor_tests.dir/test/trajectory_monitor_tests.cpp.o[0m
+[ 81%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_display_random_state.dir/src/display_random_state.cpp.o[0m
+[ 81%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o[0m
+[ 81%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_scene_info.dir/src/print_planning_scene_info.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable moveit_print_planning_scene_info[0m
+[ 83%] Built target moveit_print_planning_scene_info
+[ 84%] [32m[1mLinking CXX executable trajectory_monitor_tests[0m
+[ 85%] [32m[1mLinking CXX executable moveit_visualize_robot_collision_volume[0m
+[ 86%] [32m[1mLinking CXX executable moveit_display_random_state[0m
+[ 86%] Built target trajectory_monitor_tests
+[ 86%] Built target moveit_visualize_robot_collision_volume
+[ 87%] [32m[1mLinking CXX executable demo_scene[0m
+[ 87%] Built target moveit_display_random_state
+[ 87%] Built target demo_scene
+[ 89%] [32m[1mLinking CXX executable moveit_evaluate_collision_checking_speed[0m
+[ 89%] Built target moveit_evaluate_collision_checking_speed
+[ 90%] [32m[1mLinking CXX executable moveit_publish_scene_from_text[0m
+[ 91%] [32m[1mLinking CXX executable current_state_monitor_tests[0m
+[ 92%] [32m[1mLinking CXX executable planning_scene_monitor_test[0m
+[ 92%] Built target current_state_monitor_tests
+[ 92%] Built target moveit_publish_scene_from_text
+[ 92%] Built target planning_scene_monitor_test
+[ 93%] [32m[1mLinking CXX shared library libmoveit_trajectory_execution_manager.so[0m
+[ 93%] Built target moveit_trajectory_execution_manager
+[35m[1mConsolidate compiler generated dependencies of target moveit_plan_execution[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_cpp[0m
+[ 95%] [32mBuilding CXX object plan_execution/CMakeFiles/moveit_plan_execution.dir/src/plan_execution.cpp.o[0m
+[ 96%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/moveit_cpp.cpp.o[0m
+[ 97%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/planning_component.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library libmoveit_plan_execution.so[0m
+[ 98%] Built target moveit_plan_execution
+[100%] [32m[1mLinking CXX shared library libmoveit_cpp.so[0m
+[100%] Built target moveit_cpp

@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000457] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000492] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000511] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.000526] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.000540] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.000554] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.000568] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.000581] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.000595] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.000608] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000621] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000635] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000648] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000661] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000674] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000687] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000700] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000713] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000727] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000740] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000753] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000766] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000780] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000793] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000805] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000821] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000834] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000854] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000867] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000880] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000893] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000906] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000920] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000933] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000946] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000959] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000972] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000986] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000999] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001012] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001025] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001039] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001052] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.001065] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001078] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001091] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001104] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001140] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001151] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001157] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001162] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001168] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001173] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001178] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001183] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001188] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001193] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001205] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001211] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001216] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001222] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001227] (-) JobUnselected: {'identifier': 'object_creation'}
+[0.001233] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.001238] (-) JobUnselected: {'identifier': 'object_detection_pcl'}
+[0.001244] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001249] (-) JobUnselected: {'identifier': 'picknik_accessories'}
+[0.001254] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001259] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001264] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.001270] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.001276] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.001281] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.001286] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001291] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.001297] (-) JobUnselected: {'identifier': 'serial'}
+[0.001302] (-) JobUnselected: {'identifier': 'ur3_camera_moveit_config'}
+[0.001308] (-) JobUnselected: {'identifier': 'ur3_description_controller'}
+[0.001319] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config'}
+[0.001325] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config2'}
+[0.001330] (-) JobUnselected: {'identifier': 'ur5_description_controller'}
+[0.001336] (-) JobUnselected: {'identifier': 'ur5_moveit_test'}
+[0.001344] (point_cloud_circle_detector) JobQueued: {'identifier': 'point_cloud_circle_detector', 'dependencies': OrderedDict()}
+[0.001353] (point_cloud_circle_detector) JobStarted: {'identifier': 'point_cloud_circle_detector'}
+[0.008800] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'cmake'}
+[0.009209] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'build'}
+[0.009641] (point_cloud_circle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', '--', '-j28', '-l28'], 'cwd': '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'buhrmann'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64:'), ('HOME', '/home/buhrmann'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '7283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/buhrmann/ws_moveit/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'buhrmann'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'buhrmann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/buhrmann/ws_moveit/install/moveit_core/bin:/opt/ros/iron/bin:/home/buhrmann/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/buhrmann-OptiPlex-SFF-Plus-7020:@/tmp/.ICE-unix/2001,unix/buhrmann-OptiPlex-SFF-Plus-7020:/tmp/.ICE-unix/2001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24285f8e_2254_43e2_b26b_06b0541ef9a8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QC7PZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/buhrmann/ws_moveit/install/picknik_accessories/share/picknik_accessories/descriptions/simulation_worlds'), ('CMAKE_MODULE_PATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron')]), 'shell': False}
+[0.054966] (point_cloud_circle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector\x1b[0m\n'}
+[0.070397] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 33%] Built target point_cloud_cylinder_detector\n'}
+[0.070657] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 66%] Built target point_cloud_circle_detector\n'}
+[0.076540] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o\x1b[0m\n'}
+[0.099748] (-) TimerEvent: {}
+[0.200080] (-) TimerEvent: {}
+[0.300415] (-) TimerEvent: {}
+[0.400738] (-) TimerEvent: {}
+[0.501072] (-) TimerEvent: {}
+[0.601586] (-) TimerEvent: {}
+[0.701841] (-) TimerEvent: {}
+[0.802170] (-) TimerEvent: {}
+[0.902430] (-) TimerEvent: {}
+[1.002720] (-) TimerEvent: {}
+[1.102968] (-) TimerEvent: {}
+[1.203206] (-) TimerEvent: {}
+[1.303482] (-) TimerEvent: {}
+[1.403650] (-) TimerEvent: {}
+[1.503837] (-) TimerEvent: {}
+[1.604062] (-) TimerEvent: {}
+[1.704256] (-) TimerEvent: {}
+[1.804432] (-) TimerEvent: {}
+[1.904622] (-) TimerEvent: {}
+[2.004780] (-) TimerEvent: {}
+[2.104962] (-) TimerEvent: {}
+[2.205195] (-) TimerEvent: {}
+[2.305403] (-) TimerEvent: {}
+[2.405700] (-) TimerEvent: {}
+[2.505959] (-) TimerEvent: {}
+[2.606274] (-) TimerEvent: {}
+[2.706489] (-) TimerEvent: {}
+[2.806698] (-) TimerEvent: {}
+[2.906952] (-) TimerEvent: {}
+[3.007239] (-) TimerEvent: {}
+[3.107451] (-) TimerEvent: {}
+[3.207753] (-) TimerEvent: {}
+[3.308068] (-) TimerEvent: {}
+[3.408306] (-) TimerEvent: {}
+[3.508613] (-) TimerEvent: {}
+[3.608915] (-) TimerEvent: {}
+[3.709233] (-) TimerEvent: {}
+[3.809558] (-) TimerEvent: {}
+[3.816543] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.816645] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:76:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst Ptr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.816672] (point_cloud_circle_detector) StderrLine: {'line': b'   76 |         filter_by_rgb(\x1b[01;31m\x1b[Kcloud\x1b[m\x1b[K, cloud_filtered);\n'}
+[3.816693] (point_cloud_circle_detector) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.816713] (point_cloud_circle_detector) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.816732] (point_cloud_circle_detector) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[Kpcl::PointCloud<pcl::PointXYZ>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >}\x1b[m\x1b[K\n'}
+[3.816753] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:158:70:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid PointCloudCustomObjectMatcher::filter_by_rgb(const Ptr&, pcl::PointCloud<pcl::PointXYZRGB>::Ptr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.816774] (point_cloud_circle_detector) StderrLine: {'line': b'  158 |     void filter_by_rgb(\x1b[01;36m\x1b[Kconst pcl::PointCloud<pcl::PointXYZRGB>::Ptr& input_cloud\x1b[m\x1b[K,\n'}
+[3.816792] (point_cloud_circle_detector) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817352] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:80:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.817414] (point_cloud_circle_detector) StderrLine: {'line': b'   80 |         sor.setInputCloud(\x1b[01;31m\x1b[Kcloud_filtered\x1b[m\x1b[K);\n'}
+[3.817439] (point_cloud_circle_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817459] (point_cloud_circle_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.817478] (point_cloud_circle_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}\x1b[m\x1b[K\n'}
+[3.817502] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:42\x1b[m\x1b[K,\n'}
+[3.817522] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:42\x1b[m\x1b[K,\n'}
+[3.817540] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42\x1b[m\x1b[K,\n'}
+[3.817558] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:1\x1b[m\x1b[K:\n'}
+[3.817576] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817596] (point_cloud_circle_detector) StderrLine: {'line': b'   92 |       setInputCloud (\x1b[01;36m\x1b[Kconst PointCloudConstPtr &cloud\x1b[m\x1b[K);\n'}
+[3.817614] (point_cloud_circle_detector) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.817631] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:83:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817652] (point_cloud_circle_detector) StderrLine: {'line': b'   83 |         pcl::PointCloud<pcl::PointXYZ>::Ptr \x1b[01;31m\x1b[Kcloud_filtered\x1b[m\x1b[K(new pcl::PointCloud<pcl::PointXYZ>);\n'}
+[3.817670] (point_cloud_circle_detector) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817688] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:75:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_filtered\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817707] (point_cloud_circle_detector) StderrLine: {'line': b'   75 |         pcl::PointCloud<pcl::PointXYZRGB>::Ptr \x1b[01;36m\x1b[Kcloud_filtered\x1b[m\x1b[K(new pcl::PointCloud<pcl::PointXYZRGB>);\n'}
+[3.817724] (point_cloud_circle_detector) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817742] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:84:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kpcl::RadiusOutlierRemoval<pcl::PointXYZ>::filter(std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZRGB>, __gnu_cxx::_S_atomic, false, false>::element_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817761] (point_cloud_circle_detector) StderrLine: {'line': b'   84 |         \x1b[01;31m\x1b[Ksor.filter(*cloud_filtered)\x1b[m\x1b[K;\n'}
+[3.817778] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817800] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42\x1b[m\x1b[K,\n'}
+[3.817818] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:1\x1b[m\x1b[K:\n'}
+[3.817835] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:101:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::FilterIndices<PointT>::filter(pcl::Indices&) [with PointT = pcl::PointXYZ; pcl::Indices = std::vector<int, std::allocator<int> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817854] (point_cloud_circle_detector) StderrLine: {'line': b'  101 |       \x1b[01;36m\x1b[Kfilter\x1b[m\x1b[K (Indices &indices)\n'}
+[3.817872] (point_cloud_circle_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.817889] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:101:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZRGB>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kpcl::Indices&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int, std::allocator<int> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.817908] (point_cloud_circle_detector) StderrLine: {'line': b'  101 |       filter (\x1b[01;36m\x1b[KIndices &indices\x1b[m\x1b[K)\n'}
+[3.817925] (point_cloud_circle_detector) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.817942] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:42\x1b[m\x1b[K,\n'}
+[3.817959] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42\x1b[m\x1b[K,\n'}
+[3.817976] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:1\x1b[m\x1b[K:\n'}
+[3.817993] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:121:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::Filter<PointT>::filter(pcl::Filter<PointT>::PointCloud&) [with PointT = pcl::PointXYZ; pcl::Filter<PointT>::PointCloud = pcl::PointCloud<pcl::PointXYZ>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.818012] (point_cloud_circle_detector) StderrLine: {'line': b'  121 |       \x1b[01;36m\x1b[Kfilter\x1b[m\x1b[K (PointCloud &output)\n'}
+[3.818029] (point_cloud_circle_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.818047] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:121:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZRGB>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kpcl::Filter<pcl::PointXYZ>::PointCloud&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.818065] (point_cloud_circle_detector) StderrLine: {'line': b'  121 |       filter (\x1b[01;36m\x1b[KPointCloud &output\x1b[m\x1b[K)\n'}
+[3.818082] (point_cloud_circle_detector) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.822771] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:89:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.822831] (point_cloud_circle_detector) StderrLine: {'line': b'   89 |         ne.setInputCloud(\x1b[01;31m\x1b[Kcloud_filtered\x1b[m\x1b[K);\n'}
+[3.822856] (point_cloud_circle_detector) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.822877] (point_cloud_circle_detector) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.822897] (point_cloud_circle_detector) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}\x1b[m\x1b[K\n'}
+[3.822916] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:14\x1b[m\x1b[K:\n'}
+[3.822936] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/features/normal_3d.h:332:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::NormalEstimation<PointInT, PointOutT>::setInputCloud(const PointCloudConstPtr&) [with PointInT = pcl::PointXYZ; PointOutT = pcl::Normal; pcl::NormalEstimation<PointInT, PointOutT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.822958] (point_cloud_circle_detector) StderrLine: {'line': b'  332 |       setInputCloud (\x1b[01;36m\x1b[Kconst PointCloudConstPtr &cloud\x1b[m\x1b[K) override\n'}
+[3.822976] (point_cloud_circle_detector) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.833981] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:98:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.834090] (point_cloud_circle_detector) StderrLine: {'line': b'   98 |         fpfh.setInputCloud(\x1b[01;31m\x1b[Kcloud_filtered\x1b[m\x1b[K);\n'}
+[3.834123] (point_cloud_circle_detector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.834144] (point_cloud_circle_detector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.834164] (point_cloud_circle_detector) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}\x1b[m\x1b[K\n'}
+[3.834183] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:42\x1b[m\x1b[K,\n'}
+[3.834201] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:42\x1b[m\x1b[K,\n'}
+[3.834219] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42\x1b[m\x1b[K,\n'}
+[3.834237] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:1\x1b[m\x1b[K:\n'}
+[3.834262] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/pcl_base.h:92:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.834283] (point_cloud_circle_detector) StderrLine: {'line': b'   92 |       setInputCloud (\x1b[01;36m\x1b[Kconst PointCloudConstPtr &cloud\x1b[m\x1b[K);\n'}
+[3.834302] (point_cloud_circle_detector) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.849848] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:121:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloudTargetConstPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.849968] (point_cloud_circle_detector) StderrLine: {'line': b'  121 |         sac_ia.setInputTarget(\x1b[01;31m\x1b[Kcloud_filtered\x1b[m\x1b[K);  // The filtered scene point cloud\n'}
+[3.849994] (point_cloud_circle_detector) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.850015] (point_cloud_circle_detector) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.850035] (point_cloud_circle_detector) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}\x1b[m\x1b[K\n'}
+[3.850054] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:710\x1b[m\x1b[K,\n'}
+[3.850079] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.850098] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2\x1b[m\x1b[K:\n'}
+[3.850122] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/impl/registration.hpp:62:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::Registration<PointSource, PointTarget, Scalar>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; Scalar = float; pcl::Registration<PointSource, PointTarget, Scalar>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.850151] (point_cloud_circle_detector) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[Kconst PointCloudTargetConstPtr& cloud\x1b[m\x1b[K)\n'}
+[3.850169] (point_cloud_circle_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.909645] (-) TimerEvent: {}
+[4.009946] (-) TimerEvent: {}
+[4.110270] (-) TimerEvent: {}
+[4.210579] (-) TimerEvent: {}
+[4.310876] (-) TimerEvent: {}
+[4.411178] (-) TimerEvent: {}
+[4.511525] (-) TimerEvent: {}
+[4.611838] (-) TimerEvent: {}
+[4.712141] (-) TimerEvent: {}
+[4.812432] (-) TimerEvent: {}
+[4.912645] (-) TimerEvent: {}
+[5.012941] (-) TimerEvent: {}
+[5.113169] (-) TimerEvent: {}
+[5.213462] (-) TimerEvent: {}
+[5.313712] (-) TimerEvent: {}
+[5.413952] (-) TimerEvent: {}
+[5.514165] (-) TimerEvent: {}
+[5.614382] (-) TimerEvent: {}
+[5.714589] (-) TimerEvent: {}
+[5.814807] (-) TimerEvent: {}
+[5.915031] (-) TimerEvent: {}
+[6.015274] (-) TimerEvent: {}
+[6.115511] (-) TimerEvent: {}
+[6.215749] (-) TimerEvent: {}
+[6.315991] (-) TimerEvent: {}
+[6.416235] (-) TimerEvent: {}
+[6.516493] (-) TimerEvent: {}
+[6.616773] (-) TimerEvent: {}
+[6.704923] (point_cloud_circle_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o] Error 1\n'}
+[6.705193] (point_cloud_circle_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2\n'}
+[6.705514] (point_cloud_circle_detector) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.707466] (point_cloud_circle_detector) CommandEnded: {'returncode': 2}
+[6.716855] (-) TimerEvent: {}
+[6.750210] (point_cloud_circle_detector) JobEnded: {'identifier': 'point_cloud_circle_detector', 'rc': 2}
+[6.760447] (-) EventReactorShutdown: {}

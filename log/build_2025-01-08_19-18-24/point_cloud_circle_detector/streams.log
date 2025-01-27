@@ -1,0 +1,55 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.028s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.143s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.155s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.271s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.317s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.504s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[0.610s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.614s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.121s] -- Found Qhull version 8.0.2
+[1.672s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_common[0m
+[1.672s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_kdtree[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_octree[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_search[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_sample_consensus[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_filters[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_io[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_features[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_ml[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_segmentation[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_surface[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_registration[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_keypoints[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_tracking[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_recognition[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_stereo[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::system[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::iostreams[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::filesystem[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::serialization[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/FLANN::FLANN[0m
+[1.673s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/QHULL::QHULL[0m
+[1.959s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.000s] -- Configuring done
+[2.027s] -- Generating done
+[2.034s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[2.064s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[2.064s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[2.064s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[2.064s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[2.072s] gmake[2]: *** No rule to make target '/usr/local/lib/x86_64-linux-gnu/libpcl_features.so', needed by 'point_cloud_plantpot_ppf_detector'.  Stop.
+[2.072s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+[2.072s] gmake[1]: *** Waiting for unfinished jobs....
+[2.073s] gmake[2]: *** No rule to make target '/usr/local/lib/x86_64-linux-gnu/libpcl_features.so', needed by 'point_cloud_circle_detector'.  Stop.
+[2.073s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/point_cloud_circle_detector.dir/all] Error 2
+[2.082s] [ 25%] Built target point_cloud_cylinder_detector
+[2.083s] [ 50%] Built target point_cloud_plantpot_detector
+[2.083s] gmake: *** [Makefile:146: all] Error 2
+[2.085s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

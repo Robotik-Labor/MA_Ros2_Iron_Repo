@@ -1,0 +1,8 @@
+[01m[K/usr/include/pybind11/stl.h:172:49:[m[K [01;36m[Knote: [m[Ktype ‘[01m[Kstruct type_caster[m[K’ itself violates the C++ One Definition Rule
+  172 | template <typename Type, typename Alloc> struct type_caster<std::vector<Type, Alloc>>
+      |                                                 [01;36m[K^[m[K
+[01m[K/usr/include/pybind11/cast.h:33:56:[m[K [01;36m[Knote: [m[Kthe incompatible type is defined here
+   33 | template <typename type, typename SFINAE = void> class type_caster : public type_caster_base<type> { };
+      |                                                        [01;36m[K^[m[K
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs

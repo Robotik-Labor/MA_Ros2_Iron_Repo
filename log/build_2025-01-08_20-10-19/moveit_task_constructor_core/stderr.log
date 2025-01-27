@@ -1,0 +1,22 @@
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1031: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:90: src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:104: src/CMakeFiles/moveit_task_constructor_core.dir/introspection.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:76: src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:160: src/CMakeFiles/moveit_task_constructor_core.dir/stage.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:216: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/planner_interface.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:188: src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:174: src/CMakeFiles/moveit_task_constructor_core.dir/storage.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:202: src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:244: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:118: src/CMakeFiles/moveit_task_constructor_core.dir/marker_tools.cpp.o] Interrupt
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:76: gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:979: gmock/CMakeFiles/gmock.dir/all] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:230: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:258: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:272: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:364: src/CMakeFiles/moveit_task_constructor_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

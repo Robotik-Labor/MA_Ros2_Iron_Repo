@@ -1,0 +1,42 @@
+[0.154s] Invoking command in '/home/buhrmann/ws_moveit/build/ur5_description_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ur5_description_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/ur5_description_controller
+[0.170s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.327s] -- Configuring done
+[0.331s] -- Generating done
+[0.332s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/ur5_description_controller
+[0.333s] Invoked command in '/home/buhrmann/ws_moveit/build/ur5_description_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ur5_description_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/ur5_description_controller
+[0.335s] Invoking command in '/home/buhrmann/ws_moveit/build/ur5_description_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur5_description_controller -- -j28 -l28
+[0.367s] Invoked command in '/home/buhrmann/ws_moveit/build/ur5_description_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur5_description_controller -- -j28 -l28
+[0.368s] Invoking command in '/home/buhrmann/ws_moveit/build/ur5_description_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ur5_description_controller
+[0.377s] -- Install configuration: ""
+[0.377s] -- Execute custom install script
+[0.377s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/command
+[0.385s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/command_namespaces
+[0.391s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur5.launch.py
+[0.400s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur_control.launch.py
+[0.410s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur_control.namespace.launch.py
+[0.417s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/my_robot_calibration.yaml
+[0.423s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur5/default_kinematics.yaml
+[0.428s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur5/joint_limits.yaml
+[0.435s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur5/physical_parameters.yaml
+[0.442s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur5/visual_parameters.yaml
+[0.451s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur_controllers.yaml
+[0.456s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/ur_namespace_controllers.yaml
+[0.463s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/urdf/ur.urdf.xacro
+[0.468s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/rviz/view_robot.rviz
+[0.475s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ament_index/resource_index/package_run_dependencies/ur5_description_controller
+[0.485s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ament_index/resource_index/parent_prefix_path/ur5_description_controller
+[0.491s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/environment/ament_prefix_path.sh
+[0.500s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/environment/ament_prefix_path.dsv
+[0.506s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/environment/path.sh
+[0.514s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/environment/path.dsv
+[0.523s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/local_setup.bash
+[0.531s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/local_setup.sh
+[0.538s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/local_setup.zsh
+[0.546s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/local_setup.dsv
+[0.554s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/package.dsv
+[0.561s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ament_index/resource_index/packages/ur5_description_controller
+[0.569s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/cmake/ur5_description_controllerConfig.cmake
+[0.578s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/cmake/ur5_description_controllerConfig-version.cmake
+[0.587s] -- Symlinking: /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/package.xml
+[0.605s] Invoked command in '/home/buhrmann/ws_moveit/build/ur5_description_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ur5_description_controller

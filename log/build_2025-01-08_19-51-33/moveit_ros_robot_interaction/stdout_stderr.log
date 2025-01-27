@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[ 15%] Built target gtest_main
+[ 30%] Built target gtest
+[ 84%] Built target moveit_robot_interaction
+[35m[1mConsolidate compiler generated dependencies of target locked_robot_state_test[0m
+[100%] Built target locked_robot_state_test

@@ -1,0 +1,12 @@
+source /opt/ros/iron/setup.bash
+source install/setup.bash
+
+
+ros2 launch ur5_description_controller ur_control.launch.py ur_type:=ur5 robot_ip:=10.136.4.168 description_package:=ur5_description_controller description_file:=ur.urdf.xacro runtime_config_package:=ur5_description_controller
+
+ros2 launch realsense2_camera rs_pointcloud_launch.py 
+
+
+ros2 launch ur5_camera_moveit_config move_group.launch.py
+
+ros2 launch ur5_camera_moveit_config moveit_rviz.launch.py

@@ -1,0 +1,102 @@
+[0.166s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.193s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.299s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.314s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.317s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.530s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.643s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[0.736s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.760s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.997s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.002s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.123s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.127s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.132s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.275s] -- Found Qhull version 8.0.2
+[1.384s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_common[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_kdtree[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_octree[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_search[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_sample_consensus[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_filters[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_io[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_features[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_ml[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_segmentation[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_visualization[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_surface[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_registration[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_keypoints[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_tracking[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_recognition[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_stereo[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_apps[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_outofcore[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/pcl_people[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::system[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::filesystem[0m
+[1.520s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::date_time[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::iostreams[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/Boost::serialization[0m
+[1.521s] [0m - /usr/lib/libOpenNI.so[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/libusb::libusb[0m
+[1.521s] [0m - /usr/lib/x86_64-linux-gnu/libOpenNI2.so[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/libusb::libusb[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::ChartsCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonColor[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonComputationalGeometry[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonDataModel[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonExecutionModel[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonMath[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonMisc[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::CommonTransforms[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersExtraction[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersGeneral[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersGeometry[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersModeling[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::FiltersSources[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::ImagingCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::ImagingSources[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::InteractionImage[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::InteractionStyle[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::InteractionWidgets[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::IOCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::IOGeometry[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::IOImage[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::IOLegacy[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::IOPLY[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingAnnotation[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingContext2D[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingLOD[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingFreeType[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::ViewsCore[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::ViewsContext2D[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::RenderingOpenGL2[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/VTK::GUISupportQt[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/FLANN::FLANN[0m
+[1.521s] [0m - /home/buhrmann/ws_moveit/src/point_cloud_circle_detector/QHULL::QHULL[0m
+[1.755s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.794s] -- Configuring done
+[1.826s] -- Generating done
+[1.834s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[1.857s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[1.858s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[1.858s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[1.872s] [ 66%] Built target point_cloud_circle_detector
+[1.873s] [ 66%] Built target point_cloud_cylinder_detector
+[1.875s] [100%] Built target point_cloud_plantpot_detector
+[1.883s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[1.884s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[1.893s] -- Install configuration: ""
+[1.893s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+[1.894s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+[1.895s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector

@@ -1,0 +1,24 @@
+[33mCMake Warning (dev) at /opt/ros/iron/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr/local/include/pcl-1.14
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /opt/ros/iron/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mPCL Libraries: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;FLANN::FLANN;QHULL::QHULL[0m
+/usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o: in function `PointCloudCustomObjectMatcher::listener_callback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)':
+point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0xfc9): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+/usr/bin/ld: point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0x12f6): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+/usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:266: point_cloud_plantpot_ppf_detector] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[ 16%] Built target point_cloud_circle_detector
+[ 33%] Built target point_cloud_plantpot_pfh_detector
+[ 58%] Built target point_cloud_cylinder_detector
+[ 58%] [32m[1mLinking CXX executable point_cloud_plantpot_detector[0m
+[ 75%] Built target point_cloud_plantpot_ppf_detector
+[ 83%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o[0m
+/usr/bin/ld: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o: in function `pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ, pcl::FPFHSignature33>::SampleConsensusInitialAlignment()':
+point_cloud_custom_plant_pot_detection.cpp:(.text._ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC2Ev[_ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC5Ev]+0x11e): undefined reference to `pcl::registration::TransformationEstimationSVD<pcl::PointXYZ, pcl::PointXYZ, float>::TransformationEstimationSVD(bool)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:319: point_cloud_plantpot_detector] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPointT[m[K’ was not declared in this scope
+   21 |     pcl::OrganizedEdgeBase< [01;31m[KPointT[m[K, PointLT > edge_detector;
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:37:[m[K [01;31m[Kerror: [m[K‘[01m[KPointLT[m[K’ was not declared in this scope
+   21 |     pcl::OrganizedEdgeBase< PointT, [01;31m[KPointLT[m[K > edge_detector;
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     pcl::OrganizedEdgeBase< PointT, PointLT [01;31m[K>[m[K edge_detector;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:22:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetInputCloud[m[K’ in ‘[01m[Kedge_detector[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   22 |     edge_detector.[01;31m[KsetInputCloud[m[K(cloud);
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:29:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompute[m[K’ in ‘[01m[Kedge_detector[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   29 |     edge_detector.[01;31m[Kcompute[m[K(egdes, label_indices);
+      |                   [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

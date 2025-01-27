@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[ 20%] Built target point_cloud_circle_detector
+[ 40%] Built target point_cloud_plantpot_ppf_detector
+[ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o[0m
+[ 70%] Built target point_cloud_cylinder_detector
+[ 80%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:285:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::transform[m[K’?
+  285 |         [01;31m[Ktransform[m[K = tf_buffer_->lookupTransform(
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kstd::transform[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:95[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/pcl_base.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/filters/filter.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:2[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:162:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::transform[m[K’ declared here
+  162 | [01;36m[Ktransform[m[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:285:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+  285 |         transform = [01;31m[Ktf_buffer_[m[K->lookupTransform(
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:292:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kaligned_object[m[K’ was not declared in this scope
+  292 |         pcl::transformPointCloud(*cloud, *[01;31m[Kaligned_object[m[K, transform);
+      |                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[ 90%] [32m[1mLinking CXX executable point_cloud_plantpot_detector[0m
+[ 90%] Built target point_cloud_plantpot_detector
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

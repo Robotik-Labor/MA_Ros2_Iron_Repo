@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/dual_arm_panda_moveit_config/ament_cmake_core/dual_arm_panda_moveit_configConfig-version.cmake

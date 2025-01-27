@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-846bc32f6370213d29e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "point_cloud_circle_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_circle_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_circle_detector-18ad002704289608db8a.json",
+					"name" : "point_cloud_circle_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_circle_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_circle_detector_uninstall-45b7249109170d3b22f6.json",
+					"name" : "point_cloud_circle_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_cylinder_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_cylinder_detector-bd2089060264cdedfcf4.json",
+					"name" : "point_cloud_cylinder_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_detector-863b8d074d48250ed23b.json",
+					"name" : "point_cloud_plantpot_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_edge_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_edge_pfh_detector-fb75e55031f625cbb571.json",
+					"name" : "point_cloud_plantpot_edge_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_pfh_detector-577b8bdadd08609d0e03.json",
+					"name" : "point_cloud_plantpot_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_ppf_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_ppf_detector-db460ef6c33c03f2fd29.json",
+					"name" : "point_cloud_plantpot_ppf_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_rgb_edge_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_rgb_edge_pfh_detector-d1566d3c554dd9dc4fdb.json",
+					"name" : "point_cloud_plantpot_rgb_edge_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgb_edge_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgb_edge_filter-bd974ee833904fc99b19.json",
+					"name" : "rgb_edge_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-938be922fcfb613676da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector",
+		"source" : "/home/buhrmann/ws_moveit/src/point_cloud_circle_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

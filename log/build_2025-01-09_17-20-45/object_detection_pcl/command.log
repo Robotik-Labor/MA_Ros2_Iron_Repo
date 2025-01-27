@@ -1,0 +1,1 @@
+Invoking command in '/home/buhrmann/ws_moveit/build/object_detection_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection_pcl -- -j28 -l28

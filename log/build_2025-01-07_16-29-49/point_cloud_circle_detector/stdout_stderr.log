@@ -1,0 +1,179 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[ 33%] Built target point_cloud_cylinder_detector
+[ 66%] Built target point_cloud_circle_detector
+[ 83%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:91:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} to ‘[01m[Kconst PointCloudSourceConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZRGB> >&[m[K’}
+   91 |         sac_ia.setInputSource([01;31m[Kcustom_object_[m[K);  // The pod object model
+      |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >}[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:710[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/registration/impl/registration.hpp:48:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::Registration<PointSource, PointTarget, Scalar>::setInputSource(const PointCloudSourceConstPtr&) [with PointSource = pcl::PointXYZRGB; PointTarget = pcl::PointXYZRGB; Scalar = float; pcl::Registration<PointSource, PointTarget, Scalar>::PointCloudSourceConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZRGB> >][m[K’
+   48 |     [01;36m[Kconst PointCloudSourceConstPtr& cloud[m[K)
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtransformPointCloud(std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type&, std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZRGB>, __gnu_cxx::_S_atomic, false, false>::element_type&, pcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4)[m[K’
+  106 |             [01;31m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:60:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)[m[K’
+   60 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:60:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:69:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Affine3f&, bool)[m[K’
+   69 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:69:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:87:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)[m[K’
+   87 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:87:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:97:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Affine3f&, bool)[m[K’
+   97 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:97:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:116:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)[m[K’
+  116 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:116:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:126:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Affine3f&, bool)[m[K’
+  126 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:126:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:493[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:221:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)[m[K’
+  221 | [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:221:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:237:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)[m[K’
+  237 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:237:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:493[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:263:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)[m[K’
+  263 | [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:263:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:262:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)[m[K’
+  262 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:262:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:281:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)[m[K’
+  281 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:281:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:291:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)[m[K’
+  291 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:291:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::Registration<pcl::PointXYZRGB, pcl::PointXYZRGB, float>::Matrix4[m[K’ {aka ‘[01m[KEigen::Matrix<float, 4, 4>[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:493[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:407:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 3, 1>&, const Eigen::Quaternion<Scalar>&, bool)[m[K’
+  407 | [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:407:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:404:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Vector3f&, const Quaternionf&, bool)[m[K’
+  404 |   [01;36m[KtransformPointCloud[m[K (const pcl::PointCloud<PointT> &cloud_in,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:404:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:106:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KPointT[m[K’ (‘[01m[Kpcl::PointXYZ[m[K’ and ‘[01m[Kpcl::PointXYZRGB[m[K’)
+  106 |             [01;36m[Kpcl::transformPointCloud(*custom_object_, *aligned_object, sac_ia.getFinalTransformation())[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

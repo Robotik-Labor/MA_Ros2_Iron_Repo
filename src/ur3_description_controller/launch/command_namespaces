@@ -1,0 +1,11 @@
+source /opt/ros/iron/setup.bash
+source install/setup.bash
+
+
+ros2 launch ur3_description_controller ur_control.namespace.launch.py ur_type:=ur3 robot_ip:=10.136.4.167 description_package:=ur3_description_controller description_file:=ur.urdf.xacro runtime_config_package:=ur3_description_controller
+
+ros2 launch realsense2_camera rs_pointcloud_launch.py camera_namespace:=UR3 
+
+ros2 launch ur3_camera_moveit_config move_group.namespace.launch.py
+
+ros2 launch ur3_camera_moveit_config moveit_rviz.namespace.launch.py

@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28
+[0.025s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.137s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.151s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.244s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.246s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.404s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.404s]   By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+[0.404s]   project has asked CMake to find a package configuration file provided by
+[0.404s]   "pcl_conversions", but CMake did not find one.
+[0.405s] 
+[0.405s]   Could not find a package configuration file provided by "pcl_conversions"
+[0.405s]   with any of the following names:
+[0.405s] 
+[0.405s]     pcl_conversionsConfig.cmake
+[0.405s]     pcl_conversions-config.cmake
+[0.405s] 
+[0.405s]   Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+[0.405s]   set "pcl_conversions_DIR" to a directory containing one of the above files.
+[0.405s]   If "pcl_conversions" provides a separate development package or SDK, be
+[0.405s]   sure it has been installed.
+[0.405s] 
+[0.405s] [0m
+[0.405s] -- Configuring incomplete, errors occurred!
+[0.405s] See also "/home/buhrmann/ws_moveit/build/ppf_test_pkg/CMakeFiles/CMakeOutput.log".
+[0.407s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.409s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28

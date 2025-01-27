@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/serial/ament_cmake_core/serialConfig-version.cmake

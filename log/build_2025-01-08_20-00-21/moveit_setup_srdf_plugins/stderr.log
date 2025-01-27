@@ -1,0 +1,17 @@
+[0mmoveit_setup_srdf_plugins: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:176: CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:316: CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:260: CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:162: CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_setup_srdf_plugins.dir/build.make:498: CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o] Error 1

@@ -1,0 +1,4 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".

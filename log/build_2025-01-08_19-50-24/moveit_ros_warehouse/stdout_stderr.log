@@ -1,0 +1,38 @@
+-- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/moveit_ros_warehouse/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findwarehouse_ros.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "warehouse_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "warehouse_ros"
+  with any of the following names:
+
+    warehouse_rosConfig.cmake
+    warehouse_ros-config.cmake
+
+  Add the installation prefix of "warehouse_ros" to CMAKE_PREFIX_PATH or set
+  "warehouse_ros_DIR" to a directory containing one of the above files.  If
+  "warehouse_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:675: cmake_check_build_system] Error 1

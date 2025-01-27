@@ -1,0 +1,5 @@
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'pcl-1.12'
+--   No package 'pcl-1.12' found
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".

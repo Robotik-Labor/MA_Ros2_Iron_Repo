@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.037s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.038s] -- Checking for module 'pcl-1.12'
+[0.046s] --   No package 'pcl-1.12' found
+[0.046s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[0.046s]   A required package was not found
+[0.046s] Call Stack (most recent call first):
+[0.046s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[0.046s]   CMakeLists.txt:11 (pkg_check_modules)
+[0.046s] 
+[0.046s] [0m
+[0.046s] -- Configuring incomplete, errors occurred!
+[0.046s] See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
+[0.049s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.052s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

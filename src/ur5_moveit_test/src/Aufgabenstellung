@@ -1,0 +1,8 @@
+Das Programm soll den Topic /UR5/AboveCup subscribe. Dieses Topic behinaltet 
+x: 0.5304344136869917
+y: -0.05105267300554338
+z: 0.6982555034792519
+
+koorinaten. Diese Koordinaten sollen sollen das zentrum eines Halbkreises sein, er liegt in der XY-Ebene also die Z Koordinate ist konstanz. Dieser Halbkreis hat sein Mittel in richtung des Zentrums der Welt koordinaten. Über Halbkreis sollen 5 Positionen mit gleichem Abstand definiert werden. Der Roboter soll jede dieser Positionen anfahren und eine Funktion dort ausführen und danach zu nächsten fahren. Zum ende des Programms fahrt der Roboterarm zurück in seine Urspungsposition
+
+

@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/ur5_description_controller/ament_cmake_environment_hooks/local_setup.bash

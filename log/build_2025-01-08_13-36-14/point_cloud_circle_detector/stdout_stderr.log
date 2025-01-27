@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[ 25%] Built target point_cloud_circle_detector
+[ 50%] Built target point_cloud_plantpot_detector
+[ 75%] Built target point_cloud_cylinder_detector
+[ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:151:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSampleConsensusInitialAlignment[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+  151 |         pcl::[01;31m[KSampleConsensusInitialAlignment[m[K<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature> sac_ia;
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:151:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  151 |         pcl::SampleConsensusInitialAlignment<pcl::PointXYZ[01;31m[K,[m[K pcl::PointXYZ, pcl::PPFSignature> sac_ia;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:151:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  151 |         pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ[01;31m[K,[m[K pcl::PPFSignature> sac_ia;
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:151:93:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  151 |         pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature[01;31m[K>[m[K sac_ia;
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:151:95:[m[K [01;31m[Kerror: [m[K‘[01m[Ksac_ia[m[K’ was not declared in this scope
+  151 |         pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature> [01;31m[Ksac_ia[m[K;
+      |                                                                                               [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

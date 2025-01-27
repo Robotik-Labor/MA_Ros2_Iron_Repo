@@ -1,0 +1,8 @@
+source;share/picknik_accessories/hook/cmake_prefix_path.ps1
+source;share/picknik_accessories/hook/cmake_prefix_path.dsv
+source;share/picknik_accessories/hook/cmake_prefix_path.sh
+source;share/picknik_accessories/local_setup.bash
+source;share/picknik_accessories/local_setup.dsv
+source;share/picknik_accessories/local_setup.ps1
+source;share/picknik_accessories/local_setup.sh
+source;share/picknik_accessories/local_setup.zsh

@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000471] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000489] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.000504] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.000518] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.000532] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.000546] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.000559] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.000573] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.000586] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000599] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000613] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000626] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000639] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000652] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000666] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000679] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000692] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000705] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000719] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000732] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000745] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000758] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000770] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000784] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000797] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000810] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000823] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000836] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000849] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000862] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000875] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000888] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000901] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000914] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000928] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000941] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000954] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000967] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000980] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000993] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001006] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001019] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.001032] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001045] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001058] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001071] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001084] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001097] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001110] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001123] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001136] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001149] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001162] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001175] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001188] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001201] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001224] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001239] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001252] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001266] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001279] (-) JobUnselected: {'identifier': 'object_creation'}
+[0.001292] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.001305] (-) JobUnselected: {'identifier': 'object_detection_pcl'}
+[0.001318] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001334] (-) JobUnselected: {'identifier': 'picknik_accessories'}
+[0.001363] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001372] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001379] (-) JobUnselected: {'identifier': 'ppf_test_pkg'}
+[0.001384] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.001390] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.001395] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.001400] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.001405] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001410] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.001416] (-) JobUnselected: {'identifier': 'serial'}
+[0.001421] (-) JobUnselected: {'identifier': 'ur3_camera_moveit_config'}
+[0.001435] (-) JobUnselected: {'identifier': 'ur3_description_controller'}
+[0.001441] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config'}
+[0.001446] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config2'}
+[0.001451] (-) JobUnselected: {'identifier': 'ur5_description_controller'}
+[0.001456] (-) JobUnselected: {'identifier': 'ur5_moveit_test'}
+[0.001463] (point_cloud_circle_detector) JobQueued: {'identifier': 'point_cloud_circle_detector', 'dependencies': OrderedDict()}
+[0.001470] (point_cloud_circle_detector) JobStarted: {'identifier': 'point_cloud_circle_detector'}
+[0.009080] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'cmake'}
+[0.009517] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'build'}
+[0.009869] (point_cloud_circle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', '--', '-j28', '-l28'], 'cwd': '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'buhrmann'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64:'), ('HOME', '/home/buhrmann'), ('OLDPWD', '/home/buhrmann'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/buhrmann/ws_moveit/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'buhrmann'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'buhrmann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/buhrmann/ws_moveit/install/moveit_core/bin:/opt/ros/iron/bin:/home/buhrmann/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/buhrmann-OptiPlex-SFF-Plus-7020:@/tmp/.ICE-unix/3350,unix/buhrmann-OptiPlex-SFF-Plus-7020:/tmp/.ICE-unix/3350'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f47b5d0_6f9a_4dd9_9e17_6e53971243d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9NNC02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/buhrmann/ws_moveit/install/picknik_accessories/share/picknik_accessories/descriptions/simulation_worlds'), ('CMAKE_MODULE_PATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron')]), 'shell': False}
+[0.052284] (point_cloud_circle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector\x1b[0m\n'}
+[0.067822] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 20%] Built target point_cloud_plantpot_detector\n'}
+[0.067949] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 40%] Built target point_cloud_circle_detector\n'}
+[0.067975] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 60%] Built target point_cloud_plantpot_ppf_detector\n'}
+[0.069965] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 80%] Built target point_cloud_cylinder_detector\n'}
+[0.070927] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o\x1b[0m\n'}
+[0.099773] (-) TimerEvent: {}
+[0.200027] (-) TimerEvent: {}
+[0.300322] (-) TimerEvent: {}
+[0.400715] (-) TimerEvent: {}
+[0.501090] (-) TimerEvent: {}
+[0.601492] (-) TimerEvent: {}
+[0.701768] (-) TimerEvent: {}
+[0.802149] (-) TimerEvent: {}
+[0.902506] (-) TimerEvent: {}
+[1.002786] (-) TimerEvent: {}
+[1.103139] (-) TimerEvent: {}
+[1.203553] (-) TimerEvent: {}
+[1.303968] (-) TimerEvent: {}
+[1.404292] (-) TimerEvent: {}
+[1.504555] (-) TimerEvent: {}
+[1.604775] (-) TimerEvent: {}
+[1.705078] (-) TimerEvent: {}
+[1.805407] (-) TimerEvent: {}
+[1.905628] (-) TimerEvent: {}
+[2.005845] (-) TimerEvent: {}
+[2.106111] (-) TimerEvent: {}
+[2.206422] (-) TimerEvent: {}
+[2.306634] (-) TimerEvent: {}
+[2.406934] (-) TimerEvent: {}
+[2.507163] (-) TimerEvent: {}
+[2.607408] (-) TimerEvent: {}
+[2.707623] (-) TimerEvent: {}
+[2.807952] (-) TimerEvent: {}
+[2.908292] (-) TimerEvent: {}
+[3.008516] (-) TimerEvent: {}
+[3.108833] (-) TimerEvent: {}
+[3.209152] (-) TimerEvent: {}
+[3.309407] (-) TimerEvent: {}
+[3.409746] (-) TimerEvent: {}
+[3.510119] (-) TimerEvent: {}
+[3.610452] (-) TimerEvent: {}
+[3.710773] (-) TimerEvent: {}
+[3.811091] (-) TimerEvent: {}
+[3.896179] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPointCloudCustomObjectMatcher::PointCloudCustomObjectMatcher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.896356] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.896389] (point_cloud_circle_detector) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K = std::make_shared<tf2_ros::Buffer>(this->get_clock());\n'}
+[3.896411] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.906645] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_listener_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.906786] (point_cloud_circle_detector) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Ktf_listener_\x1b[m\x1b[K = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);\n'}
+[3.906815] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.911209] (-) TimerEvent: {}
+[3.958998] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.959344] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:295:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.959400] (point_cloud_circle_detector) StderrLine: {'line': b'  295 |         transform = \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K->lookupTransform(\n'}
+[3.959425] (point_cloud_circle_detector) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.959450] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KtransformPointCloud(std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type&, std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type&, geometry_msgs::msg::TransformStamped&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959755] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;31m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.959785] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.959806] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.959826] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.959845] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.959869] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.959888] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:60:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959909] (point_cloud_circle_detector) StderrLine: {'line': b'   60 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.959928] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.959945] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:60:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.959968] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Transform<Scalar, 3, 2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959987] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.960005] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960024] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.960041] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.960059] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.960075] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.960094] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:69:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Affine3f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960113] (point_cloud_circle_detector) StderrLine: {'line': b'   69 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.960130] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960147] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:69:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.960164] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst Affine3f&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Transform<float, 3, 2>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.960183] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         pcl::transformPointCloud(*cloud, *aligned_world_object, \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K);\n'}
+[3.960201] (point_cloud_circle_detector) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960218] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.960235] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.960253] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.960271] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.960292] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:87:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960310] (point_cloud_circle_detector) StderrLine: {'line': b'   87 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.960328] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960354] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:87:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.960371] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960390] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.960408] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960426] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.960445] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.960462] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.960479] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.960496] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:97:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Affine3f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960515] (point_cloud_circle_detector) StderrLine: {'line': b'   97 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.960532] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960549] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:97:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.960568] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960600] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.960617] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960635] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.960652] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.960669] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.960686] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.960703] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:116:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Eigen::Transform<Scalar, 3, 2>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960721] (point_cloud_circle_detector) StderrLine: {'line': b'  116 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.960738] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960755] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:116:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.960772] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960790] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.960807] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960825] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.960842] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.960859] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.960876] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.960893] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:126:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Affine3f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960911] (point_cloud_circle_detector) StderrLine: {'line': b'  126 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.960928] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960946] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:126:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.960962] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960980] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.960997] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961014] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:493\x1b[m\x1b[K,\n'}
+[3.961031] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.961048] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.961065] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.961084] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.961101] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:221:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961121] (point_cloud_circle_detector) StderrLine: {'line': b'  221 | \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.961139] (point_cloud_circle_detector) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961156] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:221:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961173] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<Scalar, 4, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961191] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.961207] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961226] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.961243] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.961260] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.961277] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.961295] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:237:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961312] (point_cloud_circle_detector) StderrLine: {'line': b'  237 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.961332] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961351] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:237:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961369] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst Matrix4f&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<float, 4, 4>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.961387] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         pcl::transformPointCloud(*cloud, *aligned_world_object, \x1b[01;36m\x1b[Ktransform\x1b[m\x1b[K);\n'}
+[3.961405] (point_cloud_circle_detector) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961422] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:493\x1b[m\x1b[K,\n'}
+[3.961439] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.961456] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.961474] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.961491] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.961508] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:263:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961526] (point_cloud_circle_detector) StderrLine: {'line': b'  263 | \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.961543] (point_cloud_circle_detector) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961560] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:263:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961577] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961596] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.961613] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961630] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.961647] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.961666] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.961683] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.961700] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:262:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const Indices&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961718] (point_cloud_circle_detector) StderrLine: {'line': b'  262 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.961735] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961753] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:262:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961770] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961788] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.961804] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961821] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.961837] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.961855] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.961872] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.961889] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:281:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 4, 4>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961908] (point_cloud_circle_detector) StderrLine: {'line': b'  281 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.961925] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961942] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:281:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961959] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961977] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.961995] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962012] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.962029] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.962046] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.962062] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.962079] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:291:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, const pcl::PointIndices&, pcl::PointCloud<PointT>&, const Matrix4f&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962098] (point_cloud_circle_detector) StderrLine: {'line': b'  291 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.962115] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962132] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:291:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.962150] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962167] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.962184] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962201] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:493\x1b[m\x1b[K,\n'}
+[3.962219] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.962236] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.962253] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.962270] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.962288] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:407:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT, class Scalar> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Eigen::Matrix<Scalar, 3, 1>&, const Eigen::Quaternion<Scalar>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962306] (point_cloud_circle_detector) StderrLine: {'line': b'  407 | \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.962322] (point_cloud_circle_detector) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962342] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/transforms.hpp:407:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.962359] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<Scalar, 3, 1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962378] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.962395] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962412] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43\x1b[m\x1b[K,\n'}
+[3.962428] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/registration.h:46\x1b[m\x1b[K,\n'}
+[3.962445] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/registration/icp.h:46\x1b[m\x1b[K,\n'}
+[3.962462] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3\x1b[m\x1b[K:\n'}
+[3.962479] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:404:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class PointT> void pcl::transformPointCloud(const pcl::PointCloud<PointT>&, pcl::PointCloud<PointT>&, const Vector3f&, const Quaternionf&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962497] (point_cloud_circle_detector) StderrLine: {'line': b'  404 |   \x1b[01;36m\x1b[KtransformPointCloud\x1b[m\x1b[K (const pcl::PointCloud<PointT> &cloud_in,\n'}
+[3.962513] (point_cloud_circle_detector) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962530] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:404:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.962547] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:302:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 3 provided\n'}
+[3.962565] (point_cloud_circle_detector) StderrLine: {'line': b'  302 |         \x1b[01;36m\x1b[Kpcl::transformPointCloud(*cloud, *aligned_world_object, transform)\x1b[m\x1b[K;\n'}
+[3.962582] (point_cloud_circle_detector) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.011408] (-) TimerEvent: {}
+[4.111730] (-) TimerEvent: {}
+[4.212111] (-) TimerEvent: {}
+[4.312385] (-) TimerEvent: {}
+[4.412685] (-) TimerEvent: {}
+[4.512902] (-) TimerEvent: {}
+[4.613217] (-) TimerEvent: {}
+[4.713464] (-) TimerEvent: {}
+[4.813683] (-) TimerEvent: {}
+[4.913999] (-) TimerEvent: {}
+[5.014318] (-) TimerEvent: {}
+[5.114552] (-) TimerEvent: {}
+[5.214765] (-) TimerEvent: {}
+[5.315058] (-) TimerEvent: {}
+[5.415276] (-) TimerEvent: {}
+[5.515604] (-) TimerEvent: {}
+[5.615914] (-) TimerEvent: {}
+[5.650729] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.650852] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.650882] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[5.650903] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[5.650923] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:45\x1b[m\x1b[K,\n'}
+[5.650943] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[5.651105] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/pcl_base.h:46\x1b[m\x1b[K,\n'}
+[5.651134] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter.h:42\x1b[m\x1b[K,\n'}
+[5.651155] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/filter_indices.h:42\x1b[m\x1b[K,\n'}
+[5.651175] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/extract_indices.h:42\x1b[m\x1b[K,\n'}
+[5.651195] (point_cloud_circle_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:2\x1b[m\x1b[K:\n'}
+[5.651215] (point_cloud_circle_detector) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.651236] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<tf2_ros::Buffer>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651257] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651278] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651301] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651320] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651350] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651525] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651557] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:44:55:\x1b[m\x1b[K   required from here\n'}
+[5.651579] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(std::shared_ptr<rclcpp::Clock>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651600] (point_cloud_circle_detector) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.651620] (point_cloud_circle_detector) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.651639] (point_cloud_circle_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:21\x1b[m\x1b[K:\n'}
+[5.651665] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/tf2_ros/buffer.h:63:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(ros::Duration, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651683] (point_cloud_circle_detector) StderrLine: {'line': b'   63 |     \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(ros::Duration cache_time = ros::Duration(BufferCore::DEFAULT_CACHE_TIME), bool debug = false);\n'}
+[5.651701] (point_cloud_circle_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.651718] (point_cloud_circle_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/tf2_ros/buffer.h:63:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Clock>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kros::Duration\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.651738] (point_cloud_circle_detector) StderrLine: {'line': b'   63 |     Buffer(\x1b[01;36m\x1b[Kros::Duration cache_time = ros::Duration(BufferCore::DEFAULT_CACHE_TIME)\x1b[m\x1b[K, bool debug = false);\n'}
+[5.651757] (point_cloud_circle_detector) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.716048] (-) TimerEvent: {}
+[5.816354] (-) TimerEvent: {}
+[5.916670] (-) TimerEvent: {}
+[6.016998] (-) TimerEvent: {}
+[6.117304] (-) TimerEvent: {}
+[6.217568] (-) TimerEvent: {}
+[6.317886] (-) TimerEvent: {}
+[6.418212] (-) TimerEvent: {}
+[6.518500] (-) TimerEvent: {}
+[6.618794] (-) TimerEvent: {}
+[6.719124] (-) TimerEvent: {}
+[6.819341] (-) TimerEvent: {}
+[6.919557] (-) TimerEvent: {}
+[7.019991] (-) TimerEvent: {}
+[7.120317] (-) TimerEvent: {}
+[7.220629] (-) TimerEvent: {}
+[7.320943] (-) TimerEvent: {}
+[7.421274] (-) TimerEvent: {}
+[7.521595] (-) TimerEvent: {}
+[7.622163] (-) TimerEvent: {}
+[7.722528] (-) TimerEvent: {}
+[7.822747] (-) TimerEvent: {}
+[7.922959] (-) TimerEvent: {}
+[8.023231] (-) TimerEvent: {}
+[8.123578] (-) TimerEvent: {}
+[8.223799] (-) TimerEvent: {}
+[8.324101] (-) TimerEvent: {}
+[8.424417] (-) TimerEvent: {}
+[8.524733] (-) TimerEvent: {}
+[8.625042] (-) TimerEvent: {}
+[8.725379] (-) TimerEvent: {}
+[8.825587] (-) TimerEvent: {}
+[8.925795] (-) TimerEvent: {}
+[9.026107] (-) TimerEvent: {}
+[9.126439] (-) TimerEvent: {}
+[9.226753] (-) TimerEvent: {}
+[9.327107] (-) TimerEvent: {}
+[9.427413] (-) TimerEvent: {}
+[9.527721] (-) TimerEvent: {}
+[9.628029] (-) TimerEvent: {}
+[9.728339] (-) TimerEvent: {}
+[9.828572] (-) TimerEvent: {}
+[9.928850] (-) TimerEvent: {}
+[10.029155] (-) TimerEvent: {}
+[10.129462] (-) TimerEvent: {}
+[10.229767] (-) TimerEvent: {}
+[10.330036] (-) TimerEvent: {}
+[10.430263] (-) TimerEvent: {}
+[10.530568] (-) TimerEvent: {}
+[10.630776] (-) TimerEvent: {}
+[10.731088] (-) TimerEvent: {}
+[10.831311] (-) TimerEvent: {}
+[10.931538] (-) TimerEvent: {}
+[11.031775] (-) TimerEvent: {}
+[11.131988] (-) TimerEvent: {}
+[11.232262] (-) TimerEvent: {}
+[11.332622] (-) TimerEvent: {}
+[11.397639] (point_cloud_circle_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o] Error 1\n'}
+[11.397883] (point_cloud_circle_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all] Error 2\n'}
+[11.398159] (point_cloud_circle_detector) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.399922] (point_cloud_circle_detector) CommandEnded: {'returncode': 2}
+[11.404514] (point_cloud_circle_detector) JobEnded: {'identifier': 'point_cloud_circle_detector', 'rc': 2}
+[11.414873] (-) EventReactorShutdown: {}

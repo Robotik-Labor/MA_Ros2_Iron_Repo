@@ -1,0 +1,27 @@
+[33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mPCL version: 1.12.1[0m
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:[m[K In member function ‘[01m[Kvoid PPFTestNode::compute_ppf_features(const Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:95:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PointCloud<pcl::Normal>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::Normal> >[m[K’} to ‘[01m[Kconst PointCloudNConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+   95 |         ppf_estimator.setInputNormals([01;31m[Kcloud_normals[m[K);  // Set input normals
+      |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kpcl::PointCloud<pcl::Normal>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::Normal> >}[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/features/ppf.h:41[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ppf_test_pkg/src/object_detection.cpp:3[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/features/feature.h:345:51:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::FeatureFromNormals<PointInT, PointNT, PointOutT>::setInputNormals(const PointCloudNConstPtr&) [with PointInT = pcl::PointXYZ; PointNT = pcl::PointXYZ; PointOutT = pcl::PPFSignature; pcl::FeatureFromNormals<PointInT, PointNT, PointOutT>::PointCloudNConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+  345 |       setInputNormals ([01;36m[Kconst PointCloudNConstPtr &normals[m[K) { normals_ = normals; }
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:76: CMakeFiles/object_detection.dir/src/object_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

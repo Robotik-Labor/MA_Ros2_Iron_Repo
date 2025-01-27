@@ -1,0 +1,46 @@
+[0.155s] Invoking command in '/home/buhrmann/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/serial
+[0.173s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.309s] -- Configuring done
+[0.314s] -- Generating done
+[0.314s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/serial
+[0.317s] Invoked command in '/home/buhrmann/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/serial
+[0.318s] Invoking command in '/home/buhrmann/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/serial -- -j28 -l28
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.355s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.359s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.359s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.796s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[0.854s] [100%] Built target serial
+[0.862s] Invoked command in '/home/buhrmann/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/serial -- -j28 -l28
+[0.864s] Invoking command in '/home/buhrmann/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/serial
+[0.872s] -- Install configuration: ""
+[0.872s] -- Execute custom install script
+[0.872s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/include/serial/impl/unix.h
+[0.882s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/include/serial/impl/win.h
+[0.891s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/include/serial/serial.h
+[0.899s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/include/serial/v8stdint.h
+[0.908s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/library_path.sh
+[0.916s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/library_path.dsv
+[0.922s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.929s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.936s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.943s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.950s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/path.sh
+[0.956s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/path.dsv
+[0.963s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.bash
+[0.969s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.sh
+[0.977s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.zsh
+[0.985s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.dsv
+[0.990s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/package.dsv
+[0.997s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/packages/serial
+[1.004s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.009s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.019s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[1.027s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/serialConfig.cmake
+[1.034s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.041s] -- Symlinking: /home/buhrmann/ws_moveit/install/serial/share/serial/package.xml
+[1.047s] -- Installing: /home/buhrmann/ws_moveit/install/serial/lib/libserial.a
+[1.048s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/export_serialExport.cmake
+[1.048s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[1.049s] Invoked command in '/home/buhrmann/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/serial

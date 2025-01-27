@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[0.058s] [ 16%] Built target point_cloud_circle_detector
+[0.060s] [ 33%] Built target point_cloud_plantpot_pfh_detector
+[0.060s] [ 58%] Built target point_cloud_cylinder_detector
+[0.060s] [ 58%] [32m[1mLinking CXX executable point_cloud_plantpot_detector[0m
+[0.060s] [ 75%] Built target point_cloud_plantpot_ppf_detector
+[0.063s] [ 83%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o[0m
+[0.971s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o: in function `pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ, pcl::FPFHSignature33>::SampleConsensusInitialAlignment()':
+[0.971s] point_cloud_custom_plant_pot_detection.cpp:(.text._ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC2Ev[_ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC5Ev]+0x11e): undefined reference to `pcl::registration::TransformationEstimationSVD<pcl::PointXYZ, pcl::PointXYZ, float>::TransformationEstimationSVD(bool)'
+[1.004s] collect2: error: ld returned 1 exit status
+[1.006s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:319: point_cloud_plantpot_detector] Error 1
+[1.006s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
+[1.006s] gmake[1]: *** Waiting for unfinished jobs....
+[2.068s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.068s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPointT[m[K’ was not declared in this scope
+[2.068s]    21 |     pcl::OrganizedEdgeBase< [01;31m[KPointT[m[K, PointLT > edge_detector;
+[2.068s]       |                             [01;31m[K^~~~~~[m[K
+[2.072s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:37:[m[K [01;31m[Kerror: [m[K‘[01m[KPointLT[m[K’ was not declared in this scope
+[2.072s]    21 |     pcl::OrganizedEdgeBase< PointT, [01;31m[KPointLT[m[K > edge_detector;
+[2.072s]       |                                     [01;31m[K^~~~~~~[m[K
+[2.072s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.072s]    21 |     pcl::OrganizedEdgeBase< PointT, PointLT [01;31m[K>[m[K edge_detector;
+[2.072s]       |                                             [01;31m[K^[m[K
+[2.072s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:21:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.072s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:22:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetInputCloud[m[K’ in ‘[01m[Kedge_detector[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.072s]    22 |     edge_detector.[01;31m[KsetInputCloud[m[K(cloud);
+[2.072s]       |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.072s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:29:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompute[m[K’ in ‘[01m[Kedge_detector[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.072s]    29 |     edge_detector.[01;31m[Kcompute[m[K(egdes, label_indices);
+[2.072s]       |                   [01;31m[K^~~~~~~[m[K
+[2.402s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o] Error 1
+[2.402s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+[2.402s] gmake: *** [Makefile:146: all] Error 2
+[2.404s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

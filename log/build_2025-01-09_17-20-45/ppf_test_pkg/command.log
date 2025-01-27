@@ -1,0 +1,1 @@
+Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ppf_test_pkg -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/ppf_test_pkg

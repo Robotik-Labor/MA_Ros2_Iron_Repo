@@ -1,0 +1,33 @@
+[0.021s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o[0m
+[6.709s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:50:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl::ModelCoefficients[m[K’ has not been declared
+[6.709s]    50 |     void visualize_in_thread(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, pcl::[01;31m[KModelCoefficients[m[K::Ptr coefficients)
+[6.709s]       |                                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.709s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:50:101:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kcoefficients[m[K’
+[6.709s]    50 |     void visualize_in_thread(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, pcl::ModelCoefficients::Ptr [01;31m[Kcoefficients[m[K)
+[6.709s]       |                                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[6.788s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCircleDetector::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.788s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_conversions[m[K’ has not been declared
+[6.788s]    38 |         [01;31m[Kpcl_conversions[m[K::toPCL(*msg, *cloud);
+[6.788s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.788s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:41:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl::ModelCoefficients[m[K’ has not been declared
+[6.788s]    41 |         pcl::[01;31m[KModelCoefficients[m[K::Ptr coefficients(new pcl::ModelCoefficients);
+[6.788s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.808s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoefficients[m[K’ was not declared in this scope
+[6.808s]    42 |         [01;31m[Kcoefficients[m[K->values.push_back(0.0); // X
+[6.808s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.841s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCircleDetector::visualize_in_thread(pcl::PointCloud<pcl::PointXYZ>::Ptr, int)[m[K’:
+[6.841s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:52:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualize_with_vtk[m[K’ was not declared in this scope
+[6.841s]    52 |         std::thread vtk_thread([01;31m[Kvisualize_with_vtk[m[K, cloud, coefficients);
+[6.841s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.861s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:52:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoefficients[m[K’ was not declared in this scope
+[6.861s]    52 |         std::thread vtk_thread(visualize_with_vtk, cloud, [01;31m[Kcoefficients[m[K);
+[6.861s]       |                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[6.861s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:50:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.861s]    50 |     void visualize_in_thread(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, [01;35m[Kpcl::ModelCoefficients::Ptr[m[K coefficients)
+[6.861s]       |                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.664s] gmake[2]: *** [CMakeFiles/point_cloud_circle_detector.dir/build.make:76: CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o] Error 1
+[9.665s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/point_cloud_circle_detector.dir/all] Error 2
+[9.665s] gmake: *** [Makefile:146: all] Error 2
+[9.669s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

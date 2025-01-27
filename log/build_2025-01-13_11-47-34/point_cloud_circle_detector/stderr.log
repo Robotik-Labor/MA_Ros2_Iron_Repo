@@ -1,0 +1,26 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:31:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   31 |     edge_detector.compute( cloud* [01;31m[K,[m[K label);
+      |                                   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:31:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::label[m[K’?
+   31 |     edge_detector.compute( cloud* , [01;31m[Klabel[m[K);
+      |                                     [01;31m[K^~~~~[m[K
+      |                                     [32m[Kpcl::fields::label[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:2[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1964:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::label[m[K’ declared here
+ 1964 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZRGBL,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

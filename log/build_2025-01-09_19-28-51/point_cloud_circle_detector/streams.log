@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[0.056s] [ 25%] Built target point_cloud_cylinder_detector
+[0.057s] [ 75%] Built target point_cloud_circle_detector
+[0.057s] [ 75%] Built target point_cloud_plantpot_detector
+[0.066s] [ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[2.899s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.899s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:128:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[2.899s]   128 |         [01;31m[Kstart_time[m[K = std::chrono::high_resolution_clock::now();
+[2.899s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.899s]       |         [32m[Kstrptime[m[K
+[2.912s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:146:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_time[m[K’ was not declared in this scope
+[2.912s]   146 |         [01;31m[Kend_time[m[K = std::chrono::high_resolution_clock::now();
+[2.912s]       |         [01;31m[K^~~~~~~~[m[K
+[2.912s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:147:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kduration[m[K’ was not declared in this scope
+[2.912s]   147 |         [01;31m[Kduration[m[K = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
+[2.912s]       |         [01;31m[K^~~~~~~~[m[K
+[2.912s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:147:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.912s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[2.912s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[2.912s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[2.912s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.912s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.912s] [01m[K/usr/include/c++/11/chrono:77:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration[m[K’
+[2.912s]    77 |       struct [01;36m[Kduration[m[K;
+[2.912s]       |              [01;36m[K^~~~~~~~[m[K
+[2.912s] [01m[K/usr/include/c++/11/chrono:77:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::duration[m[K’
+[8.563s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o] Error 1
+[8.563s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+[8.563s] gmake: *** [Makefile:146: all] Error 2
+[8.566s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

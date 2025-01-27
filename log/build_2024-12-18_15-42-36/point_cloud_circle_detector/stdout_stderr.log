@@ -1,0 +1,90 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCircleDetector::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:105:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KfromPCL(std::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type&, std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZ>, __gnu_cxx::_S_atomic, false, false>::element_type&)[m[K’
+  105 |     [01;31m[Kpcl_conversions::fromPCL(*msg, *cloud)[m[K;  // Use fromPCL from pcl_conversions
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:10[m[K:
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:83:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const uint64_t&, rclcpp::Time&)[m[K’
+   83 |   void [01;36m[KfromPCL[m[K(const std::uint64_t &pcl_stamp, rclcpp::Time &stamp)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:83:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst uint64_t&[m[K’ {aka ‘[01m[Kconst long unsigned int&[m[K’}
+   83 |   void fromPCL([01;36m[Kconst std::uint64_t &pcl_stamp[m[K, rclcpp::Time &stamp)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:96:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time pcl_conversions::fromPCL(const uint64_t&)[m[K’
+   96 |   rclcpp::Time [01;36m[KfromPCL[m[K(const std::uint64_t &pcl_stamp)
+      |                [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:96:16:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:114:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PCLHeader&, std_msgs::msg::Header&)[m[K’
+  114 |   void [01;36m[KfromPCL[m[K(const pcl::PCLHeader &pcl_header, std_msgs::msg::Header &header)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:114:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PCLHeader&[m[K’
+  114 |   void fromPCL([01;36m[Kconst pcl::PCLHeader &pcl_header[m[K, std_msgs::msg::Header &header)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:133:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Header pcl_conversions::fromPCL(const pcl::PCLHeader&)[m[K’
+  133 |   std_msgs::msg::Header [01;36m[KfromPCL[m[K(const pcl::PCLHeader &pcl_header)
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:133:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:162:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PCLImage&, sensor_msgs::msg::Image&)[m[K’
+  162 |   void [01;36m[KfromPCL[m[K(const pcl::PCLImage &pcl_image, sensor_msgs::msg::Image &image)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:162:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PCLImage&[m[K’
+  162 |   void fromPCL([01;36m[Kconst pcl::PCLImage &pcl_image[m[K, sensor_msgs::msg::Image &image)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:203:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PCLPointField&, sensor_msgs::msg::PointField&)[m[K’
+  203 |   void [01;36m[KfromPCL[m[K(const pcl::PCLPointField &pcl_pf, sensor_msgs::msg::PointField &pf)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:203:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PCLPointField&[m[K’
+  203 |   void fromPCL([01;36m[Kconst pcl::PCLPointField &pcl_pf[m[K, sensor_msgs::msg::PointField &pf)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:212:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const std::vector<pcl::PCLPointField>&, std::vector<sensor_msgs::msg::PointField_<std::allocator<void> >, std::allocator<sensor_msgs::msg::PointField_<std::allocator<void> > > >&)[m[K’
+  212 |   void [01;36m[KfromPCL[m[K(const std::vector<pcl::PCLPointField> &pcl_pfs, std::vector<sensor_msgs::msg::PointField> &pfs)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:212:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<pcl::PCLPointField>&[m[K’
+  212 |   void fromPCL([01;36m[Kconst std::vector<pcl::PCLPointField> &pcl_pfs[m[K, std::vector<sensor_msgs::msg::PointField> &pfs)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:258:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PCLPointCloud2&, sensor_msgs::msg::PointCloud2&)[m[K’
+  258 |   void [01;36m[KfromPCL[m[K(const pcl::PCLPointCloud2 &pcl_pc2, sensor_msgs::msg::PointCloud2 &pc2)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:258:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PCLPointCloud2&[m[K’
+  258 |   void fromPCL([01;36m[Kconst pcl::PCLPointCloud2 &pcl_pc2[m[K, sensor_msgs::msg::PointCloud2 &pc2)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:301:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PointIndices&, pcl_msgs::msg::PointIndices&)[m[K’
+  301 |   void [01;36m[KfromPCL[m[K(const pcl::PointIndices &pcl_pi, pcl_msgs::msg::PointIndices &pi)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:301:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PointIndices&[m[K’
+  301 |   void fromPCL([01;36m[Kconst pcl::PointIndices &pcl_pi[m[K, pcl_msgs::msg::PointIndices &pi)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:331:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::ModelCoefficients&, pcl_msgs::msg::ModelCoefficients&)[m[K’
+  331 |   void [01;36m[KfromPCL[m[K(const pcl::ModelCoefficients &pcl_mc, pcl_msgs::msg::ModelCoefficients &mc)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:331:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::ModelCoefficients&[m[K’
+  331 |   void fromPCL([01;36m[Kconst pcl::ModelCoefficients &pcl_mc[m[K, pcl_msgs::msg::ModelCoefficients &mc)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:376:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::Vertices&, pcl_msgs::msg::Vertices&)[m[K’
+  376 |   void [01;36m[KfromPCL[m[K(const pcl::Vertices &pcl_vert, pcl_msgs::msg::Vertices &vert)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::Vertices&[m[K’
+  376 |   void fromPCL([01;36m[Kconst pcl::Vertices &pcl_vert[m[K, pcl_msgs::msg::Vertices &vert)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:382:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const std::vector<pcl::Vertices>&, std::vector<pcl_msgs::msg::Vertices_<std::allocator<void> >, std::allocator<pcl_msgs::msg::Vertices_<std::allocator<void> > > >&)[m[K’
+  382 |   void [01;36m[KfromPCL[m[K(const std::vector<pcl::Vertices> &pcl_verts, std::vector<pcl_msgs::msg::Vertices> &verts)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:382:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<pcl::Vertices>&[m[K’
+  382 |   void fromPCL([01;36m[Kconst std::vector<pcl::Vertices> &pcl_verts[m[K, std::vector<pcl_msgs::msg::Vertices> &verts)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:399:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(std::vector<pcl::Vertices>&, std::vector<pcl_msgs::msg::Vertices_<std::allocator<void> >, std::allocator<pcl_msgs::msg::Vertices_<std::allocator<void> > > >&)[m[K’
+  399 |   void [01;36m[KfromPCL[m[K(std::vector<pcl::Vertices> &pcl_verts, std::vector<pcl_msgs::msg::Vertices> &verts)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:399:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::vector<pcl::Vertices>&[m[K’
+  399 |   void fromPCL([01;36m[Kstd::vector<pcl::Vertices> &pcl_verts[m[K, std::vector<pcl_msgs::msg::Vertices> &verts)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:446:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl_conversions::fromPCL(const pcl::PolygonMesh&, pcl_msgs::msg::PolygonMesh&)[m[K’
+  446 |   void [01;36m[KfromPCL[m[K(const pcl::PolygonMesh &pcl_mesh, pcl_msgs::msg::PolygonMesh &mesh)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:446:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} to ‘[01m[Kconst pcl::PolygonMesh&[m[K’
+  446 |   void fromPCL([01;36m[Kconst pcl::PolygonMesh &pcl_mesh[m[K, pcl_msgs::msg::PolygonMesh &mesh)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_circle_detector.dir/build.make:76: CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/point_cloud_circle_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found controller_interface: 3.28.1 (/opt/ros/iron/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[31mCMake Error at CMakeLists.txt:48 (find_package):
+  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ament_lint_auto", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ament_lint_auto"
+  with any of the following names:
+
+    ament_lint_autoConfig.cmake
+    ament_lint_auto-config.cmake
+
+  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+  set "ament_lint_auto_DIR" to a directory containing one of the above files.
+  If "ament_lint_auto" provides a separate development package or SDK, be
+  sure it has been installed.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/robotiq_controllers/CMakeFiles/CMakeOutput.log".
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

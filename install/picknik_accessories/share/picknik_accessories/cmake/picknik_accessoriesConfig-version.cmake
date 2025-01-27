@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/picknik_accessories/ament_cmake_core/picknik_accessoriesConfig-version.cmake

@@ -1,0 +1,35 @@
+[ 25%] [32m[1mLinking CXX shared library libmoveit_ros_trajectory_cache_lib.so[0m
+[ 50%] Built target moveit_ros_trajectory_cache_lib
+[ 75%] [32m[1mLinking CXX executable test_trajectory_cache[0m
+[100%] Built target test_trajectory_cache
+-- Install configuration: "Release"
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_lib.so
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib/libmoveit_ros_trajectory_cache_lib.so" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit/trajectory_cache/trajectory_cache.hpp
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/include/moveit_ros_trajectory_cache/moveit_ros_trajectory_cache_lib_export.h
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib/moveit_ros_trajectory_cache/test_trajectory_cache
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib/moveit_ros_trajectory_cache/test_trajectory_cache" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/library_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/library_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/package_run_dependencies/moveit_ros_trajectory_cache
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/parent_prefix_path/moveit_ros_trajectory_cache
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/ament_prefix_path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/ament_index/resource_index/packages/moveit_ros_trajectory_cache
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheTargetsExport.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheTargetsExport-release.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/cmake/moveit_ros_trajectory_cacheConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/share/moveit_ros_trajectory_cache/package.xml

@@ -1,0 +1,23 @@
+[0.051s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_msgs -- -j28 -l28
+[0.183s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.215s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[0.216s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.216s]   this project has asked CMake to find a package configuration file provided
+[0.216s]   by "rosidl_default_generators", but CMake did not find one.
+[0.216s] 
+[0.216s]   Could not find a package configuration file provided by
+[0.216s]   "rosidl_default_generators" with any of the following names:
+[0.216s] 
+[0.216s]     rosidl_default_generatorsConfig.cmake
+[0.216s]     rosidl_default_generators-config.cmake
+[0.216s] 
+[0.216s]   Add the installation prefix of "rosidl_default_generators" to
+[0.216s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.216s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.216s]   a separate development package or SDK, be sure it has been installed.
+[0.216s] 
+[0.216s] [0m
+[0.216s] -- Configuring incomplete, errors occurred!
+[0.216s] See also "/home/buhrmann/ws_moveit/build/moveit_msgs/CMakeFiles/CMakeOutput.log".
+[0.220s] gmake: *** [Makefile:22415: cmake_check_build_system] Error 1
+[0.251s] Invoked command in '/home/buhrmann/ws_moveit/build/moveit_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_msgs -- -j28 -l28

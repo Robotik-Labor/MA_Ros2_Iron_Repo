@@ -1,0 +1,2 @@
+[0mmoveit_ros_trajectory_cache: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Interrupt

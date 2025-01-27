@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[ 16%] Built target point_cloud_circle_detector
+[ 33%] Built target point_cloud_cylinder_detector
+[ 50%] Built target point_cloud_plantpot_detector
+[ 66%] Built target point_cloud_plantpot_pfh_detector
+[ 75%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o[0m
+[ 91%] Built target point_cloud_plantpot_ppf_detector

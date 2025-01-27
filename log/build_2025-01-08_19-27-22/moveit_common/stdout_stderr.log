@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/moveit_common
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+-- Symlinking: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

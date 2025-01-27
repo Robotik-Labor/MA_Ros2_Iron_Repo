@@ -1,0 +1,33 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "output_dir": "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_generator_type_description/moveit_task_constructor_msgs",
+  "idl_tuples": [
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Property.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Solution.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SolutionInfo.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageDescription.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageStatistics.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubSolution.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubTrajectory.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskDescription.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskStatistics.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TrajectoryExecutionInfo.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:srv/GetSolution.idl",
+    "/home/buhrmann/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:action/ExecuteTaskSolution.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_msgs/share/moveit_msgs",
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "sensor_msgs:/opt/ros/iron/share/sensor_msgs",
+    "shape_msgs:/opt/ros/iron/share/shape_msgs",
+    "object_recognition_msgs:/opt/ros/iron/share/object_recognition_msgs",
+    "octomap_msgs:/opt/ros/iron/share/octomap_msgs",
+    "trajectory_msgs:/opt/ros/iron/share/trajectory_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "visualization_msgs:/opt/ros/iron/share/visualization_msgs",
+    "unique_identifier_msgs:/opt/ros/iron/share/unique_identifier_msgs"
+  ]
+}

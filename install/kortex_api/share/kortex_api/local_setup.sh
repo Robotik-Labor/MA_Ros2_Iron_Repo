@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/kortex_api/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/buhrmann/ws_moveit/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

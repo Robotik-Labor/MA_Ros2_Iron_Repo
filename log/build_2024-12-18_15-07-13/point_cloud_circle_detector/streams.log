@@ -1,0 +1,69 @@
+[0.152s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.169s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.237s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.258s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.286s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.507s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.512s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.512s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.624s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.629s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.634s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.735s] -- Found Qhull version 8.0.2
+[0.833s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.939s] -- looking for PCL_COMMON
+[0.939s] -- looking for PCL_KDTREE
+[0.939s] -- looking for PCL_OCTREE
+[0.939s] -- looking for PCL_SEARCH
+[0.939s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.940s] -- looking for PCL_FILTERS
+[0.940s] -- looking for PCL_2D
+[0.940s] -- looking for PCL_GEOMETRY
+[0.940s] -- looking for PCL_IO
+[0.940s] -- looking for PCL_FEATURES
+[0.940s] -- looking for PCL_ML
+[0.940s] -- looking for PCL_SEGMENTATION
+[0.941s] -- looking for PCL_VISUALIZATION
+[0.941s] -- looking for PCL_SURFACE
+[0.941s] -- looking for PCL_REGISTRATION
+[0.941s] -- looking for PCL_KEYPOINTS
+[0.941s] -- looking for PCL_TRACKING
+[0.942s] -- looking for PCL_RECOGNITION
+[0.942s] -- looking for PCL_STEREO
+[0.942s] -- looking for PCL_APPS
+[0.942s] -- looking for PCL_IN_HAND_SCANNER
+[0.942s] -- looking for PCL_MODELER
+[0.943s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.943s] -- looking for PCL_OUTOFCORE
+[0.943s] -- looking for PCL_PEOPLE
+[0.944s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.953s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.118s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.120s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.353s] -- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[1.579s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.790s] [31mCMake Error at CMakeLists.txt:36 (find_package):
+[1.790s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[1.790s]   project has asked CMake to find a package configuration file provided by
+[1.790s]   "ament_lint_auto", but CMake did not find one.
+[1.790s] 
+[1.790s]   Could not find a package configuration file provided by "ament_lint_auto"
+[1.790s]   with any of the following names:
+[1.790s] 
+[1.790s]     ament_lint_autoConfig.cmake
+[1.790s]     ament_lint_auto-config.cmake
+[1.791s] 
+[1.791s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[1.791s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[1.791s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[1.791s]   sure it has been installed.
+[1.791s] 
+[1.791s] [0m
+[1.791s] -- Configuring incomplete, errors occurred!
+[1.791s] See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
+[1.798s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1

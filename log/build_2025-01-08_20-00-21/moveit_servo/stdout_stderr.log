@@ -1,0 +1,81 @@
+-- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found generate_parameter_library: 0.3.9 (/opt/ros/iron/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found control_msgs: 5.2.0 (/opt/ros/iron/share/control_msgs/cmake)
+-- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found realtime_tools: 2.8.1 (/opt/ros/iron/share/realtime_tools/cmake)
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.5.2 (/opt/ros/iron/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/moveit_servo
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target servo_node[0m
+[35m[1mConsolidate compiler generated dependencies of target servo_keyboard_input[0m
+[  3%] Built target moveit_servo_lib_parameters
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/demos/servo_keyboard_input.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/servo_node.dir/rclcpp_components/node_main_servo_node.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib_cpp[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/servo.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/common.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/collision_monitor.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 35%] Built target gtest_main
+[ 39%] [32m[1mLinking CXX executable servo_node[0m
+[ 39%] Built target servo_node
+[ 42%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 46%] Built target servo_keyboard_input
+[ 46%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_ros_integration_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_servo_ros_integration_test.dir/tests/test_ros_integration.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable moveit_servo_ros_integration_test[0m
+[ 57%] [32m[1mLinking CXX shared library libmoveit_servo_lib_cpp.so[0m
+[ 57%] Built target moveit_servo_lib_cpp
+[ 57%] Built target moveit_servo_ros_integration_test
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib_ros[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_twist[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_utils_test[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_pose[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_joint_jog[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_cpp_integration_test[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/demo_twist.dir/demos/cpp_interface/demo_twist.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_ros.dir/src/servo_node.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/moveit_servo_utils_test.dir/tests/test_utils.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/demo_pose.dir/demos/cpp_interface/demo_pose.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/demo_joint_jog.dir/demos/cpp_interface/demo_joint_jog.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_integration_test.dir/tests/test_integration.cpp.o[0m
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/servo_node.cpp:42[m[K:
+[01m[K/opt/ros/iron/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   39 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K

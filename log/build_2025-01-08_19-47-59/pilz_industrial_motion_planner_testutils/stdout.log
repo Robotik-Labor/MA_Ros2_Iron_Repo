@@ -1,0 +1,29 @@
+-- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/pilz_industrial_motion_planner_testutils
+[35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner_testutils[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/cartesianconfiguration.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/jointconfiguration.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/robotconfiguration.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/sequence.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner_testutils.so[0m
+[100%] Built target pilz_industrial_motion_planner_testutils

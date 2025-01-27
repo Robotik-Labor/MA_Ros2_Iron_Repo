@@ -1,0 +1,58 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudSubscriber::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:60:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   60 |                 boundary.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:61:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   61 |                 boundary.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:62:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   62 |                 boundary.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:64:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   64 |                 non_boundary.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:65:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   65 |                 non_boundary.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:66:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   66 |                 non_boundary.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:73:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   73 |                 edges.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:74:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   74 |                 edges.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:75:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   75 |                 edges.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:77:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   77 |                 non_boundary.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:78:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   78 |                 non_boundary.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:79:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   79 |                 non_boundary.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:87:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   87 |                 boundary.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:88:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   88 |                 boundary.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:89:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   89 |                 boundary.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:91:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   91 |                 edges.[01;31m[Kpoints[m[K[i].x = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:92:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   92 |                 edges.[01;31m[Kpoints[m[K[i].y = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:93:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = class std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   93 |                 edges.[01;31m[Kpoints[m[K[i].z = std::numeric_limits<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

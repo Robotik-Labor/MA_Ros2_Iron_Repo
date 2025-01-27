@@ -1,0 +1,105 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.032s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.122s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.135s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.252s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.298s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[0.571s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.582s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.586s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.588s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[0.810s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.814s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.014s] -- Found Qhull version 8.0.2
+[1.227s] [33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):
+[1.227s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.227s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.227s]   command to set the policy and suppress this warning.
+[1.227s] 
+[1.227s]   CMake variable PCL_ROOT is set to:
+[1.227s] 
+[1.227s]     /usr/local
+[1.227s] 
+[1.227s]   For compatibility, CMake is ignoring the variable.
+[1.227s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.227s] [0m
+[1.707s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.741s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.741s] -- Configured cppcheck include dirs: 
+[1.741s] -- Configured cppcheck exclude dirs and/or files: 
+[1.742s] -- Added test 'lint_cmake' to check CMake code style
+[1.742s] -- Added test 'uncrustify' to check C / C++ code style
+[1.742s] -- Configured uncrustify additional arguments: 
+[1.742s] -- Added test 'xmllint' to check XML markup files
+[1.743s] -- Configuring done
+[1.791s] -- Generating done
+[1.805s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[1.836s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[1.836s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[1.837s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[1.837s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[1.838s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[1.838s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[1.854s] [ 16%] [32mBuilding CXX object CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o[0m
+[1.854s] [ 16%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o[0m
+[1.854s] [ 25%] [32mBuilding CXX object CMakeFiles/point_cloud_cylinder_detector.dir/src/point_cloud_cylinder_detector.cpp.o[0m
+[1.857s] [ 33%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o[0m
+[1.857s] [ 41%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[1.859s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o[0m
+[4.029s] In file included from [01m[K/usr/local/include/pcl-1.14/pcl/features/organized_edge_detection.h:416[m[K,
+[4.029s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:5[m[K:
+[4.029s] /usr/local/include/pcl-1.14/pcl/features/impl/organized_edge_detection.hpp: In instantiation of ‘[01m[Kvoid pcl::OrganizedEdgeBase<PointT, PointLT>::compute(pcl::PointCloud<PointOutT>&, std::vector<pcl::PointIndices>&) const [with PointT = pcl::PointXYZ; PointLT = pcl::PointXYZ][m[K’:
+[4.029s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:29:26:[m[K   required from here
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/features/impl/organized_edge_detection.hpp:56:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::resize(std::size_t, pcl::Label&)[m[K’
+[4.029s]    56 |   [01;31m[Klabels.resize (input_->size (), invalid_pt)[m[K;
+[4.029s]       |   [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.029s] In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge_pfh_detector.cpp:2[m[K:
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:462:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl::PointCloud<PointT>::resize(std::size_t) [with PointT = pcl::PointXYZ; std::size_t = long unsigned int][m[K’
+[4.029s]   462 |       [01;36m[Kresize[m[K(std::size_t count)
+[4.029s]       |       [01;36m[K^~~~~~[m[K
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:462:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:482:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl::PointCloud<PointT>::resize(pcl::uindex_t, pcl::uindex_t) [with PointT = pcl::PointXYZ; pcl::uindex_t = unsigned int][m[K’
+[4.029s]   482 |       [01;36m[Kresize[m[K(uindex_t new_width, uindex_t new_height)
+[4.029s]       |       [01;36m[K^~~~~~[m[K
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:482:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kpcl::Label[m[K’ to ‘[01m[Kpcl::uindex_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+[4.029s]   482 |       resize(uindex_t new_width, [01;36m[Kuindex_t new_height[m[K)
+[4.029s]       |                                  [01;36m[K~~~~~~~~~^~~~~~~~~~[m[K
+[4.029s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:502:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl::PointCloud<PointT>::resize(pcl::index_t, const PointT&) [with PointT = pcl::PointXYZ; pcl::index_t = int][m[K’
+[4.029s]   502 |       [01;36m[Kresize[m[K(index_t count, const PointT& value)
+[4.029s]       |       [01;36m[K^~~~~~[m[K
+[4.030s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:502:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kpcl::Label[m[K’ to ‘[01m[Kconst pcl::PointXYZ&[m[K’
+[4.030s]   502 |       resize(index_t count, [01;36m[Kconst PointT& value[m[K)
+[4.030s]       |                             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[4.030s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:523:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid pcl::PointCloud<PointT>::resize(pcl::index_t, pcl::index_t, const PointT&) [with PointT = pcl::PointXYZ; pcl::index_t = int][m[K’
+[4.030s]   523 |       [01;36m[Kresize[m[K(index_t new_width, index_t new_height, const PointT& value)
+[4.030s]       |       [01;36m[K^~~~~~[m[K
+[4.030s] [01m[K/usr/local/include/pcl-1.14/pcl/point_cloud.h:523:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[4.318s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge_pfh_detector.cpp.o] Error 1
+[4.318s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+[4.318s] gmake[1]: *** Waiting for unfinished jobs....
+[5.222s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[5.222s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:269:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.222s]   269 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+[5.222s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.647s] [ 58%] [32m[1mLinking CXX executable point_cloud_circle_detector[0m
+[8.297s] [ 58%] Built target point_cloud_circle_detector
+[8.330s] [ 66%] [32m[1mLinking CXX executable point_cloud_cylinder_detector[0m
+[8.764s] [ 75%] [32m[1mLinking CXX executable point_cloud_plantpot_detector[0m
+[9.543s] [ 75%] Built target point_cloud_cylinder_detector
+[9.893s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o: in function `pcl::SampleConsensusInitialAlignment<pcl::PointXYZ, pcl::PointXYZ, pcl::FPFHSignature33>::SampleConsensusInitialAlignment()':
+[9.893s] point_cloud_custom_plant_pot_detection.cpp:(.text._ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC2Ev[_ZN3pcl31SampleConsensusInitialAlignmentINS_8PointXYZES1_NS_15FPFHSignature33EEC5Ev]+0x11e): undefined reference to `pcl::registration::TransformationEstimationSVD<pcl::PointXYZ, pcl::PointXYZ, float>::TransformationEstimationSVD(bool)'
+[9.936s] collect2: error: ld returned 1 exit status
+[9.937s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:319: point_cloud_plantpot_detector] Error 1
+[9.937s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
+[17.835s] [ 83%] [32m[1mLinking CXX executable point_cloud_plantpot_pfh_detector[0m
+[18.337s] [ 91%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
+[19.272s] [ 91%] Built target point_cloud_plantpot_pfh_detector
+[19.760s] [ 91%] Built target point_cloud_plantpot_ppf_detector
+[19.761s] gmake: *** [Makefile:146: all] Error 2
+[19.763s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

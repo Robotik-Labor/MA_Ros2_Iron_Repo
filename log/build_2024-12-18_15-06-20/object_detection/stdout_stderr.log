@@ -1,0 +1,32 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+-- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "pcl_conversions", but CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl_conversions"
+  with any of the following names:
+
+    pcl_conversionsConfig.cmake
+    pcl_conversions-config.cmake
+
+  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+  set "pcl_conversions_DIR" to a directory containing one of the above files.
+  If "pcl_conversions" provides a separate development package or SDK, be
+  sure it has been installed.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/buhrmann/ws_moveit/build/object_detection/CMakeFiles/CMakeOutput.log".
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -1,0 +1,4 @@
+source;share/object_detection_pcl/local_setup.bash
+source;share/object_detection_pcl/local_setup.dsv
+source;share/object_detection_pcl/local_setup.sh
+source;share/object_detection_pcl/local_setup.zsh

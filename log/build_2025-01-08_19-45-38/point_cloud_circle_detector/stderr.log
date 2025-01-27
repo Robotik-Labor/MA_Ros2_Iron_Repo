@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:24 (find_package):
+  Could not find a configuration file for package "PCL" that is compatible
+  with requested version "1.14".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.12.1
+    /lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake, version: 1.12.1
+
+
+[0m

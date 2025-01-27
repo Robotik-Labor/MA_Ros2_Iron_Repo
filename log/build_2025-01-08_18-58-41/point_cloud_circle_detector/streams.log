@@ -1,0 +1,101 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/point_cloud_circle_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/point_cloud_circle_detector
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.486s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.567s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.603s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.615s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.765s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.834s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.839s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.970s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.011s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.050s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.234s] [33mCMake Warning (dev) at /opt/ros/iron/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[1.234s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.234s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.234s]   command to set the policy and suppress this warning.
+[1.234s] 
+[1.234s]   CMake variable PCL_ROOT is set to:
+[1.234s] 
+[1.234s]     /usr/local/include/pcl-1.14
+[1.234s] 
+[1.235s]   For compatibility, CMake is ignoring the variable.
+[1.235s] Call Stack (most recent call first):
+[1.235s]   /opt/ros/iron/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.235s]   CMakeLists.txt:18 (find_package)
+[1.235s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.235s] [0m
+[1.278s] -- Checking for module 'flann'
+[1.292s] --   Found flann, version 1.9.1
+[1.374s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.374s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.708s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.708s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.710s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.718s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.731s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.532s] -- Checking for module 'libusb-1.0'
+[3.562s] --   Found libusb-1.0, version 1.0.25
+[3.633s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.650s] -- Found Qhull version 8.0.2
+[4.170s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[4.170s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[4.170s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[4.170s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[4.171s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[4.171s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[4.171s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[4.171s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[4.171s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[4.171s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[4.172s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[4.172s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[4.172s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[4.172s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[4.172s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[4.173s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[4.173s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[4.173s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[4.178s] [0mPCL Libraries: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;FLANN::FLANN;QHULL::QHULL[0m
+[4.464s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.504s] -- Configuring done
+[4.532s] -- Generating done
+[4.539s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[4.550s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/point_cloud_circle_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/point_cloud_circle_detector
+[4.551s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[4.608s] [ 25%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[4.608s] [ 25%] [32mBuilding CXX object CMakeFiles/point_cloud_cylinder_detector.dir/src/point_cloud_cylinder_detector.cpp.o[0m
+[4.609s] [ 37%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o[0m
+[4.610s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o[0m
+[10.126s] [ 62%] [32m[1mLinking CXX executable point_cloud_circle_detector[0m
+[10.755s] [ 62%] Built target point_cloud_circle_detector
+[10.806s] [ 75%] [32m[1mLinking CXX executable point_cloud_cylinder_detector[0m
+[11.256s] [ 87%] [32m[1mLinking CXX executable point_cloud_plantpot_detector[0m
+[11.282s] [100%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
+[11.702s] [100%] Built target point_cloud_cylinder_detector
+[12.282s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o: in function `PointCloudCustomObjectMatcher::listener_callback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)':
+[12.282s] point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0xfc9): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[12.282s] /usr/bin/ld: point_cloud_plantpot_ppf_detector.cpp:(.text._ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE[_ZN29PointCloudCustomObjectMatcher17listener_callbackESt10shared_ptrIN11sensor_msgs3msg12PointCloud2_ISaIvEEEE]+0x12f6): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[12.284s] [100%] Built target point_cloud_plantpot_detector
+[12.285s] /usr/bin/ld: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+[12.317s] collect2: error: ld returned 1 exit status
+[12.318s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:263: point_cloud_plantpot_ppf_detector] Error 1
+[12.318s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+[12.319s] gmake: *** [Makefile:146: all] Error 2
+[12.321s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

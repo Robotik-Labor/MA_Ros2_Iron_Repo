@@ -1,0 +1,11 @@
+[0mmoveit_planners_ompl: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_generate_state_database.dir/build.make:76: ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: ompl_interface/CMakeFiles/moveit_generate_state_database.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/test_state_validity_checker.dir/build.make:76: ompl_interface/CMakeFiles/test_state_validity_checker.dir/test/test_state_validity_checker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:294: ompl_interface/CMakeFiles/test_state_validity_checker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

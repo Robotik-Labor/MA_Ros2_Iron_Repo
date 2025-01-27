@@ -1,0 +1,20 @@
+[33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr/local
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mPCL version: 1.14.1[0m
+/usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o: in function `PPFTestNode::compute_ppf_features(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > const&)':
+object_detection.cpp:(.text._ZN11PPFTestNode20compute_ppf_featuresERKSt10shared_ptrIN3pcl10PointCloudINS1_8PointXYZEEEE[_ZN11PPFTestNode20compute_ppf_featuresERKSt10shared_ptrIN3pcl10PointCloudINS1_8PointXYZEEEE]+0x1ce): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+/usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:347: object_detection] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,35 @@
+[0.149s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_controllers -- -j28 -l28
+[0.167s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.253s] -- Found controller_interface: 3.28.1 (/opt/ros/iron/share/controller_interface/cmake)
+[0.277s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.724s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.726s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.744s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.750s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.766s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.773s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.897s] -- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[0.928s] [31mCMake Error at CMakeLists.txt:48 (find_package):
+[0.928s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.929s]   project has asked CMake to find a package configuration file provided by
+[0.929s]   "ament_lint_auto", but CMake did not find one.
+[0.929s] 
+[0.929s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.929s]   with any of the following names:
+[0.929s] 
+[0.929s]     ament_lint_autoConfig.cmake
+[0.929s]     ament_lint_auto-config.cmake
+[0.929s] 
+[0.929s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.929s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.929s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.929s]   sure it has been installed.
+[0.929s] 
+[0.929s] [0m
+[0.929s] -- Configuring incomplete, errors occurred!
+[0.929s] See also "/home/buhrmann/ws_moveit/build/robotiq_controllers/CMakeFiles/CMakeOutput.log".
+[0.932s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1

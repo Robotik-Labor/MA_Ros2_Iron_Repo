@@ -1,0 +1,45 @@
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libBulletDynamics.so', needed by 'collision_detection_bullet/libmoveit_collision_detection_bullet.so.2.11.0'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h:36[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/bullet_integration/bullet_cast_bvh_manager.cpp:34[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h:37:10:[m[K [01;31m[Kfatal error: [m[KbtBulletCollisionCommon.h: No such file or directory
+   37 | #include [01;31m[K<btBulletCollisionCommon.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/bullet_integration/bullet_utils.cpp:35[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h:37:10:[m[K [01;31m[Kfatal error: [m[KbtBulletCollisionCommon.h: No such file or directory
+   37 | #include [01;31m[K<btBulletCollisionCommon.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h:36[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/bullet_integration/bullet_bvh_manager.cpp:34[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h:37:10:[m[K [01;31m[Kfatal error: [m[KbtBulletCollisionCommon.h: No such file or directory
+   37 | #include [01;31m[K<btBulletCollisionCommon.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:76: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o] Error 1
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:104: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o] Error 1
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:132: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o] Error 1
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/bullet_integration/contact_checker_common.cpp:36[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h:23:10:[m[K [01;31m[Kfatal error: [m[KLinearMath/btConvexHullComputer.h: No such file or directory
+   23 | #include [01;31m[K<LinearMath/btConvexHullComputer.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h:36[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/bullet_integration/bullet_discrete_bvh_manager.cpp:34[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h:37:10:[m[K [01;31m[Kfatal error: [m[KbtBulletCollisionCommon.h: No such file or directory
+   37 | #include [01;31m[K<btBulletCollisionCommon.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:90: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_discrete_bvh_manager.cpp.o] Error 1
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:146: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/contact_checker_common.cpp.o] Error 1
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h:36[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/collision_env_bullet.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/src/collision_env_bullet.cpp:37[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_core/collision_detection_bullet/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h:37:10:[m[K [01;31m[Kfatal error: [m[KbtBulletCollisionCommon.h: No such file or directory
+   37 | #include [01;31m[K<btBulletCollisionCommon.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:118: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/collision_env_bullet.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:688: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

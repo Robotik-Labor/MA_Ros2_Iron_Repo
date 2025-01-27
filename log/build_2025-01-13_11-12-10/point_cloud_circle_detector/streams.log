@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[0.061s] [ 16%] Built target point_cloud_circle_detector
+[0.062s] [ 33%] Built target point_cloud_plantpot_pfh_detector
+[0.065s] [ 50%] Built target point_cloud_plantpot_detector
+[0.065s] [ 66%] Built target point_cloud_cylinder_detector
+[0.066s] [ 83%] Built target point_cloud_plantpot_ppf_detector
+[0.068s] [ 91%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge__pfh_detector.cpp.o[0m
+[1.614s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge__pfh_detector.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.614s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge__pfh_detector.cpp:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[KOrganizedEdgeDetection[m[K’ is not a member of ‘[01m[Kpcl[m[K’; did you mean ‘[01m[KOrganizedEdgeBase[m[K’?
+[1.614s]    20 |     pcl::[01;31m[KOrganizedEdgeDetection[m[K<pcl::PointXYZ> edge_detector;
+[1.614s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.614s]       |          [32m[KOrganizedEdgeBase[m[K
+[1.614s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge__pfh_detector.cpp:20:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.615s]    20 |     pcl::OrganizedEdgeDetection<pcl::PointXYZ[01;31m[K>[m[K edge_detector;
+[1.615s]       |                                              [01;31m[K^[m[K
+[1.620s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_edge__pfh_detector.cpp:20:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kedge_detector[m[K’ was not declared in this scope
+[1.620s]    20 |     pcl::OrganizedEdgeDetection<pcl::PointXYZ> [01;31m[Kedge_detector[m[K;
+[1.620s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[1.999s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/src/point_cloud_plantpot_edge__pfh_detector.cpp.o] Error 1
+[1.999s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all] Error 2
+[1.999s] gmake: *** [Makefile:146: all] Error 2
+[2.001s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

@@ -1,0 +1,1 @@
+/home/buhrmann/ws_moveit/build/kortex_description/ament_cmake_core/kortex_descriptionConfig-version.cmake

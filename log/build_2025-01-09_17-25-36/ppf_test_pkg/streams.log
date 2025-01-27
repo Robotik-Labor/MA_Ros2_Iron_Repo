@@ -1,0 +1,141 @@
+[0.007s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ppf_test_pkg -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/ppf_test_pkg
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.550s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.635s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.678s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.689s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.820s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.976s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.096s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.204s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[1.313s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system iostreams filesystem serialization 
+[1.323s] -- Checking for module 'flann'
+[1.341s] --   Found flann, version 1.9.1
+[1.430s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.430s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.756s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.756s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.883s] -- Checking for module 'libusb-1.0'
+[1.922s] --   Found libusb-1.0, version 1.0.25
+[1.998s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.000s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.000s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.132s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.132s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.135s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.135s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.145s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.156s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.174s] -- Looking for pthread.h
+[2.258s] -- Looking for pthread.h - found
+[2.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.390s] -- Found Threads: TRUE  
+[2.394s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.400s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.579s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.579s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.583s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.614s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.746s] -- Found X11: /usr/include   
+[2.746s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.851s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.852s] -- Looking for gethostbyname
+[2.968s] -- Looking for gethostbyname - found
+[2.968s] -- Looking for connect
+[3.084s] -- Looking for connect - found
+[3.084s] -- Looking for remove
+[3.172s] -- Looking for remove - found
+[3.172s] -- Looking for shmat
+[3.274s] -- Looking for shmat - found
+[3.274s] -- Looking for IceConnectionNumber in ICE
+[3.367s] -- Looking for IceConnectionNumber in ICE - found
+[3.546s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.551s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.556s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.558s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.566s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.570s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.572s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.575s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.596s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.600s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.814s] -- Found Qhull version 8.0.2
+[4.027s] -- looking for PCL_COMMON
+[4.027s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[4.027s] -- looking for PCL_KDTREE
+[4.027s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[4.027s] -- looking for PCL_OCTREE
+[4.027s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[4.027s] -- looking for PCL_SEARCH
+[4.027s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[4.027s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.027s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[4.028s] -- looking for PCL_FILTERS
+[4.028s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[4.028s] -- looking for PCL_2D
+[4.028s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[4.028s] -- looking for PCL_GEOMETRY
+[4.028s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[4.028s] -- looking for PCL_IO
+[4.028s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[4.028s] -- looking for PCL_FEATURES
+[4.028s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[4.028s] -- looking for PCL_ML
+[4.029s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[4.029s] -- looking for PCL_SEGMENTATION
+[4.029s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[4.029s] -- looking for PCL_VISUALIZATION
+[4.029s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[4.029s] -- looking for PCL_SURFACE
+[4.029s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[4.029s] -- looking for PCL_REGISTRATION
+[4.030s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[4.030s] -- looking for PCL_KEYPOINTS
+[4.030s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[4.030s] -- looking for PCL_TRACKING
+[4.030s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[4.030s] -- looking for PCL_RECOGNITION
+[4.030s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[4.030s] -- looking for PCL_STEREO
+[4.031s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[4.031s] -- looking for PCL_OUTOFCORE
+[4.031s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[4.031s] -- looking for PCL_PEOPLE
+[4.031s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[4.031s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.032s] [0mPCL version: 1.14.1[0m
+[4.032s] [0mPCL LIBRARIES: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL[0m
+[4.040s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.079s] -- Configuring done
+[4.090s] -- Generating done
+[4.093s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/ppf_test_pkg
+[4.103s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake /home/buhrmann/ws_moveit/src/ppf_test_pkg -DCMAKE_INSTALL_PREFIX=/home/buhrmann/ws_moveit/install/ppf_test_pkg
+[4.103s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28
+[4.155s] [ 50%] [32mBuilding CXX object CMakeFiles/object_detection.dir/src/object_detection.cpp.o[0m
+[6.383s] [100%] [32m[1mLinking CXX executable object_detection[0m
+[6.922s] /usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o: in function `main':
+[6.922s] object_detection.cpp:(.text+0xf1): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
+[6.923s] /usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
+[6.944s] collect2: error: ld returned 1 exit status
+[6.945s] gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:281: object_detection] Error 1
+[6.945s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
+[6.946s] gmake: *** [Makefile:146: all] Error 2
+[6.947s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28

@@ -1,0 +1,199 @@
+[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[0.066s] [ 25%] Built target point_cloud_circle_detector
+[0.067s] [ 50%] Built target point_cloud_cylinder_detector
+[0.068s] [ 75%] Built target point_cloud_plantpot_detector
+[0.069s] [ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_plantpot_ppf_detector.dir/src/point_cloud_plantpot_ppf_detector.cpp.o[0m
+[2.874s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.874s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.875s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.875s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.875s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:80:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.875s]    80 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"PointCloud2 to PCL conversion took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.875s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.875s]       |                                                                                                        [32m[K|[m[K
+[2.875s]       |                                                                                                        [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.875s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:80:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.875s]    80 |             RCLCPP_INFO(this->get_logger(), "PointCloud2 to PCL conversion took [01;36m[K%ld[m[K ms", duration.count());
+[2.875s]       |                                                                                 [01;36m[K~~^[m[K
+[2.876s]       |                                                                                   [01;36m[K|[m[K
+[2.876s]       |                                                                                   [01;36m[Klong int[m[K
+[2.876s]       |                                                                                 [32m[K%f[m[K
+[2.876s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.876s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.876s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.876s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.876s]    88 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"RGB filtering took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.877s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.877s]       |                                                                                        [32m[K|[m[K
+[2.877s]       |                                                                                        [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.877s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:88:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.877s]    88 |             RCLCPP_INFO(this->get_logger(), "RGB filtering took [01;36m[K%ld[m[K ms", duration.count());
+[2.877s]       |                                                                 [01;36m[K~~^[m[K
+[2.877s]       |                                                                   [01;36m[K|[m[K
+[2.877s]       |                                                                   [01;36m[Klong int[m[K
+[2.877s]       |                                                                 [32m[K%f[m[K
+[2.877s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.877s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.877s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.877s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:103:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.877s]   103 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Conversion to PointCloudXYZ took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.877s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.877s]       |                                                                                                      [32m[K|[m[K
+[2.877s]       |                                                                                                      [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.877s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:103:81:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.877s]   103 |             RCLCPP_INFO(this->get_logger(), "Conversion to PointCloudXYZ took [01;36m[K%ld[m[K ms", duration.count());
+[2.877s]       |                                                                               [01;36m[K~~^[m[K
+[2.877s]       |                                                                                 [01;36m[K|[m[K
+[2.877s]       |                                                                                 [01;36m[Klong int[m[K
+[2.877s]       |                                                                               [32m[K%f[m[K
+[2.886s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.886s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.886s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:116:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.886s]   116 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Normal computation took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.886s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.886s]       |                                                                                             [32m[K|[m[K
+[2.886s]       |                                                                                             [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.886s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:116:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.886s]   116 |             RCLCPP_INFO(this->get_logger(), "Normal computation took [01;36m[K%ld[m[K ms", duration.count());
+[2.886s]       |                                                                      [01;36m[K~~^[m[K
+[2.886s]       |                                                                        [01;36m[K|[m[K
+[2.886s]       |                                                                        [01;36m[Klong int[m[K
+[2.886s]       |                                                                      [32m[K%f[m[K
+[2.886s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.887s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.887s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:127:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.887s]   127 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Voxel grid filtering took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.887s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.887s]       |                                                                                               [32m[K|[m[K
+[2.887s]       |                                                                                               [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.887s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:127:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.887s]   127 |             RCLCPP_INFO(this->get_logger(), "Voxel grid filtering took [01;36m[K%ld[m[K ms", duration.count());
+[2.887s]       |                                                                        [01;36m[K~~^[m[K
+[2.887s]       |                                                                          [01;36m[K|[m[K
+[2.887s]       |                                                                          [01;36m[Klong int[m[K
+[2.887s]       |                                                                        [32m[K%f[m[K
+[2.893s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.893s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.893s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:138:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.893s]   138 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"PPF feature extraction for scene took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.893s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.893s]       |                                                                                                           [32m[K|[m[K
+[2.893s]       |                                                                                                           [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.893s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:138:86:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.893s]   138 |             RCLCPP_INFO(this->get_logger(), "PPF feature extraction for scene took [01;36m[K%ld[m[K ms", duration.count());
+[2.893s]       |                                                                                    [01;36m[K~~^[m[K
+[2.893s]       |                                                                                      [01;36m[K|[m[K
+[2.893s]       |                                                                                      [01;36m[Klong int[m[K
+[2.893s]       |                                                                                    [32m[K%f[m[K
+[2.893s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.893s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.893s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.893s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:156:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.893s]   156 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"PPF feature extraction for custom object took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.893s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.893s]       |                                                                                                                   [32m[K|[m[K
+[2.893s]       |                                                                                                                   [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.893s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:156:94:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.893s]   156 |             RCLCPP_INFO(this->get_logger(), "PPF feature extraction for custom object took [01;36m[K%ld[m[K ms", duration.count());
+[2.893s]       |                                                                                            [01;36m[K~~^[m[K
+[2.894s]       |                                                                                              [01;36m[K|[m[K
+[2.894s]       |                                                                                              [01;36m[Klong int[m[K
+[2.894s]       |                                                                                            [32m[K%f[m[K
+[2.901s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.901s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:5[m[K:
+[2.901s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:177:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<double>::rep[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.901s]   177 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"RANSAC alignment took %ld ms"[m[K, [32m[Kduration.count()[m[K);
+[2.901s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.901s]       |                                                                                           [32m[K|[m[K
+[2.901s]       |                                                                                           [32m[Kstd::chrono::duration<double>::rep {aka double}[m[K
+[2.901s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_ppf_detector.cpp:177:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.901s]   177 |             RCLCPP_INFO(this->get_logger(), "RANSAC alignment took [01;36m[K%ld[m[K ms", duration.count());
+[2.901s]       |                                                                    [01;36m[K~~^[m[K
+[2.901s]       |                                                                      [01;36m[K|[m[K
+[2.901s]       |                                                                      [01;36m[Klong int[m[K
+[2.901s]       |                                                                    [32m[K%f[m[K
+[8.619s] [100%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
+[23.393s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[23.393s] (.text+0x1b): undefined reference to `main'
+[23.398s] collect2: error: ld returned 1 exit status
+[23.399s] gmake[2]: *** [CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make:322: point_cloud_plantpot_ppf_detector] Error 1
+[23.399s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all] Error 2
+[23.399s] gmake: *** [Makefile:146: all] Error 2
+[23.401s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

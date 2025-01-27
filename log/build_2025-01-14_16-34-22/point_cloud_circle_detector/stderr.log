@@ -1,0 +1,41 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:140:30:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >[m[K’} to ‘[01m[Kconst PointCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+  140 |             ne.setInputCloud([01;31m[Kcloud_rgb_filtered[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:15[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/features/normal_3d.h:328:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::NormalEstimation<PointInT, PointOutT>::setInputCloud(const PointCloudConstPtr&) [with PointInT = pcl::PointXYZ; PointOutT = pcl::Normal; pcl::NormalEstimation<PointInT, PointOutT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+  328 |       setInputCloud ([01;36m[Kconst PointCloudConstPtr &cloud[m[K) override
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:154:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >[m[K’} to ‘[01m[Kconst PointCloudConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+  154 |             pfh_estimator.setInputCloud([01;31m[Kcloud_rgb_filtered[m[K);  // Set input cloud
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}[m[K
+In file included from [01m[K/usr/local/include/pcl-1.14/pcl/pcl_base.h:253[m[K,
+                 from [01m[K/usr/local/include/pcl-1.14/pcl/filters/filter.h:42[m[K,
+                 from [01m[K/usr/local/include/pcl-1.14/pcl/filters/filter_indices.h:42[m[K,
+                 from [01m[K/usr/local/include/pcl-1.14/pcl/filters/extract_indices.h:42[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:2[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/pcl_base.hpp:65:64:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::PCLBase<PointT>::setInputCloud(const PointCloudConstPtr&) [with PointT = pcl::PointXYZ; pcl::PCLBase<PointT>::PointCloudConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+   65 | pcl::PCLBase<PointT>::setInputCloud ([01;36m[Kconst PointCloudConstPtr &cloud[m[K)
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:209:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >[m[K’} to ‘[01m[Kconst PointCloudTargetConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >&[m[K’}
+  209 |             sac_ia.setInputTarget([01;31m[Kcloud_rgb_filtered[m[K);  // The filtered scene point cloud
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                   [01;31m[K|[m[K
+      |                                   [01;31m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr {aka std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >}[m[K
+In file included from [01m[K/usr/local/include/pcl-1.14/pcl/registration/registration.h:700[m[K,
+                 from [01m[K/usr/local/include/pcl-1.14/pcl/registration/icp.h:46[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:3[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/registration/impl/registration.hpp:62:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::Registration<PointSource, PointTarget, Scalar>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; Scalar = float; pcl::Registration<PointSource, PointTarget, Scalar>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’
+   62 |     [01;36m[Kconst PointCloudTargetConstPtr& cloud[m[K)
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_plantpot_pfh_detector.cpp:269:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  269 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/src/point_cloud_plantpot_pfh_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
