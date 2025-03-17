@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1d519845b65a036d0ec9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_planners_chomp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_chomp_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_chomp_interface-Release-2fa124ff0c73206b8d5f.json",
+					"name" : "moveit_chomp_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_chomp_planner_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_chomp_planner_plugin-Release-f1b0fc484f004190dfe3.json",
+					"name" : "moveit_chomp_planner_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_planners_chomp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_planners_chomp_uninstall-Release-ee789cd9bc24b93d5765.json",
+					"name" : "moveit_planners_chomp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-512bd831c2a2532f9999.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/moveit_planners_chomp",
+		"source" : "/home/buhrmann/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

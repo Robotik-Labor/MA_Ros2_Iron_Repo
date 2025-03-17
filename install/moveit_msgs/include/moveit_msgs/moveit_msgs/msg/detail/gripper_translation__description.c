@@ -23,10 +23,10 @@ moveit_msgs__msg__GripperTranslation__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "geometry_msgs/msg/detail/vector3__functions.h"
 #include "geometry_msgs/msg/detail/vector3_stamped__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "geometry_msgs/msg/detail/vector3__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

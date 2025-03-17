@@ -1,0 +1,11 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:76: CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:118: CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:132: CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:104: CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chomp_motion_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

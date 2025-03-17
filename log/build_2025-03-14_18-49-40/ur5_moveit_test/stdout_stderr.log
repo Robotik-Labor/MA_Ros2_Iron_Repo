@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_pickup_sensor[0m
+[ 14%] Built target ur5_moveit_test_object_detection
+[ 28%] Built target gripper_open_moveit_test
+[ 42%] Built target ur5_read_positions
+[ 57%] Built target gripper_close_moveit_test
+[ 78%] Built target ur5_moveit_test
+[ 85%] Built target ur5_moveit_test_launch
+[ 92%] [32mBuilding CXX object CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:92:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+   92 |   [01;31m[Kdouble[m[K fraction = move_group_interface.computeCartesianPath(
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:96:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kfraction[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+   96 |   if ([01;31m[Kfraction[m[K >= 0.9)  // at least 90% of the path was computed
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Ksigaction[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfraction[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+  128 |   [01;31m[Kfraction[m[K = move_group_interface.computeCartesianPath(
+      |   [01;31m[K^~~~~~~~[m[K
+      |   [32m[Ksigaction[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:88:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjump_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   88 |   double [01;35m[Kjump_threshold[m[K = 0.0
+      |          [01;35m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

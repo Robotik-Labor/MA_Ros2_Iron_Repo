@@ -10,12 +10,15 @@ find_package(ament_cmake REQUIRED)
 find_package(moveit_visual_tools REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(trajectory_msgs REQUIRED)
 
 add_executable(ur5_moveit_test src/ur5_moveit_test.cpp)
 add_executable(gripper_close_moveit_test src/gripper_close_moveit_test.cpp)
 add_executable(gripper_open_moveit_test src/gripper_open_moveit_test.cpp)
 add_executable(ur5_moveit_test_launch src/ur5_moveit_test_launch.cpp)
 add_executable(ur5_moveit_test_object_detection src/ur5_moveit_test_object_detection.cpp)
+add_executable(ur5_read_positions src/ur5_read_positions.cpp)
+add_executable(ur5_pickup_sensor src/ur5_pickup_sensor.cpp)
 
 target_include_directories(ur5_moveit_test PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -25,6 +28,8 @@ target_compile_features(gripper_close_moveit_test PUBLIC c_std_99 cxx_std_17)  #
 target_compile_features(gripper_open_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(ur5_moveit_test_launch PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(ur5_moveit_test_object_detection PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(ur5_read_positions PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(ur5_pickup_sensor PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 ament_target_dependencies(
   ur5_moveit_test
@@ -48,18 +53,32 @@ ament_target_dependencies(
 )
 
 ament_target_dependencies(
+  gripper_open_moveit_test
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+)
+
+ament_target_dependencies(
   gripper_close_moveit_test
   "moveit_visual_tools"
   "moveit_ros_planning_interface"
   "rclcpp"
 )
 
-
 ament_target_dependencies(
-  gripper_open_moveit_test
+  ur5_read_positions
   "moveit_visual_tools"
   "moveit_ros_planning_interface"
   "rclcpp"
+)
+
+ament_target_dependencies(
+  ur5_pickup_sensor
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
 )
 
 install(TARGETS ur5_moveit_test
@@ -76,7 +95,14 @@ install(TARGETS ur5_moveit_test_launch
   
 install(TARGETS ur5_moveit_test_object_detection
   DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS ur5_read_positions
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS ur5_pickup_sensor
+  DESTINATION lib/${PROJECT_NAME})
   
+
 install(
   DIRECTORY launch 
   DESTINATION share/${PROJECT_NAME}

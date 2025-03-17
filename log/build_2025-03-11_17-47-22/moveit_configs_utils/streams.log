@@ -1,0 +1,20 @@
+[0.482s] Invoking command in '/home/buhrmann/ws_moveit/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/buhrmann/ws_moveit/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/buhrmann/ws_moveit/build/moveit_configs_utils/build install --record /home/buhrmann/ws_moveit/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[0.607s] running egg_info
+[0.607s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[0.607s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[0.607s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[0.607s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[0.607s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[0.608s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.608s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.608s] running build
+[0.608s] running build_py
+[0.608s] running install
+[0.608s] running install_lib
+[0.609s] running install_data
+[0.609s] running install_egg_info
+[0.610s] removing '/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.11.0-py3.10.egg-info' (and everything under it)
+[0.610s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.11.0-py3.10.egg-info
+[0.611s] running install_scripts
+[0.621s] writing list of installed files to '/home/buhrmann/ws_moveit/build/moveit_configs_utils/install.log'
+[0.647s] Invoked command in '/home/buhrmann/ws_moveit/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/buhrmann/ws_moveit/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/buhrmann/ws_moveit/build/moveit_configs_utils/build install --record /home/buhrmann/ws_moveit/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

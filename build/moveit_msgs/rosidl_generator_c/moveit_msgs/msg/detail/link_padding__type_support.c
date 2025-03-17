@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/msg/detail/link_padding__struct.h"
-#include "moveit_msgs/msg/detail/link_padding__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/msg/detail/link_padding__type_support.h"
+#include "moveit_msgs/msg/detail/link_padding__functions.h"
+#include "moveit_msgs/msg/detail/link_padding__struct.h"
 
 #ifdef __cplusplus
 extern "C"

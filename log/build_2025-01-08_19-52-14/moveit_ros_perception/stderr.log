@@ -1,4 +1,0 @@
-gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libXi.so', needed by 'mesh_filter/libmoveit_mesh_filter.so.2.11.0'.  Stop.
-gmake[1]: *** [CMakeFiles/Makefile2:351: mesh_filter/CMakeFiles/moveit_mesh_filter.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

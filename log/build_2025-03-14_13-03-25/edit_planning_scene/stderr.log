@@ -1,0 +1,10 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:34:22:[m[K [01;31m[Kerror: [m[K‘[01m[KMeshGeometry[m[K’ is not a member of ‘[01m[Kshape_msgs::msg[m[K’
+   34 |     shape_msgs::msg::[01;31m[KMeshGeometry[m[K mesh_geometry;
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:46:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _meshes_type = class std::vector<shape_msgs::msg::Mesh_<std::allocator<void> >, std::allocator<shape_msgs::msg::Mesh_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::vector<shape_msgs::msg::Mesh_<std::allocator<void> >, std::allocator<shape_msgs::msg::Mesh_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kappend[m[K’
+   46 |     collision_object.meshes.[01;31m[Kappend[m[K(stl_path);  // Mesh needs to be set correctly
+      |                             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

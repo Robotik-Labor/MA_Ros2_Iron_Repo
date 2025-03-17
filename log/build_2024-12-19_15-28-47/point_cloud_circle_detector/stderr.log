@@ -1,7 +1,0 @@
-[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_circle_detector.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kpcl/ros/conversions.h: No such file or directory
-    6 | #include [01;31m[K<pcl/ros/conversions.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/point_cloud_circle_detector.dir/build.make:76: CMakeFiles/point_cloud_circle_detector.dir/src/point_cloud_circle_detector.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/point_cloud_circle_detector.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

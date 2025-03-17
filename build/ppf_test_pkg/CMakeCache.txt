@@ -59,7 +59,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=DEBUG
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -762,10 +762,10 @@ X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
 X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
 
 //Path to a file.
-X11_Xcursor_INCLUDE_PATH:PATH=X11_Xcursor_INCLUDE_PATH-NOTFOUND
+X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xcursor_LIB:FILEPATH=X11_Xcursor_LIB-NOTFOUND
+X11_Xcursor_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcursor.so
 
 //Path to a file.
 X11_Xdamage_INCLUDE_PATH:PATH=X11_Xdamage_INCLUDE_PATH-NOTFOUND
@@ -804,10 +804,10 @@ X11_Xi_INCLUDE_PATH:PATH=/usr/include
 X11_Xi_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXi.so
 
 //Path to a file.
-X11_Xinerama_INCLUDE_PATH:PATH=X11_Xinerama_INCLUDE_PATH-NOTFOUND
+X11_Xinerama_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xinerama_LIB:FILEPATH=X11_Xinerama_LIB-NOTFOUND
+X11_Xinerama_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXinerama.so
 
 //Path to a file.
 X11_Xkb_INCLUDE_PATH:PATH=/usr/include
@@ -867,10 +867,10 @@ X11_Xtst_LIB:FILEPATH=X11_Xtst_LIB-NOTFOUND
 X11_Xutil_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
-X11_Xv_INCLUDE_PATH:PATH=X11_Xv_INCLUDE_PATH-NOTFOUND
+X11_Xv_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xv_LIB:FILEPATH=X11_Xv_LIB-NOTFOUND
+X11_Xv_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXv.so
 
 //Path to a file.
 X11_Xxf86misc_INCLUDE_PATH:PATH=X11_Xxf86misc_INCLUDE_PATH-NOTFOUND
@@ -879,10 +879,10 @@ X11_Xxf86misc_INCLUDE_PATH:PATH=X11_Xxf86misc_INCLUDE_PATH-NOTFOUND
 X11_Xxf86misc_LIB:FILEPATH=X11_Xxf86misc_LIB-NOTFOUND
 
 //Path to a file.
-X11_Xxf86vm_INCLUDE_PATH:PATH=X11_Xxf86vm_INCLUDE_PATH-NOTFOUND
+X11_Xxf86vm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xxf86vm_LIB:FILEPATH=X11_Xxf86vm_LIB-NOTFOUND
+X11_Xxf86vm_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXxf86vm.so
 
 //Path to a file.
 X11_dpms_INCLUDE_PATH:PATH=/usr/include
@@ -915,10 +915,10 @@ X11_xcb_xfixes_LIB:FILEPATH=X11_xcb_xfixes_LIB-NOTFOUND
 X11_xcb_xkb_LIB:FILEPATH=X11_xcb_xkb_LIB-NOTFOUND
 
 //Path to a file.
-X11_xkbcommon_INCLUDE_PATH:PATH=X11_xkbcommon_INCLUDE_PATH-NOTFOUND
+X11_xkbcommon_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_xkbcommon_LIB:FILEPATH=X11_xkbcommon_LIB-NOTFOUND
+X11_xkbcommon_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
 
 //Path to a file.
 X11_xkbcommon_X11_INCLUDE_PATH:PATH=X11_xkbcommon_X11_INCLUDE_PATH-NOTFOUND
@@ -950,6 +950,9 @@ ament_cmake_DIR:PATH=/opt/ros/iron/share/ament_cmake/cmake
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/iron/share/ament_cmake_core/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/iron/share/ament_cmake_cppcheck/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/iron/share/ament_cmake_export_definitions/cmake
 
@@ -971,6 +974,9 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/iron/share/ament_cmake_export_li
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/iron/share/ament_cmake_export_targets/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_flake8.
+ament_cmake_flake8_DIR:PATH=/opt/ros/iron/share/ament_cmake_flake8/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/iron/share/ament_cmake_gen_version_h/cmake
 
@@ -979,6 +985,12 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/iron/share/ament_cmake_include
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/iron/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/iron/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/iron/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/iron/share/ament_cmake_python/cmake
@@ -989,8 +1001,17 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/iron/share/ament_cmake_target_
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/iron/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/iron/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/iron/share/ament_cmake_version/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/iron/share/ament_cmake_xmllint/cmake
+
+//Path to a program.
+ament_cppcheck_BIN:FILEPATH=/opt/ros/iron/bin/ament_cppcheck
 
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/iron/share/ament_index_cpp/cmake
@@ -998,8 +1019,17 @@ ament_index_cpp_DIR:PATH=/opt/ros/iron/share/ament_index_cpp/cmake
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/iron/share/ament_lint_auto/cmake
 
+//Path to a program.
+ament_lint_cmake_BIN:FILEPATH=/opt/ros/iron/bin/ament_lint_cmake
+
 //The directory containing a CMake configuration file for ament_lint_common.
-ament_lint_common_DIR:PATH=ament_lint_common_DIR-NOTFOUND
+ament_lint_common_DIR:PATH=/opt/ros/iron/share/ament_lint_common/cmake
+
+//Path to a program.
+ament_uncrustify_BIN:FILEPATH=/opt/ros/iron/bin/ament_uncrustify
+
+//Path to a program.
+ament_xmllint_BIN:FILEPATH=/opt/ros/iron/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for boost_filesystem.
 boost_filesystem_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.74.0
@@ -1210,6 +1240,9 @@ utf8cpp_INCLUDE_DIR:PATH=/usr/include/utf8cpp
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/iron/share/visualization_msgs/cmake
+
+//Path to a program.
+xmllint_BIN:FILEPATH=/usr/bin/xmllint
 
 
 ########################

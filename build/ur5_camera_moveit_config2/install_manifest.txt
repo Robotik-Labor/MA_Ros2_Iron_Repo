@@ -30,5 +30,4 @@
 /home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2/share/ur5_camera_moveit_config2/config/joint_limits.yaml
 /home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2/share/ur5_camera_moveit_config2/config/kinematics.yaml
 /home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2/share/ur5_camera_moveit_config2/config/pilz_cartesian_limits.yaml
-/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2/share/ur5_camera_moveit_config2/config/initial_positions.yaml
 /home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2/share/ur5_camera_moveit_config2/.setup_assistant

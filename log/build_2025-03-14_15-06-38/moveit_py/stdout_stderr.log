@@ -1,0 +1,11 @@
+[ 12%] Built target moveit_py_utils
+[ 12%] Built target ament_cmake_python_copy_moveit
+[ 75%] Built target core
+[100%] Built target planning
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_moveit_egg

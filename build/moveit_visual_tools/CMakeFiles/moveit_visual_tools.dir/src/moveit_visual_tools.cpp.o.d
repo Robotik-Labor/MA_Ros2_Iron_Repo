@@ -2,8 +2,8 @@ CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o: \
  /home/buhrmann/ws_moveit/src/moveit_visual_tools/src/moveit_visual_tools.cpp \
  /usr/include/stdc-predef.h \
  /home/buhrmann/ws_moveit/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h \
- /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
- /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
+ /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
+ /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

@@ -23,7 +23,7 @@ int main(int argc, char * argv[])
   using moveit::planning_interface::MoveGroupInterface;
   moveit::planning_interface::MoveGroupInterface::Options options("ur5_arm", "robot_description", "/UR5");
   auto move_group_interface = MoveGroupInterface(node, options);
-
+  
   // Store the 5 positions
   std::vector<geometry_msgs::msg::Pose> target_poses;
 

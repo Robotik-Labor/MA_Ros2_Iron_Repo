@@ -1,0 +1,7 @@
+[ 14%] Built target ur5_moveit_test
+[ 28%] Built target gripper_open_moveit_test
+[ 42%] Built target ur5_moveit_test_object_detection
+[ 57%] Built target ur5_read_positions
+[ 71%] Built target ur5_moveit_test_launch
+[ 85%] Built target gripper_close_moveit_test
+[ 92%] [32mBuilding CXX object CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o[0m

@@ -4,7 +4,7 @@ project(ur5_description_controller)
 find_package(ament_cmake REQUIRED)
 
 install(
-  DIRECTORY launch config urdf rviz
+  DIRECTORY launch config urdf rviz meshes
   DESTINATION share/${PROJECT_NAME}
 )
 

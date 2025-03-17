@@ -165,7 +165,7 @@ CMakeFiles/robotiq_driver.dir/src/default_serial_factory.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
  /home/buhrmann/ws_moveit/src/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/default_serial.hpp \
- /home/buhrmann/ws_moveit/src/serial/include/serial/serial.h \
+ /home/buhrmann/ws_moveit/install/serial/include/serial/serial.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
@@ -186,7 +186,7 @@ CMakeFiles/robotiq_driver.dir/src/default_serial_factory.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/buhrmann/ws_moveit/src/serial/include/serial/v8stdint.h \
+ /home/buhrmann/ws_moveit/install/serial/include/serial/v8stdint.h \
  /opt/ros/iron/include/rclcpp/rclcpp/logging.hpp \
  /opt/ros/iron/include/rclcpp/rclcpp/logger.hpp \
  /opt/ros/iron/include/rclcpp/rclcpp/visibility_control.hpp \

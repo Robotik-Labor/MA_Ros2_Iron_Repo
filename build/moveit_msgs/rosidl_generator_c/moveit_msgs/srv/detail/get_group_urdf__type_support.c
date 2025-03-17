@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/srv/detail/get_group_urdf__struct.h"
 #include "moveit_msgs/srv/detail/get_group_urdf__functions.h"
-#include "moveit_msgs/srv/detail/get_group_urdf__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/srv/detail/get_group_urdf__type_support.h"
+#include "moveit_msgs/srv/detail/get_group_urdf__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/msg/detail/motion_plan_request__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/msg/detail/motion_plan_request__functions.h"
 #include "moveit_msgs/msg/detail/motion_plan_request__struct.h"
+#include "moveit_msgs/msg/detail/motion_plan_request__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

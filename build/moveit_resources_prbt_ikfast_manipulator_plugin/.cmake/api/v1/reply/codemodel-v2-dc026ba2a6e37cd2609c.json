@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2bc67919406096fe3017.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_resources_prbt_ikfast_manipulator_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_resources_prbt_ikfast_manipulator_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_resources_prbt_ikfast_manipulator_plugin_uninstall-27e46ed364d55b0cdc32.json",
+					"name" : "moveit_resources_prbt_ikfast_manipulator_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prbt_ikfast_kinematics_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prbt_ikfast_kinematics_parameters-8755707d778c111e4616.json",
+					"name" : "prbt_ikfast_kinematics_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prbt_manipulator_moveit_ikfast_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prbt_manipulator_moveit_ikfast_plugin-4d4038434730001eb52d.json",
+					"name" : "prbt_manipulator_moveit_ikfast_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-230a3b1cf3657b99d021.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/moveit_resources_prbt_ikfast_manipulator_plugin",
+		"source" : "/home/buhrmann/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_read_positions[0m
+[ 16%] Built target ur5_moveit_test_object_detection
+[ 33%] Built target ur5_moveit_test
+[ 50%] Built target gripper_close_moveit_test
+[ 58%] [32mBuilding CXX object CMakeFiles/gripper_open_moveit_test.dir/src/gripper_open_moveit_test.cpp.o[0m
+[ 75%] Built target ur5_moveit_test_launch
+[ 91%] Built target ur5_read_positions

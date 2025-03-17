@@ -1,9 +1,0 @@
-[0.008s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
-[0.028s] [31mCMake Error at CMakeLists.txt:39:
-[0.028s]   Parse error.  Expected "(", got identifier with text "libraries".
-[0.028s] 
-[0.028s] [0m
-[0.028s] -- Configuring incomplete, errors occurred!
-[0.028s] See also "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/CMakeOutput.log".
-[0.029s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
-[0.031s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

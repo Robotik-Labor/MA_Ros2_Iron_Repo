@@ -1,5 +1,0 @@
-/usr/bin/ld: warning: libpcl_features.so.1.14, needed by /usr/local/lib/libpcl_segmentation.so, may conflict with libpcl_features.so.1.12
-/usr/bin/ld: warning: libpcl_filters.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_filters.so.1.14
-/usr/bin/ld: warning: libpcl_search.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_search.so.1.14
-/usr/bin/ld: warning: libpcl_kdtree.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_kdtree.so.1.14
-/usr/bin/ld: warning: libpcl_common.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_features.so, may conflict with libpcl_common.so.1.14

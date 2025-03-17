@@ -6,7 +6,7 @@ from launch_ros.actions import Node, PushRosNamespace
 
 def generate_launch_description():
     # Use the MoveItConfigsBuilder to get the configuration for the robot
-    moveit_config = MoveItConfigsBuilder("ur5", package_name="ur5_camera_moveit_config").to_moveit_configs()
+    moveit_config = MoveItConfigsBuilder("ur5", package_name="ur5_camera_moveit_config2").to_moveit_configs()
 
     # Generate the MoveIt! RViz launch
     rviz_launch = generate_moveit_rviz_launch(moveit_config)

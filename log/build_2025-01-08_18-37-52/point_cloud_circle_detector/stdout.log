@@ -1,4 +1,0 @@
-[ 25%] Built target point_cloud_circle_detector
-[ 50%] Built target point_cloud_plantpot_detector
-[ 62%] [32m[1mLinking CXX executable point_cloud_plantpot_ppf_detector[0m
-[ 87%] Built target point_cloud_cylinder_detector

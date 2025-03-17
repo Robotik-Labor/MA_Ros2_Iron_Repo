@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found hardware_interface: 3.30.0 (/opt/ros/iron/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found kortex_api: 0.2.2 (/home/buhrmann/ws_moveit/install/kortex_api/share/kortex_api/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/kortex_driver
+[ 66%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/hardware_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/kortex_math_util.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libkortex_driver.so[0m
+[100%] Built target kortex_driver
+-- Install configuration: ""
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/hardware_interface_plugin.xml
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/lib/libkortex_driver.so
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/kortex_driver/lib/libkortex_driver.so" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/include
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/include/kortex_driver
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/include/kortex_driver/visibility_control.h
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/include/kortex_driver/hardware_interface.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/include/kortex_driver/kortex_math_util.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/library_path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/library_path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/ament_index/resource_index/package_run_dependencies/kortex_driver
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/ament_index/resource_index/parent_prefix_path/kortex_driver
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/environment/path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.bash
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.sh
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.zsh
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/package.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/ament_index/resource_index/packages/kortex_driver
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kortex_driver
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig-version.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/kortex_driver/share/kortex_driver/package.xml

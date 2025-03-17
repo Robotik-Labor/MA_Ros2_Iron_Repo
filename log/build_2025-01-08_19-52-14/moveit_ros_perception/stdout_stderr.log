@@ -1,7 +1,0 @@
-[ 10%] Built target moveit_lazy_free_space_updater
-gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libXi.so', needed by 'mesh_filter/libmoveit_mesh_filter.so.2.11.0'.  Stop.
-gmake[1]: *** [CMakeFiles/Makefile2:351: mesh_filter/CMakeFiles/moveit_mesh_filter.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-[ 20%] Built target moveit_semantic_world
-[ 30%] Built target moveit_point_containment_filter
-gmake: *** [Makefile:146: all] Error 2

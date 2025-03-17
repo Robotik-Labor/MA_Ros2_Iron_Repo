@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:39:
-  Parse error.  Expected "(", got identifier with text "libraries".
-
-[0m
-gmake: *** [Makefile:349: cmake_check_build_system] Error 1

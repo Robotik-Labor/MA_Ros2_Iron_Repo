@@ -1,7 +1,0 @@
-[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:[m[K In constructor ‘[01m[KPointCloudCustomObjectMatcher::PointCloudCustomObjectMatcher()[m[K’:
-[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/point_cloud_custom_plant_pot_detection.cpp:45:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
-   45 |         std::string package_path = [01;31m[Kros[m[K::package::getPath("my_package");
-      |                                    [01;31m[K^~~[m[K
-gmake[2]: *** [CMakeFiles/point_cloud_plantpot_detector.dir/build.make:76: CMakeFiles/point_cloud_plantpot_detector.dir/src/point_cloud_custom_plant_pot_detection.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_cloud_plantpot_detector.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:178:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, moveit_msgs::msg::CollisionObject_<std::allocator<void> > >::mapped_type[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+  178 |   [01;31m[Kplanning_scene_interface.removeCollisionObjects(objects["Sensor"])[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:7[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:143:63:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid moveit::planning_interface::PlanningSceneInterface::removeCollisionObjects(const std::vector<std::__cxx11::basic_string<char> >&) const[m[K’
+  143 |   void removeCollisionObjects([01;36m[Kconst std::vector<std::string>& object_ids[m[K) const;
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:183:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, moveit_msgs::msg::CollisionObject_<std::allocator<void> > >::mapped_type[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >&[m[K’
+  183 |   [01;31m[Kplanning_scene_interface.addCollisionObjects(objects["Sensor"])[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:7[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:135:82:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid moveit::planning_interface::PlanningSceneInterface::addCollisionObjects(const std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >&, const std::vector<moveit_msgs::msg::ObjectColor_<std::allocator<void> >, std::allocator<moveit_msgs::msg::ObjectColor_<std::allocator<void> > > >&) const[m[K’
+  135 |   void addCollisionObjects([01;36m[Kconst std::vector<moveit_msgs::msg::CollisionObject>& collision_objects[m[K,
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

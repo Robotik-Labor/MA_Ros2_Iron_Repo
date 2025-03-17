@@ -1348,8 +1348,8 @@ doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src
  /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.h \
  /home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h \
- /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
- /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
+ /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
+ /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/joy.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \

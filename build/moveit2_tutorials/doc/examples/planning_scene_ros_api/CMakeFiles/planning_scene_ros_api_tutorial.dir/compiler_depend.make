@@ -1305,8 +1305,8 @@ doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.d
   /home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/conversions.h \
   /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp \
-  /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
-  /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
+  /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
+  /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/joy.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \
@@ -1341,7 +1341,7 @@ doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.d
 
 /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp:
 
-/home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp:
+/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:
 
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp:
 
@@ -2130,6 +2130,8 @@ doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.d
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/subscription_options.hpp:
 
@@ -3186,8 +3188,6 @@ doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.d
 /opt/ros/iron/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:
 
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/contact_information__traits.hpp:
-
-/home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:
 
 /usr/include/eigen3/Eigen/QR:
 

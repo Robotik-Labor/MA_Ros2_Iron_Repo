@@ -6,3 +6,19 @@ z: 0.6982555034792519
 koorinaten. Diese Koordinaten sollen sollen das zentrum eines Halbkreises sein, er liegt in der XY-Ebene also die Z Koordinate ist konstanz. Dieser Halbkreis hat sein Mittel in richtung des Zentrums der Welt koordinaten. Über Halbkreis sollen 5 Positionen mit gleichem Abstand definiert werden. Der Roboter soll jede dieser Positionen anfahren und eine Funktion dort ausführen und danach zu nächsten fahren. Zum ende des Programms fahrt der Roboterarm zurück in seine Urspungsposition
 
 
+
+[ur5_read_positions-1] [INFO] [1741961493.452278414] [ur5_moveit_test]: Joint 0: -1.31
+[ur5_read_positions-1] [INFO] [1741961493.452281507] [ur5_moveit_test]: Joint 1: -1.64
+[ur5_read_positions-1] [INFO] [1741961493.452282703] [ur5_moveit_test]: Joint 2: 2.54
+[ur5_read_positions-1] [INFO] [1741961493.452283715] [ur5_moveit_test]: Joint 3: -0.90
+[ur5_read_positions-1] [INFO] [1741961493.452284994] [ur5_moveit_test]: Joint 4: 0.26
+[ur5_read_positions-1] [INFO] [1741961493.452285908] [ur5_moveit_test]: Joint 5: -3.18
+[ur5_read_positions-1] [INFO] [1741961493.462168302] [ur5_moveit_test]: End-Effector Position:
+[ur5_read_positions-1] [INFO] [1741961493.462192142] [ur5_moveit_test]: Position: x=0.24, y=-0.18, z=0.11
+[ur5_read_positions-1] [INFO] [1741961493.462197964] [ur5_moveit_test]: Orientation: x=0.51, y=-0.49, z=0.51, w=-0.49
+
+
+Please write a script that picksup an object named Sensor. the Position to Grasp the Object is Position: x=0.24, y=-0.18, z=0.11 Orientation: x=0.51, y=-0.49, z=0.51, w=-0.49 the Robot Arm should approch the object alon the x Axis 5 cm should be enough room. after grabbing and attaching the object the Robot should move along the z axis 7cm should be enough. the Robot Arm is has an movegroup interface like this   moveit::planning_interface::MoveGroupInterface::Options options("ur5_arm", "robot_description", "/UR5");
+  auto move_group_interface = MoveGroupInterface(node, options);
+the gripper has an interfache named "gripper" and predefined poses named "open" and "close" which can be used but they close and open fully the script schould be cpp ros2 iron  
+

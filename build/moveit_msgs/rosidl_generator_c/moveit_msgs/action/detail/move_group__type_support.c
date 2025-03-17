@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "moveit_msgs/action/detail/move_group__type_support.h"
-#include "moveit_msgs/action/detail/move_group__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/action/detail/move_group__struct.h"
 #include "moveit_msgs/action/detail/move_group__functions.h"
 
 #ifdef __cplusplus

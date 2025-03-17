@@ -1,1 +1,1 @@
-/home/buhrmann/ws_moveit/build/picknik_accessories/ament_cmake_environment_hooks/picknik_accessories.dsv
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/picknik_accessories/descriptions/simulation_worlds

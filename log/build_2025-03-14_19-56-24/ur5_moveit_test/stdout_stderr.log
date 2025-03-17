@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_moveit_test_object_detection[0m
+[35m[1mConsolidate compiler generated dependencies of target ur5_pickup_sensor[0m
+[ 14%] Built target gripper_open_moveit_test
+[ 28%] Built target ur5_moveit_test_launch
+[ 42%] Built target gripper_close_moveit_test
+[ 57%] Built target ur5_moveit_test
+[ 71%] Built target ur5_pickup_sensor
+[ 85%] Built target ur5_read_positions
+[ 92%] [32mBuilding CXX object CMakeFiles/ur5_moveit_test_object_detection.dir/src/ur5_moveit_test_object_detection.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_moveit_test_object_detection.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_moveit_test_object_detection.cpp:27:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KwaitForCurrentRobotState[m[K’
+   27 |   bool state_received = move_group_interface.[01;31m[KwaitForCurrentRobotState[m[K(5.0); // Wait up to 5 seconds
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_moveit_test_object_detection.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_moveit_test_object_detection.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_for_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |         double [01;35m[Kangle_for_position[m[K = i * angle_step;  // Angle for current position
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_moveit_test_object_detection.dir/build.make:76: CMakeFiles/ur5_moveit_test_object_detection.dir/src/ur5_moveit_test_object_detection.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/ur5_moveit_test_object_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

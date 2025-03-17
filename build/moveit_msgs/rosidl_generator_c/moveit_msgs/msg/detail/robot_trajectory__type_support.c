@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/msg/detail/robot_trajectory__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "moveit_msgs/msg/detail/robot_trajectory__functions.h"
 #include "moveit_msgs/msg/detail/robot_trajectory__struct.h"
+#include "moveit_msgs/msg/detail/robot_trajectory__functions.h"
+#include "moveit_msgs/msg/detail/robot_trajectory__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

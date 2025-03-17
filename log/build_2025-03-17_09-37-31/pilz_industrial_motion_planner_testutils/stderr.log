@@ -1,0 +1,9 @@
+gmake[2]: *** [CMakeFiles/pilz_industrial_motion_planner_testutils.dir/build.make:76: CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/cartesianconfiguration.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/pilz_industrial_motion_planner_testutils.dir/build.make:132: CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/pilz_industrial_motion_planner_testutils.dir/build.make:118: CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/sequence.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/pilz_industrial_motion_planner_testutils.dir/build.make:90: CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/jointconfiguration.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pilz_industrial_motion_planner_testutils.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

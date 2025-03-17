@@ -1,0 +1,164 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found generate_parameter_library: 0.3.9 (/opt/ros/iron/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found control_msgs: 5.2.0 (/opt/ros/iron/share/control_msgs/cmake)
+-- Found moveit_core: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found realtime_tools: 2.8.1 (/opt/ros/iron/share/realtime_tools/cmake)
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.5.2 (/opt/ros/iron/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/moveit_servo
+[  3%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/buhrmann/ws_moveit/build/moveit_servo/moveit_servo_lib_parameters/include//moveit_servo_lib_parameters.hpp /home/buhrmann/ws_moveit/src/moveit2/moveit_ros/moveit_servo/config/servo_parameters.yaml `[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/demos/servo_keyboard_input.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/servo_node.dir/rclcpp_components/node_main_servo_node.cpp.o[0m
+[ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 17%] Built target moveit_servo_lib_parameters
+[ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/collision_monitor.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/servo.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/common.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o[0m
+[ 35%] Built target gtest_main
+[ 39%] [32m[1mLinking CXX executable servo_node[0m
+[ 39%] Built target servo_node
+[ 42%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 46%] Built target gtest
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_servo_ros_integration_test.dir/tests/test_ros_integration.cpp.o[0m
+[ 50%] Built target servo_keyboard_input
+[ 53%] [32m[1mLinking CXX shared library libmoveit_servo_lib_cpp.so[0m
+[ 53%] Built target moveit_servo_lib_cpp
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_servo_utils_test.dir/tests/test_utils.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/demo_joint_jog.dir/demos/cpp_interface/demo_joint_jog.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/demo_twist.dir/demos/cpp_interface/demo_twist.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/demo_pose.dir/demos/cpp_interface/demo_pose.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_ros.dir/src/servo_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_integration_test.dir/tests/test_integration.cpp.o[0m
+In file included from [01m[K/home/buhrmann/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/servo_node.cpp:42[m[K:
+[01m[K/opt/ros/iron/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   39 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+[ 78%] [32m[1mLinking CXX executable moveit_servo_ros_integration_test[0m
+[ 78%] Built target moveit_servo_ros_integration_test
+[ 82%] [32m[1mLinking CXX executable moveit_servo_utils_test[0m
+[ 82%] Built target moveit_servo_utils_test
+[ 85%] [32m[1mLinking CXX executable demo_joint_jog[0m
+[ 89%] [32m[1mLinking CXX executable demo_twist[0m
+[ 89%] Built target demo_twist
+[ 89%] Built target demo_joint_jog
+[ 92%] [32m[1mLinking CXX executable moveit_servo_cpp_integration_test[0m
+[ 96%] [32m[1mLinking CXX executable demo_pose[0m
+[ 96%] Built target moveit_servo_cpp_integration_test
+[ 96%] Built target demo_pose
+[100%] [32m[1mLinking CXX shared library libmoveit_servo_lib_ros.so[0m
+[100%] Built target moveit_servo_lib_ros
+-- Install configuration: "Release"
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo_lib_parameters
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo_lib_parameters/moveit_servo_lib_parameters.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/servo_node
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/servo_node" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so.2.11.0
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so.2.11.0" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_cpp.so
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_ros.so.2.11.0
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_ros.so.2.11.0" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/libmoveit_servo_lib_ros.so
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_joint_jog
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_joint_jog" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_twist
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_twist" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_pose
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/demo_pose" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/servo_node
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/servo_keyboard_input
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_servo/lib/moveit_servo/servo_keyboard_input" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/servo.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/collision_monitor.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/utils
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/utils/datatypes.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/utils/command.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/utils/common.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/include/moveit_servo/moveit_servo/servo_node.hpp
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/launch
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/launch/demo_ros_api.launch.py
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/launch/demo_joint_jog.launch.py
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/launch/demo_twist.launch.py
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/launch/demo_pose.launch.py
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config/test_config_panda.yaml
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config/servo_parameters.yaml
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config/demo_rviz_config_ros.rviz
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config/panda_simulated_config.yaml
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/config/demo_rviz_config.rviz
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/path.sh
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/environment/path.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/local_setup.bash
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/local_setup.sh
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/local_setup.zsh
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/package.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/moveit_servoTargetsExport-release.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_servo/share/moveit_servo/package.xml

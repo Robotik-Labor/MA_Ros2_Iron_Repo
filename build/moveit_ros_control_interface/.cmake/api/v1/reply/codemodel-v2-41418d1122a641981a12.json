@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d64878d798e87085e02e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_ros_control_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_control_interface_empty_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_control_interface_empty_plugin-Release-a63f9c5321305267e6b3.json",
+					"name" : "moveit_ros_control_interface_empty_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_control_interface_gripper_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_control_interface_gripper_plugin-Release-aac206909c8feb8f5270.json",
+					"name" : "moveit_ros_control_interface_gripper_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_control_interface_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_control_interface_plugin-Release-b1dafd1507907dc57c3a.json",
+					"name" : "moveit_ros_control_interface_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_control_interface_trajectory_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_control_interface_trajectory_plugin-Release-65a9c01e6f0f80a0d0c9.json",
+					"name" : "moveit_ros_control_interface_trajectory_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_control_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_control_interface_uninstall-Release-bb7d6444d199da13facf.json",
+					"name" : "moveit_ros_control_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9ef51a8d259e8e8f1653.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/moveit_ros_control_interface",
+		"source" : "/home/buhrmann/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

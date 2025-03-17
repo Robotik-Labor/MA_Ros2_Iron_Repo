@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target add_object_to_planning_scene_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In constructor ‘[01m[KAddObjectToPlanningScene::AddObjectToPlanningScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_namespace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_namespace_[m[K’?
+   11 |     [01;31m[Krobot_namespace_[m[K = "/UR5";
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksub_namespace_[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

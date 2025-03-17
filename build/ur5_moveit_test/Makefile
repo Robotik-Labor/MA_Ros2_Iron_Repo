@@ -262,6 +262,32 @@ ur5_moveit_test_object_detection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_moveit_test_object_detection.dir/build.make CMakeFiles/ur5_moveit_test_object_detection.dir/build
 .PHONY : ur5_moveit_test_object_detection/fast
 
+#=============================================================================
+# Target rules for targets named ur5_read_positions
+
+# Build rule for target.
+ur5_read_positions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_read_positions
+.PHONY : ur5_read_positions
+
+# fast build rule for target.
+ur5_read_positions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/build
+.PHONY : ur5_read_positions/fast
+
+#=============================================================================
+# Target rules for targets named ur5_pickup_sensor
+
+# Build rule for target.
+ur5_pickup_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_pickup_sensor
+.PHONY : ur5_pickup_sensor
+
+# fast build rule for target.
+ur5_pickup_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/build
+.PHONY : ur5_pickup_sensor/fast
+
 src/gripper_close_moveit_test.o: src/gripper_close_moveit_test.cpp.o
 .PHONY : src/gripper_close_moveit_test.o
 
@@ -382,6 +408,54 @@ src/ur5_moveit_test_object_detection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_moveit_test_object_detection.dir/build.make CMakeFiles/ur5_moveit_test_object_detection.dir/src/ur5_moveit_test_object_detection.cpp.s
 .PHONY : src/ur5_moveit_test_object_detection.cpp.s
 
+src/ur5_pickup_sensor.o: src/ur5_pickup_sensor.cpp.o
+.PHONY : src/ur5_pickup_sensor.o
+
+# target to build an object file
+src/ur5_pickup_sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o
+.PHONY : src/ur5_pickup_sensor.cpp.o
+
+src/ur5_pickup_sensor.i: src/ur5_pickup_sensor.cpp.i
+.PHONY : src/ur5_pickup_sensor.i
+
+# target to preprocess a source file
+src/ur5_pickup_sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.i
+.PHONY : src/ur5_pickup_sensor.cpp.i
+
+src/ur5_pickup_sensor.s: src/ur5_pickup_sensor.cpp.s
+.PHONY : src/ur5_pickup_sensor.s
+
+# target to generate assembly for a file
+src/ur5_pickup_sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.s
+.PHONY : src/ur5_pickup_sensor.cpp.s
+
+src/ur5_read_positions.o: src/ur5_read_positions.cpp.o
+.PHONY : src/ur5_read_positions.o
+
+# target to build an object file
+src/ur5_read_positions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/src/ur5_read_positions.cpp.o
+.PHONY : src/ur5_read_positions.cpp.o
+
+src/ur5_read_positions.i: src/ur5_read_positions.cpp.i
+.PHONY : src/ur5_read_positions.i
+
+# target to preprocess a source file
+src/ur5_read_positions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/src/ur5_read_positions.cpp.i
+.PHONY : src/ur5_read_positions.cpp.i
+
+src/ur5_read_positions.s: src/ur5_read_positions.cpp.s
+.PHONY : src/ur5_read_positions.s
+
+# target to generate assembly for a file
+src/ur5_read_positions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/src/ur5_read_positions.cpp.s
+.PHONY : src/ur5_read_positions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +476,8 @@ help:
 	@echo "... ur5_moveit_test"
 	@echo "... ur5_moveit_test_launch"
 	@echo "... ur5_moveit_test_object_detection"
+	@echo "... ur5_pickup_sensor"
+	@echo "... ur5_read_positions"
 	@echo "... src/gripper_close_moveit_test.o"
 	@echo "... src/gripper_close_moveit_test.i"
 	@echo "... src/gripper_close_moveit_test.s"
@@ -417,6 +493,12 @@ help:
 	@echo "... src/ur5_moveit_test_object_detection.o"
 	@echo "... src/ur5_moveit_test_object_detection.i"
 	@echo "... src/ur5_moveit_test_object_detection.s"
+	@echo "... src/ur5_pickup_sensor.o"
+	@echo "... src/ur5_pickup_sensor.i"
+	@echo "... src/ur5_pickup_sensor.s"
+	@echo "... src/ur5_read_positions.o"
+	@echo "... src/ur5_read_positions.i"
+	@echo "... src/ur5_read_positions.s"
 .PHONY : help
 
 

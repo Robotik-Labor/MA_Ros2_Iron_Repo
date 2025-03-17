@@ -68,6 +68,8 @@ all: CMakeFiles/gripper_close_moveit_test.dir/all
 all: CMakeFiles/gripper_open_moveit_test.dir/all
 all: CMakeFiles/ur5_moveit_test_launch.dir/all
 all: CMakeFiles/ur5_moveit_test_object_detection.dir/all
+all: CMakeFiles/ur5_read_positions.dir/all
+all: CMakeFiles/ur5_pickup_sensor.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,8 @@ clean: CMakeFiles/gripper_close_moveit_test.dir/clean
 clean: CMakeFiles/gripper_open_moveit_test.dir/clean
 clean: CMakeFiles/ur5_moveit_test_launch.dir/clean
 clean: CMakeFiles/ur5_moveit_test_object_detection.dir/clean
+clean: CMakeFiles/ur5_read_positions.dir/clean
+clean: CMakeFiles/ur5_pickup_sensor.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -265,6 +269,58 @@ ur5_moveit_test_object_detection: CMakeFiles/ur5_moveit_test_object_detection.di
 CMakeFiles/ur5_moveit_test_object_detection.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_moveit_test_object_detection.dir/build.make CMakeFiles/ur5_moveit_test_object_detection.dir/clean
 .PHONY : CMakeFiles/ur5_moveit_test_object_detection.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ur5_read_positions.dir
+
+# All Build rule for target.
+CMakeFiles/ur5_read_positions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles --progress-num=13,14 "Built target ur5_read_positions"
+.PHONY : CMakeFiles/ur5_read_positions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ur5_read_positions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ur5_read_positions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles 0
+.PHONY : CMakeFiles/ur5_read_positions.dir/rule
+
+# Convenience name for target.
+ur5_read_positions: CMakeFiles/ur5_read_positions.dir/rule
+.PHONY : ur5_read_positions
+
+# clean rule for target.
+CMakeFiles/ur5_read_positions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_read_positions.dir/build.make CMakeFiles/ur5_read_positions.dir/clean
+.PHONY : CMakeFiles/ur5_read_positions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ur5_pickup_sensor.dir
+
+# All Build rule for target.
+CMakeFiles/ur5_pickup_sensor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles --progress-num=11,12 "Built target ur5_pickup_sensor"
+.PHONY : CMakeFiles/ur5_pickup_sensor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ur5_pickup_sensor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ur5_pickup_sensor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles 0
+.PHONY : CMakeFiles/ur5_pickup_sensor.dir/rule
+
+# Convenience name for target.
+ur5_pickup_sensor: CMakeFiles/ur5_pickup_sensor.dir/rule
+.PHONY : ur5_pickup_sensor
+
+# clean rule for target.
+CMakeFiles/ur5_pickup_sensor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/clean
+.PHONY : CMakeFiles/ur5_pickup_sensor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

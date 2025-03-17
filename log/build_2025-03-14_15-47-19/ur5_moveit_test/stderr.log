@@ -1,0 +1,13 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:64:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble norm[m[K’
+   64 |     double [01;31m[Knorm[m[K = std::sqrt(q.x*q.x + q.y*q.y + q.z*q.z + q.w*q.w);
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:54:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble norm[m[K’ previously declared here
+   54 | double [01;36m[Knorm[m[K = std::sqrt(msg.orientation.x * msg.orientation.x +
+      |        [01;36m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   64 |     double norm = std::sqrt([01;31m[Kq[m[K.x*q.x + q.y*q.y + q.z*q.z + q.w*q.w);
+      |                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

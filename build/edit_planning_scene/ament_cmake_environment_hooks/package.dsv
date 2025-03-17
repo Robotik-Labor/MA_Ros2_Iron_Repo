@@ -1,0 +1,4 @@
+source;share/edit_planning_scene/local_setup.bash
+source;share/edit_planning_scene/local_setup.dsv
+source;share/edit_planning_scene/local_setup.sh
+source;share/edit_planning_scene/local_setup.zsh

@@ -1,0 +1,18 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectsToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:90:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Koperation[m[K’; did you mean ‘[01m[Koperator=[m[K’?
+   90 |       collision_objects.[01;31m[Koperation[m[K = collision_objects.ADD;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Koperator=[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:90:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[KADD[m[K’
+   90 |       collision_objects.operation = collision_objects.[01;31m[KADD[m[K;
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:113:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[Koperation[m[K’; did you mean ‘[01m[Koperator=[m[K’?
+  113 |       collision_objects.[01;31m[Koperation[m[K = collision_objects.ADD;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Koperator=[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:113:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<moveit_msgs::msg::CollisionObject_<std::allocator<void> >, std::allocator<moveit_msgs::msg::CollisionObject_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[KADD[m[K’
+  113 |       collision_objects.operation = collision_objects.[01;31m[KADD[m[K;
+      |                                                       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

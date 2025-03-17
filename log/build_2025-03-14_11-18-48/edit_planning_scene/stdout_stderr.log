@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/edit_planning_scene/edit_planning_scene.egg-info/PKG-INFO
+writing dependency_links to ../../build/edit_planning_scene/edit_planning_scene.egg-info/dependency_links.txt
+writing entry points to ../../build/edit_planning_scene/edit_planning_scene.egg-info/entry_points.txt
+writing requirements to ../../build/edit_planning_scene/edit_planning_scene.egg-info/requires.txt
+writing top-level names to ../../build/edit_planning_scene/edit_planning_scene.egg-info/top_level.txt
+reading manifest file '../../build/edit_planning_scene/edit_planning_scene.egg-info/SOURCES.txt'
+writing manifest file '../../build/edit_planning_scene/edit_planning_scene.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/buhrmann/ws_moveit/install/edit_planning_scene/lib/python3.10/site-packages/edit_planning_scene-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/edit_planning_scene/edit_planning_scene.egg-info to /home/buhrmann/ws_moveit/install/edit_planning_scene/lib/python3.10/site-packages/edit_planning_scene-0.0.0-py3.10.egg-info
+running install_scripts
+Installing add_object_to_planning_scene script to /home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene
+writing list of installed files to '/home/buhrmann/ws_moveit/build/edit_planning_scene/install.log'

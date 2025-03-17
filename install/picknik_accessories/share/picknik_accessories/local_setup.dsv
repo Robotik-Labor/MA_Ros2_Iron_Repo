@@ -1,1 +1,3 @@
-/home/buhrmann/ws_moveit/build/picknik_accessories/ament_cmake_environment_hooks/local_setup.dsv
+source;share/picknik_accessories/environment/ament_prefix_path.sh
+source;share/picknik_accessories/environment/path.sh
+source;share/picknik_accessories/environment/picknik_accessories.dsv

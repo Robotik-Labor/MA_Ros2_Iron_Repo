@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "moveit_msgs/srv/detail/grasp_planning__type_support.h"
-#include "moveit_msgs/srv/detail/grasp_planning__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/srv/detail/grasp_planning__functions.h"
+#include "moveit_msgs/srv/detail/grasp_planning__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -2037,8 +2037,8 @@ doc/examples/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutori
   /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__builder.hpp \
   /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__traits.hpp \
   /home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h \
-  /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
-  /home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
+  /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp \
+  /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/joy.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp \
   /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \
@@ -2240,6 +2240,8 @@ doc/examples/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutori
 /usr/include/boost/variant/detail/variant_io.hpp:
 
 /usr/include/boost/mpl/front_inserter.hpp:
+
+/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:
 
 /usr/include/boost/mpl/inserter.hpp:
 
@@ -2938,8 +2940,6 @@ doc/examples/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutori
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp:
 
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp:
-
-/home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp:
 
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp:
 
@@ -6015,6 +6015,8 @@ doc/examples/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutori
 
 /home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/grasp__traits.hpp:
 
+/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp:
+
 /opt/ros/iron/include/rclcpp/rclcpp/subscription_options.hpp:
 
 /opt/ros/iron/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
@@ -6040,8 +6042,6 @@ doc/examples/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutori
 /opt/ros/iron/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
 
 /home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/utils/logger.hpp:
-
-/home/buhrmann/ws_moveit/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:
 
 /usr/include/eigen3/Eigen/QR:
 

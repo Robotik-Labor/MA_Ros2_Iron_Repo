@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target object_detection[0m
-[ 50%] [32m[1mLinking CXX executable object_detection[0m
-/usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o: in function `main':
-object_detection.cpp:(.text+0xf1): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::PPFEstimation()'
-/usr/bin/ld: CMakeFiles/object_detection.dir/src/object_detection.cpp.o:(.data.rel.ro._ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE[_ZTVN3pcl13PPFEstimationINS_8PointXYZES1_NS_12PPFSignatureEEE]+0x58): undefined reference to `pcl::PPFEstimation<pcl::PointXYZ, pcl::PointXYZ, pcl::PPFSignature>::computeFeature(pcl::PointCloud<pcl::PPFSignature>&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/object_detection.dir/build.make:281: object_detection] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/object_detection.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

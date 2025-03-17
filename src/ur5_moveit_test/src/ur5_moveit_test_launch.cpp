@@ -36,14 +36,14 @@ int main(int argc, char * argv[])
 
   auto const prompt = [&moveit_visual_tools](auto text) { moveit_visual_tools.prompt(text); };
   // Set a target Pose
-  auto const target_pose = []{
-    geometry_msgs::msg::Pose msg;
-    msg.orientation.w = 1.0;
-    msg.position.x = 0.28;
-    msg.position.y = -0.2;
-    msg.position.z = 0.5;
-    return msg;
-  }();
+  geometry_msgs::msg::Pose target_pose;
+  target_pose.position.x = 0.24;
+  target_pose.position.y = -0.18;
+  target_pose.position.z = 0.11 + 0.07;
+  target_pose.orientation.x = 0.51;
+  target_pose.orientation.y = -0.49;
+  target_pose.orientation.z = 0.51;
+  target_pose.orientation.w = -0.49;
   move_group_interface.setPoseTarget(target_pose);
 
   // Create a plan to that target pose

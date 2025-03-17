@@ -1,0 +1,11 @@
+gmake[2]: *** [CMakeFiles/moveit_ros_occupancy_map_monitor.dir/build.make:90: CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor_middleware_handle.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/moveit_ros_occupancy_map_monitor.dir/build.make:104: CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_updater.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:258: gmock/CMakeFiles/gmock.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:178: CMakeFiles/moveit_ros_occupancy_map_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

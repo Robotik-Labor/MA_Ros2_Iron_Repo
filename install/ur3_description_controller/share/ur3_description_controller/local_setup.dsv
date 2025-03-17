@@ -1,1 +1,2 @@
-/home/buhrmann/ws_moveit/build/ur3_description_controller/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ur3_description_controller/environment/ament_prefix_path.sh
+source;share/ur3_description_controller/environment/path.sh

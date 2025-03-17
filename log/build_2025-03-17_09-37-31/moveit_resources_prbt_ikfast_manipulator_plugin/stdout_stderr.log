@@ -1,0 +1,7 @@
+[ 33%] Built target prbt_ikfast_kinematics_parameters
+[ 66%] [32mBuilding CXX object CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt
