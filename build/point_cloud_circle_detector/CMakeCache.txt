@@ -440,6 +440,9 @@ OPENSSL_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
+
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-fopenmp
 
@@ -1048,6 +1051,9 @@ boost_system_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/iron/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/iron/share/cv_bridge/cmake
 
 //double-conversion include directory
 double-conversion_INCLUDE_DIR:PATH=/usr/include/double-conversion

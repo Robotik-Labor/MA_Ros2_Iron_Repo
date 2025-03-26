@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_pickup_sensor[0m
+[35m[1mConsolidate compiler generated dependencies of target ur5_drop_sensor[0m
+[ 12%] Built target ur5_moveit_test_object_detection
+[ 25%] Built target ur5_moveit_test_launch
+[ 37%] Built target ur5_read_positions
+[ 50%] Built target gripper_close_moveit_test
+[ 68%] Built target ur5_moveit_test
+[ 68%] [32mBuilding CXX object CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o[0m
+[ 81%] Built target gripper_open_moveit_test
+[ 93%] Built target ur5_drop_sensor
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:307:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KwaitForCurrentRobotState[m[K’
+  307 |   move_group_interface.[01;31m[KwaitForCurrentRobotState[m[K(ros::Duration(5.0));
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:307:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  307 |   move_group_interface.waitForCurrentRobotState([01;31m[Kros[m[K::Duration(5.0));
+      |                                                 [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

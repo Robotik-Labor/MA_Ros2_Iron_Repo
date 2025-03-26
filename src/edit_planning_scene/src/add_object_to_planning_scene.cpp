@@ -7,6 +7,7 @@
 #include <geometric_shapes/shape_operations.h>
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+#include <std_msgs/msg/string.hpp>  // Added for String message type
 
 class AddObjectToPlanningScene : public rclcpp::Node
 {
@@ -16,11 +17,17 @@ public:
     // Create the PlanningSceneInterface for the specific robot namespace
     planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>("/UR5");
     
+    scene_loaded_publisher_ = this->create_publisher<std_msgs::msg::String>(
+  	"/UR5/cloud_messages", 
+  	10  // QoS profile depth
+	);
+    
     // Add a small delay to ensure the planning scene is ready
     rclcpp::sleep_for(std::chrono::seconds(1));
     
     // Add objects to the scene
     addObjectsToScene();
+    publishSceneLoaded();
   }
 
 private:
@@ -67,6 +74,15 @@ private:
     return collision_object;
   }
   
+  
+  void publishSceneLoaded()
+	{
+  auto message = std_msgs::msg::String();
+  message.data = "Scene_Loaded";
+  scene_loaded_publisher_->publish(message);
+  RCLCPP_INFO(this->get_logger(), "Published Scene_Loaded message");
+	}
+  
   void addObjectsToScene()
   {
     std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
@@ -97,7 +113,7 @@ private:
       geometry_msgs::msg::Pose object_pose;
       object_pose.position.x = 0.42;   // Adjust as needed
       object_pose.position.y = -0.18;   // Adjust as needed
-      object_pose.position.z = -0.015 + 0.01;   // Adjust as needed
+      object_pose.position.z = -0.015 + 0.003;   // Adjust as needed
       
       double roll = 1.5708;
       double pitch = 0.0;
@@ -114,11 +130,207 @@ private:
                  roll, pitch, yaw);
     }
     
-    // Add all objects to the planning scene at once (more efficient)
+    // Plane behind the robot
+{
+    geometry_msgs::msg::Pose object_pose;
+    object_pose.position.x = 0.00;   // Updated position
+    object_pose.position.y = -0.42;  // Updated position
+    object_pose.position.z = 0.54 + 0.0001;   // Updated position
+    
+    // Setting orientation to identity (w=1)
+    object_pose.orientation.x = 0.0;
+    object_pose.orientation.y = 0.0;
+    object_pose.orientation.z = 0.0;
+    object_pose.orientation.w = 1.0;
+    
+    // Create a box collision object instead of using mesh
+    moveit_msgs::msg::CollisionObject box_object;
+    box_object.header.frame_id = "world";  // Assuming base_link is your reference frame
+    box_object.id = "SafetyPlane_Back";
+    
+    // Define box dimensions
+    shape_msgs::msg::SolidPrimitive primitive;
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[0] = 0.90;  // Box x dimension
+    primitive.dimensions[1] = 0.01;  // Box y dimension
+    primitive.dimensions[2] = 1.20;  // Box z dimension
+    
+    box_object.primitives.push_back(primitive);
+    box_object.primitive_poses.push_back(object_pose);
+    box_object.operation = box_object.ADD;
+    
+    collision_objects.push_back(box_object);
+    
+     RCLCPP_INFO(this->get_logger(), "Added Box with dimensions: x=%f, y=%f, z=%f at position: x=%f, y=%f, z=%f", 
+                primitive.dimensions[0], primitive.dimensions[1], primitive.dimensions[2],
+                object_pose.position.x, object_pose.position.y, object_pose.position.z);
+ }
+  
+    // Touchpad Safetyplane
+{
+    geometry_msgs::msg::Pose object_pose;
+    object_pose.position.x = -0.375 ;   // Updated position
+    object_pose.position.y = -0.27;  // Updated position
+    object_pose.position.z = 0.28 +0.0001;   // Updated position
+    
+    // Setting orientation to identity (w=1)
+    object_pose.orientation.x = 0.0;
+    object_pose.orientation.y = 0.0;
+    object_pose.orientation.z = 0.0;
+    object_pose.orientation.w = 1.0;
+    
+    // Create a box collision object instead of using mesh
+    moveit_msgs::msg::CollisionObject box_object;
+    box_object.header.frame_id = "world";  // Assuming base_link is your reference frame
+    box_object.id = "SafetyPlane_Touchpad";
+    
+    // Define box dimensions
+    shape_msgs::msg::SolidPrimitive primitive;
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[0] = 0.15;  // Box x dimension
+    primitive.dimensions[1] = 0.30;  // Box y dimension
+    primitive.dimensions[2] = 0.60;  // Box z dimension
+    
+    box_object.primitives.push_back(primitive);
+    box_object.primitive_poses.push_back(object_pose);
+    box_object.operation = box_object.ADD;
+    
+    collision_objects.push_back(box_object);
+    
+     RCLCPP_INFO(this->get_logger(), "Added Box with dimensions: x=%f, y=%f, z=%f at position: x=%f, y=%f, z=%f", 
+                primitive.dimensions[0], primitive.dimensions[1], primitive.dimensions[2],
+                object_pose.position.x, object_pose.position.y, object_pose.position.z);
+ }
+  
+    // Site Safetyplane
+{
+    geometry_msgs::msg::Pose object_pose;
+    object_pose.position.x = -0.456 - 0.0001;   // Updated position
+    object_pose.position.y = 0.53;  // Updated position
+    object_pose.position.z = 0.54;   // Updated position
+    
+    // Setting orientation to identity (w=1)
+    object_pose.orientation.x = 0.0;
+    object_pose.orientation.y = 0.0;
+    object_pose.orientation.z = 0.0;
+    object_pose.orientation.w = 1.0;
+    
+    // Create a box collision object instead of using mesh
+    moveit_msgs::msg::CollisionObject box_object;
+    box_object.header.frame_id = "world";  // Assuming base_link is your reference frame
+    box_object.id = "SafetyPlane_Side";
+    
+    // Define box dimensions
+    shape_msgs::msg::SolidPrimitive primitive;
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[0] = 0.01;  // Box x dimension
+    primitive.dimensions[1] = 1.90;  // Box y dimension
+    primitive.dimensions[2] = 1.20;  // Box z dimension
+    
+    box_object.primitives.push_back(primitive);
+    box_object.primitive_poses.push_back(object_pose);
+    box_object.operation = box_object.ADD;
+    
+    
+    
+    collision_objects.push_back(box_object);
+    
+     RCLCPP_INFO(this->get_logger(), "Added Box with dimensions: x=%f, y=%f, z=%f at position: x=%f, y=%f, z=%f", 
+                primitive.dimensions[0], primitive.dimensions[1], primitive.dimensions[2],
+                object_pose.position.x, object_pose.position.y, object_pose.position.z);
+ }
+  
+      // Conveyor belt
+{
+    geometry_msgs::msg::Pose object_pose;
+    object_pose.position.x = 0.76;   // Updated position
+    object_pose.position.y = 0.0;  // Updated position
+    object_pose.position.z = 0.07;   // Updated position
+    
+    // Setting orientation to identity (w=1)
+    object_pose.orientation.x = 0.0;
+    object_pose.orientation.y = 0.0;
+    object_pose.orientation.z = 0.0;
+    object_pose.orientation.w = 1.0;
+    
+    // Create a box collision object instead of using mesh
+    moveit_msgs::msg::CollisionObject box_object;
+    box_object.header.frame_id = "world";  // Assuming base_link is your reference frame
+    box_object.id = "Conveyor_Belt";
+    
+    // Define box dimensions
+    shape_msgs::msg::SolidPrimitive primitive;
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3);
+    primitive.dimensions[0] = 0.40;  // Box x dimension
+    primitive.dimensions[1] = 0.7;  // Box y dimension
+    primitive.dimensions[2] = 0.25;  // Box z dimension
+    
+    box_object.primitives.push_back(primitive);
+    box_object.primitive_poses.push_back(object_pose);
+    box_object.operation = box_object.ADD;
+    
+    
+    
+    collision_objects.push_back(box_object);
+    
+     RCLCPP_INFO(this->get_logger(), "Added Box with dimensions: x=%f, y=%f, z=%f at position: x=%f, y=%f, z=%f", 
+                primitive.dimensions[0], primitive.dimensions[1], primitive.dimensions[2],
+                object_pose.position.x, object_pose.position.y, object_pose.position.z);
+ }
+  
+  
+      // Add all objects to the planning scene at once (more efficient)
     planning_scene_interface_->addCollisionObjects(collision_objects);
+    
+    // Set color for the box using a planning scene update
+	moveit_msgs::msg::PlanningScene planning_scene;
+	planning_scene.is_diff = true;
+
+	// Add color information
+	moveit_msgs::msg::ObjectColor box_color;
+	box_color.id = "SafetyPlane_Back";
+	box_color.color.r = 0.64;   // Red component (0-1)
+	box_color.color.g = 0.76;   // Green component (0-1)
+	box_color.color.b = 0.92;   // Blue component (0-1)
+	box_color.color.a = 1.0;   // Alpha (transparency) (0-1)
+	planning_scene.object_colors.push_back(box_color);
+	
+	// Add color information
+	box_color.id = "SafetyPlane_Touchpad";
+	box_color.color.r = 0.64;   // Red component (0-1)
+	box_color.color.g = 0.76;   // Green component (0-1)
+	box_color.color.b = 0.92;   // Blue component (0-1)
+	box_color.color.a = 1.0;   // Alpha (transparency) (0-1)
+	planning_scene.object_colors.push_back(box_color);
+	
+	// Add color information
+	box_color.id = "SafetyPlane_Side";
+	box_color.color.r = 0.64;   // Red component (0-1)
+	box_color.color.g = 0.76;   // Green component (0-1)
+	box_color.color.b = 0.92;   // Blue component (0-1)
+	box_color.color.a = 1.0;   // Alpha (transparency) (0-1)
+	planning_scene.object_colors.push_back(box_color);
+	
+        // Add color information
+	box_color.id = "Conveyor_Belt";
+	box_color.color.r = 0.64;   // Red component (0-1)
+	box_color.color.g = 0.76;   // Green component (0-1)
+	box_color.color.b = 0.92;   // Blue component (0-1)
+	box_color.color.a = 1.0;   // Alpha (transparency) (0-1)
+	planning_scene.object_colors.push_back(box_color);
+
+        // Apply the planning scene to set the color
+	planning_scene_interface_->applyPlanningScene(planning_scene);
+    
   }
   
+  
   std::shared_ptr<moveit::planning_interface::PlanningSceneInterface> planning_scene_interface_;
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr scene_loaded_publisher_;
 };
 
 int main(int argc, char **argv)

@@ -1,0 +1,18 @@
+[  3%] Built target moveit_servo_lib_parameters
+[  7%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/demos/servo_keyboard_input.cpp.o[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/servo_node.dir/rclcpp_components/node_main_servo_node.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/collision_monitor.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/common.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/servo.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_cpp.dir/src/utils/command.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 35%] Built target gtest_main
+[ 39%] [32m[1mLinking CXX executable servo_node[0m
+[ 39%] Built target servo_node
+[ 42%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 42%] Built target gtest
+[ 46%] [32mBuilding CXX object CMakeFiles/moveit_servo_ros_integration_test.dir/tests/test_ros_integration.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 50%] Built target servo_keyboard_input

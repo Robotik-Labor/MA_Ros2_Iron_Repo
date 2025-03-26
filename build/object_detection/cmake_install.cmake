@@ -48,6 +48,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/buhrmann/ws_moveit/src/object_detection/src/object_detection_facebook.py"
     "/home/buhrmann/ws_moveit/src/object_detection/src/object_detection_coords_publisher.py"
     "/home/buhrmann/ws_moveit/src/object_detection/src/object_detection_facebook_publisher.py"
+    "/home/buhrmann/ws_moveit/src/object_detection/src/semantic_segmentation.py"
+    "/home/buhrmann/ws_moveit/src/object_detection/src/semantic_segmentation_cup.py"
     )
 endif()
 

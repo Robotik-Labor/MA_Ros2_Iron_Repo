@@ -1,0 +1,10 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:396:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit::core::RobotStatePtr current_state[m[K’
+  396 |         moveit::core::RobotStatePtr [01;31m[Kcurrent_state[m[K = move_group_interface.getCurrentState();
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:381:31:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::RobotStatePtr current_state[m[K’ previously declared here
+  381 |   moveit::core::RobotStatePtr [01;36m[Kcurrent_state[m[K = move_group_interface.getCurrentState(5.0); // Wait up to 5s to get the current state
+      |                               [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

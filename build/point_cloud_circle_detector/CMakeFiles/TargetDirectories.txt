@@ -8,6 +8,8 @@
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/rgb_edge_filter.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/cup_segmentation_color.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/cup_pointcloud_segmentation_color.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/test.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/edit_cache.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:316:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_stamped[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_stamped2[m[K’?
+  316 |   geometry_msgs::msg::Pose target_pose2 = [01;31m[Kpose_stamped[m[K.pose;
+      |                                           [01;31m[K^~~~~~~~~~~~[m[K
+      |                                           [32m[Kpose_stamped2[m[K
+gmake[2]: *** [CMakeFiles/ur5_drop_sensor.dir/build.make:76: CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ur5_drop_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

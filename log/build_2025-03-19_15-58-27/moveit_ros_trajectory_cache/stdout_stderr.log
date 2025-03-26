@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_ros_trajectory_cache_lib.dir/src/trajectory_cache.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libmoveit_ros_trajectory_cache_lib.so[0m
+[ 50%] Built target moveit_ros_trajectory_cache_lib
+[ 75%] [32mBuilding CXX object CMakeFiles/test_trajectory_cache.dir/test/test_trajectory_cache.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_trajectory_cache.dir/build.make:76: CMakeFiles/test_trajectory_cache.dir/test/test_trajectory_cache.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_trajectory_cache.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

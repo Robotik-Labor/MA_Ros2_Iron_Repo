@@ -1,0 +1,9 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_segmentation_and_coloring.cpp:125:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid CupPointCloudProcessor::process_cups_pointcloud()[m[K’ cannot be overloaded with ‘[01m[Kvoid CupPointCloudProcessor::process_cups_pointcloud()[m[K’
+  125 |     void [01;31m[Kprocess_cups_pointcloud[m[K()
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_segmentation_and_coloring.cpp:99:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid CupPointCloudProcessor::process_cups_pointcloud()[m[K’
+   99 |     void [01;36m[Kprocess_cups_pointcloud[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cup_segmentation_color.dir/build.make:76: CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/cup_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

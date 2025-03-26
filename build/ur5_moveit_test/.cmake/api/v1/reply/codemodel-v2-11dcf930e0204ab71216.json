@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9dd3996012b1a86c81cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur5_moveit_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_close_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_close_moveit_test-eb59305d568b5c144eaf.json",
+					"name" : "gripper_close_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_open_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_open_moveit_test-7342dbbcfae445297a0b.json",
+					"name" : "gripper_open_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4edb1a5498830ebc2018.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_drop_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_drop_sensor-efcb74969bec42832179.json",
+					"name" : "ur5_drop_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test-c6cc5924978e61a753d6.json",
+					"name" : "ur5_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_launch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_launch-662f23b22de9322f4663.json",
+					"name" : "ur5_moveit_test_launch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_object_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_object_detection-ae4ee3e0a2244d467431.json",
+					"name" : "ur5_moveit_test_object_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_uninstall-43a9661ff1dbac802970.json",
+					"name" : "ur5_moveit_test_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_pickup_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_pickup_sensor-7a2ebbf9043c247337c8.json",
+					"name" : "ur5_pickup_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_read_positions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_read_positions-4a1c2ab8038572b79d4b.json",
+					"name" : "ur5_read_positions",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/ur5_moveit_test",
+		"source" : "/home/buhrmann/ws_moveit/src/ur5_moveit_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

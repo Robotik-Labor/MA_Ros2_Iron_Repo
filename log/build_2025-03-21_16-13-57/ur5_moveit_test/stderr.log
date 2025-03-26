@@ -1,0 +1,14 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:404:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope; did you mean ‘[01m[Kplan[m[K’?
+  404 |   success = move_group_interface.plan([01;31m[Kmy_plan[m[K);
+      |                                       [01;31m[K^~~~~~~[m[K
+      |                                       [32m[Kplan[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:19:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   19 |   [01;35m[Krcutils_logging_set_logger_level("UR5.moveit.moveit.ros.trajectory_execution_manager", RCUTILS_LOG_SEVERITY_DEBUG)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:311:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  311 |   [01;35m[Krcutils_logging_set_logger_level("UR5.moveit.moveit.ros.trajectory_execution_manager", RCUTILS_LOG_SEVERITY_DEBUG)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

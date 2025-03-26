@@ -1,0 +1,93 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target rgb_edge_filter[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_rgb_edge_pfh_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target cup_segmentation_color[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[ 20%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 25%] Built target rgb_edge_filter
+[ 35%] Built target point_cloud_circle_detector
+[ 45%] Built target point_cloud_plantpot_detector
+[ 55%] Built target cup_segmentation_color
+[ 75%] Built target point_cloud_cylinder_detector
+[ 75%] Built target point_cloud_plantpot_ppf_detector
+[ 85%] Built target point_cloud_plantpot_pfh_detector
+[ 95%] Built target point_cloud_plantpot_edge_pfh_detector
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:5[m[K:
+[01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:66:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   66 |         for (int v = 0; [01;35m[Kv < depth_msg->height[m[K; v++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:67:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |             for (int u = 0; [01;35m[Ku < depth_msg->width[m[K; u++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable cup_pointcloud_segmentation_color[0m
+[100%] Built target cup_pointcloud_segmentation_color
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_cylinder_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_edge_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_rgb_edge_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/rgb_edge_filter
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_segmentation_color
+-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_pointcloud_segmentation_color
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_pointcloud_segmentation_color" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_lesssamples.pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod.pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/package_run_dependencies/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/parent_prefix_path/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/packages/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.xml

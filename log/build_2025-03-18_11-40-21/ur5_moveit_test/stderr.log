@@ -1,0 +1,7 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:337:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveItErrorCode[m[K’ has not been declared
+  337 |   success = (move_group_interface.plan(plan) == moveit::planning_interface::[01;31m[KMoveItErrorCode[m[K::SUCCESS);
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/collision_linear_model.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/collision_matrix_model.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_meta_config.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/rotated_header_view.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_matrix_model.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_linear_model.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp.o[0m
+[ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 62%] Built target gtest_main
+[ 64%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o[0m

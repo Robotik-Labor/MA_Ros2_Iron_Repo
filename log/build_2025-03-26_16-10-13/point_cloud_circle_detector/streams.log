@@ -1,0 +1,167 @@
+[0.015s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[0.099s] [ 10%] Built target rgb_edge_filter
+[0.102s] [ 20%] Built target point_cloud_cylinder_detector
+[0.104s] [ 35%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.105s] [ 40%] Built target point_cloud_circle_detector
+[0.107s] [ 50%] Built target point_cloud_plantpot_ppf_detector
+[0.108s] [ 70%] Built target point_cloud_plantpot_detector
+[0.112s] [ 65%] Built target point_cloud_plantpot_pfh_detector
+[0.112s] [ 80%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.121s] [ 85%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[0.124s] [ 95%] Built target cup_segmentation_color
+[0.317s] In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:6[m[K:
+[0.317s] [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.317s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[0.317s]       |  [01;35m[K^~~~~~~[m[K
+[6.566s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:127:23:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K*[m[K’ token
+[6.566s]   127 |         pcl::toROSMsg([01;31m[K*[m[Kcloud, output);
+[6.566s]       |                       [01;31m[K^[m[K
+[6.566s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:127:31:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ is not a type
+[6.566s]   127 |         pcl::toROSMsg(*cloud, [01;31m[Koutput[m[K);
+[6.566s]       |                               [01;31m[K^~~~~~[m[K
+[6.566s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:127:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KtoROSMsg[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.566s]   127 |         [01;31m[Kpcl[m[K::toROSMsg(*cloud, output);
+[6.566s]       |         [01;31m[K^~~[m[K
+[6.566s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:127:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+[6.570s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:128:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ does not name a type
+[6.570s]   128 |         [01;31m[Koutput[m[K.header = current_depth_->header;
+[6.570s]       |         [01;31m[K^~~~~~[m[K
+[6.579s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ does not name a type
+[6.580s]   129 |         [01;31m[Kpointcloud_pub_[m[K->publish(output);
+[6.580s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.601s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[6.601s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_sub_[m[K’ was not declared in this scope
+[6.601s]    16 |         [01;31m[Kdepth_sub_[m[K = create_subscription<sensor_msgs::msg::Image>(
+[6.601s]       |         [01;31m[K^~~~~~~~~~[m[K
+[6.658s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_sub_[m[K’ was not declared in this scope
+[6.658s]    21 |         [01;31m[Krgb_sub_[m[K = create_subscription<sensor_msgs::msg::Image>(
+[6.658s]       |         [01;31m[K^~~~~~~~[m[K
+[6.684s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_info_sub_[m[K’ was not declared in this scope
+[6.684s]    26 |         [01;31m[Kdepth_info_sub_[m[K = create_subscription<sensor_msgs::msg::CameraInfo>(
+[6.684s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.741s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcup_information_[m[K’ was not declared in this scope
+[6.741s]    31 |         [01;31m[Kcup_information_[m[K = create_subscription<std_msgs::msg::Float32MultiArray>(
+[6.741s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.741s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:32:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPixelGroupSubscriber[m[K’ has not been declared
+[6.741s]    32 |             "/UR5/cup_pixel_coordinates", 10, std::bind(&[01;31m[KPixelGroupSubscriber[m[K::pointCloudCallback, this, std::placeholders::_1));
+[6.741s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.766s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+[6.766s]    35 |         [01;31m[Kpointcloud_pub_[m[K = create_publisher<sensor_msgs::msg::PointCloud2>(
+[6.766s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.774s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kstd::tuple<int, int, int> PointCloudGenerator::get_random_rgb_from_int(int)[m[K’:
+[6.774s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:48:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt19937[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[6.774s]    48 |         std::[01;31m[Kmt19937[m[K rng(input);  // Mersenne Twister RNG
+[6.774s]       |              [01;31m[K^~~~~~~[m[K
+[6.785s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:52:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krng[m[K’ was not declared in this scope
+[6.786s]    52 |         int red = dist([01;31m[Krng[m[K);    // Generate random value for Red channel
+[6.786s]       |                        [01;31m[K^~~[m[K
+[6.786s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:46:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.786s]    46 |     std::tuple<int, int, int> get_random_rgb_from_int([01;35m[Kint input[m[K) {
+[6.786s]       |                                                       [01;35m[K~~~~^~~~~[m[K
+[6.814s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::depthInfoCallback(sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.814s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[6.814s]    61 |         [01;31m[Kcamera_info_[m[K = *msg;
+[6.814s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.841s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.841s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_rgb_[m[K’ was not declared in this scope
+[6.841s]    65 |         [01;31m[Kcurrent_rgb_[m[K = msg;
+[6.841s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.867s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::depthCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.867s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_depth_[m[K’ was not declared in this scope
+[6.867s]    69 |         [01;31m[Kcurrent_depth_[m[K = msg;
+[6.868s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.894s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.894s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:73:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_rgb_[m[K’ was not declared in this scope
+[6.894s]    73 |         if (![01;31m[Kcurrent_rgb_[m[K || !current_depth_) return;
+[6.894s]       |              [01;31m[K^~~~~~~~~~~~[m[K
+[6.923s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:73:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_depth_[m[K’ was not declared in this scope
+[6.923s]    73 |         if (!current_rgb_ || ![01;31m[Kcurrent_depth_[m[K) return;
+[6.923s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.951s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_depth_[m[K’ was not declared in this scope
+[6.951s]    80 |             depth_cv_ptr = cv_bridge::toCvCopy([01;31m[Kcurrent_depth_[m[K, sensor_msgs::image_encodings::TYPE_16UC1);
+[6.951s]       |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.974s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:81:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_rgb_[m[K’ was not declared in this scope
+[6.974s]    81 |             rgb_cv_ptr = cv_bridge::toCvCopy([01;31m[Kcurrent_rgb_[m[K, sensor_msgs::image_encodings::RGB8);
+[6.974s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[7.007s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:91:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_depth_[m[K’ was not declared in this scope
+[7.007s]    91 |         cloud->width = [01;31m[Kcurrent_depth_[m[K->width;
+[7.007s]       |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.007s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:96:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[7.007s]    96 |         [01;35m[Kfor[m[K (size_t i = 0; i < data.size(); i += 3) //
+[7.007s]       |         [01;35m[K^~~[m[K
+[7.007s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:101:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[7.007s]   101 |                 [01;36m[Kif[m[K (depth == 0) continue;
+[7.007s]       |                 [01;36m[K^~[m[K
+[7.007s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:98:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.007s]    98 |                 uint16_t [01;35m[Kdepth[m[K = depth_cv_ptr->image.at<uint16_t>(data[i+1], data[i+2]);
+[7.008s]       |                          [01;35m[K^~~~~[m[K
+[7.019s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:101:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+[7.019s]   101 |                 if ([01;31m[Kdepth[m[K == 0) continue;
+[7.019s]       |                     [01;31m[K^~~~~[m[K
+[7.019s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:101:33:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+[7.019s]   101 |                 if (depth == 0) [01;31m[Kcontinue[m[K;
+[7.019s]       |                                 [01;31m[K^~~~~~~~[m[K
+[7.031s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:104:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+[7.031s]   104 |                 float z = [01;31m[Kdepth[m[K * 0.001; // Umrechnung in Meter
+[7.031s]       |                           [01;31m[K^~~~~[m[K
+[7.033s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:105:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::u[m[K’?
+[7.033s]   105 |                 float x = ([01;31m[Ku[m[K - camera_info_.k[2]) * z / camera_info_.k[0];
+[7.033s]       |                            [01;31m[K^[m[K
+[7.034s]       |                            [32m[Kpcl::fields::u[m[K
+[7.034s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.034s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.034s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.034s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.034s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.034s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.034s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+[7.034s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+[7.034s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/memory.h:46[m[K,
+[7.034s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/PCLPointField.h:3[m[K,
+[7.034s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/conversions.h:46[m[K,
+[7.034s]                  from [01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[7.034s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:8[m[K:
+[7.034s] [01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1839:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::u[m[K’ declared here
+[7.034s]  1839 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::PointUV,
+[7.034s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:105:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[7.056s]   105 |                 float x = (u - [01;31m[Kcamera_info_[m[K.k[2]) * z / camera_info_.k[0];
+[7.056s]       |                                [01;31m[K^~~~~~~~~~~~[m[K
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:106:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::v[m[K’?
+[7.057s]   106 |                 float y = ([01;31m[Kv[m[K - camera_info_.k[5]) * z / camera_info_.k[4];
+[7.058s]       |                            [01;31m[K^[m[K
+[7.058s]       |                            [32m[Kpcl::fields::v[m[K
+[7.058s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.058s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.058s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.058s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.058s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.058s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.058s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/point_struct_traits.h:40[m[K,
+[7.058s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/type_traits.h:40[m[K,
+[7.058s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/memory.h:46[m[K,
+[7.058s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/PCLPointField.h:3[m[K,
+[7.058s]                  from [01m[K/usr/local/include/pcl-1.14/pcl/conversions.h:46[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[7.058s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:8[m[K:
+[7.059s] [01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1824:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::v[m[K’ declared here
+[7.059s]  1824 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZHSV,
+[7.059s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.070s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:116:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[7.070s]   116 |                 auto [red, green, blue] = get_random_rgb_from_int(data[[01;31m[Ki[m[K]);
+[7.070s]       |                                                                        [01;31m[K^[m[K
+[7.078s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:109:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krgb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.078s]   109 |                 cv::Vec3b [01;35m[Krgb[m[K = rgb_cv_ptr->image.at<cv::Vec3b>(v, u);
+[7.078s]       |                           [01;35m[K^~~[m[K
+[7.079s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K At global scope:
+[7.079s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:132:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[7.079s]   132 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::Image>::SharedPtr depth_sub_;
+[7.079s]       |     [01;31m[K^~~~~~[m[K
+[7.146s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:142:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[7.147s]   142 | [01;31m[K}[m[K;
+[7.147s]       | [01;31m[K^[m[K
+[10.568s] gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+[10.568s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+[10.568s] gmake: *** [Makefile:146: all] Error 2
+[10.570s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

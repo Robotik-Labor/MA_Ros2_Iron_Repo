@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[ 10%] Built target point_cloud_plantpot_detector
+[ 20%] Built target point_cloud_circle_detector
+[ 30%] Built target point_cloud_cylinder_detector
+[ 40%] Built target point_cloud_plantpot_pfh_detector
+[ 55%] Built target point_cloud_plantpot_ppf_detector
+[ 60%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 70%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 80%] Built target cup_segmentation_color
+[ 90%] Built target rgb_edge_filter
+[ 95%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid RGBDPointCloudGenerator::rgbdCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:74:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   74 |                 [01;35m[Ku >= rgbd_msg->width[m[K ||
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:75:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   75 |                 [01;35m[Kv >= rgbd_msg->height[m[K) {
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable cup_pointcloud_segmentation_color[0m
+[100%] Built target cup_pointcloud_segmentation_color
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_cylinder_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_edge_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_rgb_edge_pfh_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/rgb_edge_filter
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_segmentation_color
+-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_pointcloud_segmentation_color
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_pointcloud_segmentation_color" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_lesssamples.pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod.pcd
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/package_run_dependencies/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/parent_prefix_path/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/packages/point_cloud_circle_detector
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.xml

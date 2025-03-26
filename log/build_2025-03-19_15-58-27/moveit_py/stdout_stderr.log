@@ -1,0 +1,122 @@
+[  4%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/copy_ros_msg.cpp.o[0m
+[  8%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/ros_msg_typecasters.cpp.o[0m
+[  8%] Built target ament_cmake_python_copy_moveit
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_moveit_egg
+[ 12%] [32m[1mLinking CXX shared library libmoveit_py_utils.so[0m
+[ 12%] Built target moveit_py_utils
+[ 16%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/planning.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/core.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/planning_scene_monitor/planning_scene_monitor.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_common.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/trajectory_execution_manager/trajectory_execution_manager.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_matrix.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/world.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/controller_manager/controller_manager.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_interface/planning_response.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/transforms/transforms.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_scene/planning_scene.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model_group.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_state/robot_state.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_trajectory/robot_trajectory.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/robot_model.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared module test_moveit/core.cpython-310-x86_64-linux-gnu.so[0m
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+[100%] [32m[1mLinking CXX shared module test_moveit/planning.cpython-310-x86_64-linux-gnu.so[0m
+[01m[K/usr/include/pybind11/stl.h:172:49:[m[K [01;36m[Knote: [m[Ktype ‘[01m[Kstruct type_caster[m[K’ itself violates the C++ One Definition Rule
+  172 | template <typename Type, typename Alloc> struct type_caster<std::vector<Type, Alloc>>
+      |                                                 [01;36m[K^[m[K
+[01m[K/usr/include/pybind11/cast.h:33:56:[m[K [01;36m[Knote: [m[Kthe incompatible type is defined here
+   33 | template <typename type, typename SFINAE = void> class type_caster : public type_caster_base<type> { };
+      |                                                        [01;36m[K^[m[K
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+[100%] Built target planning
+[100%] Built target core
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/pythonpath.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/pythonpath.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit-2.11.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/utils.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/planning.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/ps4_dualshock.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/ps4_dualshock.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/__init__.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices/__init__.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/README.md
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/teleop.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/__init__.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/teleop.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/__init__.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/README.md
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/planning_scene.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/controller_manager.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_trajectory.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_model.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/collision_detection.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/robot_state.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/planning_interface.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/__init__.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core/kinematic_constraints.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/utils.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies/policy.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies/policy.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies/__init__.pyi
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies/__init__.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/py.typed
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/__init__.py
+Listing '/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit'...
+Listing '/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core'...
+Listing '/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/policies'...
+Listing '/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client'...
+Listing '/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/servo_client/devices'...
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/core.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/planning.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages/moveit/planning.cpython-310-x86_64-linux-gnu.so" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/library_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/library_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/ament_index/resource_index/package_run_dependencies/moveit_py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/ament_index/resource_index/parent_prefix_path/moveit_py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/ament_index/resource_index/packages/moveit_py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport-noconfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/share/moveit_py/package.xml
+-- Installing: /home/buhrmann/ws_moveit/install/moveit_py/lib/libmoveit_py_utils.so.
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/moveit_py/lib/libmoveit_py_utils.so." to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/lib/libmoveit_py_utils.so
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/include/moveit_py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/include/moveit_py/moveit_py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.h
+-- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.h

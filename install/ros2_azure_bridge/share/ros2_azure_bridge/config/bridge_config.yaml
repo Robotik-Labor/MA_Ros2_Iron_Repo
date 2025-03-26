@@ -1,0 +1,3 @@
+/**:
+  ros__parameters:
+    connection_string: "HostName=CloudMES.azure-devices.net;DeviceId=ROS2_Gateway;SharedAccessKey=dsQIBkLQ3HnHOuSmR8/u+rgU7VlnkqatUNe3cwTPBQg="

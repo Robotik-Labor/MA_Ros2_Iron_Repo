@@ -1,0 +1,10 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectsToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:262:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::PlanningSceneInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’} has no member named ‘[01m[KapplyObjectColors[m[K’
+  262 |     planning_scene_interface_->[01;31m[KapplyObjectColors[m[K(object_colors);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:262:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_colors[m[K’ was not declared in this scope
+  262 |     planning_scene_interface_->applyObjectColors([01;31m[Kobject_colors[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

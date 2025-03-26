@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_drop_sensor[0m
+[ 12%] Built target gripper_open_moveit_test
+[ 25%] Built target ur5_moveit_test_object_detection
+[ 37%] Built target ur5_moveit_test_launch
+[ 50%] Built target ur5_moveit_test
+[ 62%] Built target ur5_read_positions
+[ 75%] Built target ur5_pickup_sensor
+[ 87%] Built target gripper_close_moveit_test
+[ 93%] [32mBuilding CXX object CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:364:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  364 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:332:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+  332 | [01;31m[KRCLCPP_INFO[m[K(logger, "Home orientation (quaternion): x=%f, y=%f, z=%f, w=%f", qx,
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:332:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  332 | RCLCPP_INFO[01;31m[K([m[Klogger, "Home orientation (quaternion): x=%f, y=%f, z=%f, w=%f", qx,
+      |            [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:320:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  320 | double [01;35m[Kqx[m[K = pose_stamped2.pose.orientation.x;
+      |        [01;35m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:321:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  321 | double [01;35m[Kqy[m[K = pose_stamped2.pose.orientation.y;
+      |        [01;35m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:322:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  322 | double [01;35m[Kqz[m[K = pose_stamped2.pose.orientation.z;
+      |        [01;35m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:323:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  323 | double [01;35m[Kqw[m[K = pose_stamped2.pose.orientation.w;
+      |        [01;35m[K^~[m[K
+gmake[2]: *** [CMakeFiles/ur5_drop_sensor.dir/build.make:76: CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ur5_drop_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

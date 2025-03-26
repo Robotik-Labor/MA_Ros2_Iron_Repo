@@ -42,6 +42,12 @@ int main(int argc, char * argv[])
               current_pose.pose.position.x, 
               current_pose.pose.position.y, 
               current_pose.pose.position.z);
+    RCLCPP_INFO(logger, "Orientation: x=%.4f, y=%.4f, z=%.4f, w=%.4f", 
+              current_pose.pose.orientation.x, 
+              current_pose.pose.orientation.y, 
+              current_pose.pose.orientation.z, 
+              current_pose.pose.orientation.w);    
+          
   
  
   // Shutdown ROS

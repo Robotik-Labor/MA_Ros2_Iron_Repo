@@ -1,6 +1,7 @@
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/command
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/command_namespaces
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur5.launch.py
+/home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/command_namespaces2
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur_control.launch.py
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/launch/ur_control.namespace.launch.py
 /home/buhrmann/ws_moveit/install/ur5_description_controller/share/ur5_description_controller/config/my_robot_calibration.yaml

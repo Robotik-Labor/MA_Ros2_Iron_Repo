@@ -1,0 +1,10 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:316:35:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kgeometry_msgs::msg::PoseStamped target_pose[m[K’
+  316 |   geometry_msgs::msg::PoseStamped [01;31m[Ktarget_pose[m[K = move_group_interface.getPoseTarget();
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:113:28:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kgeometry_msgs::msg::Pose target_pose[m[K’
+  113 |   geometry_msgs::msg::Pose [01;36m[Ktarget_pose[m[K;
+      |                            [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_drop_sensor.dir/build.make:76: CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ur5_drop_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

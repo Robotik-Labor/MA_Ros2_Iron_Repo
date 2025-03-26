@@ -23,6 +23,8 @@ install(PROGRAMS
   src/object_detection_facebook.py
   src/object_detection_coords_publisher.py
   src/object_detection_facebook_publisher.py   # Adjust the path to your script
+  src/semantic_segmentation.py
+  src/semantic_segmentation_cup.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -288,6 +288,19 @@ ur5_pickup_sensor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/build
 .PHONY : ur5_pickup_sensor/fast
 
+#=============================================================================
+# Target rules for targets named ur5_drop_sensor
+
+# Build rule for target.
+ur5_drop_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_drop_sensor
+.PHONY : ur5_drop_sensor
+
+# fast build rule for target.
+ur5_drop_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/build
+.PHONY : ur5_drop_sensor/fast
+
 src/gripper_close_moveit_test.o: src/gripper_close_moveit_test.cpp.o
 .PHONY : src/gripper_close_moveit_test.o
 
@@ -335,6 +348,30 @@ src/gripper_open_moveit_test.s: src/gripper_open_moveit_test.cpp.s
 src/gripper_open_moveit_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gripper_open_moveit_test.dir/build.make CMakeFiles/gripper_open_moveit_test.dir/src/gripper_open_moveit_test.cpp.s
 .PHONY : src/gripper_open_moveit_test.cpp.s
+
+src/ur5_drop_sensor.o: src/ur5_drop_sensor.cpp.o
+.PHONY : src/ur5_drop_sensor.o
+
+# target to build an object file
+src/ur5_drop_sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o
+.PHONY : src/ur5_drop_sensor.cpp.o
+
+src/ur5_drop_sensor.i: src/ur5_drop_sensor.cpp.i
+.PHONY : src/ur5_drop_sensor.i
+
+# target to preprocess a source file
+src/ur5_drop_sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.i
+.PHONY : src/ur5_drop_sensor.cpp.i
+
+src/ur5_drop_sensor.s: src/ur5_drop_sensor.cpp.s
+.PHONY : src/ur5_drop_sensor.s
+
+# target to generate assembly for a file
+src/ur5_drop_sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.s
+.PHONY : src/ur5_drop_sensor.cpp.s
 
 src/ur5_moveit_test.o: src/ur5_moveit_test.cpp.o
 .PHONY : src/ur5_moveit_test.o
@@ -473,6 +510,7 @@ help:
 	@echo "... ur5_moveit_test_uninstall"
 	@echo "... gripper_close_moveit_test"
 	@echo "... gripper_open_moveit_test"
+	@echo "... ur5_drop_sensor"
 	@echo "... ur5_moveit_test"
 	@echo "... ur5_moveit_test_launch"
 	@echo "... ur5_moveit_test_object_detection"
@@ -484,6 +522,9 @@ help:
 	@echo "... src/gripper_open_moveit_test.o"
 	@echo "... src/gripper_open_moveit_test.i"
 	@echo "... src/gripper_open_moveit_test.s"
+	@echo "... src/ur5_drop_sensor.o"
+	@echo "... src/ur5_drop_sensor.i"
+	@echo "... src/ur5_drop_sensor.s"
 	@echo "... src/ur5_moveit_test.o"
 	@echo "... src/ur5_moveit_test.i"
 	@echo "... src/ur5_moveit_test.s"

@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_pickup_sensor[0m
+[ 25%] Built target gripper_open_moveit_test
+[ 25%] Built target ur5_drop_sensor
+[ 37%] Built target gripper_close_moveit_test
+[ 62%] Built target ur5_moveit_test_launch
+[ 62%] Built target ur5_moveit_test_object_detection
+[ 75%] Built target ur5_read_positions
+[ 87%] Built target ur5_moveit_test
+[ 93%] [32mBuilding CXX object CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:365:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+  365 |   rclcpp::sleep_for(std::chrono::seconds(2))
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/ur5_pickup_sensor.dir/build.make:76: CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/ur5_pickup_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

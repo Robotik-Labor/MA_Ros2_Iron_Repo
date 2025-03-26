@@ -1,0 +1,20 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:316:58:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} and ‘[01m[Kconst PoseStamped[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’})
+  316 |   target_pose = move_group_interface.getPoseTarget("Home"[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/kinematics_base/kinematics_base.h:39[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >& geometry_msgs::msg::Pose_<std::allocator<void> >::operator=(const geometry_msgs::msg::Pose_<std::allocator<void> >&)[m[K’
+   38 | struct [01;36m[KPose_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseStamped[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >& geometry_msgs::msg::Pose_<std::allocator<void> >::operator=(geometry_msgs::msg::Pose_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst PoseStamped[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/ur5_drop_sensor.dir/build.make:76: CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ur5_drop_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

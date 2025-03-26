@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target add_object_to_planning_scene_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectsToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:248:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit_msgs::msg::ObjectColor box_color[m[K’
+  248 |         moveit_msgs::msg::ObjectColor [01;31m[Kbox_color[m[K;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:239:39:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::ObjectColor box_color[m[K’ previously declared here
+  239 |         moveit_msgs::msg::ObjectColor [01;36m[Kbox_color[m[K;
+      |                                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:257:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit_msgs::msg::ObjectColor box_color[m[K’
+  257 |         moveit_msgs::msg::ObjectColor [01;31m[Kbox_color[m[K;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:239:39:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::ObjectColor box_color[m[K’ previously declared here
+  239 |         moveit_msgs::msg::ObjectColor [01;36m[Kbox_color[m[K;
+      |                                       [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

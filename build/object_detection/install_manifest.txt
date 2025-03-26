@@ -2,6 +2,8 @@
 /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook.py
 /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_coords_publisher.py
 /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook_publisher.py
+/home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/semantic_segmentation.py
+/home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/semantic_segmentation_cup.py
 /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/package_run_dependencies/object_detection
 /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/parent_prefix_path/object_detection
 /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/ament_prefix_path.sh

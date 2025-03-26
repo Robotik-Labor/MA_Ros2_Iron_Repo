@@ -19,6 +19,7 @@ add_executable(ur5_moveit_test_launch src/ur5_moveit_test_launch.cpp)
 add_executable(ur5_moveit_test_object_detection src/ur5_moveit_test_object_detection.cpp)
 add_executable(ur5_read_positions src/ur5_read_positions.cpp)
 add_executable(ur5_pickup_sensor src/ur5_pickup_sensor.cpp)
+add_executable(ur5_drop_sensor src/ur5_drop_sensor.cpp)
 
 target_include_directories(ur5_moveit_test PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -29,6 +30,7 @@ target_compile_features(gripper_open_moveit_test PUBLIC c_std_99 cxx_std_17)  # 
 target_compile_features(ur5_moveit_test_launch PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(ur5_moveit_test_object_detection PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(ur5_read_positions PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(ur5_pickup_sensor PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(ur5_pickup_sensor PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 ament_target_dependencies(
@@ -81,6 +83,14 @@ ament_target_dependencies(
   "trajectory_msgs"
 )
 
+ament_target_dependencies(
+  ur5_drop_sensor
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+)
+
 install(TARGETS ur5_moveit_test
   DESTINATION lib/${PROJECT_NAME})
   
@@ -100,6 +110,9 @@ install(TARGETS ur5_read_positions
   DESTINATION lib/${PROJECT_NAME})
 
 install(TARGETS ur5_pickup_sensor
+  DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS ur5_drop_sensor
   DESTINATION lib/${PROJECT_NAME})
   
 

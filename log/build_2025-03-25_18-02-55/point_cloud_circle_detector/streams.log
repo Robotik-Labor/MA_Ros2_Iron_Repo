@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.077s] [ 38%] Built target point_cloud_cylinder_detector
+[0.078s] [ 38%] Built target rgb_edge_filter
+[0.078s] [ 38%] [32mBuilding CXX object CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.o[0m
+[0.078s] [ 38%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.080s] [ 50%] Built target point_cloud_circle_detector
+[0.081s] [ 61%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.083s] [ 83%] Built target point_cloud_plantpot_detector
+[0.083s] [ 83%] Built target point_cloud_plantpot_pfh_detector
+[0.090s] [ 94%] Built target point_cloud_plantpot_ppf_detector
+[8.456s] [100%] [32m[1mLinking CXX executable cup_segmentation_color[0m
+[9.031s] [100%] Built target cup_segmentation_color
+[9.041s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[9.042s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[9.050s] -- Install configuration: ""
+[9.050s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_circle_detector
+[9.050s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_cylinder_detector
+[9.050s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_detector
+[9.050s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector
+[9.050s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector
+[9.051s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_edge_pfh_detector
+[9.051s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_rgb_edge_pfh_detector
+[9.051s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/rgb_edge_filter
+[9.051s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_segmentation_color
+[9.055s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_segmentation_color" to ""
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_lesssamples.pcd
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod.pcd
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/package_run_dependencies/point_cloud_circle_detector
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/parent_prefix_path/point_cloud_circle_detector
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.sh
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.dsv
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.sh
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.dsv
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.bash
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.sh
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.zsh
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.dsv
+[9.055s] -- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/packages/point_cloud_circle_detector
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig.cmake
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig-version.cmake
+[9.055s] -- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.xml
+[9.057s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/point_cloud_circle_detector

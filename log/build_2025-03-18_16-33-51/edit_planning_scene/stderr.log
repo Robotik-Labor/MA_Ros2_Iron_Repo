@@ -1,0 +1,12 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:121:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  121 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:158:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  158 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:195:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  195 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

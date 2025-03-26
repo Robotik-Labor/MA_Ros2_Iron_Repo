@@ -9,10 +9,10 @@
         sim_isaac:=false
         isaac_joint_commands:=/isaac_joint_commands
         isaac_joint_states:=/isaac_joint_states
-        use_fake_hardware:=true
-        mock_sensor_commands:=true
+        use_fake_hardware:=false
+        mock_sensor_commands:=false
         include_ros2_control:=true
-        com_port:=/dev/ttyUSB0">
+        com_port:=/dev/ttyACM0">
 
         <!-- ros2 control include -->
         <xacro:include filename="$(find robotiq_description)/urdf/2f_85.ros2_control.xacro" />

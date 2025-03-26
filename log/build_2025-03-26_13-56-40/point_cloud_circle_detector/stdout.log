@@ -1,0 +1,10 @@
+[  5%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[ 15%] Built target point_cloud_plantpot_detector
+[ 25%] Built target point_cloud_cylinder_detector
+[ 35%] Built target point_cloud_circle_detector
+[ 45%] Built target cup_segmentation_color
+[ 55%] Built target point_cloud_plantpot_ppf_detector
+[ 65%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 75%] Built target rgb_edge_filter
+[ 85%] Built target point_cloud_plantpot_pfh_detector
+[ 95%] Built target point_cloud_plantpot_edge_pfh_detector

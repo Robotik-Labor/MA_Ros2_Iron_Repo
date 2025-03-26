@@ -1,0 +1,8 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_pickup_sensor.cpp:305:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  305 |   [01;35m[Krcutils_logging_set_logger_level([m[K
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  306 | [01;35m[K      "UR5.moveit.moveit.ros.trajectory_execution_manager",[m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  307 | [01;35m[K      RCUTILS_LOG_SEVERITY_DEBUG)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  

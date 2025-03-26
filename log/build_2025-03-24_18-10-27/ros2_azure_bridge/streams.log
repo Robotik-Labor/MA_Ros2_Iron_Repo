@@ -1,0 +1,21 @@
+[0.391s] Invoking command in '/home/buhrmann/ws_moveit/src/ros2_azure_bridge': PYTHONPATH=/home/buhrmann/ws_moveit/build/ros2_azure_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_azure_bridge build --build-base /home/buhrmann/ws_moveit/build/ros2_azure_bridge/build install --record /home/buhrmann/ws_moveit/build/ros2_azure_bridge/install.log --single-version-externally-managed install_data
+[0.527s] running egg_info
+[0.527s] writing ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/requires.txt
+[0.527s] writing top-level names to ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/top_level.txt
+[0.528s] reading manifest file '../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] running install
+[0.528s] running install_lib
+[0.529s] running install_data
+[0.529s] running install_egg_info
+[0.530s] removing '/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages/ros2_azure_bridge-0.1.0-py3.10.egg-info' (and everything under it)
+[0.530s] Copying ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info to /home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages/ros2_azure_bridge-0.1.0-py3.10.egg-info
+[0.530s] running install_scripts
+[0.542s] Installing azure_bridge_node script to /home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/ros2_azure_bridge
+[0.542s] writing list of installed files to '/home/buhrmann/ws_moveit/build/ros2_azure_bridge/install.log'
+[0.554s] Invoked command in '/home/buhrmann/ws_moveit/src/ros2_azure_bridge' returned '0': PYTHONPATH=/home/buhrmann/ws_moveit/build/ros2_azure_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_azure_bridge build --build-base /home/buhrmann/ws_moveit/build/ros2_azure_bridge/build install --record /home/buhrmann/ws_moveit/build/ros2_azure_bridge/install.log --single-version-externally-managed install_data

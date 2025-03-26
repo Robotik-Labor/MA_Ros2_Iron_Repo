@@ -71,6 +71,8 @@ all: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all
 all: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all
 all: CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/all
 all: CMakeFiles/rgb_edge_filter.dir/all
+all: CMakeFiles/cup_segmentation_color.dir/all
+all: CMakeFiles/cup_pointcloud_segmentation_color.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +90,8 @@ clean: CMakeFiles/point_cloud_plantpot_pfh_detector.dir/clean
 clean: CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/clean
 clean: CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/clean
 clean: CMakeFiles/rgb_edge_filter.dir/clean
+clean: CMakeFiles/cup_segmentation_color.dir/clean
+clean: CMakeFiles/cup_pointcloud_segmentation_color.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -149,7 +153,7 @@ CMakeFiles/point_cloud_circle_detector_uninstall.dir/clean:
 CMakeFiles/point_cloud_circle_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_circle_detector.dir/build.make CMakeFiles/point_cloud_circle_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_circle_detector.dir/build.make CMakeFiles/point_cloud_circle_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=1,2 "Built target point_cloud_circle_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=5,6 "Built target point_cloud_circle_detector"
 .PHONY : CMakeFiles/point_cloud_circle_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +179,7 @@ CMakeFiles/point_cloud_circle_detector.dir/clean:
 CMakeFiles/point_cloud_cylinder_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_cylinder_detector.dir/build.make CMakeFiles/point_cloud_cylinder_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_cylinder_detector.dir/build.make CMakeFiles/point_cloud_cylinder_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=3,4 "Built target point_cloud_cylinder_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=7,8 "Built target point_cloud_cylinder_detector"
 .PHONY : CMakeFiles/point_cloud_cylinder_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,7 +205,7 @@ CMakeFiles/point_cloud_cylinder_detector.dir/clean:
 CMakeFiles/point_cloud_plantpot_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_detector.dir/build.make CMakeFiles/point_cloud_plantpot_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_detector.dir/build.make CMakeFiles/point_cloud_plantpot_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=5,6 "Built target point_cloud_plantpot_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=9,10 "Built target point_cloud_plantpot_detector"
 .PHONY : CMakeFiles/point_cloud_plantpot_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +231,7 @@ CMakeFiles/point_cloud_plantpot_detector.dir/clean:
 CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make CMakeFiles/point_cloud_plantpot_ppf_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build.make CMakeFiles/point_cloud_plantpot_ppf_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=11,12 "Built target point_cloud_plantpot_ppf_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=15,16 "Built target point_cloud_plantpot_ppf_detector"
 .PHONY : CMakeFiles/point_cloud_plantpot_ppf_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +257,7 @@ CMakeFiles/point_cloud_plantpot_ppf_detector.dir/clean:
 CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_pfh_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_pfh_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=9,10 "Built target point_cloud_plantpot_pfh_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=13,14 "Built target point_cloud_plantpot_pfh_detector"
 .PHONY : CMakeFiles/point_cloud_plantpot_pfh_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,7 +283,7 @@ CMakeFiles/point_cloud_plantpot_pfh_detector.dir/clean:
 CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=7,8 "Built target point_cloud_plantpot_edge_pfh_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=11,12 "Built target point_cloud_plantpot_edge_pfh_detector"
 .PHONY : CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +309,7 @@ CMakeFiles/point_cloud_plantpot_edge_pfh_detector.dir/clean:
 CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/build.make CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=13,14 "Built target point_cloud_plantpot_rgb_edge_pfh_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=17,18 "Built target point_cloud_plantpot_rgb_edge_pfh_detector"
 .PHONY : CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -331,7 +335,7 @@ CMakeFiles/point_cloud_plantpot_rgb_edge_pfh_detector.dir/clean:
 CMakeFiles/rgb_edge_filter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rgb_edge_filter.dir/build.make CMakeFiles/rgb_edge_filter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rgb_edge_filter.dir/build.make CMakeFiles/rgb_edge_filter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=15,16 "Built target rgb_edge_filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=19,20 "Built target rgb_edge_filter"
 .PHONY : CMakeFiles/rgb_edge_filter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -349,6 +353,58 @@ rgb_edge_filter: CMakeFiles/rgb_edge_filter.dir/rule
 CMakeFiles/rgb_edge_filter.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rgb_edge_filter.dir/build.make CMakeFiles/rgb_edge_filter.dir/clean
 .PHONY : CMakeFiles/rgb_edge_filter.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cup_segmentation_color.dir
+
+# All Build rule for target.
+CMakeFiles/cup_segmentation_color.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=3,4 "Built target cup_segmentation_color"
+.PHONY : CMakeFiles/cup_segmentation_color.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cup_segmentation_color.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cup_segmentation_color.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles 0
+.PHONY : CMakeFiles/cup_segmentation_color.dir/rule
+
+# Convenience name for target.
+cup_segmentation_color: CMakeFiles/cup_segmentation_color.dir/rule
+.PHONY : cup_segmentation_color
+
+# clean rule for target.
+CMakeFiles/cup_segmentation_color.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/clean
+.PHONY : CMakeFiles/cup_segmentation_color.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cup_pointcloud_segmentation_color.dir
+
+# All Build rule for target.
+CMakeFiles/cup_pointcloud_segmentation_color.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles --progress-num=1,2 "Built target cup_pointcloud_segmentation_color"
+.PHONY : CMakeFiles/cup_pointcloud_segmentation_color.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cup_pointcloud_segmentation_color.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cup_pointcloud_segmentation_color.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles 0
+.PHONY : CMakeFiles/cup_pointcloud_segmentation_color.dir/rule
+
+# Convenience name for target.
+cup_pointcloud_segmentation_color: CMakeFiles/cup_pointcloud_segmentation_color.dir/rule
+.PHONY : cup_pointcloud_segmentation_color
+
+# clean rule for target.
+CMakeFiles/cup_pointcloud_segmentation_color.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/clean
+.PHONY : CMakeFiles/cup_pointcloud_segmentation_color.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

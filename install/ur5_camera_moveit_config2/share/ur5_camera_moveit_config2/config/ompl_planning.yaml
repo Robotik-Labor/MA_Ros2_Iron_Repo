@@ -1,0 +1,59 @@
+  planning_plugins:
+    - "ompl_interface/OMPLPlanner"
+  
+  request_adapters:
+    - default_planning_request_adapters/ResolveConstraintFrames
+    - default_planning_request_adapters/ValidateWorkspaceBounds
+    - default_planning_request_adapters/CheckStartStateBounds
+    - default_planning_request_adapters/CheckStartStateCollision
+  
+  response_adapters:
+    - "default_planning_response_adapters/ValidateSolution"  # This ensures valid paths
+    - "default_planning_response_adapters/AddTimeOptimalParameterization"
+    - "default_planning_response_adapters/DisplayMotionPath"
+  
+  planning_attempts: 5
+  planning_time: 5.0  # Increase time allowed for planning
+  
+  # Make collision checking more strict
+  longest_valid_segment_fraction: 0.001  # More precise collision checking
+  simplify_solutions: true             # Simplify the resulting path
+  
+  planner_configs:
+    RRTConnect:
+      type: geometric::RRTConnect
+      optimization_objective: StateCostIntegralObjective
+      range: 0.0
+      # Add more collision checking parameters
+      max_nearest_neighbors: 10
+      use_hybrid_collision_checker: true
+    
+    # Add more robust planners
+    BiTRRT:
+      type: geometric::BiTRRT
+      optimization_objective: StateCostIntegralObjective
+      range: 0.0
+      temp_change_factor: 0.1
+      cost_threshold: 1000
+      init_temperature: 100
+
+    # Add TRRT which is good for avoiding obstacles
+    TRRT:
+      type: geometric::TRRT
+      range: 0.0
+      goal_bias: 0.05
+      max_states_failed: 10
+      temp_change_factor: 2.0
+      min_temperature: 10e-10
+      init_temperature: 10e-6
+      frountier_threshold: 0.0
+      frountier_node_ratio: 0.1
+      k_constant: 0.0
+  
+  ur5_arm:  # Update this to match your planning group name
+    planner_configs:
+      - RRTConnect
+      - BiTRRT
+      - TRRT
+    projection_evaluator: joints(UR5_shoulder_pan_joint,UR5_shoulder_lift_joint)
+    longest_valid_segment_fraction: 0.001  # More precise collision checking

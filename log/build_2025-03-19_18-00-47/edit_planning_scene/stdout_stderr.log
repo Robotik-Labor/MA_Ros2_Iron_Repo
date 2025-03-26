@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectsToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:271:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kplanning_scene_interface_[m[K’
+  271 |     [01;31m[Kplanning_scene_interface_[m[K->addCollisionObjects(collision_objects);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:269:3:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  269 |   [01;35m[K7[m[K
+      |   [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

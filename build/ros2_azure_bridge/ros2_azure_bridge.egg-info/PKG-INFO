@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ros2-azure-bridge
+Version: 0.1.0
+Summary: ROS2 node that bridges communication between Azure IoT Hub and ROS2
+Home-page: UNKNOWN
+Maintainer: Your Name
+Maintainer-email: user@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

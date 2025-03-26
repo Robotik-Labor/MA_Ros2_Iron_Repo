@@ -1,0 +1,41 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:[m[K In member function ‘[01m[Kvoid AddObjectToPlanningScene::addObjectsToScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:270:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ was not declared in this scope
+  270 |   [01;31m[Kplanning_scene[m[K.is_diff = true;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:273:22:[m[K [01;31m[Kerror: [m[K‘[01m[KAllowedCollisionEntry[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’; did you mean ‘[01m[Kmoveit_msgs::msg::AllowedCollisionEntry[m[K’?
+  273 |         moveit_msgs::[01;31m[KAllowedCollisionEntry[m[K entry;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp:20[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:24[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:44[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp:114:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::AllowedCollisionEntry[m[K’ declared here
+  114 | using [01;36m[KAllowedCollisionEntry[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:274:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kentry[m[K’ was not declared in this scope
+  274 |         [01;31m[Kentry[m[K.enabled.push_back(true);  // Enable collision between table and octomap
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:332:22:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanningScene[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’; did you mean ‘[01m[Kmoveit_msgs::msg::PlanningScene[m[K’?
+  332 |         moveit_msgs::[01;31m[KPlanningScene[m[K planning_scene;
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:44[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:257:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::PlanningScene[m[K’ declared here
+  257 | using [01;36m[KPlanningScene[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:336:22:[m[K [01;31m[Kerror: [m[K‘[01m[KAllowedCollisionEntry[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’; did you mean ‘[01m[Kmoveit_msgs::msg::AllowedCollisionEntry[m[K’?
+  336 |         moveit_msgs::[01;31m[KAllowedCollisionEntry[m[K entry;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp:20[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:24[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:44[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/add_object_to_planning_scene.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/moveit_msgs/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp:114:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::AllowedCollisionEntry[m[K’ declared here
+  114 | using [01;36m[KAllowedCollisionEntry[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_object_to_planning_scene_node.dir/build.make:76: CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_object_to_planning_scene_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -16,7 +16,7 @@ find_package(ament_cmake REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(pcl_conversions REQUIRED)
-
+find_package(cv_bridge REQUIRED)
 
 # Specify the PCL version you want to use
 #find_package(PCL 1.14.1 EXACT REQUIRED)
@@ -32,8 +32,8 @@ add_executable(point_cloud_plantpot_pfh_detector src/point_cloud_plantpot_pfh_de
 add_executable(point_cloud_plantpot_edge_pfh_detector src/point_cloud_plantpot_edge_pfh_detector.cpp)
 add_executable(point_cloud_plantpot_rgb_edge_pfh_detector src/point_cloud_plantpot_rgb_edge_pfh_detector.cpp)
 add_executable(rgb_edge_filter src/rgb_edge_filter.cpp)
-
-
+add_executable(cup_segmentation_color src/cup_segmentation_and_coloring.cpp)
+add_executable(cup_pointcloud_segmentation_color src/cup_pointcloud_segmentation_and_coloring.cpp)
 
 
 
@@ -46,6 +46,8 @@ ament_target_dependencies(point_cloud_plantpot_pfh_detector rclcpp sensor_msgs p
 ament_target_dependencies(point_cloud_plantpot_edge_pfh_detector rclcpp sensor_msgs pcl_conversions)
 ament_target_dependencies(point_cloud_plantpot_rgb_edge_pfh_detector rclcpp sensor_msgs pcl_conversions)
 ament_target_dependencies(rgb_edge_filter rclcpp sensor_msgs pcl_conversions)
+ament_target_dependencies(cup_segmentation_color rclcpp sensor_msgs pcl_conversions)
+ament_target_dependencies(cup_pointcloud_segmentation_color rclcpp sensor_msgs pcl_conversions cv_bridge)
 
 # Install targets
 install(TARGETS point_cloud_circle_detector DESTINATION lib/${PROJECT_NAME})
@@ -56,6 +58,9 @@ install(TARGETS point_cloud_plantpot_pfh_detector DESTINATION lib/${PROJECT_NAME
 install(TARGETS point_cloud_plantpot_edge_pfh_detector DESTINATION lib/${PROJECT_NAME})
 install(TARGETS point_cloud_plantpot_rgb_edge_pfh_detector DESTINATION lib/${PROJECT_NAME})
 install(TARGETS rgb_edge_filter DESTINATION lib/${PROJECT_NAME})
+install(TARGETS cup_segmentation_color DESTINATION lib/${PROJECT_NAME})
+install(TARGETS cup_pointcloud_segmentation_color DESTINATION lib/${PROJECT_NAME})
+
 
 # Install pcd directory
 install(
@@ -72,6 +77,10 @@ target_link_libraries(point_cloud_plantpot_edge_pfh_detector ${PCL_LIBRARIES}
 target_link_libraries(point_cloud_plantpot_rgb_edge_pfh_detector ${PCL_LIBRARIES}
 )
 target_link_libraries(rgb_edge_filter ${PCL_LIBRARIES}
+)
+target_link_libraries(cup_segmentation_color ${PCL_LIBRARIES}
+)
+target_link_libraries(cup_pointcloud_segmentation_color ${PCL_LIBRARIES}
 )
 # Testing
 if(BUILD_TESTING)

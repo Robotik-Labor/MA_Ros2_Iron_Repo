@@ -1,0 +1,8 @@
+[ 12%] Built target ur5_read_positions
+[ 25%] Built target gripper_close_moveit_test
+[ 31%] [32mBuilding CXX object CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o[0m
+[ 43%] Built target ur5_pickup_sensor
+[ 56%] Built target ur5_moveit_test
+[ 68%] Built target ur5_moveit_test_object_detection
+[ 81%] Built target ur5_moveit_test_launch
+[ 93%] Built target gripper_open_moveit_test

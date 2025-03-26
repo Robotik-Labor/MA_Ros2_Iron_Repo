@@ -301,6 +301,80 @@ rgb_edge_filter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rgb_edge_filter.dir/build.make CMakeFiles/rgb_edge_filter.dir/build
 .PHONY : rgb_edge_filter/fast
 
+#=============================================================================
+# Target rules for targets named cup_segmentation_color
+
+# Build rule for target.
+cup_segmentation_color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cup_segmentation_color
+.PHONY : cup_segmentation_color
+
+# fast build rule for target.
+cup_segmentation_color/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/build
+.PHONY : cup_segmentation_color/fast
+
+#=============================================================================
+# Target rules for targets named cup_pointcloud_segmentation_color
+
+# Build rule for target.
+cup_pointcloud_segmentation_color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cup_pointcloud_segmentation_color
+.PHONY : cup_pointcloud_segmentation_color
+
+# fast build rule for target.
+cup_pointcloud_segmentation_color/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/build
+.PHONY : cup_pointcloud_segmentation_color/fast
+
+src/cup_pointcloud_segmentation_and_coloring.o: src/cup_pointcloud_segmentation_and_coloring.cpp.o
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.o
+
+# target to build an object file
+src/cup_pointcloud_segmentation_and_coloring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.cpp.o
+
+src/cup_pointcloud_segmentation_and_coloring.i: src/cup_pointcloud_segmentation_and_coloring.cpp.i
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.i
+
+# target to preprocess a source file
+src/cup_pointcloud_segmentation_and_coloring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.i
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.cpp.i
+
+src/cup_pointcloud_segmentation_and_coloring.s: src/cup_pointcloud_segmentation_and_coloring.cpp.s
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.s
+
+# target to generate assembly for a file
+src/cup_pointcloud_segmentation_and_coloring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.s
+.PHONY : src/cup_pointcloud_segmentation_and_coloring.cpp.s
+
+src/cup_segmentation_and_coloring.o: src/cup_segmentation_and_coloring.cpp.o
+.PHONY : src/cup_segmentation_and_coloring.o
+
+# target to build an object file
+src/cup_segmentation_and_coloring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.o
+.PHONY : src/cup_segmentation_and_coloring.cpp.o
+
+src/cup_segmentation_and_coloring.i: src/cup_segmentation_and_coloring.cpp.i
+.PHONY : src/cup_segmentation_and_coloring.i
+
+# target to preprocess a source file
+src/cup_segmentation_and_coloring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.i
+.PHONY : src/cup_segmentation_and_coloring.cpp.i
+
+src/cup_segmentation_and_coloring.s: src/cup_segmentation_and_coloring.cpp.s
+.PHONY : src/cup_segmentation_and_coloring.s
+
+# target to generate assembly for a file
+src/cup_segmentation_and_coloring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.s
+.PHONY : src/cup_segmentation_and_coloring.cpp.s
+
 src/point_cloud_circle_detector.o: src/point_cloud_circle_detector.cpp.o
 .PHONY : src/point_cloud_circle_detector.o
 
@@ -508,6 +582,8 @@ help:
 	@echo "... test"
 	@echo "... point_cloud_circle_detector_uninstall"
 	@echo "... uninstall"
+	@echo "... cup_pointcloud_segmentation_color"
+	@echo "... cup_segmentation_color"
 	@echo "... point_cloud_circle_detector"
 	@echo "... point_cloud_cylinder_detector"
 	@echo "... point_cloud_plantpot_detector"
@@ -516,6 +592,12 @@ help:
 	@echo "... point_cloud_plantpot_ppf_detector"
 	@echo "... point_cloud_plantpot_rgb_edge_pfh_detector"
 	@echo "... rgb_edge_filter"
+	@echo "... src/cup_pointcloud_segmentation_and_coloring.o"
+	@echo "... src/cup_pointcloud_segmentation_and_coloring.i"
+	@echo "... src/cup_pointcloud_segmentation_and_coloring.s"
+	@echo "... src/cup_segmentation_and_coloring.o"
+	@echo "... src/cup_segmentation_and_coloring.i"
+	@echo "... src/cup_segmentation_and_coloring.s"
 	@echo "... src/point_cloud_circle_detector.o"
 	@echo "... src/point_cloud_circle_detector.i"
 	@echo "... src/point_cloud_circle_detector.s"

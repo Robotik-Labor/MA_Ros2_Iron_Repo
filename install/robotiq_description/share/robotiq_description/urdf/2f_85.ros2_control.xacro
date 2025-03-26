@@ -17,7 +17,7 @@
             <hardware>
 
                 <!-- Set use_dummy to true to connect to a dummy driver for testing purposes. -->
-                <param name="use_dummy">true</param>
+                <param name="use_dummy">false</param>
 
                 <xacro:if value="${sim_isaac}">
                     <plugin>topic_based_ros2_control/TopicBasedSystem</plugin>

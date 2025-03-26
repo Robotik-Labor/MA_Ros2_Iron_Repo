@@ -1,13 +1,14 @@
 octomap_resolution: 0.025
-max_range: 3.0
+max_range: 1.0
 sensors:
   - default_sensor
 default_sensor:
-  filtered_cloud_topic: /UR5/UR5_camera/depth/image_rec
+  filtered_cloud_topic: /UR5/UR5_camera/depth/image_rect_raw
   max_range: 3.0
   max_update_rate: 30.0
   padding_offset: 0.1
   padding_scale: 1.0
-  point_cloud_topic: /UR5/UR5_camera/depth/color/poi
+  point_cloud_topic: /UR5/UR5_camera/depth/color/points
   point_subsample: 1
   sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+  

@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_drop_sensor[0m
+[ 12%] Built target ur5_moveit_test
+[ 37%] [32mBuilding CXX object CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o[0m
+[ 37%] Built target gripper_open_moveit_test
+[ 43%] Built target ur5_moveit_test_object_detection
+[ 56%] Built target ur5_read_positions
+[ 68%] Built target gripper_close_moveit_test
+[ 81%] Built target ur5_moveit_test_launch
+[ 93%] Built target ur5_pickup_sensor
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_drop_sensor.cpp:63:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetNumPlanningAttempts[m[K’; did you mean ‘[01m[KsetNumPlanningAttempts[m[K’?
+   63 |   int attempts = move_group_interface.[01;31m[KgetNumPlanningAttempts[m[K();
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KsetNumPlanningAttempts[m[K
+gmake[2]: *** [CMakeFiles/ur5_drop_sensor.dir/build.make:76: CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ur5_drop_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

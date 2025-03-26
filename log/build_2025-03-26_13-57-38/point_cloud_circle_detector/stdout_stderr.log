@@ -1,0 +1,73 @@
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[ 10%] Built target point_cloud_circle_detector
+[ 20%] Built target rgb_edge_filter
+[ 30%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 40%] Built target point_cloud_plantpot_detector
+[ 50%] Built target point_cloud_plantpot_ppf_detector
+[ 60%] Built target point_cloud_plantpot_pfh_detector
+[ 70%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 80%] Built target point_cloud_cylinder_detector
+[ 90%] Built target cup_segmentation_color
+[ 95%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In constructor ‘[01m[KRGBDPointCloudGenerator::RGBDPointCloudGenerator()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:40:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+   40 |         pointcloud_pub_ = nh_.advertise<sensor_msgs::[01;31m[KPointCloud2[m[K>("/UR5/cup_pointcloud", 1);
+      |                                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:8[m[K:
+[01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:40:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [20], int)[m[K’
+   40 |         pointcloud_pub_ = [01;31m[Knh_.advertise<sensor_msgs::PointCloud2>("/UR5/cup_pointcloud", 1)[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[01m[K/usr/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:40:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |         pointcloud_pub_ = [01;31m[Knh_.advertise<sensor_msgs::PointCloud2>("/UR5/cup_pointcloud", 1)[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[01m[K/usr/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:40:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |         pointcloud_pub_ = [01;31m[Knh_.advertise<sensor_msgs::PointCloud2>("/UR5/cup_pointcloud", 1)[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid RGBDPointCloudGenerator::rgbdCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:56:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kpcl[m[K’ does not name a type
+   56 |         pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud(new pcl::[01;31m[Kmsg[m[K::PointCloud<pcl::PointXYZRGB>());
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct sensor_msgs::Image_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdepth[m[K’
+   59 |         const uint16_t* depth_ptr = reinterpret_cast<const uint16_t*>(&rgbd_msg->[01;31m[Kdepth[m[K[0]);
+      |                                                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:60:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct sensor_msgs::Image_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krgb[m[K’
+   60 |         const uint8_t* rgb_ptr = &rgbd_msg->[01;31m[Krgb[m[K[0];
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:69:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   69 |                 [01;35m[Ku >= rgbd_msg->width[m[K ||
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:70:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _height_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   70 |                 [01;35m[Kv >= rgbd_msg->height[m[K) {
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:100:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+  100 |             sensor_msgs::[01;31m[KPointCloud2[m[K output;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:8[m[K:
+[01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  235 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:101:35:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+  101 |             pcl::toROSMsg(*cloud, [01;31m[Koutput[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
