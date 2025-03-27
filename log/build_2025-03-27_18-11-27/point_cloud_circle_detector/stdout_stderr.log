@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[ 10%] Built target point_cloud_circle_detector
+[ 20%] Built target point_cloud_cylinder_detector
+[ 30%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 40%] Built target point_cloud_plantpot_ppf_detector
+[ 50%] Built target point_cloud_plantpot_detector
+[ 60%] Built target rgb_edge_filter
+[ 70%] Built target cup_segmentation_color
+[ 80%] Built target point_cloud_plantpot_pfh_detector
+[ 85%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[ 95%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:120:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |                     uint16_t [01;35m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+      |                              [01;35m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:122:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |                     uint16_t [01;35m[Kdepth[m[K = depth_cv_ptr->image.at<uint16_t>(data[i+2], data[i+1]);
+      |                              [01;35m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:126:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  126 |                 if ([01;31m[Kdepth[m[K == 0) continue;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  129 |                 float z = [01;31m[Kdepth[m[K * 0.001; // Umrechnung in Meter
+      |                           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

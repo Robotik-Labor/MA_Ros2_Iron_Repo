@@ -1,0 +1,77 @@
+[ 10%] Built target point_cloud_plantpot_detector
+[ 20%] Built target point_cloud_circle_detector
+[ 30%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 40%] Built target cup_segmentation_color
+[ 50%] Built target rgb_edge_filter
+[ 55%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[ 65%] Built target point_cloud_cylinder_detector
+[ 75%] Built target point_cloud_plantpot_ppf_detector
+[ 85%] Built target point_cloud_plantpot_pfh_detector
+[ 95%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kstd::tuple<int, int, int> PointCloudGenerator::get_random_rgb_from_int(int)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:56:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_cv_ptr[m[K’ was not declared in this scope
+   56 | cv::rotate([01;31m[Kdepth_cv_ptr[m[K->image, rotated_depth_image, cv::ROTATE_180);
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:56:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krotated_depth_image[m[K’ was not declared in this scope
+   56 | cv::rotate(depth_cv_ptr->image, [01;31m[Krotated_depth_image[m[K, cv::ROTATE_180);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   59 | uint16_t depth = rotated_depth_image.at<uint16_t[01;31m[K>[m[K(data[i+2], data[i+1]);
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+   59 | uint16_t depth = rotated_depth_image.at<uint16_t>([01;31m[Kdata[m[K[i+2], data[i+1]);
+      |                                                   [01;31m[K^~~~[m[K
+      |                                                   [32m[Kstd::data[m[K
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:319:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+  319 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   59 | uint16_t depth = rotated_depth_image.at<uint16_t>(data[[01;31m[Ki[m[K+2], data[i+1]);
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 | uint16_t [01;35m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   80 |         [01;35m[Kif[m[K (!current_rgb_ || !current_depth_) return;cv::Mat rotated_depth_image;
+      |         [01;35m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:54:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   80 |         if (!current_rgb_ || !current_depth_) return;[01;36m[Kcv[m[K::Mat rotated_depth_image;
+      |                                                      [01;36m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:81:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_cv_ptr[m[K’ was not declared in this scope
+   81 | cv::rotate([01;31m[Kdepth_cv_ptr[m[K->image, rotated_depth_image, cv::ROTATE_180);
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+   84 | uint16_t depth = rotated_depth_image.at<uint16_t>([01;31m[Kdata[m[K[i+2], data[i+1]);
+      |                                                   [01;31m[K^~~~[m[K
+      |                                                   [32m[Kstd::data[m[K
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:319:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+  319 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   84 | uint16_t depth = rotated_depth_image.at<uint16_t>(data[[01;31m[Ki[m[K+2], data[i+1]);
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:118:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat rotated_depth_image[m[K’
+  118 |         cv::Mat [01;31m[Krotated_depth_image[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:62:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat rotated_depth_image[m[K’ previously declared here
+   80 |         if (!current_rgb_ || !current_depth_) return;cv::Mat [01;36m[Krotated_depth_image[m[K;
+      |                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   84 | uint16_t [01;35m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+      |          [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -43,6 +43,7 @@ public:
 
 private:
 
+    bool rotate_by_180 = false;
     
 
 
@@ -107,19 +108,40 @@ private:
         cloud->height = current_depth_->height;
         cloud->is_dense = false;
         cloud->points.resize(cloud->width * cloud->height);
+        cv::Mat rotated_depth_image;
+        if (rotate_by_180) {
+            cv::rotate(depth_cv_ptr->image, rotated_depth_image, cv::ROTATE_180);
+            RCLCPP_INFO(get_logger(), "Rotated Width: %u", rotated_depth_image.cols);
+            RCLCPP_INFO(get_logger(), "Rotated Height: %u", rotated_depth_image.rows);
+        }
 
         for (size_t i = 0; i < data.size(); i += 3) //
-        {
+        {       
+                uint16_t depth;
                 // Tiefenwert extrahieren
-                uint16_t depth = depth_cv_ptr->image.at<uint16_t>(data[i+2], data[i+1]);
-                
+                if (rotate_by_180) {
+                    depth = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+                }else{
+                    depth = depth_cv_ptr->image.at<uint16_t>(data[i+2], data[i+1]);
+                }
+
                 // Nur gültige Tiefen verarbeiten
                 if (depth == 0) continue;
 
-                // Konvertiere Pixel zu 3D-Koordinaten
                 float z = depth * 0.001; // Umrechnung in Meter
-                float x = (data[i+1] - camera_info_.k[2]) * z / camera_info_.k[0];
-                float y = (data[i+2] - camera_info_.k[5]) * z / camera_info_.k[4];
+
+                float x, y;
+                if (rotate_by_180) {
+                    x = ((current_depth_->width - camera_info_.k[2]) - data[i+1] ) * z / camera_info_.k[0];
+                    y = ((current_depth_->height - camera_info_.k[5])  - data[i+2] ) * z / camera_info_.k[4];
+                    //RCLCPP_INFO(get_logger(), "Center X: %f", camera_info_.k[2]);
+                    //RCLCPP_INFO(get_logger(), "Center Y: %f", camera_info_.k[5]);
+
+                } else {
+                    // Normal conversion
+                    x = (data[i+1] - camera_info_.k[2]) * z / camera_info_.k[0];
+                    y = (data[i+2] - camera_info_.k[5]) * z / camera_info_.k[4];
+                }
 
                 // RGB-Wert extrahieren
                 //cv::Vec3b rgb = rgb_cv_ptr->image.at<cv::Vec3b>(v, u);
@@ -138,6 +160,8 @@ private:
                 //RCLCPP_INFO(get_logger(), "Publishinnpoints");
             
         }
+
+
 
         // Publish Point Cloud
         sensor_msgs::msg::PointCloud2 output;

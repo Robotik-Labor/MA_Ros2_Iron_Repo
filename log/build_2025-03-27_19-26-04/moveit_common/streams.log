@@ -1,0 +1,23 @@
+[0.195s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_common -- -j28 -l28
+[1.111s] Invoked command in '/home/buhrmann/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_common -- -j28 -l28
+[1.112s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/moveit_common
+[1.205s] -- Install configuration: ""
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.205s] -- Installing: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.205s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.206s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.206s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[1.206s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake
+[1.206s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.442s] Invoked command in '/home/buhrmann/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/moveit_common

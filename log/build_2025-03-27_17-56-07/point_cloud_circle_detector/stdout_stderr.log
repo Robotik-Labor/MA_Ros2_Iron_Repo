@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[ 10%] Built target cup_segmentation_color
+[ 20%] Built target point_cloud_circle_detector
+[ 30%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 40%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 50%] Built target point_cloud_plantpot_pfh_detector
+[ 60%] Built target point_cloud_plantpot_detector
+[ 70%] Built target point_cloud_plantpot_ppf_detector
+[ 90%] Built target point_cloud_cylinder_detector
+[ 90%] Built target rgb_edge_filter
+[ 95%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:117:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class cv_bridge::CvImage[m[K’ {aka ‘[01m[Kclass cv_bridge::CvImage[m[K’} has no member named ‘[01m[Krotated_depth_image[m[K’
+  117 |                 uint16_t depth = depth_cv_ptr->[01;31m[Krotated_depth_image[m[K.at<uint16_t>(data[i+2], data[i+1]);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:117:79:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  117 |                 uint16_t depth = depth_cv_ptr->rotated_depth_image.at<uint16_t[01;31m[K>[m[K(data[i+2], data[i+1]);
+      |                                                                               [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

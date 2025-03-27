@@ -57,7 +57,8 @@ class OneFormerCupDetectionNode(Node):
                 self.model.to(self.device)
                 self.model.eval()  # Set model to evaluation mode
             
-            # COCO dataset typically uses index 41 for cup
+            # COCO dataset typically uses index 41 for cup 58 for potted plants and 75 for vase
+            
             self.cup_class_index = 41
             
             self.get_logger().info(f'OneFormer Cup Detection Node initialized on {self.device}')
@@ -72,7 +73,7 @@ class OneFormerCupDetectionNode(Node):
         except Exception as e:
             self.get_logger().error(f'Image conversion error: {str(e)}')
             return
-        
+        # cv_image = cv2.rotate(cv_image, cv2.ROTATE_180)
         # Convert to PIL Image
         pil_image = PILImage.fromarray(cv_image)
         
@@ -92,6 +93,7 @@ class OneFormerCupDetectionNode(Node):
                 
                 # Convert to numpy for processing
                 semantic_map_np = predicted_semantic_map.numpy()
+
                 
                 # Publish semantic segmentation visualization
                 semantic_img = self.convert_to_ros_image(semantic_map_np, msg.header)

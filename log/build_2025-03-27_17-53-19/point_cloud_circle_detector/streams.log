@@ -1,0 +1,79 @@
+[0.185s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.238s] [ 10%] Built target point_cloud_plantpot_detector
+[0.238s] [ 20%] Built target point_cloud_circle_detector
+[0.238s] [ 30%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.239s] [ 40%] Built target cup_segmentation_color
+[0.240s] [ 50%] Built target rgb_edge_filter
+[0.240s] [ 55%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[0.241s] [ 65%] Built target point_cloud_cylinder_detector
+[0.243s] [ 75%] Built target point_cloud_plantpot_ppf_detector
+[0.245s] [ 85%] Built target point_cloud_plantpot_pfh_detector
+[0.246s] [ 95%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[4.835s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kstd::tuple<int, int, int> PointCloudGenerator::get_random_rgb_from_int(int)[m[K’:
+[4.835s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:56:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_cv_ptr[m[K’ was not declared in this scope
+[4.835s]    56 | cv::rotate([01;31m[Kdepth_cv_ptr[m[K->image, rotated_depth_image, cv::ROTATE_180);
+[4.835s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[4.857s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:56:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krotated_depth_image[m[K’ was not declared in this scope
+[4.857s]    56 | cv::rotate(depth_cv_ptr->image, [01;31m[Krotated_depth_image[m[K, cv::ROTATE_180);
+[4.857s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.857s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.857s]    59 | uint16_t depth = rotated_depth_image.at<uint16_t[01;31m[K>[m[K(data[i+2], data[i+1]);
+[4.857s]       |                                                 [01;31m[K^[m[K
+[4.858s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+[4.858s]    59 | uint16_t depth = rotated_depth_image.at<uint16_t>([01;31m[Kdata[m[K[i+2], data[i+1]);
+[4.858s]       |                                                   [01;31m[K^~~~[m[K
+[4.859s]       |                                                   [32m[Kstd::data[m[K
+[4.859s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.859s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.859s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.859s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.859s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[4.859s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[4.859s] [01m[K/usr/include/c++/11/bits/range_access.h:319:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+[4.859s]   319 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+[4.859s]       |     [01;36m[K^~~~[m[K
+[4.866s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[4.866s]    59 | uint16_t depth = rotated_depth_image.at<uint16_t>(data[[01;31m[Ki[m[K+2], data[i+1]);
+[4.866s]       |                                                        [01;31m[K^[m[K
+[4.866s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:59:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.866s]    59 | uint16_t [01;35m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+[4.866s]       |          [01;35m[K^~~~~[m[K
+[4.869s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.870s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.870s]    80 |         [01;35m[Kif[m[K (!current_rgb_ || !current_depth_) return;cv::Mat rotated_depth_image;
+[4.870s]       |         [01;35m[K^~[m[K
+[4.870s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:54:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[4.870s]    80 |         if (!current_rgb_ || !current_depth_) return;[01;36m[Kcv[m[K::Mat rotated_depth_image;
+[4.870s]       |                                                      [01;36m[K^~[m[K
+[4.885s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:81:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_cv_ptr[m[K’ was not declared in this scope
+[4.886s]    81 | cv::rotate([01;31m[Kdepth_cv_ptr[m[K->image, rotated_depth_image, cv::ROTATE_180);
+[4.886s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[4.887s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+[4.887s]    84 | uint16_t depth = rotated_depth_image.at<uint16_t>([01;31m[Kdata[m[K[i+2], data[i+1]);
+[4.887s]       |                                                   [01;31m[K^~~~[m[K
+[4.887s]       |                                                   [32m[Kstd::data[m[K
+[4.887s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.887s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.887s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.887s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[4.887s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:1[m[K:
+[4.887s] [01m[K/usr/include/c++/11/bits/range_access.h:319:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+[4.887s]   319 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+[4.887s]       |     [01;36m[K^~~~[m[K
+[4.894s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[4.894s]    84 | uint16_t depth = rotated_depth_image.at<uint16_t>(data[[01;31m[Ki[m[K+2], data[i+1]);
+[4.894s]       |                                                        [01;31m[K^[m[K
+[4.905s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:118:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat rotated_depth_image[m[K’
+[4.905s]   118 |         cv::Mat [01;31m[Krotated_depth_image[m[K;
+[4.905s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.905s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:80:62:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat rotated_depth_image[m[K’ previously declared here
+[4.905s]    80 |         if (!current_rgb_ || !current_depth_) return;cv::Mat [01;36m[Krotated_depth_image[m[K;
+[4.905s]       |                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.905s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:84:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.906s]    84 | uint16_t [01;35m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+[4.906s]       |          [01;35m[K^~~~~[m[K
+[7.569s] gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+[7.569s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+[7.569s] gmake: *** [Makefile:146: all] Error 2
+[7.572s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
