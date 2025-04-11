@@ -1,0 +1,10 @@
+[ 10%] Built target ur5_moveit_test_launch
+[ 20%] Built target ur5_moveit_test
+[ 30%] Built target gripper_open_moveit_test
+[ 40%] Built target ur5_moveit_test_object_detection
+[ 45%] [32mBuilding CXX object CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o[0m
+[ 55%] Built target gripper_close_moveit_test
+[ 65%] Built target ur5_probe_sensor
+[ 75%] Built target ur5_read_positions
+[ 85%] Built target ur5_drop_sensor
+[ 95%] Built target ur5_pickup_sensor

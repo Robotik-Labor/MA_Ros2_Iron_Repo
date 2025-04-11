@@ -1,0 +1,41 @@
+[0.195s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.303s] [ 10%] Built target rgb_edge_filter
+[0.303s] [ 13%] Built target hsv_color_filter
+[0.303s] [ 20%] Built target point_cloud_circle_detector
+[0.303s] [ 26%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.303s] [ 33%] Built target cup_segmentation_color
+[0.303s] [ 40%] Built target cup_pointcloud_segmentation_color
+[0.303s] [ 46%] Built target point_cloud_cylinder_detector
+[0.303s] [ 53%] Built target point_cloud_plantpot_pfh_detector
+[0.304s] [ 56%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+[0.304s] [ 63%] Built target plantplot_ransac_conversion
+[0.304s] [ 70%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.304s] [ 76%] Built target point_cloud_plantpot_ppf_detector
+[0.304s] [ 83%] Built target point_cloud_plantpot_detector
+[0.304s] [ 90%] Built target plantplot_icp_conversion
+[0.304s] [ 96%] Built target plantplot_placement
+[1.312s] In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:10[m[K:
+[1.312s] [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.312s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[1.312s]       |  [01;35m[K^~~~~~~[m[K
+[4.035s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[4.035s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_image_pub_[m[K’ was not declared in this scope
+[4.035s]    44 |         image_pub_ = [01;31m[Kcreate_image_pub_[m[K<sensor_msgs::msg::Image>("/UR5/image/green_filtered", 1);
+[4.035s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.035s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.035s]    44 |         image_pub_ = create_image_pub_<sensor_msgs::msg::Image[01;31m[K>[m[K("/UR5/image/green_filtered", 1);
+[4.035s]       |                                                               [01;31m[K^[m[K
+[4.036s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:65:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.036s]    44 |         image_pub_ = create_image_pub_<sensor_msgs::msg::Image>([01;35m[K"/UR5/image/green_filtered"[m[K, 1);
+[4.036s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.044s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.044s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[4.044s]   111 |         image_pub_->[01;31m[Kpublish[m[K(*output_msg)
+[4.044s]       |                     [01;31m[K^~~~~~~[m[K
+[4.053s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+[4.054s]   118 |         [01;31m[Kcloud[m[K->width = current_depth_.cols;
+[4.054s]       |         [01;31m[K^~~~~[m[K
+[6.339s] gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+[6.339s] gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+[6.339s] gmake: *** [Makefile:146: all] Error 2
+[6.342s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

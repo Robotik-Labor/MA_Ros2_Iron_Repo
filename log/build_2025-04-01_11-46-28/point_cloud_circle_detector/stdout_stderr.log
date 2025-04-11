@@ -1,0 +1,81 @@
+[  7%] Built target point_cloud_cylinder_detector
+[ 15%] Built target point_cloud_plantpot_detector
+[35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[ 30%] Built target image_based_hsv_color_filter
+[ 30%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 38%] Built target cup_pointcloud_segmentation_color
+[ 46%] Built target point_cloud_circle_detector
+[ 53%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 61%] Built target hsv_color_filter
+[ 69%] Built target point_cloud_plantpot_ppf_detector
+[ 76%] Built target rgb_edge_filter
+[ 84%] Built target point_cloud_plantpot_pfh_detector
+[ 92%] Built target cup_segmentation_color
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[KEigen::Matrix4f PointCloudCustomObjectMatcher::getCameraToWorldTransform()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   92 |             [01;31m[Ktf_buffer_[m[K->lookupTransform("world", "UR5_camera_depth_optical_frame",
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:93:45:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePointZero[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   93 |                                        tf2::[01;31m[KTimePointZero[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:96:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtransformToEigen(geometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type&)[m[K’
+   96 |         Eigen::Isometry3d transform_eigen = [01;31m[Ktf2::transformToEigen(transform_stamped.transform)[m[K;
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:4[m[K:
+[01m[K/usr/include/tf2_eigen/tf2_eigen.h:48:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Isometry3d tf2::transformToEigen(const Transform&)[m[K’
+   48 |  Eigen::Isometry3d [01;36m[KtransformToEigen[m[K(const geometry_msgs::Transform& t) {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/tf2_eigen/tf2_eigen.h:48:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Transform&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Transform_<std::allocator<void> >&[m[K’}
+   48 |  Eigen::Isometry3d transformToEigen([01;36m[Kconst geometry_msgs::Transform& t[m[K) {
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/tf2_eigen/tf2_eigen.h:58:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Isometry3d tf2::transformToEigen(const TransformStamped&)[m[K’
+   58 | Eigen::Isometry3d [01;36m[KtransformToEigen[m[K(const geometry_msgs::TransformStamped& t) {
+      |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/tf2_eigen/tf2_eigen.h:58:75:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} to ‘[01m[Kconst TransformStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::TransformStamped_<std::allocator<void> >&[m[K’}
+   58 | Eigen::Isometry3d transformToEigen([01;36m[Kconst geometry_msgs::TransformStamped& t[m[K) {
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:178:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kicp[m[K’ was not declared in this scope
+  178 |         [01;31m[Kicp[m[K.setInputTarget(cloud_filtered_world);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::filter_by_rgb(pcl::PointCloud<pcl::PointXYZRGB>::Ptr&, pcl::PointCloud<pcl::PointXYZRGB>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:305:95:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  305 |             if (point.r >= 80 && point.r <= 155 && point.g >= 20 && point.g <= 100 && [01;35m[Kpoint.b >= 0[m[K && point.b <= 70)
+      |                                                                                       [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:324:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  324 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/string:41[m[K,
+                 from [01m[K/usr/include/ros/platform.h:38[m[K,
+                 from [01m[K/usr/include/ros/time.h:53[m[K,
+                 from [01m[K/usr/include/tf2/transform_storage.h:39[m[K,
+                 from [01m[K/usr/include/tf2/buffer_core.h:35[m[K,
+                 from [01m[K/usr/include/tf2_ros/buffer_interface.h:35[m[K,
+                 from [01m[K/usr/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:2[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<tf2_ros::Buffer>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}; _Tp = tf2_ros::Buffer][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {std::shared_ptr<rclcpp::Clock>}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::Buffer; _Args = {std::shared_ptr<rclcpp::Clock>}][m[K’
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:66:48:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer(std::shared_ptr<rclcpp::Clock>)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:2[m[K:
+[01m[K/usr/include/tf2_ros/buffer.h:63:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(ros::Duration, bool)[m[K’
+   63 |     [01;36m[KBuffer[m[K(ros::Duration cache_time = ros::Duration(BufferCore::DEFAULT_CACHE_TIME), bool debug = false);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/tf2_ros/buffer.h:63:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’ to ‘[01m[Kros::Duration[m[K’
+   63 |     Buffer([01;36m[Kros::Duration cache_time = ros::Duration(BufferCore::DEFAULT_CACHE_TIME)[m[K, bool debug = false);
+      |            [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

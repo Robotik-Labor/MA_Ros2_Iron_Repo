@@ -1,0 +1,24 @@
+[0.185s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target hsv_color_filter[0m
+[0.241s] [  9%] Built target cup_segmentation_color
+[0.244s] [ 18%] Built target rgb_edge_filter
+[0.245s] [ 27%] Built target point_cloud_circle_detector
+[0.246s] [ 31%] [32mBuilding CXX object CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.o[0m
+[0.246s] [ 45%] Built target point_cloud_plantpot_ppf_detector
+[0.246s] [ 50%] Built target point_cloud_plantpot_detector
+[0.246s] [ 59%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.246s] [ 68%] Built target cup_pointcloud_segmentation_color
+[0.247s] [ 77%] Built target point_cloud_cylinder_detector
+[0.248s] [ 86%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.249s] [ 95%] Built target point_cloud_plantpot_pfh_detector
+[3.348s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/hsv_color_filter.cpp:34:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[3.348s]    34 |   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;[01;31m[K255[m[K
+[3.348s]       |                                                                                [01;31m[K^~~[m[K
+[3.370s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid ColorFilterNode::cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.370s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/hsv_color_filter.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khsv2rgb[m[K’ was not declared in this scope
+[3.370s]   114 |     [01;31m[Khsv2rgb[m[K(h_max,s_max,v_max,max_red,max_green,max_blue);
+[3.370s]       |     [01;31m[K^~~~~~~[m[K
+[4.415s] gmake[2]: *** [CMakeFiles/hsv_color_filter.dir/build.make:76: CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.o] Error 1
+[4.415s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/hsv_color_filter.dir/all] Error 2
+[4.415s] gmake: *** [Makefile:146: all] Error 2
+[4.417s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

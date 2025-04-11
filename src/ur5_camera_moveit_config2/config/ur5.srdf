@@ -38,12 +38,12 @@
         <joint name="UR5_robotiq_85_left_knuckle_joint" value="0.8"/>
     </group_state>
     <group_state name="Home" group="ur5_arm">
-        <joint name="UR5_elbow_joint" value="1.6754"/>
-        <joint name="UR5_shoulder_lift_joint" value="-2.5216"/>
+        <joint name="UR5_elbow_joint" value="2.024581932"/>
+        <joint name="UR5_shoulder_lift_joint" value="-2.7227"/>
         <joint name="UR5_shoulder_pan_joint" value="1.5707"/>
-        <joint name="UR5_wrist_1_joint" value="-1.3247"/>
-        <joint name="UR5_wrist_2_joint" value="-1.5707"/>
-        <joint name="UR5_wrist_3_joint" value="0"/>
+        <joint name="UR5_wrist_1_joint" value="0.750491578"/>
+        <joint name="UR5_wrist_2_joint" value="1.623156204"/>
+        <joint name="UR5_wrist_3_joint" value="3.141592654"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="2f-85" parent_link="UR5_tool0" group="gripper" parent_group="ur5_arm"/>

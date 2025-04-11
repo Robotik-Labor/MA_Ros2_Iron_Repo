@@ -1,0 +1,26 @@
+[0.188s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection -- -j28 -l28
+[0.298s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection -- -j28 -l28
+[0.299s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection
+[0.334s] -- Install configuration: ""
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_coords_publisher.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/object_detection_facebook_publisher.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/semantic_segmentation.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/lib/object_detection/semantic_segmentation_cup.py
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/package_run_dependencies/object_detection
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/parent_prefix_path/object_detection
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/path.sh
+[0.334s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/environment/path.dsv
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.bash
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.sh
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.zsh
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/local_setup.dsv
+[0.335s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/package.dsv
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/ament_index/resource_index/packages/object_detection
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/cmake/object_detectionConfig.cmake
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/cmake/object_detectionConfig-version.cmake
+[0.335s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection/share/object_detection/package.xml
+[0.432s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection

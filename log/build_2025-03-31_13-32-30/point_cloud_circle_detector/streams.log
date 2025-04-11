@@ -1,0 +1,30 @@
+[0.178s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target image_based_hsv_color_filter[0m
+[0.238s] [  8%] Built target rgb_edge_filter
+[0.239s] [ 25%] Built target point_cloud_cylinder_detector
+[0.239s] [ 25%] Built target point_cloud_circle_detector
+[0.240s] [ 33%] Built target point_cloud_plantpot_pfh_detector
+[0.240s] [ 41%] Built target point_cloud_plantpot_ppf_detector
+[0.242s] [ 50%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.243s] [ 66%] Built target point_cloud_plantpot_detector
+[0.243s] [ 66%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.243s] [ 75%] Built target cup_segmentation_color
+[0.244s] [ 83%] Built target cup_pointcloud_segmentation_color
+[0.244s] [ 91%] Built target hsv_color_filter
+[0.252s] [ 95%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+[1.072s] In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:10[m[K:
+[1.072s] [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.072s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[1.072s]       |  [01;35m[K^~~~~~~[m[K
+[3.858s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::depthInfoCallback(sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.858s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[3.858s]    54 |         [01;31m[Kcamera_info_[m[K = *msg;
+[3.858s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.882s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.882s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:93:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[3.882s]    93 |                 float x = (u - [01;31m[Kcamera_info_[m[K.k[2]) * z / camera_info_.k[0];
+[3.882s]       |                                [01;31m[K^~~~~~~~~~~~[m[K
+[6.148s] gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+[6.148s] gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+[6.148s] gmake: *** [Makefile:146: all] Error 2
+[6.150s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

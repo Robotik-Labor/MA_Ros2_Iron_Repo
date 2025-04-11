@@ -11,6 +11,15 @@ find_package(moveit_visual_tools REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(trajectory_msgs REQUIRED)
+find_package(common_services_package REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(cv_bridge REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(pcl_conversions REQUIRED)
+
+
+
 
 add_executable(ur5_moveit_test src/ur5_moveit_test.cpp)
 add_executable(gripper_close_moveit_test src/gripper_close_moveit_test.cpp)
@@ -20,10 +29,12 @@ add_executable(ur5_moveit_test_object_detection src/ur5_moveit_test_object_detec
 add_executable(ur5_read_positions src/ur5_read_positions.cpp)
 add_executable(ur5_pickup_sensor src/ur5_pickup_sensor.cpp)
 add_executable(ur5_drop_sensor src/ur5_drop_sensor.cpp)
+add_executable(ur5_probe_sensor src/ur5_probe_sensor.cpp)
+add_executable(ur5_probe_sensor_service src/ur5_probe_sensor_service.cpp)
+add_executable(ur5_move_to_home src/ur5_move_to_home.cpp)
+add_executable(ur5_move_to_camera src/ur5_move_to_camera.cpp)
+add_executable(ur5_image_octmap_path src/ur5_image_octmap_path.cpp)
 
-target_include_directories(ur5_moveit_test PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
 target_compile_features(ur5_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(gripper_close_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(gripper_open_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
@@ -90,6 +101,48 @@ ament_target_dependencies(
   "rclcpp"
   "trajectory_msgs"
 )
+ament_target_dependencies(
+   ur5_probe_sensor
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+)
+ament_target_dependencies(
+   ur5_move_to_home
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+)
+ament_target_dependencies(
+   ur5_move_to_camera
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+)
+
+ament_target_dependencies(
+   ur5_probe_sensor_service
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+  "common_services_package"
+)
+
+ament_target_dependencies(
+   ur5_image_octmap_path
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+  "common_services_package"
+  "cv_bridge"
+  "geometry_msgs"
+  "pcl_conversions"
+)
 
 install(TARGETS ur5_moveit_test
   DESTINATION lib/${PROJECT_NAME})
@@ -115,6 +168,21 @@ install(TARGETS ur5_pickup_sensor
 install(TARGETS ur5_drop_sensor
   DESTINATION lib/${PROJECT_NAME})
   
+install(TARGETS ur5_probe_sensor
+  DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS ur5_probe_sensor_service
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS ur5_move_to_home
+  DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS ur5_move_to_camera
+  DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS ur5_image_octmap_path
+  DESTINATION lib/${PROJECT_NAME})
+
 
 install(
   DIRECTORY launch 

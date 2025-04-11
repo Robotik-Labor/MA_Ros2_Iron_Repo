@@ -1,0 +1,5 @@
+[ 15%] Built target gmock_main
+[ 38%] Built target gmock
+[ 69%] Built target moveit_ros_occupancy_map_monitor
+[ 84%] Built target moveit_ros_occupancy_map_server
+[100%] Built target occupancy_map_monitor_tests

@@ -327,6 +327,71 @@ cup_pointcloud_segmentation_color/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make CMakeFiles/cup_pointcloud_segmentation_color.dir/build
 .PHONY : cup_pointcloud_segmentation_color/fast
 
+#=============================================================================
+# Target rules for targets named hsv_color_filter
+
+# Build rule for target.
+hsv_color_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hsv_color_filter
+.PHONY : hsv_color_filter
+
+# fast build rule for target.
+hsv_color_filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hsv_color_filter.dir/build.make CMakeFiles/hsv_color_filter.dir/build
+.PHONY : hsv_color_filter/fast
+
+#=============================================================================
+# Target rules for targets named image_based_hsv_color_filter
+
+# Build rule for target.
+image_based_hsv_color_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_based_hsv_color_filter
+.PHONY : image_based_hsv_color_filter
+
+# fast build rule for target.
+image_based_hsv_color_filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_based_hsv_color_filter.dir/build.make CMakeFiles/image_based_hsv_color_filter.dir/build
+.PHONY : image_based_hsv_color_filter/fast
+
+#=============================================================================
+# Target rules for targets named plantplot_icp_conversion
+
+# Build rule for target.
+plantplot_icp_conversion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantplot_icp_conversion
+.PHONY : plantplot_icp_conversion
+
+# fast build rule for target.
+plantplot_icp_conversion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_icp_conversion.dir/build.make CMakeFiles/plantplot_icp_conversion.dir/build
+.PHONY : plantplot_icp_conversion/fast
+
+#=============================================================================
+# Target rules for targets named plantplot_ransac_conversion
+
+# Build rule for target.
+plantplot_ransac_conversion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantplot_ransac_conversion
+.PHONY : plantplot_ransac_conversion
+
+# fast build rule for target.
+plantplot_ransac_conversion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_ransac_conversion.dir/build.make CMakeFiles/plantplot_ransac_conversion.dir/build
+.PHONY : plantplot_ransac_conversion/fast
+
+#=============================================================================
+# Target rules for targets named plantplot_placement
+
+# Build rule for target.
+plantplot_placement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantplot_placement
+.PHONY : plantplot_placement
+
+# fast build rule for target.
+plantplot_placement/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_placement.dir/build.make CMakeFiles/plantplot_placement.dir/build
+.PHONY : plantplot_placement/fast
+
 src/cup_pointcloud_segmentation_and_coloring.o: src/cup_pointcloud_segmentation_and_coloring.cpp.o
 .PHONY : src/cup_pointcloud_segmentation_and_coloring.o
 
@@ -374,6 +439,126 @@ src/cup_segmentation_and_coloring.s: src/cup_segmentation_and_coloring.cpp.s
 src/cup_segmentation_and_coloring.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cup_segmentation_color.dir/build.make CMakeFiles/cup_segmentation_color.dir/src/cup_segmentation_and_coloring.cpp.s
 .PHONY : src/cup_segmentation_and_coloring.cpp.s
+
+src/hsv_color_filter.o: src/hsv_color_filter.cpp.o
+.PHONY : src/hsv_color_filter.o
+
+# target to build an object file
+src/hsv_color_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hsv_color_filter.dir/build.make CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.o
+.PHONY : src/hsv_color_filter.cpp.o
+
+src/hsv_color_filter.i: src/hsv_color_filter.cpp.i
+.PHONY : src/hsv_color_filter.i
+
+# target to preprocess a source file
+src/hsv_color_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hsv_color_filter.dir/build.make CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.i
+.PHONY : src/hsv_color_filter.cpp.i
+
+src/hsv_color_filter.s: src/hsv_color_filter.cpp.s
+.PHONY : src/hsv_color_filter.s
+
+# target to generate assembly for a file
+src/hsv_color_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hsv_color_filter.dir/build.make CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.s
+.PHONY : src/hsv_color_filter.cpp.s
+
+src/image_based_hsv_color_filter.o: src/image_based_hsv_color_filter.cpp.o
+.PHONY : src/image_based_hsv_color_filter.o
+
+# target to build an object file
+src/image_based_hsv_color_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_based_hsv_color_filter.dir/build.make CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o
+.PHONY : src/image_based_hsv_color_filter.cpp.o
+
+src/image_based_hsv_color_filter.i: src/image_based_hsv_color_filter.cpp.i
+.PHONY : src/image_based_hsv_color_filter.i
+
+# target to preprocess a source file
+src/image_based_hsv_color_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_based_hsv_color_filter.dir/build.make CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.i
+.PHONY : src/image_based_hsv_color_filter.cpp.i
+
+src/image_based_hsv_color_filter.s: src/image_based_hsv_color_filter.cpp.s
+.PHONY : src/image_based_hsv_color_filter.s
+
+# target to generate assembly for a file
+src/image_based_hsv_color_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_based_hsv_color_filter.dir/build.make CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.s
+.PHONY : src/image_based_hsv_color_filter.cpp.s
+
+src/plantplot_icp_conversion.o: src/plantplot_icp_conversion.cpp.o
+.PHONY : src/plantplot_icp_conversion.o
+
+# target to build an object file
+src/plantplot_icp_conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_icp_conversion.dir/build.make CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o
+.PHONY : src/plantplot_icp_conversion.cpp.o
+
+src/plantplot_icp_conversion.i: src/plantplot_icp_conversion.cpp.i
+.PHONY : src/plantplot_icp_conversion.i
+
+# target to preprocess a source file
+src/plantplot_icp_conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_icp_conversion.dir/build.make CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.i
+.PHONY : src/plantplot_icp_conversion.cpp.i
+
+src/plantplot_icp_conversion.s: src/plantplot_icp_conversion.cpp.s
+.PHONY : src/plantplot_icp_conversion.s
+
+# target to generate assembly for a file
+src/plantplot_icp_conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_icp_conversion.dir/build.make CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.s
+.PHONY : src/plantplot_icp_conversion.cpp.s
+
+src/plantplot_placement.o: src/plantplot_placement.cpp.o
+.PHONY : src/plantplot_placement.o
+
+# target to build an object file
+src/plantplot_placement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_placement.dir/build.make CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o
+.PHONY : src/plantplot_placement.cpp.o
+
+src/plantplot_placement.i: src/plantplot_placement.cpp.i
+.PHONY : src/plantplot_placement.i
+
+# target to preprocess a source file
+src/plantplot_placement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_placement.dir/build.make CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.i
+.PHONY : src/plantplot_placement.cpp.i
+
+src/plantplot_placement.s: src/plantplot_placement.cpp.s
+.PHONY : src/plantplot_placement.s
+
+# target to generate assembly for a file
+src/plantplot_placement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_placement.dir/build.make CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.s
+.PHONY : src/plantplot_placement.cpp.s
+
+src/plantplot_ransac_conversion.o: src/plantplot_ransac_conversion.cpp.o
+.PHONY : src/plantplot_ransac_conversion.o
+
+# target to build an object file
+src/plantplot_ransac_conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_ransac_conversion.dir/build.make CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o
+.PHONY : src/plantplot_ransac_conversion.cpp.o
+
+src/plantplot_ransac_conversion.i: src/plantplot_ransac_conversion.cpp.i
+.PHONY : src/plantplot_ransac_conversion.i
+
+# target to preprocess a source file
+src/plantplot_ransac_conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_ransac_conversion.dir/build.make CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.i
+.PHONY : src/plantplot_ransac_conversion.cpp.i
+
+src/plantplot_ransac_conversion.s: src/plantplot_ransac_conversion.cpp.s
+.PHONY : src/plantplot_ransac_conversion.s
+
+# target to generate assembly for a file
+src/plantplot_ransac_conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_ransac_conversion.dir/build.make CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.s
+.PHONY : src/plantplot_ransac_conversion.cpp.s
 
 src/point_cloud_circle_detector.o: src/point_cloud_circle_detector.cpp.o
 .PHONY : src/point_cloud_circle_detector.o
@@ -584,6 +769,11 @@ help:
 	@echo "... uninstall"
 	@echo "... cup_pointcloud_segmentation_color"
 	@echo "... cup_segmentation_color"
+	@echo "... hsv_color_filter"
+	@echo "... image_based_hsv_color_filter"
+	@echo "... plantplot_icp_conversion"
+	@echo "... plantplot_placement"
+	@echo "... plantplot_ransac_conversion"
 	@echo "... point_cloud_circle_detector"
 	@echo "... point_cloud_cylinder_detector"
 	@echo "... point_cloud_plantpot_detector"
@@ -598,6 +788,21 @@ help:
 	@echo "... src/cup_segmentation_and_coloring.o"
 	@echo "... src/cup_segmentation_and_coloring.i"
 	@echo "... src/cup_segmentation_and_coloring.s"
+	@echo "... src/hsv_color_filter.o"
+	@echo "... src/hsv_color_filter.i"
+	@echo "... src/hsv_color_filter.s"
+	@echo "... src/image_based_hsv_color_filter.o"
+	@echo "... src/image_based_hsv_color_filter.i"
+	@echo "... src/image_based_hsv_color_filter.s"
+	@echo "... src/plantplot_icp_conversion.o"
+	@echo "... src/plantplot_icp_conversion.i"
+	@echo "... src/plantplot_icp_conversion.s"
+	@echo "... src/plantplot_placement.o"
+	@echo "... src/plantplot_placement.i"
+	@echo "... src/plantplot_placement.s"
+	@echo "... src/plantplot_ransac_conversion.o"
+	@echo "... src/plantplot_ransac_conversion.i"
+	@echo "... src/plantplot_ransac_conversion.s"
 	@echo "... src/point_cloud_circle_detector.o"
 	@echo "... src/point_cloud_circle_detector.i"
 	@echo "... src/point_cloud_circle_detector.s"

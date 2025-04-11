@@ -1,0 +1,4 @@
+srv/GetPlantpotCoords.idl
+srv/GetPlantpotCoords.srv
+srv/GetPlantpotCoords_Request.msg
+srv/GetPlantpotCoords_Response.msg

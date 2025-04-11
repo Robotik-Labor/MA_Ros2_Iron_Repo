@@ -1,0 +1,24 @@
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:10[m[K:
+[01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_image_pub_[m[K’ was not declared in this scope
+   44 |         image_pub_ = [01;31m[Kcreate_image_pub_[m[K<sensor_msgs::msg::Image>("/UR5/image/green_filtered", 1);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   44 |         image_pub_ = create_image_pub_<sensor_msgs::msg::Image[01;31m[K>[m[K("/UR5/image/green_filtered", 1);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:44:65:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   44 |         image_pub_ = create_image_pub_<sensor_msgs::msg::Image>([01;35m[K"/UR5/image/green_filtered"[m[K, 1);
+      |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+  111 |         image_pub_->[01;31m[Kpublish[m[K(*output_msg)
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+  118 |         [01;31m[Kcloud[m[K->width = current_depth_.cols;
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

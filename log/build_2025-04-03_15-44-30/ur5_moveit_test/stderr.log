@@ -1,0 +1,35 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:52:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   52 |       const double [01;35m[Kangle_step[m[K = M_PI / (num_positions - 1);  // Divide the semicircle into equal parts
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:207:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::empty[m[K’ from type ‘[01m[Kbool (std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::)() const noexcept[m[K’ to type ‘[01m[Kbool[m[K’
+  207 |   while (target_poses.[01;31m[Kempty[m[K) {
+      |                       [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:243:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmoveit[m[K’
+  243 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface::Plan plan_to_above;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:249:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  249 |   for (int i = 0; [01;35m[Ki < target_poses.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:255:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  255 |           [01;31m[Ksuccess[m[K = (move_group_interface.plan(plan_to_above) == moveit::core::MoveItErrorCode::SUCCESS);
+      |           [01;31m[K^~~~~~~[m[K
+      |           [32m[Keaccess[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:255:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan_to_above[m[K’ was not declared in this scope
+  255 |           success = (move_group_interface.plan([01;31m[Kplan_to_above[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:258:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope
+  258 |           [01;31m[Kwaypoints[m[K.clear();
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:261:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_poses[m[K’?
+  261 |           [01;31m[Kstart_pose[m[K = target_poses[i];
+      |           [01;31m[K^~~~~~~~~~[m[K
+      |           [32m[Ktarget_poses[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor.cpp:269:85:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_down[m[K’?
+  269 |           fraction = move_group_interface.computeCartesianPath(waypoints, eef_step, [01;31m[Ktrajectory[m[K);
+      |                                                                                     [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                     [32m[Ktrajectory_down[m[K
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor.dir/build.make:76: CMakeFiles/ur5_probe_sensor.dir/src/ur5_probe_sensor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/ur5_probe_sensor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,107 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[  7%] Built target ur5_read_positions
+[ 15%] Built target ur5_moveit_test_object_detection
+[ 23%] Built target gripper_close_moveit_test
+[ 30%] Built target gripper_open_moveit_test
+[ 38%] Built target ur5_moveit_test
+[ 46%] Built target ur5_moveit_test_launch
+[ 53%] Built target ur5_drop_sensor
+[ 61%] Built target ur5_probe_sensor
+[ 69%] Built target ur5_pickup_sensor
+[ 76%] Built target ur5_move_to_home
+[ 84%] Built target ur5_move_to_camera
+[ 92%] Built target ur5_probe_sensor_service
+[ 96%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::moveToTargets(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:465:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  465 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:465:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  465 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:475:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  475 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:475:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  475 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+[100%] [32m[1mLinking CXX executable ur5_image_octmap_path[0m
+[100%] Built target ur5_image_octmap_path
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/gripper_close_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/gripper_open_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test_launch
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test_object_detection
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_read_positions
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_pickup_sensor
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_drop_sensor
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_probe_sensor
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_probe_sensor_service
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_home
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_camera
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_image_octmap_path
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_image_octmap_path" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_read_positions.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_to_home.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_to_camera.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_probe_sensor_service.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_pickup_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_image_octmap_path.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/gripper_open_moveit_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test2.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test_object_detection.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_drop_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_probe_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/gripper_close_moveit_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/package_run_dependencies/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/parent_prefix_path/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/packages/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/cmake/ur5_moveit_testConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/cmake/ur5_moveit_testConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/package.xml

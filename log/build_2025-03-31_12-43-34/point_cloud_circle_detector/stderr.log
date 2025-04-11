@@ -1,0 +1,7 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid ColorFilterNode::cloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/hsv_color_filter.cpp:142:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_rgb[m[K’ was not declared in this scope
+  142 |         cond_removal.setInputCloud([01;31m[Kcloud_rgb[m[K);
+      |                                    [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hsv_color_filter.dir/build.make:76: CMakeFiles/hsv_color_filter.dir/src/hsv_color_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/hsv_color_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

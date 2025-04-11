@@ -1,0 +1,6 @@
+# Request: No input, the service will just return the last known coordinates
+---
+# Response: success (bool), message (string), and the last known coordinates (Point)
+bool success
+string message
+geometry_msgs/Point coordinates

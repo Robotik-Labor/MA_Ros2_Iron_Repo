@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[  8%] Built target image_based_hsv_color_filter
+[ 16%] Built target point_cloud_plantpot_detector
+[ 25%] Built target hsv_color_filter
+[ 33%] Built target point_cloud_plantpot_pfh_detector
+[ 41%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 50%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 58%] Built target rgb_edge_filter
+[ 66%] Built target point_cloud_cylinder_detector
+[ 75%] Built target point_cloud_plantpot_ppf_detector
+[ 83%] Built target point_cloud_circle_detector
+[ 91%] Built target cup_segmentation_color
+[ 95%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m

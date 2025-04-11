@@ -1,0 +1,62 @@
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:7[m[K:
+[01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:50:52:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraInfo[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+   50 |     void depthInfoCallback(const sensor_msgs::msg::[01;31m[KCameraInfo[m[K::SharedPtr msg) {
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:50:74:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   50 |     void depthInfoCallback(const sensor_msgs::msg::CameraInfo::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                          [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:50:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   50 |     void depthInfoCallback[34m[K([m[Kconst sensor_msgs::msg::CameraInfo::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                           [34m[K~[m[K                                             [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                         [32m[K)[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:50:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |     void depthInfoCallback(const sensor_msgs::msg::CameraInfo::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                                         [32m[K;[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:50:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   50 |     void depthInfoCallback(const sensor_msgs::msg::CameraInfo::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                          [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_info_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdepth_sub_[m[K’?
+   14 |         [01;31m[Kdepth_info_sub_[m[K = create_subscription<sensor_msgs::msg::CameraInfo>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Kdepth_sub_[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:14:65:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraInfo[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   14 |         depth_info_sub_ = create_subscription<sensor_msgs::msg::[01;31m[KCameraInfo[m[K>(
+      |                                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:14:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPointCloudGenerator::create_subscription<<expression error> >(const char [51], int, std::_Bind_helper<false, void (PointCloudGenerator::*)(...), PointCloudGenerator*, const std::_Placeholder<1>&>::type)[m[K’
+   14 |         depth_info_sub_ = [01;31m[Kcreate_subscription<sensor_msgs::msg::CameraInfo>([m[K
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   15 | [01;31m[K            "/UR5/UR5_camera/aligned_depth_to_color/camera_info", 1,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   16 | [01;31m[K            std::bind(&PointCloudGenerator::depthInfoCallback, this, std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   17 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                   
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  220 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:14:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |         depth_info_sub_ = [01;31m[Kcreate_subscription<sensor_msgs::msg::CameraInfo>([m[K
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   15 | [01;31m[K            "/UR5/UR5_camera/aligned_depth_to_color/camera_info", 1,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   16 | [01;31m[K            std::bind(&PointCloudGenerator::depthInfoCallback, this, std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   17 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                   
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:90:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+   90 |                 float x = (u - [01;31m[Kcamera_info_[m[K.k[2]) * z / camera_info_.k[0];
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

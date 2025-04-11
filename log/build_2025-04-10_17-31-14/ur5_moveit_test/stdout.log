@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[  7%] Built target ur5_moveit_test_object_detection
+[ 15%] Built target ur5_moveit_test
+[ 23%] Built target gripper_open_moveit_test
+[ 30%] Built target ur5_drop_sensor
+[ 38%] Built target ur5_move_to_home
+[ 46%] Built target ur5_pickup_sensor
+[ 53%] Built target gripper_close_moveit_test
+[ 57%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m
+[ 65%] Built target ur5_moveit_test_launch
+[ 73%] Built target ur5_probe_sensor
+[ 80%] Built target ur5_read_positions
+[ 88%] Built target ur5_probe_sensor_service
+[ 96%] Built target ur5_move_to_camera

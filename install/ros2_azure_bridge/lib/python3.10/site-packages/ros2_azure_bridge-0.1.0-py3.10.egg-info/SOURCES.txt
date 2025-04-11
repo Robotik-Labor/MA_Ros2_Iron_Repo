@@ -10,9 +10,11 @@ setup.py
 ../../build/ros2_azure_bridge/ros2_azure_bridge.egg-info/zip-safe
 config/bridge_config.yaml
 launch/azure_bridge.launch.py
+launch/service_calls.launch.py
 resource/ros2_azure_bridge
 ros2_azure_bridge/__init__.py
 ros2_azure_bridge/ros2_azure_iot_bridge.py
+ros2_azure_bridge/service_calls.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -1,0 +1,8 @@
+setup.py
+common_services_package/__init__.py
+common_services_package.egg-info/PKG-INFO
+common_services_package.egg-info/SOURCES.txt
+common_services_package.egg-info/dependency_links.txt
+common_services_package.egg-info/top_level.txt
+common_services_package/srv/__init__.py
+common_services_package/srv/_get_plantpot_coords.py

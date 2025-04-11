@@ -1,0 +1,30 @@
+[ 14%] Built target object_test2
+[ 28%] Built target object_test
+[ 42%] Built target object_test5
+[ 57%] Built target object_test6
+[ 71%] Built target object_test4
+[ 85%] Built target object_test3
+[100%] Built target Transfrom_test
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test2
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test3
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test4
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test5
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/object_test6
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/lib/object_creation/Transfrom_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/ament_index/resource_index/package_run_dependencies/object_creation
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/ament_index/resource_index/parent_prefix_path/object_creation
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/ament_index/resource_index/packages/object_creation
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/cmake/object_creationConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/cmake/object_creationConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/object_creation/share/object_creation/package.xml

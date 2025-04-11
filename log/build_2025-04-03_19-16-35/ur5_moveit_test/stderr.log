@@ -1,0 +1,128 @@
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:141:1:[m[K   required by substitution of ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:48:63:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:378:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  378 |   using [01;31m[KRequest[m[K = typename ServiceT::Request;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:379:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  379 |   using [01;31m[KResponse[m[K = typename ServiceT::Response;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:381:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  381 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:382:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  382 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:384:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  384 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:385:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  385 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:387:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  387 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:388:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  388 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:390:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  390 |   using [01;31m[KFuture[m[K = std::future<SharedResponse>;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:391:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  391 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:392:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  392 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:394:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  394 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:395:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  395 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:515:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  515 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:645:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  645 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:676:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  676 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:813:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  813 |   using [01;31m[KCallbackTypeValueVariant[m[K = std::tuple<CallbackType, SharedFuture, Promise>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:814:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  814 |   using [01;31m[KCallbackWithRequestTypeValueVariant[m[K = std::tuple<
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:817:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  817 |   using [01;31m[KCallbackInfoVariant[m[K = std::variant<
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:838:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  838 |   [01;31m[Kget_and_erase_pending_request[m[K(int64_t request_number)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:860:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  860 |   [01;31m[Kpending_requests_[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:62:[m[K [01;31m[Kerror: [m[K‘[01m[KRequest[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’}
+   60 |   auto request = std::make_shared<geometry_msgs::msg::Point::[01;31m[KRequest[m[K>();
+      |                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   60 |   auto request = [01;31m[Kstd::make_shared<geometry_msgs::msg::Point::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   60 |   auto request = [01;31m[Kstd::make_shared<geometry_msgs::msg::Point::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:63:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Client<geometry_msgs::msg::Point_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kasync_send_request[m[K’
+   63 |   auto result_future = client->[01;31m[Kasync_send_request[m[K(request);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:79:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   79 |     const double [01;35m[Kangle_step[m[K = M_PI / (num_positions - 1);  // Divide the semicircle into equal parts
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:262:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |   for (int i = 0; [01;35m[Ki < target_poses.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kstd::shared_ptr<void> rclcpp::Client<ServiceT>::create_response() [with ServiceT = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:525:3:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:527:34:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  527 |     return std::shared_ptr<void>([01;31m[Knew typename ServiceT::Response()[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kvoid rclcpp::Client<ServiceT>::handle_response(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<void>) [with ServiceT = geometry_msgs::msg::Point_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:548:3:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  553 |     [01;31m[Koptional_pending_request[m[K = this->get_and_erase_pending_request(request_header->sequence_number);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:558:32:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’
+  558 |     auto typed_response = [01;31m[Kstd::static_pointer_cast<typename ServiceT::Response>[m[K(
+      |                           [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor_service.dir/build.make:76: CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur5_probe_sensor_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

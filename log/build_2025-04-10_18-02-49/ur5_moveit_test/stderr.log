@@ -1,0 +1,8 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In constructor ‘[01m[KSensorProbeNode::SensorProbeNode()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:158:56:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  158 |         auto move_group_interface = MoveGroupInterface([01;31m[Knode[m[K, options);
+      |                                                        [01;31m[K^~~~[m[K
+      |                                                        [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

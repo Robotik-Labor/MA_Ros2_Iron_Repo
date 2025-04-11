@@ -1,0 +1,20 @@
+[  5%] Built target gtest
+[ 10%] Built target gtest_main
+[ 15%] Built target planning_scene_ros_api_tutorial
+[ 20%] Built target kinematics_cost_function_tutorial
+[ 25%] Built target pose_tracking_tutorial
+[ 30%] Built target move_group_interface_tutorial
+[ 40%] Built target planning_scene_tutorial
+[ 40%] Built target minimal_mtc_tutorial
+[ 45%] Built target pilz_move_group
+[ 50%] Built target robot_model_and_robot_state_tutorial
+[ 55%] Built target parallel_planning_example
+[ 65%] Built target moveit_cpp_tutorial
+[ 65%] Built target motion_planning_pipeline_tutorial
+[ 70%] Built target collision_scene_example
+[ 75%] Built target pilz_mtc
+[ 80%] Built target mtc_tutorial
+[ 85%] Built target pilz_sequence
+[ 90%] Built target ompl_constrained_planning
+[ 95%] Built target motion_planning_api_tutorial
+[100%] Built target bringup_test

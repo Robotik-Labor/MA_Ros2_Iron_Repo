@@ -1,0 +1,44 @@
+[0.618s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.792s] [  6%] Built target point_cloud_circle_detector
+[0.796s] [ 13%] Built target point_cloud_plantpot_pfh_detector
+[0.802s] [ 20%] Built target rgb_edge_filter
+[0.803s] [ 26%] Built target cup_segmentation_color
+[0.803s] [ 33%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.806s] [ 40%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.813s] [ 46%] Built target hsv_color_filter
+[0.817s] [ 53%] Built target point_cloud_plantpot_ppf_detector
+[0.822s] [ 60%] Built target cup_pointcloud_segmentation_color
+[0.823s] [ 66%] Built target point_cloud_plantpot_detector
+[0.823s] [ 73%] Built target plantplot_icp_conversion
+[0.830s] [ 80%] Built target image_based_hsv_color_filter
+[0.831s] [ 86%] Built target plantplot_ransac_conversion
+[0.839s] [ 93%] Built target point_cloud_cylinder_detector
+[0.839s] [ 96%] [32mBuilding CXX object CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o[0m
+[11.422s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:42:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+[11.423s]    42 | rclcpp::Publisher<geometry_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr plantpot_coord_publisher_;
+[11.423s]       |                                       [01;31m[K^~~~~~~~~~~[m[K
+[11.423s] In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[11.423s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:23[m[K:
+[11.423s] [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:235:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+[11.423s]   235 | using [01;36m[KPointCloud2[m[K =
+[11.423s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[11.423s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:42:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.423s]    42 | rclcpp::Publisher<geometry_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr plantpot_coord_publisher_;
+[11.423s]       |                                                  [01;31m[K^[m[K
+[11.423s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:42:63:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kplantpot_coord_publisher_[m[K’
+[11.424s]    42 | rclcpp::Publisher<geometry_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kplantpot_coord_publisher_[m[K;
+[11.424s]       |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.544s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In constructor ‘[01m[KPointCloudCustomObjectMatcher::PointCloudCustomObjectMatcher()[m[K’:
+[11.544s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplantpot_coord_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_cloud_publisher_[m[K’?
+[11.544s]    69 |         [01;31m[Kplantpot_coord_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Point>(
+[11.544s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.544s]       |         [32m[Kpoint_cloud_publisher_[m[K
+[11.743s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.743s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:285:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kplantpot_coord_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_cloud_publisher_[m[K’?
+[11.743s]   285 |             [01;31m[Kplantpot_coord_publisher_[m[K->publish(point_msg);
+[11.743s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.743s]       |             [32m[Kpoint_cloud_publisher_[m[K
+[19.245s] gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+[19.245s] gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+[19.246s] gmake: *** [Makefile:146: all] Error 2
+[19.248s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

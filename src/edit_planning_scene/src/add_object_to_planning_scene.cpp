@@ -134,7 +134,7 @@ private:
 {
     geometry_msgs::msg::Pose object_pose;
     object_pose.position.x = 0.00;   // Updated position
-    object_pose.position.y = -0.42;  // Updated position
+    object_pose.position.y = -0.51;  // Updated position
     object_pose.position.z = 0.54 + 0.0001;   // Updated position
     
     // Setting orientation to identity (w=1)
@@ -171,7 +171,7 @@ private:
 {
     geometry_msgs::msg::Pose object_pose;
     object_pose.position.x = -0.375 ;   // Updated position
-    object_pose.position.y = -0.27;  // Updated position
+    object_pose.position.y = -0.31;  // Updated position
     object_pose.position.z = 0.28 +0.0001;   // Updated position
     
     // Setting orientation to identity (w=1)
@@ -190,7 +190,7 @@ private:
     primitive.type = primitive.BOX;
     primitive.dimensions.resize(3);
     primitive.dimensions[0] = 0.15;  // Box x dimension
-    primitive.dimensions[1] = 0.30;  // Box y dimension
+    primitive.dimensions[1] = 0.40;  // Box y dimension
     primitive.dimensions[2] = 0.60;  // Box z dimension
     
     box_object.primitives.push_back(primitive);
@@ -208,7 +208,7 @@ private:
 {
     geometry_msgs::msg::Pose object_pose;
     object_pose.position.x = -0.456 - 0.0001;   // Updated position
-    object_pose.position.y = 0.53;  // Updated position
+    object_pose.position.y = 0.48;  // Updated position
     object_pose.position.z = 0.54;   // Updated position
     
     // Setting orientation to identity (w=1)
@@ -227,7 +227,7 @@ private:
     primitive.type = primitive.BOX;
     primitive.dimensions.resize(3);
     primitive.dimensions[0] = 0.01;  // Box x dimension
-    primitive.dimensions[1] = 1.90;  // Box y dimension
+    primitive.dimensions[1] = 2.00;  // Box y dimension
     primitive.dimensions[2] = 1.20;  // Box z dimension
     
     box_object.primitives.push_back(primitive);

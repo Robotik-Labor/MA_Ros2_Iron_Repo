@@ -1,0 +1,16 @@
+[  8%] Built target ur5_moveit_test_object_detection
+[ 16%] Built target ur5_read_positions
+[ 20%] [32mBuilding CXX object CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.o[0m
+[ 29%] Built target ur5_move_to_camera
+[ 37%] Built target gripper_open_moveit_test
+[ 45%] Built target ur5_moveit_test_launch
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o[0m
+[ 62%] Built target ur5_moveit_test
+[ 70%] Built target gripper_close_moveit_test
+[ 79%] Built target ur5_probe_sensor
+[ 87%] Built target ur5_move_to_home
+[ 91%] [32m[1mLinking CXX executable ur5_drop_sensor[0m
+[ 95%] [32m[1mLinking CXX executable ur5_pickup_sensor[0m
+[ 95%] Built target ur5_drop_sensor
+[ 95%] Built target ur5_pickup_sensor

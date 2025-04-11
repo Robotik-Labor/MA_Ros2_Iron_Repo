@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7747159d1f4b7ae4abf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "edit_planning_scene",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_object_to_planning_scene_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_object_to_planning_scene_node-dee68d90d1605703a5a5.json",
+					"name" : "add_object_to_planning_scene_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "edit_planning_scene_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edit_planning_scene_uninstall-2805e8359bd0c66b9735.json",
+					"name" : "edit_planning_scene_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_octomap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_octomap-7ab46ed5a43e62e40673.json",
+					"name" : "pointcloud_to_octomap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6efbdc4306308cbc5c50.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/edit_planning_scene",
+		"source" : "/home/buhrmann/ws_moveit/src/edit_planning_scene"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

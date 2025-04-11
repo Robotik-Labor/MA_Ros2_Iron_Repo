@@ -1,0 +1,38 @@
+[0.506s] Invoking command in '/home/buhrmann/ws_moveit/build/ur3_description_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur3_description_controller -- -j28 -l28
+[1.095s] Invoked command in '/home/buhrmann/ws_moveit/build/ur3_description_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur3_description_controller -- -j28 -l28
+[1.097s] Invoking command in '/home/buhrmann/ws_moveit/build/ur3_description_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ur3_description_controller
+[1.161s] -- Install configuration: ""
+[1.162s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch
+[1.162s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/command
+[1.162s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/command_namespaces
+[1.162s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/ur5.launch.py
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/ur_control.namespace.launch .py
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/ur_control.launch.py
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/launch/ur_control.namespace.launch.py
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/my_robot_calibration.yaml
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur3
+[1.163s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur3/joint_limits.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur3/physical_parameters.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur3/default_kinematics.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur3/visual_parameters.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur_namespace_controllers.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/config/ur_controllers.yaml
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/urdf
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/urdf/ur.urdf.xacro
+[1.164s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ament_index/resource_index/package_run_dependencies/ur3_description_controller
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ament_index/resource_index/parent_prefix_path/ur3_description_controller
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/environment/ament_prefix_path.sh
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/environment/ament_prefix_path.dsv
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/environment/path.sh
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/environment/path.dsv
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/local_setup.bash
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/local_setup.sh
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/local_setup.zsh
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/local_setup.dsv
+[1.165s] -- Installing: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/package.dsv
+[1.165s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ament_index/resource_index/packages/ur3_description_controller
+[1.166s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/cmake/ur3_description_controllerConfig.cmake
+[1.166s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/cmake/ur3_description_controllerConfig-version.cmake
+[1.166s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ur3_description_controller/share/ur3_description_controller/package.xml
+[1.558s] Invoked command in '/home/buhrmann/ws_moveit/build/ur3_description_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ur3_description_controller

@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o[0m
+[ 75%] Built target add_object_to_planning_scene_node
+[100%] [32m[1mLinking CXX executable pointcloud_to_octomap[0m
+[100%] Built target pointcloud_to_octomap
+-- Install configuration: ""
+-- Installing: /home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene/pointcloud_to_octomap
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene/pointcloud_to_octomap" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene/add_object_to_planning_scene_node
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/ament_index/resource_index/package_run_dependencies/edit_planning_scene
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/ament_index/resource_index/parent_prefix_path/edit_planning_scene
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/ament_index/resource_index/packages/edit_planning_scene
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/cmake/edit_planning_sceneConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/cmake/edit_planning_sceneConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/edit_planning_scene/share/edit_planning_scene/package.xml

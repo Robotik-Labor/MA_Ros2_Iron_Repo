@@ -31,7 +31,7 @@
     # Add more robust planners
     BiTRRT:
       type: geometric::BiTRRT
-      optimization_objective: StateCostIntegralObjective
+      optimization_objective: ClearanceObjective
       range: 0.0
       temp_change_factor: 0.1
       cost_threshold: 1000

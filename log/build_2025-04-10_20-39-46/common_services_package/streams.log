@@ -1,0 +1,152 @@
+[0.176s] Invoking command in '/home/buhrmann/ws_moveit/build/common_services_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/common_services_package -- -j28 -l28
+[0.216s] [  2%] Built target common_services_package__rosidl_generator_type_description
+[0.235s] [  2%] Built target ament_cmake_python_copy_common_services_package
+[0.267s] [  5%] Built target common_services_package__cpp
+[0.272s] [ 20%] Built target common_services_package__rosidl_generator_c
+[0.284s] [ 29%] Built target common_services_package__rosidl_typesupport_cpp
+[0.285s] [ 38%] Built target common_services_package__rosidl_typesupport_fastrtps_c
+[0.285s] [ 47%] Built target common_services_package__rosidl_typesupport_introspection_c
+[0.285s] [ 55%] Built target common_services_package__rosidl_typesupport_fastrtps_cpp
+[0.286s] [ 64%] Built target common_services_package__rosidl_typesupport_c
+[0.286s] [ 73%] Built target common_services_package__rosidl_typesupport_introspection_cpp
+[0.303s] [ 73%] Built target common_services_package
+[0.304s] [ 76%] Built target common_services_package__py
+[0.318s] [ 82%] Built target common_services_package__rosidl_generator_py
+[0.337s] [ 88%] Built target common_services_package__rosidl_typesupport_introspection_c__pyext
+[0.338s] [ 94%] Built target common_services_package__rosidl_typesupport_fastrtps_c__pyext
+[0.339s] [100%] Built target common_services_package__rosidl_typesupport_c__pyext
+[0.374s] running egg_info
+[0.374s] writing common_services_package.egg-info/PKG-INFO
+[0.374s] writing dependency_links to common_services_package.egg-info/dependency_links.txt
+[0.374s] writing top-level names to common_services_package.egg-info/top_level.txt
+[0.376s] reading manifest file 'common_services_package.egg-info/SOURCES.txt'
+[0.376s] writing manifest file 'common_services_package.egg-info/SOURCES.txt'
+[0.395s] [100%] Built target ament_cmake_python_build_common_services_package_egg
+[0.518s] Invoked command in '/home/buhrmann/ws_moveit/build/common_services_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/common_services_package -- -j28 -l28
+[0.519s] Invoking command in '/home/buhrmann/ws_moveit/build/common_services_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/common_services_package
+[0.533s] -- Install configuration: ""
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/ament_index/resource_index/rosidl_interfaces/common_services_package
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/srv/GetPlantpotCoords.json
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/get_plantpot_coords.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__struct.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__type_support.c
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__functions.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__functions.c
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__type_support.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__description.c
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg/rosidl_generator_c__visibility_control.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/library_path.sh
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/library_path.dsv
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_generator_c.so
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__rosidl_typesupport_fastrtps_c.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_fastrtps_c.so
+[0.534s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__type_support.c
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__rosidl_typesupport_introspection_c.h
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_introspection_c.so
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_c.so
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__traits.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__builder.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__struct.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/get_plantpot_coords.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/dds_fastrtps
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_fastrtps_cpp.so
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__type_support.cpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/include/common_services_package/common_services_package/srv/detail/get_plantpot_coords__rosidl_typesupport_introspection_cpp.hpp
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_introspection_cpp.so
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_typesupport_cpp.so
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/pythonpath.sh
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/pythonpath.dsv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package-0.0.0-py3.10.egg-info
+[0.535s] -- Installing: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.535s] -- Installing: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.535s] -- Installing: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package-0.0.0-py3.10.egg-info/top_level.txt
+[0.535s] -- Installing: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package-0.0.0-py3.10.egg-info/PKG-INFO
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/srv
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/srv/_get_plantpot_coords_s.c
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/srv/_get_plantpot_coords.py
+[0.535s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/srv/__init__.py
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/_common_services_package_s.ep.rosidl_typesupport_introspection_c.c
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/_common_services_package_s.ep.rosidl_typesupport_c.c
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/libcommon_services_package__rosidl_generator_py.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/__init__.py
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/_common_services_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.536s] Listing '/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package'...
+[0.536s] Listing '/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/srv'...
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages/common_services_package/common_services_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/lib/libcommon_services_package__rosidl_generator_py.so
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/srv/GetPlantpotCoords.idl
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/srv/GetPlantpotCoords.srv
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/srv/GetPlantpotCoords_Request.msg
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/srv/GetPlantpotCoords_Response.msg
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/ament_index/resource_index/package_run_dependencies/common_services_package
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/ament_index/resource_index/parent_prefix_path/common_services_package
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/ament_prefix_path.sh
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/path.sh
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/environment/path.dsv
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/local_setup.bash
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/local_setup.sh
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/local_setup.zsh
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/local_setup.dsv
+[0.536s] -- Installing: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/package.dsv
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/ament_index/resource_index/packages/common_services_package
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_generator_cExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_generator_cExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_typesupport_fastrtps_cExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_introspection_cExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_cExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_cExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_generator_cppExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_introspection_cppExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_cppExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_package__rosidl_typesupport_cppExport-noconfig.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_generator_pyExport.cmake
+[0.536s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/export_common_services_package__rosidl_generator_pyExport-noconfig.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/rosidl_cmake-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/ament_cmake_export_libraries-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/ament_cmake_export_targets-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_packageConfig.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/cmake/common_services_packageConfig-version.cmake
+[0.537s] -- Up-to-date: /home/buhrmann/ws_moveit/install/common_services_package/share/common_services_package/package.xml
+[0.590s] Invoked command in '/home/buhrmann/ws_moveit/build/common_services_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/common_services_package

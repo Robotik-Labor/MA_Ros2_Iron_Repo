@@ -59,7 +59,7 @@ class OneFormerCupDetectionNode(Node):
             
             # COCO dataset typically uses index 41 for cup 58 for potted plants and 75 for vase
             
-            self.cup_class_index = 41
+            self.cup_class_index = 58
             
             self.get_logger().info(f'OneFormer Cup Detection Node initialized on {self.device}')
         except Exception as e:
@@ -73,7 +73,7 @@ class OneFormerCupDetectionNode(Node):
         except Exception as e:
             self.get_logger().error(f'Image conversion error: {str(e)}')
             return
-        # cv_image = cv2.rotate(cv_image, cv2.ROTATE_180)
+        cv_image = cv2.rotate(cv_image, cv2.ROTATE_180)
         # Convert to PIL Image
         pil_image = PILImage.fromarray(cv_image)
         

@@ -1,0 +1,6 @@
+[  8%] Built target stomp_moveit_parameters
+[ 25%] Built target gtest_main
+[ 41%] Built target gtest
+[ 58%] Built target test_noise_generator
+[ 83%] Built target stomp_moveit_plugin
+[100%] Built target test_cost_functions

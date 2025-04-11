@@ -1,0 +1,87 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_placement[0m
+[  6%] Built target rgb_edge_filter
+[ 13%] Built target image_based_hsv_color_filter
+[ 20%] Built target point_cloud_plantpot_ppf_detector
+[ 26%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 33%] Built target cup_pointcloud_segmentation_color
+[ 40%] Built target hsv_color_filter
+[ 46%] Built target point_cloud_plantpot_detector
+[ 53%] Built target cup_segmentation_color
+[ 60%] Built target plantplot_icp_conversion
+[ 66%] Built target point_cloud_plantpot_pfh_detector
+[ 73%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 86%] Built target point_cloud_circle_detector
+[ 86%] Built target plantplot_ransac_conversion
+[ 90%] [32mBuilding CXX object CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o[0m
+[ 96%] Built target point_cloud_cylinder_detector
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2::angle[m[K’?
+  196 |             [01;31m[Kangle[m[K = std::atan2(y, x);
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Ktf2::angle[m[K
+In file included from [01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Matrix3x3.h:20[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2/tf2/buffer_core.h:47[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/async_buffer_interface.h:39[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/buffer.h:41[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:3[m[K:
+[01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Quaternion.h:410:1:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::angle[m[K’ declared here
+  410 | [01;36m[Kangle[m[K(const Quaternion& q1, const Quaternion& q2)
+      | [01;36m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::y[m[K’?
+  196 |             angle = std::atan2([01;31m[Ky[m[K, x);
+      |                                [01;31m[K^[m[K
+      |                                [32m[Kpcl::fields::y[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:11[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1782:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::y[m[K’ declared here
+ 1782 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZ,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::x[m[K’?
+  196 |             angle = std::atan2(y, [01;31m[Kx[m[K);
+      |                                   [01;31m[K^[m[K
+      |                                   [32m[Kpcl::fields::x[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:11[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1782:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::x[m[K’ declared here
+ 1782 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZ,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:206:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  206 |             [01;31m[Kstd[m[K::vector<moveit_msgs::msg::CollisionObject> collision_objects;
+      |             [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:215:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_to_quaternion[m[K’ was not declared in this scope
+  215 |             object_pose.orientation = [01;31m[Krpy_to_quaternion[m[K(roll, pitch, yaw);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:219:64:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshObject[m[K’ was not declared in this scope
+  219 |             moveit_msgs::msg::CollisionObject sensor_station = [01;31m[KcreateMeshObject[m[K("Sensor_Station", stl_path, object_pose);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:220:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_objects[m[K’ was not declared in this scope
+  220 |             [01;31m[Kcollision_objects[m[K.push_back(sensor_station);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

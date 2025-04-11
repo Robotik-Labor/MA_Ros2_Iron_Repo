@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_octomap[0m
+[ 50%] Built target add_object_to_planning_scene_node
+[ 75%] [32mBuilding CXX object CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o[0m

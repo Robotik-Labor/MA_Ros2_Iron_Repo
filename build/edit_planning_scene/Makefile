@@ -210,6 +210,19 @@ add_object_to_planning_scene_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_object_to_planning_scene_node.dir/build.make CMakeFiles/add_object_to_planning_scene_node.dir/build
 .PHONY : add_object_to_planning_scene_node/fast
 
+#=============================================================================
+# Target rules for targets named pointcloud_to_octomap
+
+# Build rule for target.
+pointcloud_to_octomap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointcloud_to_octomap
+.PHONY : pointcloud_to_octomap
+
+# fast build rule for target.
+pointcloud_to_octomap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/build
+.PHONY : pointcloud_to_octomap/fast
+
 src/add_object_to_planning_scene.o: src/add_object_to_planning_scene.cpp.o
 .PHONY : src/add_object_to_planning_scene.o
 
@@ -234,6 +247,30 @@ src/add_object_to_planning_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_object_to_planning_scene_node.dir/build.make CMakeFiles/add_object_to_planning_scene_node.dir/src/add_object_to_planning_scene.cpp.s
 .PHONY : src/add_object_to_planning_scene.cpp.s
 
+src/octo_map.o: src/octo_map.cpp.o
+.PHONY : src/octo_map.o
+
+# target to build an object file
+src/octo_map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o
+.PHONY : src/octo_map.cpp.o
+
+src/octo_map.i: src/octo_map.cpp.i
+.PHONY : src/octo_map.i
+
+# target to preprocess a source file
+src/octo_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.i
+.PHONY : src/octo_map.cpp.i
+
+src/octo_map.s: src/octo_map.cpp.s
+.PHONY : src/octo_map.s
+
+# target to generate assembly for a file
+src/octo_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.s
+.PHONY : src/octo_map.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... edit_planning_scene_uninstall"
 	@echo "... uninstall"
 	@echo "... add_object_to_planning_scene_node"
+	@echo "... pointcloud_to_octomap"
 	@echo "... src/add_object_to_planning_scene.o"
 	@echo "... src/add_object_to_planning_scene.i"
 	@echo "... src/add_object_to_planning_scene.s"
+	@echo "... src/octo_map.o"
+	@echo "... src/octo_map.i"
+	@echo "... src/octo_map.s"
 .PHONY : help
 
 

@@ -1,0 +1,15 @@
+[ 10%] Built target rgb_edge_filter
+[ 13%] Built target hsv_color_filter
+[ 20%] Built target point_cloud_circle_detector
+[ 26%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 33%] Built target cup_segmentation_color
+[ 40%] Built target cup_pointcloud_segmentation_color
+[ 46%] Built target point_cloud_cylinder_detector
+[ 53%] Built target point_cloud_plantpot_pfh_detector
+[ 56%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+[ 63%] Built target plantplot_ransac_conversion
+[ 70%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 76%] Built target point_cloud_plantpot_ppf_detector
+[ 83%] Built target point_cloud_plantpot_detector
+[ 90%] Built target plantplot_icp_conversion
+[ 96%] Built target plantplot_placement

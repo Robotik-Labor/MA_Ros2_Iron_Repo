@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_probe_sensor_service[0m
+[ 10%] Built target ur5_moveit_test
+[ 20%] Built target ur5_moveit_test_object_detection
+[ 30%] Built target gripper_close_moveit_test
+[ 35%] [32mBuilding CXX object CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o[0m
+[ 45%] Built target ur5_probe_sensor
+[ 55%] Built target ur5_read_positions
+[ 65%] Built target ur5_pickup_sensor
+[ 75%] Built target gripper_open_moveit_test
+[ 85%] Built target ur5_drop_sensor
+[ 95%] Built target ur5_moveit_test_launch
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kros2_azure_bridge/srv/get_plantpot_coords.hpp: No such file or directory
+    9 | #include [01;31m[K<ros2_azure_bridge/srv/get_plantpot_coords.hpp>[m[K   // Import service message - adjust to your actual service type
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor_service.dir/build.make:76: CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur5_probe_sensor_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

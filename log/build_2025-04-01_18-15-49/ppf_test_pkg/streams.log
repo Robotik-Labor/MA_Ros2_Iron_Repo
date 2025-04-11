@@ -1,0 +1,22 @@
+[0.464s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28
+[0.672s] [100%] Built target object_detection
+[1.041s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ppf_test_pkg -- -j28 -l28
+[1.042s] Invoking command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ppf_test_pkg
+[1.146s] -- Install configuration: ""
+[1.146s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/lib/ppf_test_pkg/object_detection
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ament_index/resource_index/package_run_dependencies/ppf_test_pkg
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ament_index/resource_index/parent_prefix_path/ppf_test_pkg
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/environment/ament_prefix_path.sh
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/environment/ament_prefix_path.dsv
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/environment/path.sh
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/environment/path.dsv
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/local_setup.bash
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/local_setup.sh
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/local_setup.zsh
+[1.147s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/local_setup.dsv
+[1.148s] -- Installing: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/package.dsv
+[1.148s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ament_index/resource_index/packages/ppf_test_pkg
+[1.148s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/cmake/ppf_test_pkgConfig.cmake
+[1.148s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/cmake/ppf_test_pkgConfig-version.cmake
+[1.148s] -- Up-to-date: /home/buhrmann/ws_moveit/install/ppf_test_pkg/share/ppf_test_pkg/package.xml
+[1.505s] Invoked command in '/home/buhrmann/ws_moveit/build/ppf_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/ppf_test_pkg

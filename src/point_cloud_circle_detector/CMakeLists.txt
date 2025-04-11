@@ -17,7 +17,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(cv_bridge REQUIRED)
-
+find_package(geometry_msgs REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
 # Specify the PCL version you want to use
 #find_package(PCL 1.14.1 EXACT REQUIRED)
 
@@ -34,6 +35,11 @@ add_executable(point_cloud_plantpot_rgb_edge_pfh_detector src/point_cloud_plantp
 add_executable(rgb_edge_filter src/rgb_edge_filter.cpp)
 add_executable(cup_segmentation_color src/cup_segmentation_and_coloring.cpp)
 add_executable(cup_pointcloud_segmentation_color src/cup_pointcloud_segmentation_and_coloring.cpp)
+add_executable(hsv_color_filter src/hsv_color_filter.cpp)
+add_executable(image_based_hsv_color_filter src/image_based_hsv_color_filter.cpp)
+add_executable(plantplot_icp_conversion src/plantplot_icp_conversion.cpp)
+add_executable(plantplot_ransac_conversion src/plantplot_ransac_conversion.cpp)
+add_executable(plantplot_placement src/plantplot_placement.cpp)
 
 
 
@@ -48,6 +54,11 @@ ament_target_dependencies(point_cloud_plantpot_rgb_edge_pfh_detector rclcpp sens
 ament_target_dependencies(rgb_edge_filter rclcpp sensor_msgs pcl_conversions)
 ament_target_dependencies(cup_segmentation_color rclcpp sensor_msgs pcl_conversions)
 ament_target_dependencies(cup_pointcloud_segmentation_color rclcpp sensor_msgs pcl_conversions cv_bridge)
+ament_target_dependencies(hsv_color_filter rclcpp sensor_msgs pcl_conversions)
+ament_target_dependencies(image_based_hsv_color_filter rclcpp sensor_msgs pcl_conversions cv_bridge)
+ament_target_dependencies(plantplot_icp_conversion rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
+ament_target_dependencies(plantplot_ransac_conversion rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
+ament_target_dependencies(plantplot_placement rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
 
 # Install targets
 install(TARGETS point_cloud_circle_detector DESTINATION lib/${PROJECT_NAME})
@@ -60,7 +71,11 @@ install(TARGETS point_cloud_plantpot_rgb_edge_pfh_detector DESTINATION lib/${PRO
 install(TARGETS rgb_edge_filter DESTINATION lib/${PROJECT_NAME})
 install(TARGETS cup_segmentation_color DESTINATION lib/${PROJECT_NAME})
 install(TARGETS cup_pointcloud_segmentation_color DESTINATION lib/${PROJECT_NAME})
-
+install(TARGETS hsv_color_filter DESTINATION lib/${PROJECT_NAME})
+install(TARGETS image_based_hsv_color_filter DESTINATION lib/${PROJECT_NAME})
+install(TARGETS plantplot_icp_conversion DESTINATION lib/${PROJECT_NAME})
+install(TARGETS plantplot_ransac_conversion DESTINATION lib/${PROJECT_NAME})
+install(TARGETS plantplot_placement DESTINATION lib/${PROJECT_NAME})
 
 # Install pcd directory
 install(
@@ -81,6 +96,16 @@ target_link_libraries(rgb_edge_filter ${PCL_LIBRARIES}
 target_link_libraries(cup_segmentation_color ${PCL_LIBRARIES}
 )
 target_link_libraries(cup_pointcloud_segmentation_color ${PCL_LIBRARIES}
+)
+target_link_libraries(hsv_color_filter ${PCL_LIBRARIES}
+)
+target_link_libraries(image_based_hsv_color_filter ${PCL_LIBRARIES}
+)
+target_link_libraries(plantplot_icp_conversion ${PCL_LIBRARIES}
+)
+target_link_libraries(plantplot_ransac_conversion ${PCL_LIBRARIES}
+)
+target_link_libraries(plantplot_placement ${PCL_LIBRARIES}
 )
 # Testing
 if(BUILD_TESTING)

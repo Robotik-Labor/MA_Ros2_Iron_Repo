@@ -1,0 +1,14 @@
+{
+  "package_name": "common_services_package",
+  "output_dir": "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_generator_type_description/common_services_package",
+  "idl_tuples": [
+    "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package:srv/GetPlantpotCoords.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "std_srvs:/opt/ros/iron/share/std_srvs",
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}

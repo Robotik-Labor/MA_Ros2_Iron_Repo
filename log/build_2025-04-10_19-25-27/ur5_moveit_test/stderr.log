@@ -1,0 +1,117 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:524:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcenter_y[m[K’ was not declared in this scope
+  524 |             double y = [01;31m[Kcenter_y[m[K + radius * sin(Angles[i]);
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:524:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kradius[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::radius[m[K’?
+  524 |             double y = center_y + [01;31m[Kradius[m[K * sin(Angles[i]);
+      |                                   [01;31m[K^~~~~~[m[K
+      |                                   [32m[Kpcl::fields::radius[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:3[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:2085:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::radius[m[K’ declared here
+ 2085 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K(pcl::PointSurfel,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:524:48:[m[K [01;31m[Kerror: [m[K‘[01m[KAngles[m[K’ was not declared in this scope
+  524 |             double y = center_y + radius * sin([01;31m[KAngles[m[K[i]);
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:524:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  524 |             double y = center_y + radius * sin(Angles[[01;31m[Ki[m[K]);
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In constructor ‘[01m[KSensorProbeNode::SensorProbeNode()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  130 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>("UR5/probe_points", 10);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:131:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+  131 |         [01;31m[Kpointcloud_pub_[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("/UR5/UR5_camera/depth/color/points/green_filtered", 1);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+  132 |         [01;31m[Kimage_pub_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/UR5/image/green_filtered", 1);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:135:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_info_sub_[m[K’ was not declared in this scope
+  135 |         [01;31m[Kdepth_info_sub_[m[K = this->create_subscription<sensor_msgs::msg::CameraInfo>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdepth_msg_[m[K’?
+  140 |         [01;31m[Kdepth_sub_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kdepth_msg_[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:145:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_sub_[m[K’ was not declared in this scope
+  145 |         [01;31m[Krgb_sub_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::runMain()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:226:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+  226 |             [01;31m[Kimage_pub_[m[K->publish(*filtered_image);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:259:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+  259 |             [01;31m[Kpointcloud_pub_[m[K->publish(cloud_msg);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::processTargetCoordinates(const Point&, float)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:394:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  394 |             [01;31m[Kmarker_pub_[m[K->publish(marker);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::moveToTargets(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:465:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  465 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:465:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  465 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:475:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  475 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:475:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  475 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:500:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+  500 |                     [01;31m[Kpointcloud_pub_[m[K->publish(cloud_msg);
+      |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:504:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+  504 |                     [01;31m[Kimage_pub_[m[K->publish(*filtered_img);
+      |                     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

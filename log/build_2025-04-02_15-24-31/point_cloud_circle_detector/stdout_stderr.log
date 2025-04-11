@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_placement[0m
+[  6%] Built target rgb_edge_filter
+[ 13%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 20%] Built target point_cloud_circle_detector
+[ 26%] Built target plantplot_ransac_conversion
+[ 33%] Built target cup_segmentation_color
+[ 40%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 50%] Built target cup_pointcloud_segmentation_color
+[ 53%] Built target point_cloud_plantpot_detector
+[ 60%] Built target plantplot_icp_conversion
+[ 66%] Built target hsv_color_filter
+[ 73%] Built target image_based_hsv_color_filter
+[ 80%] Built target point_cloud_plantpot_ppf_detector
+[ 86%] Built target point_cloud_plantpot_pfh_detector
+[ 93%] Built target point_cloud_cylinder_detector
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:233:64:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshObject[m[K’ was not declared in this scope
+  233 |             moveit_msgs::msg::CollisionObject sensor_station = [01;31m[KcreateMeshObject[m[K("Sensor_Station", stl_path, object_pose);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

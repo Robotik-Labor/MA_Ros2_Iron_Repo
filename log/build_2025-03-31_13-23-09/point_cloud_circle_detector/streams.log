@@ -1,0 +1,66 @@
+[0.191s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.210s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.301s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.316s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.533s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.533s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.687s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[0.803s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.812s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.818s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.822s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.076s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.278s] -- Found Qhull version 8.0.2
+[1.517s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[2.623s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.679s] -- Configured cppcheck include dirs: 
+[2.679s] -- Configured cppcheck exclude dirs and/or files: 
+[2.679s] -- Added test 'lint_cmake' to check CMake code style
+[2.679s] -- Added test 'uncrustify' to check C / C++ code style
+[2.679s] -- Configured uncrustify additional arguments: 
+[2.680s] -- Added test 'xmllint' to check XML markup files
+[2.680s] -- Configuring done
+[2.850s] -- Generating done
+[2.884s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[2.910s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[2.910s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[2.910s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[2.911s] [35m[1mConsolidate compiler generated dependencies of target rgb_edge_filter[0m
+[2.911s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[2.911s] [35m[1mConsolidate compiler generated dependencies of target hsv_color_filter[0m
+[2.913s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[2.913s] [35m[1mConsolidate compiler generated dependencies of target cup_segmentation_color[0m
+[2.913s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[2.914s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_rgb_edge_pfh_detector[0m
+[2.914s] [35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[2.921s] [  4%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+[2.926s] [ 12%] Built target point_cloud_plantpot_edge_pfh_detector
+[2.926s] [ 20%] Built target point_cloud_plantpot_detector
+[2.926s] [ 29%] Built target hsv_color_filter
+[2.929s] [ 37%] Built target point_cloud_circle_detector
+[2.929s] [ 45%] Built target point_cloud_plantpot_ppf_detector
+[2.931s] [ 54%] Built target rgb_edge_filter
+[2.933s] [ 62%] Built target point_cloud_cylinder_detector
+[2.933s] [ 70%] Built target cup_pointcloud_segmentation_color
+[2.933s] [ 79%] Built target cup_segmentation_color
+[2.933s] [ 87%] Built target point_cloud_plantpot_pfh_detector
+[2.939s] [ 95%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[3.596s] In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:6[m[K:
+[3.597s] [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.597s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[3.597s]       |  [01;35m[K^~~~~~~[m[K
+[5.973s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.973s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:105:14:[m[K [01;31m[Kerror: [m[K‘[01m[KtoROSMsg[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[5.973s]   105 |         pcl::[01;31m[KtoROSMsg[m[K(*cloud, output);
+[5.973s]       |              [01;31m[K^~~~~~~~[m[K
+[7.701s] gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+[7.702s] gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+[7.702s] gmake: *** [Makefile:146: all] Error 2
+[7.703s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

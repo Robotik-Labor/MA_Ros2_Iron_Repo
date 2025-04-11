@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target image_based_hsv_color_filter[0m
+[  6%] Built target point_cloud_plantpot_detector
+[ 16%] Built target cup_segmentation_color
+[ 23%] Built target point_cloud_cylinder_detector
+[ 30%] Built target rgb_edge_filter
+[ 36%] Built target point_cloud_plantpot_ppf_detector
+[ 40%] Built target point_cloud_plantpot_pfh_detector
+[ 46%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 60%] Built target cup_pointcloud_segmentation_color
+[ 60%] Built target point_cloud_circle_detector
+[ 66%] Built target hsv_color_filter
+[ 73%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 80%] Built target plantplot_ransac_conversion
+[ 83%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+[ 90%] Built target plantplot_placement
+[ 96%] Built target plantplot_icp_conversion

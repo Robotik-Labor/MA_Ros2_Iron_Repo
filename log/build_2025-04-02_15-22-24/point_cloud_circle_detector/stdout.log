@@ -1,0 +1,16 @@
+[  6%] Built target point_cloud_cylinder_detector
+[35m[1mConsolidate compiler generated dependencies of target plantplot_placement[0m
+[ 13%] Built target point_cloud_plantpot_ppf_detector
+[ 20%] Built target point_cloud_plantpot_pfh_detector
+[ 26%] Built target cup_pointcloud_segmentation_color
+[ 33%] Built target cup_segmentation_color
+[ 43%] Built target point_cloud_plantpot_detector
+[ 46%] Built target rgb_edge_filter
+[ 53%] Built target image_based_hsv_color_filter
+[ 60%] Built target point_cloud_circle_detector
+[ 66%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 73%] Built target hsv_color_filter
+[ 80%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 86%] Built target plantplot_ransac_conversion
+[ 93%] Built target plantplot_icp_conversion
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o[0m

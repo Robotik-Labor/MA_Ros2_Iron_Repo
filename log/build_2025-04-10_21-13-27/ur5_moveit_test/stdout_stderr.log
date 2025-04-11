@@ -1,0 +1,214 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[ 15%] Built target ur5_moveit_test
+[ 15%] Built target ur5_probe_sensor_service
+[ 23%] Built target gripper_close_moveit_test
+[ 30%] Built target ur5_moveit_test_object_detection
+[ 38%] Built target ur5_moveit_test_launch
+[ 46%] Built target ur5_read_positions
+[ 53%] Built target ur5_probe_sensor
+[ 61%] Built target ur5_pickup_sensor
+[ 69%] Built target ur5_move_to_camera
+[ 76%] Built target ur5_drop_sensor
+[ 84%] Built target ur5_move_to_home
+[ 92%] Built target gripper_open_moveit_test
+[ 96%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:311:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)[m[K’ cannot be overloaded with ‘[01m[Kvoid SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)[m[K’
+  311 |     void [01;31m[KpublishPointCloudWithRetries[m[K(const sensor_msgs::msg::PointCloud2& cloud_msg, int retries = 5) {
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:183:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)[m[K’
+  183 |     void [01;36m[KpublishPointCloudWithRetries[m[K(const sensor_msgs::msg::PointCloud2& cloud_msg, int retries = 5) {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<void (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()>[m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::function_traits<SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>, std::function<void()> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/timer.hpp:204:80:[m[K   required by substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1>; CallbackT = SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>][m[K’
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:190:43:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+   52 |     typename function_traits<decltype( [01;31m[K&FunctionT::operator()[m[K)>::arguments>::type;
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:190:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSensorProbeNode::create_wall_timer(std::chrono::seconds, SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>)[m[K’
+  190 |       auto timer = [01;31m[Kthis->create_wall_timer([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  191 | [01;31m[K          std::chrono::seconds(1),[m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+  192 | [01;31m[K          [this, cloud_msg, timer_ref = std::make_shared<rclcpp::TimerBase::SharedPtr>(),[m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  193 | [01;31m[K          &count, retries]() mutable {[m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     
+  194 | [01;31m[K              // Publish again[m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~[m[K             
+  195 | [01;31m[K              pointcloud_pub_->publish(cloud_msg);[m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  196 | [01;31m[K              count++;[m[K
+      |               [01;31m[K~~~~~~~~[m[K                     
+  197 | [01;31m[K              RCLCPP_INFO(this->get_logger(), "Republished point cloud (%d/%d)", count, retries);[m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  198 | 
+      |                                            
+  199 | [01;31m[K              // If we've reached our retry count, cancel the timer[m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  200 | [01;31m[K              if (count >= retries) {[m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+  201 | [01;31m[K                  RCLCPP_INFO(this->get_logger(), "Completed scheduled point cloud publications");[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  202 | [01;31m[K                  if (*timer_ref) {[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~[m[K        
+  203 | [01;31m[K                      (*timer_ref)->cancel();[m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;31m[K                  }[m[K
+      |                   [01;31m[K~[m[K                        
+  205 | [01;31m[K              }[m[K
+      |               [01;31m[K~[m[K                            
+  206 | [01;31m[K          })[m[K;
+      |           [01;31m[K~~[m[K                               
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  110 | [01;36m[KNode[m[K::create_wall_timer(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_ref[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+  207 |       *[01;31m[Ktimer_ref[m[K = timer;
+      |        [01;31m[K^~~~~~~~~[m[K
+      |        [32m[Ktimer_t[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::runMain()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:291:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  291 |             [01;31m[Kif[m[K (!client_->wait_for_service(std::chrono::seconds(1))) {
+      |             [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<void (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()>[m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::function_traits<SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>, std::function<void()> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/timer.hpp:204:80:[m[K   required by substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1>; CallbackT = SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>][m[K’
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:318:41:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+   52 |     typename function_traits<decltype( [01;31m[K&FunctionT::operator()[m[K)>::arguments>::type;
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:52:40:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator()[m[K’ is not a member of ‘[01m[Kvoid (SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>::*)()[m[K’
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:318:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSensorProbeNode::create_wall_timer(std::chrono::seconds, SensorProbeNode::publishPointCloudWithRetries(const PointCloud2&, int)::<lambda()>)[m[K’
+  318 |     auto timer = [01;31m[Kthis->create_wall_timer([m[K
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  319 | [01;31m[K        std::chrono::seconds(1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+  320 | [01;31m[K        [this, cloud_msg, timer_ref = std::make_shared<rclcpp::TimerBase::SharedPtr>(),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  321 | [01;31m[K         &count, retries]() mutable {[m[K
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+  322 | [01;31m[K            // Publish again[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K             
+  323 | [01;31m[K            pointcloud_pub_->publish(cloud_msg);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  324 | [01;31m[K            count++;[m[K
+      |             [01;31m[K~~~~~~~~[m[K                     
+  325 | [01;31m[K            RCLCPP_INFO(this->get_logger(), "Republished point cloud (%d/%d)", count, retries);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  326 | 
+      |                                          
+  327 | [01;31m[K            // If we've reached our retry count, cancel the timer[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  328 | [01;31m[K            if (count >= retries) {[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+  329 | [01;31m[K                RCLCPP_INFO(this->get_logger(), "Completed scheduled point cloud publications");[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  330 | [01;31m[K                if (*timer_ref) {[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~[m[K        
+  331 | [01;31m[K                    (*timer_ref)->cancel();[m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  332 | [01;31m[K                }[m[K
+      |                 [01;31m[K~[m[K                        
+  333 | [01;31m[K            }[m[K
+      |             [01;31m[K~[m[K                            
+  334 | [01;31m[K        })[m[K;
+      |         [01;31m[K~~[m[K                               
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  110 | [01;36m[KNode[m[K::create_wall_timer(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:335:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_ref[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+  335 |     *[01;31m[Ktimer_ref[m[K = timer;
+      |      [01;31m[K^~~~~~~~~[m[K
+      |      [32m[Ktimer_t[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In member function ‘[01m[Kvoid SensorProbeNode::moveToTargets(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:529:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  529 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:529:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  529 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:540:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  540 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Motion planning to target %i"[m[K, [32m[Ktarget_poses.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:540:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  540 |         RCLCPP_INFO(this->get_logger(), "Motion planning to target [01;36m[K%i[m[K", target_poses.size());
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kint[m[K
+      |                                                                    [32m[K%li[m[K
+gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

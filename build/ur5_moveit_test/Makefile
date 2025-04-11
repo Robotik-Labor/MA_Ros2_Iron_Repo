@@ -301,6 +301,71 @@ ur5_drop_sensor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/build
 .PHONY : ur5_drop_sensor/fast
 
+#=============================================================================
+# Target rules for targets named ur5_probe_sensor
+
+# Build rule for target.
+ur5_probe_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_probe_sensor
+.PHONY : ur5_probe_sensor
+
+# fast build rule for target.
+ur5_probe_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor.dir/build.make CMakeFiles/ur5_probe_sensor.dir/build
+.PHONY : ur5_probe_sensor/fast
+
+#=============================================================================
+# Target rules for targets named ur5_probe_sensor_service
+
+# Build rule for target.
+ur5_probe_sensor_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_probe_sensor_service
+.PHONY : ur5_probe_sensor_service
+
+# fast build rule for target.
+ur5_probe_sensor_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor_service.dir/build.make CMakeFiles/ur5_probe_sensor_service.dir/build
+.PHONY : ur5_probe_sensor_service/fast
+
+#=============================================================================
+# Target rules for targets named ur5_move_to_home
+
+# Build rule for target.
+ur5_move_to_home: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_move_to_home
+.PHONY : ur5_move_to_home
+
+# fast build rule for target.
+ur5_move_to_home/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_home.dir/build.make CMakeFiles/ur5_move_to_home.dir/build
+.PHONY : ur5_move_to_home/fast
+
+#=============================================================================
+# Target rules for targets named ur5_move_to_camera
+
+# Build rule for target.
+ur5_move_to_camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_move_to_camera
+.PHONY : ur5_move_to_camera
+
+# fast build rule for target.
+ur5_move_to_camera/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_camera.dir/build.make CMakeFiles/ur5_move_to_camera.dir/build
+.PHONY : ur5_move_to_camera/fast
+
+#=============================================================================
+# Target rules for targets named ur5_image_octmap_path
+
+# Build rule for target.
+ur5_image_octmap_path: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_image_octmap_path
+.PHONY : ur5_image_octmap_path
+
+# fast build rule for target.
+ur5_image_octmap_path/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/build
+.PHONY : ur5_image_octmap_path/fast
+
 src/gripper_close_moveit_test.o: src/gripper_close_moveit_test.cpp.o
 .PHONY : src/gripper_close_moveit_test.o
 
@@ -372,6 +437,78 @@ src/ur5_drop_sensor.s: src/ur5_drop_sensor.cpp.s
 src/ur5_drop_sensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_drop_sensor.dir/build.make CMakeFiles/ur5_drop_sensor.dir/src/ur5_drop_sensor.cpp.s
 .PHONY : src/ur5_drop_sensor.cpp.s
+
+src/ur5_image_octmap_path.o: src/ur5_image_octmap_path.cpp.o
+.PHONY : src/ur5_image_octmap_path.o
+
+# target to build an object file
+src/ur5_image_octmap_path.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o
+.PHONY : src/ur5_image_octmap_path.cpp.o
+
+src/ur5_image_octmap_path.i: src/ur5_image_octmap_path.cpp.i
+.PHONY : src/ur5_image_octmap_path.i
+
+# target to preprocess a source file
+src/ur5_image_octmap_path.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.i
+.PHONY : src/ur5_image_octmap_path.cpp.i
+
+src/ur5_image_octmap_path.s: src/ur5_image_octmap_path.cpp.s
+.PHONY : src/ur5_image_octmap_path.s
+
+# target to generate assembly for a file
+src/ur5_image_octmap_path.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.s
+.PHONY : src/ur5_image_octmap_path.cpp.s
+
+src/ur5_move_to_camera.o: src/ur5_move_to_camera.cpp.o
+.PHONY : src/ur5_move_to_camera.o
+
+# target to build an object file
+src/ur5_move_to_camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_camera.dir/build.make CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.o
+.PHONY : src/ur5_move_to_camera.cpp.o
+
+src/ur5_move_to_camera.i: src/ur5_move_to_camera.cpp.i
+.PHONY : src/ur5_move_to_camera.i
+
+# target to preprocess a source file
+src/ur5_move_to_camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_camera.dir/build.make CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.i
+.PHONY : src/ur5_move_to_camera.cpp.i
+
+src/ur5_move_to_camera.s: src/ur5_move_to_camera.cpp.s
+.PHONY : src/ur5_move_to_camera.s
+
+# target to generate assembly for a file
+src/ur5_move_to_camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_camera.dir/build.make CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.s
+.PHONY : src/ur5_move_to_camera.cpp.s
+
+src/ur5_move_to_home.o: src/ur5_move_to_home.cpp.o
+.PHONY : src/ur5_move_to_home.o
+
+# target to build an object file
+src/ur5_move_to_home.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_home.dir/build.make CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.o
+.PHONY : src/ur5_move_to_home.cpp.o
+
+src/ur5_move_to_home.i: src/ur5_move_to_home.cpp.i
+.PHONY : src/ur5_move_to_home.i
+
+# target to preprocess a source file
+src/ur5_move_to_home.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_home.dir/build.make CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.i
+.PHONY : src/ur5_move_to_home.cpp.i
+
+src/ur5_move_to_home.s: src/ur5_move_to_home.cpp.s
+.PHONY : src/ur5_move_to_home.s
+
+# target to generate assembly for a file
+src/ur5_move_to_home.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_to_home.dir/build.make CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.s
+.PHONY : src/ur5_move_to_home.cpp.s
 
 src/ur5_moveit_test.o: src/ur5_moveit_test.cpp.o
 .PHONY : src/ur5_moveit_test.o
@@ -469,6 +606,54 @@ src/ur5_pickup_sensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_pickup_sensor.dir/build.make CMakeFiles/ur5_pickup_sensor.dir/src/ur5_pickup_sensor.cpp.s
 .PHONY : src/ur5_pickup_sensor.cpp.s
 
+src/ur5_probe_sensor.o: src/ur5_probe_sensor.cpp.o
+.PHONY : src/ur5_probe_sensor.o
+
+# target to build an object file
+src/ur5_probe_sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor.dir/build.make CMakeFiles/ur5_probe_sensor.dir/src/ur5_probe_sensor.cpp.o
+.PHONY : src/ur5_probe_sensor.cpp.o
+
+src/ur5_probe_sensor.i: src/ur5_probe_sensor.cpp.i
+.PHONY : src/ur5_probe_sensor.i
+
+# target to preprocess a source file
+src/ur5_probe_sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor.dir/build.make CMakeFiles/ur5_probe_sensor.dir/src/ur5_probe_sensor.cpp.i
+.PHONY : src/ur5_probe_sensor.cpp.i
+
+src/ur5_probe_sensor.s: src/ur5_probe_sensor.cpp.s
+.PHONY : src/ur5_probe_sensor.s
+
+# target to generate assembly for a file
+src/ur5_probe_sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor.dir/build.make CMakeFiles/ur5_probe_sensor.dir/src/ur5_probe_sensor.cpp.s
+.PHONY : src/ur5_probe_sensor.cpp.s
+
+src/ur5_probe_sensor_service.o: src/ur5_probe_sensor_service.cpp.o
+.PHONY : src/ur5_probe_sensor_service.o
+
+# target to build an object file
+src/ur5_probe_sensor_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor_service.dir/build.make CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o
+.PHONY : src/ur5_probe_sensor_service.cpp.o
+
+src/ur5_probe_sensor_service.i: src/ur5_probe_sensor_service.cpp.i
+.PHONY : src/ur5_probe_sensor_service.i
+
+# target to preprocess a source file
+src/ur5_probe_sensor_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor_service.dir/build.make CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.i
+.PHONY : src/ur5_probe_sensor_service.cpp.i
+
+src/ur5_probe_sensor_service.s: src/ur5_probe_sensor_service.cpp.s
+.PHONY : src/ur5_probe_sensor_service.s
+
+# target to generate assembly for a file
+src/ur5_probe_sensor_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_probe_sensor_service.dir/build.make CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.s
+.PHONY : src/ur5_probe_sensor_service.cpp.s
+
 src/ur5_read_positions.o: src/ur5_read_positions.cpp.o
 .PHONY : src/ur5_read_positions.o
 
@@ -511,10 +696,15 @@ help:
 	@echo "... gripper_close_moveit_test"
 	@echo "... gripper_open_moveit_test"
 	@echo "... ur5_drop_sensor"
+	@echo "... ur5_image_octmap_path"
+	@echo "... ur5_move_to_camera"
+	@echo "... ur5_move_to_home"
 	@echo "... ur5_moveit_test"
 	@echo "... ur5_moveit_test_launch"
 	@echo "... ur5_moveit_test_object_detection"
 	@echo "... ur5_pickup_sensor"
+	@echo "... ur5_probe_sensor"
+	@echo "... ur5_probe_sensor_service"
 	@echo "... ur5_read_positions"
 	@echo "... src/gripper_close_moveit_test.o"
 	@echo "... src/gripper_close_moveit_test.i"
@@ -525,6 +715,15 @@ help:
 	@echo "... src/ur5_drop_sensor.o"
 	@echo "... src/ur5_drop_sensor.i"
 	@echo "... src/ur5_drop_sensor.s"
+	@echo "... src/ur5_image_octmap_path.o"
+	@echo "... src/ur5_image_octmap_path.i"
+	@echo "... src/ur5_image_octmap_path.s"
+	@echo "... src/ur5_move_to_camera.o"
+	@echo "... src/ur5_move_to_camera.i"
+	@echo "... src/ur5_move_to_camera.s"
+	@echo "... src/ur5_move_to_home.o"
+	@echo "... src/ur5_move_to_home.i"
+	@echo "... src/ur5_move_to_home.s"
 	@echo "... src/ur5_moveit_test.o"
 	@echo "... src/ur5_moveit_test.i"
 	@echo "... src/ur5_moveit_test.s"
@@ -537,6 +736,12 @@ help:
 	@echo "... src/ur5_pickup_sensor.o"
 	@echo "... src/ur5_pickup_sensor.i"
 	@echo "... src/ur5_pickup_sensor.s"
+	@echo "... src/ur5_probe_sensor.o"
+	@echo "... src/ur5_probe_sensor.i"
+	@echo "... src/ur5_probe_sensor.s"
+	@echo "... src/ur5_probe_sensor_service.o"
+	@echo "... src/ur5_probe_sensor_service.i"
+	@echo "... src/ur5_probe_sensor_service.s"
 	@echo "... src/ur5_read_positions.o"
 	@echo "... src/ur5_read_positions.i"
 	@echo "... src/ur5_read_positions.s"

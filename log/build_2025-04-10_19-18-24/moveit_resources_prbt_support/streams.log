@@ -1,0 +1,1 @@
+[0.267s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_resources_prbt_support -- -j28 -l28

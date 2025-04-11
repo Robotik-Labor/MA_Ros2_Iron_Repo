@@ -18,12 +18,12 @@ int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
 
   auto const node = std::make_shared<rclcpp::Node>(
-      "sensor_pickup_node",
+      "sensor_drop_node",
       rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(
           true));
 
   // Create a ROS logger
-  auto const logger = rclcpp::get_logger("sensor_pickup_node");
+  auto const logger = rclcpp::get_logger("sensor_drop_node");
 
   auto cloud_message_publisher = node->create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
 
@@ -89,26 +89,24 @@ int main(int argc, char **argv) {
   // Create joint constraints for the wrist joints
   moveit_msgs::msg::JointConstraint wrist_1_constraint;
   wrist_1_constraint.joint_name = "UR5_wrist_1_joint"; // Name of the joint
-  wrist_1_constraint.position = -M_PI / 2; // Center position (0 radians)
-  wrist_1_constraint.tolerance_above = M_PI / 1.5; // ±180 degrees tolerance
-  wrist_1_constraint.tolerance_below = M_PI / 1.5; // ±180 degrees tolerance
+  wrist_1_constraint.position = 0.0; // Center position (0 radians)
+  wrist_1_constraint.tolerance_above = M_PI / 2; // ±180 degrees tolerance
+  wrist_1_constraint.tolerance_below = M_PI / 2; // ±180 degrees tolerance
   wrist_1_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
 
   moveit_msgs::msg::JointConstraint wrist_2_constraint;
   wrist_2_constraint.joint_name = "UR5_wrist_2_joint"; // Name of the joint
-  wrist_2_constraint.position = 0.0;         // Center position (0 radians)
-  wrist_2_constraint.tolerance_above = M_PI; // ±180 degrees tolerance
-  wrist_2_constraint.tolerance_below = M_PI; // ±180 degrees tolerance
-  wrist_2_constraint.weight =
-      0.8; // Explicitly setting weight to 1.0 for importance
+  wrist_2_constraint.position = M_PI/2;         // Center position (0 radians)
+  wrist_2_constraint.tolerance_above = M_PI / 2; // ±180 degrees tolerance
+  wrist_2_constraint.tolerance_below = M_PI / 2; // ±180 degrees tolerance
+  wrist_2_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
 
   moveit_msgs::msg::JointConstraint wrist_3_constraint;
   wrist_3_constraint.joint_name = "UR5_wrist_3_joint"; // Name of the joint
-  wrist_3_constraint.position = 0.0;         // Center position (0 radians)
-  wrist_3_constraint.tolerance_above = M_PI; // ±180 degrees tolerance
-  wrist_3_constraint.tolerance_below = M_PI; // ±180 degrees tolerance
-  wrist_3_constraint.weight =
-      0.8; // Explicitly setting weight to 1.0 for importance
+  wrist_3_constraint.position = M_PI;         // Center position (0 radians)
+  wrist_3_constraint.tolerance_above = M_PI/2; // ±180 degrees tolerance
+  wrist_3_constraint.tolerance_below = M_PI/2; // ±180 degrees tolerance
+  wrist_3_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
 
   moveit_msgs::msg::Constraints constraints;
   // constraints.joint_constraints.push_back(shoulder_lift_constraint);
@@ -389,21 +387,21 @@ int main(int argc, char **argv) {
   
   rclcpp::sleep_for(std::chrono::seconds(1));
   wrist_1_constraint.joint_name = "UR5_wrist_1_joint"; // Name of the joint
-  wrist_1_constraint.position = -M_PI / 2; // Center position (0 radians)
-  wrist_1_constraint.tolerance_above = M_PI / 1.25; // ±180 degrees tolerance
-  wrist_1_constraint.tolerance_below = M_PI / 1.25; // ±180 degrees tolerance
+  wrist_1_constraint.position = 0.0; // Center position (0 radians)
+  wrist_1_constraint.tolerance_above = M_PI/2 ; // ±180 degrees tolerance
+  wrist_1_constraint.tolerance_below = M_PI/2 ; // ±180 degrees tolerance
   wrist_1_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
   
   wrist_2_constraint.joint_name = "UR5_wrist_2_joint"; // Name of the joint
-  wrist_2_constraint.position = 0.0;         // Center position (0 radians)
-  wrist_2_constraint.tolerance_above = M_PI; // ±180 degrees tolerance
-  wrist_2_constraint.tolerance_below = M_PI; // ±180 degrees tolerance
+  wrist_2_constraint.position = M_PI/2;         // Center position (0 radians)
+  wrist_2_constraint.tolerance_above = M_PI/2 ; // ±180 degrees tolerance
+  wrist_2_constraint.tolerance_below = M_PI/2 ; // ±180 degrees tolerance
   wrist_2_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
 
   wrist_3_constraint.joint_name = "UR5_wrist_3_joint"; // Name of the joint
-  wrist_3_constraint.position = 0.0;         // Center position (0 radians)
-  wrist_3_constraint.tolerance_above = M_PI + M_PI/9; // ±180 degrees tolerance
-  wrist_3_constraint.tolerance_below = M_PI + M_PI/9; // ±180 degrees tolerance
+  wrist_3_constraint.position = M_PI;         // Center position (0 radians)
+  wrist_3_constraint.tolerance_above = M_PI/2 ; // ±180 degrees tolerance
+  wrist_3_constraint.tolerance_below = M_PI/2 ; // ±180 degrees tolerance
   wrist_3_constraint.weight = 0.8; // Explicitly setting weight to 1.0 for importance
   
   constraints_home.joint_constraints.push_back(wrist_1_constraint);

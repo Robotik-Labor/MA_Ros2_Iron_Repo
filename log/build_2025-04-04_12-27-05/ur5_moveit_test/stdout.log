@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_move_to_camera[0m
+[  8%] Built target ur5_moveit_test_object_detection
+[ 16%] Built target ur5_moveit_test
+[35m[1mConsolidate compiler generated dependencies of target ur5_move_to_home[0m
+[ 25%] Built target gripper_close_moveit_test
+[ 33%] Built target ur5_moveit_test_launch
+[ 41%] Built target ur5_read_positions
+[ 50%] Built target ur5_pickup_sensor
+[ 58%] Built target gripper_open_moveit_test
+[ 66%] Built target ur5_probe_sensor_service
+[ 75%] Built target ur5_probe_sensor
+[ 83%] Built target ur5_drop_sensor
+[ 87%] [32mBuilding CXX object CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.o[0m

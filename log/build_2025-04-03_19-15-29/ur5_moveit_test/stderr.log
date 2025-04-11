@@ -1,0 +1,13 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:68:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoint[m[K’
+   68 |     auto msg = result_future.get()->[01;31m[Kpoint[m[K;
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:79:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   79 |     const double [01;35m[Kangle_step[m[K = M_PI / (num_positions - 1);  // Divide the semicircle into equal parts
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:262:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |   for (int i = 0; [01;35m[Ki < target_poses.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor_service.dir/build.make:76: CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur5_probe_sensor_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

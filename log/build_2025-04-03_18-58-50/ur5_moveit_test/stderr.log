@@ -1,0 +1,7 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/get_point.hpp: No such file or directory
+    9 | #include [01;31m[K<example_interfaces/srv/get_point.hpp>[m[K  // Import service message - adjust to your actual service type
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor_service.dir/build.make:76: CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur5_probe_sensor_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

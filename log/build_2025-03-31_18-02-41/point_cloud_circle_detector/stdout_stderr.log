@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[  7%] Built target cup_segmentation_color
+[ 15%] Built target point_cloud_circle_detector
+[ 23%] Built target rgb_edge_filter
+[ 30%] Built target point_cloud_cylinder_detector
+[ 38%] Built target image_based_hsv_color_filter
+[ 46%] Built target point_cloud_plantpot_ppf_detector
+[ 53%] Built target hsv_color_filter
+[ 61%] Built target point_cloud_plantpot_detector
+[ 69%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 76%] Built target point_cloud_plantpot_pfh_detector
+[ 84%] Built target cup_pointcloud_segmentation_color
+[ 92%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[ 96%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:170:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_filtered_voxel[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_filtered_xyz[m[K’?
+  170 |         pcl::compute3DCentroid(*[01;31m[Kcloud_filtered_voxel[m[K, scene_centroid);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcloud_filtered_xyz[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:193:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_filtered_voxel[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_filtered_xyz[m[K’?
+  193 |     icp.setInputTarget([01;31m[Kcloud_filtered_voxel[m[K);      // The filtered scene point cloud
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcloud_filtered_xyz[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::filter_by_rgb(pcl::PointCloud<pcl::PointXYZRGB>::Ptr&, pcl::PointCloud<pcl::PointXYZRGB>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:246:95:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  246 |             if (point.r >= 80 && point.r <= 155 && point.g >= 20 && point.g <= 100 && [01;35m[Kpoint.b >= 0[m[K && point.b <= 70)
+      |                                                                                       [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:265:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  265 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

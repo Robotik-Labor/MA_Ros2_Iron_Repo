@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_octomap[0m
+[ 50%] Built target add_object_to_planning_scene_node
+[ 75%] [32mBuilding CXX object CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene_interface/planning_scene_interface.h: No such file or directory
+    4 | #include [01;31m[K<moveit/planning_scene_interface/planning_scene_interface.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pointcloud_to_octomap.dir/build.make:76: CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pointcloud_to_octomap.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

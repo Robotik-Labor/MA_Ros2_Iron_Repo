@@ -1,0 +1,39 @@
+[ 10%] Built target ur5_moveit_test
+[ 20%] Built target gripper_close_moveit_test
+[ 30%] Built target gripper_open_moveit_test
+[ 40%] Built target ur5_read_positions
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o[0m
+[ 55%] Built target ur5_pickup_sensor
+[ 65%] Built target ur5_probe_sensor
+[ 75%] Built target ur5_moveit_test_launch
+[ 85%] Built target ur5_moveit_test_object_detection
+[ 95%] Built target ur5_drop_sensor
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   60 |   auto request = std::make_shared<[01;31m[Kexample_interfaces[m[K::srv::GetPoint::Request>();
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[Krcl_interfaces[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   60 |   auto request = std::[01;31m[Kmake_shared<example_interfaces::srv::GetPoint::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   60 |   auto request = [01;31m[Kstd::make_shared<example_interfaces::srv::GetPoint::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:60:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   60 |   auto request = [01;31m[Kstd::make_shared<example_interfaces::srv::GetPoint::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:79:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   79 |     const double [01;35m[Kangle_step[m[K = M_PI / (num_positions - 1);  // Divide the semicircle into equal parts
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_probe_sensor_service.cpp:262:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |   for (int i = 0; [01;35m[Ki < target_poses.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_probe_sensor_service.dir/build.make:76: CMakeFiles/ur5_probe_sensor_service.dir/src/ur5_probe_sensor_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur5_probe_sensor_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

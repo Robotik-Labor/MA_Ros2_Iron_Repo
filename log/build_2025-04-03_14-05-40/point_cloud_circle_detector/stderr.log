@@ -1,0 +1,44 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In constructor ‘[01m[KPointCloudCustomObjectMatcher::PointCloudCustomObjectMatcher()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:69:78:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Point[m[K’?
+   69 |         plantpot_coord_publisher_ = this->create_publisher<sensor_msgs::msg::[01;31m[KPoint[m[K>(
+      |                                                                              [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:4[m[K:
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point[m[K’ declared here
+  150 | using [01;36m[KPoint[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:69:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPointCloudCustomObjectMatcher::create_publisher<<expression error> >(const char [21], rclcpp::QoS&)[m[K’
+   69 |         plantpot_coord_publisher_ = [01;31m[Kthis->create_publisher<sensor_msgs::msg::Point>([m[K
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   70 | [01;31m[K            "/UR5/plantpot_coords", rclcpp::QoS(rclcpp::KeepLast(10)).reliable())[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+                 from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:3[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:69:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |         plantpot_coord_publisher_ = [01;31m[Kthis->create_publisher<sensor_msgs::msg::Point>([m[K
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   70 | [01;31m[K            "/UR5/plantpot_coords", rclcpp::QoS(rclcpp::KeepLast(10)).reliable())[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:281:48:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Point[m[K’?
+  281 |             auto point_msg = sensor_msgs::msg::[01;31m[KPoint[m[K();
+      |                                                [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:4[m[K:
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point[m[K’ declared here
+  150 | using [01;36m[KPoint[m[K =
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

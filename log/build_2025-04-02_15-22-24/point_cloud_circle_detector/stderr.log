@@ -1,0 +1,16 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:208:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+  208 |             [01;31m[Kstd[m[K::vector<moveit_msgs::msg::CollisionObject> collision_objects;
+      |             [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:217:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_to_quaternion[m[K’ was not declared in this scope
+  217 |             object_pose.orientation = [01;31m[Krpy_to_quaternion[m[K(roll, pitch, yaw);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:221:64:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshObject[m[K’ was not declared in this scope
+  221 |             moveit_msgs::msg::CollisionObject sensor_station = [01;31m[KcreateMeshObject[m[K("Sensor_Station", stl_path, object_pose);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:222:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_objects[m[K’ was not declared in this scope
+  222 |             [01;31m[Kcollision_objects[m[K.push_back(sensor_station);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

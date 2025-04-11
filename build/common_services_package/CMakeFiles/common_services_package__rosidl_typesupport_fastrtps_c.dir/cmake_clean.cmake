@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/common_services_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_services_package/srv/detail/get_plantpot_coords__type_support_c.cpp.o"
+  "CMakeFiles/common_services_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_services_package/srv/detail/get_plantpot_coords__type_support_c.cpp.o.d"
+  "libcommon_services_package__rosidl_typesupport_fastrtps_c.pdb"
+  "libcommon_services_package__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/common_services_package/srv/detail/get_plantpot_coords__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/common_services_package/srv/detail/get_plantpot_coords__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/common_services_package__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

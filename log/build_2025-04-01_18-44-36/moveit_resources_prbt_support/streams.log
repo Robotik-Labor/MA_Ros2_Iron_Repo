@@ -1,0 +1,44 @@
+[0.432s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_resources_prbt_support -- -j28 -l28
+[1.095s] Invoked command in '/home/buhrmann/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_resources_prbt_support -- -j28 -l28
+[1.096s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/moveit_resources_prbt_support
+[1.150s] -- Install configuration: ""
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.150s] -- Installing: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.150s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.151s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.152s] -- Up-to-date: /home/buhrmann/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.387s] Invoked command in '/home/buhrmann/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/moveit_resources_prbt_support

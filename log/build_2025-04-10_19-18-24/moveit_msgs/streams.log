@@ -1,0 +1,2 @@
+[0.197s] Invoking command in '/home/buhrmann/ws_moveit/build/moveit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/moveit_msgs -- -j28 -l28
+[0.419s] gmake: *** [Makefile:22415: cmake_check_build_system] Interrupt

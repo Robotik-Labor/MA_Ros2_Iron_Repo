@@ -1,0 +1,386 @@
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:152:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+  152 |   } [01;31m[Kcatch[m[K (tf2::TransformException &ex) {
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:154:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+  154 |       } [01;31m[Kcatch[m[K (std::exception &ex) {
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:157:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  157 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In constructor ‘[01m[KOccupancyMapNode::OccupancyMapNode()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+   33 |     [01;31m[Kframe_id_[m[K = this->get_parameter("frame_id").as_string();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+   34 |     [01;31m[Kresolution_[m[K = this->get_parameter("resolution").as_double();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+   35 |     [01;31m[Ktransform_timeout_[m[K = this->get_parameter("transform_timeout").as_double();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+   38 |     [01;31m[Koctomap_[m[K = std::make_shared<octomap::OcTree>(resolution_);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   41 |     [01;31m[Kplanning_scene_interface_[m[K = std::make_shared<moveit::planning_interface::PlanningSceneInterface>("/UR5");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   44 |     [01;31m[Ktf_buffer_[m[K = std::make_unique<tf2_ros::Buffer>(this->get_clock());
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_listener_[m[K’ was not declared in this scope
+   45 |     [01;31m[Ktf_listener_[m[K = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpointcloud_topic[m[K’?
+   51 |     [01;31m[Kpointcloud_sub_[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpointcloud_topic[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_timer[m[K’?
+   57 |     [01;31m[Kupdate_timer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_timer[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:59:36:[m[K [01;31m[Kerror: [m[K‘[01m[KupdatePlanningScene[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+   59 |       std::bind(&OccupancyMapNode::[01;31m[KupdatePlanningScene[m[K, this));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_service_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_service[m[K’?
+   62 |     [01;31m[Kclear_service_[m[K = this->create_service<std_srvs::srv::Empty>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_service[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[KclearOctomapCallback[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+   64 |       std::bind(&OccupancyMapNode::[01;31m[KclearOctomapCallback[m[K, this,
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   69 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Clear service available at: %s"[m[K,
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                 [32m[Kthis->get_name() + std::string("/clear_octomap")[m[K);
+      |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |     RCLCPP_INFO(this->get_logger(), "Clear service available at: [01;36m[K%s[m[K",
+      |                                                                  [01;36m[K~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Kchar*[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In member function ‘[01m[Kvoid OccupancyMapNode::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:105:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+  105 |         if (filtered_msg->header.frame_id != [01;31m[Kframe_id_[m[K) {
+      |                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:109:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+  109 |             if (![01;31m[Ktf_buffer_[m[K->canTransform(frame_id_, filtered_msg->header.frame_id, tf2::TimePointZero,
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:110:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+  110 |                                           tf2::durationFromSec([01;31m[Ktransform_timeout_[m[K))) {
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:119:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+  119 |                              [01;31m[Ktf_buffer_[m[K->lookupTransform(frame_id_, filtered_msg->header.frame_id, tf2::TimePointZero));
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:147:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+  147 |     voxel_filter.setLeafSize([01;31m[Kresolution_[m[K, resolution_, resolution_);
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateOctomap[m[K’ was not declared in this scope
+  151 |     [01;31m[KupdateOctomap[m[K(cloud_filtered, msg->header.frame_id);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid updateOctomap(const Ptr&, const string&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:162:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+  162 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                      [32m[Koctomap_msgs[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:169:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  169 |         [01;31m[Koctomap_[m[K->updateNode(octomap::point3d(point.x, point.y, point.z), true);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  174 |     [01;31m[Koctomap_[m[K->updateInnerOccupancy();
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:180:7:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+  180 |       [01;31m[Klast_frame_id_[m[K = frame_id;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid updatePlanningScene()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:188:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+  188 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                      [32m[Koctomap_msgs[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:190:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  190 |     if ([01;31m[Koctomap_[m[K->size() == 0)
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Koctomap[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:202:41:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+  202 |     collision_object.header.frame_id = ![01;31m[Klast_frame_id_[m[K.empty() ? last_frame_id_ : frame_id_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:202:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+  202 |     collision_object.header.frame_id = !last_frame_id_.empty() ? last_frame_id_ : [01;31m[Kframe_id_[m[K;
+      |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:203:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  203 |     collision_object.header.stamp = [01;31m[Kthis[m[K->now();
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:211:35:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  211 |     octomap_msgs::binaryMapToMsg(*[01;31m[Koctomap_[m[K, octomap_msg);
+      |                                   [01;31m[K^~~~~~~~[m[K
+      |                                   [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:218:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+  218 |     [01;31m[Kplanning_scene_interface_[m[K->applyPlanningScene(planning_scene);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid clearOctomapCallback(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:228:5:[m[K [01;31m[Kerror: [m[K‘[01m[KclearOctomap[m[K’ was not declared in this scope
+  228 |     [01;31m[KclearOctomap[m[K();
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:225:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  225 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:226:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  226 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid clearOctomap()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:235:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+  235 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                      [32m[Koctomap_msgs[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:238:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  238 |     [01;31m[Koctomap_[m[K = std::make_shared<octomap::OcTree>(resolution_);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:238:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+  238 |     octomap_ = std::make_shared<octomap::OcTree>([01;31m[Kresolution_[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:246:41:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+  246 |     collision_object.header.frame_id = ![01;31m[Klast_frame_id_[m[K.empty() ? last_frame_id_ : frame_id_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:246:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+  246 |     collision_object.header.frame_id = !last_frame_id_.empty() ? last_frame_id_ : [01;31m[Kframe_id_[m[K;
+      |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:247:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |     collision_object.header.stamp = [01;31m[Kthis[m[K->now();
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:255:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+  255 |     [01;31m[Kplanning_scene_interface_[m[K->applyPlanningScene(planning_scene);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K At global scope:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:283:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  283 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pointcloud_to_octomap.dir/build.make:76: CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pointcloud_to_octomap.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

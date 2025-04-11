@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target image_based_hsv_color_filter[0m
+[  8%] Built target rgb_edge_filter
+[ 25%] Built target point_cloud_cylinder_detector
+[ 25%] Built target point_cloud_circle_detector
+[ 33%] Built target point_cloud_plantpot_pfh_detector
+[ 41%] Built target point_cloud_plantpot_ppf_detector
+[ 50%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 66%] Built target point_cloud_plantpot_detector
+[ 66%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 75%] Built target cup_segmentation_color
+[ 83%] Built target cup_pointcloud_segmentation_color
+[ 91%] Built target hsv_color_filter
+[ 95%] [32mBuilding CXX object CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o[0m
+In file included from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:10[m[K:
+[01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::depthInfoCallback(sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+   54 |         [01;31m[Kcamera_info_[m[K = *msg;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::rgbCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/image_based_hsv_color_filter.cpp:93:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+   93 |                 float x = (u - [01;31m[Kcamera_info_[m[K.k[2]) * z / camera_info_.k[0];
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_based_hsv_color_filter.dir/build.make:76: CMakeFiles/image_based_hsv_color_filter.dir/src/image_based_hsv_color_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/image_based_hsv_color_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

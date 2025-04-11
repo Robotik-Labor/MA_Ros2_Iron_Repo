@@ -16,5 +16,13 @@ ros2 run object_detection object_detection_coords_publisher.py
 ros2 run object_creation object_test6
 
 
+ros2 run point_cloud_circle_detector image_based_hsv_color_filter 
+ros2 run object_detection semantic_segmentation_cup.py
+ros2 run point_cloud_circle_detector cup_pointcloud_segmentation_color 
+
+ros2 run point_cloud_circle_detector plantplot_placement 
+ros2 launch ros2_azure_bridge service_calls.launch.py 
+ros2 launch ur5_moveit_test ur5_probe_sensor_service.launch.py 
+
 
 https://eater.net/quaternions/video/intro

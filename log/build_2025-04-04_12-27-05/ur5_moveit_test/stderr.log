@@ -1,0 +1,26 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+   72 |   [01;31m[Kgripper_group[m[K.setMaxVelocityScalingFactor(0.1);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:129:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  129 |   [01;31m[Ksuccess[m[K = (move_group_interface.plan(plan_home) ==
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Keaccess[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:129:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan_home[m[K’ was not declared in this scope; did you mean ‘[01m[Kplan_camera[m[K’?
+  129 |   success = (move_group_interface.plan([01;31m[Kplan_home[m[K) ==
+      |                                        [01;31m[K^~~~~~~~~[m[K
+      |                                        [32m[Kplan_camera[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_home.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_home.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group[m[K’ was not declared in this scope
+   72 |   [01;31m[Kgripper_group[m[K.setMaxVelocityScalingFactor(0.1);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_home.cpp:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  124 |   [01;31m[Ksuccess[m[K = (move_group_interface.plan(plan_home) ==
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Keaccess[m[K
+gmake[2]: *** [CMakeFiles/ur5_move_to_camera.dir/build.make:76: CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/ur5_move_to_camera.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ur5_move_to_home.dir/build.make:76: CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/ur5_move_to_home.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

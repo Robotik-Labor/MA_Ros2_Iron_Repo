@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[  7%] Built target cup_segmentation_color
+[ 15%] Built target point_cloud_circle_detector
+[ 23%] Built target rgb_edge_filter
+[ 30%] Built target point_cloud_cylinder_detector
+[ 38%] Built target image_based_hsv_color_filter
+[ 46%] Built target point_cloud_plantpot_ppf_detector
+[ 53%] Built target hsv_color_filter
+[ 61%] Built target point_cloud_plantpot_detector
+[ 69%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 76%] Built target point_cloud_plantpot_pfh_detector
+[ 84%] Built target cup_pointcloud_segmentation_color
+[ 92%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[ 96%] Built target point_cloud_plantpot_rgb_edge_pfh_detector

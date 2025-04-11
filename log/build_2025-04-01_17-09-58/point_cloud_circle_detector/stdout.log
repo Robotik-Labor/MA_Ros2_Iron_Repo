@@ -1,0 +1,14 @@
+[  3%] [32mBuilding CXX object CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o[0m
+[ 10%] Built target cup_pointcloud_segmentation_color
+[ 17%] Built target point_cloud_circle_detector
+[ 25%] Built target point_cloud_cylinder_detector
+[ 32%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 39%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 46%] Built target point_cloud_plantpot_ppf_detector
+[ 53%] Built target cup_segmentation_color
+[ 60%] Built target point_cloud_plantpot_detector
+[ 67%] Built target hsv_color_filter
+[ 75%] Built target point_cloud_plantpot_pfh_detector
+[ 82%] Built target image_based_hsv_color_filter
+[ 89%] Built target rgb_edge_filter
+[ 96%] Built target plantplot_icp_conversion

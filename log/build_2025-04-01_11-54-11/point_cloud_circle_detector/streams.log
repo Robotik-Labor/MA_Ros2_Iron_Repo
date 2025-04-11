@@ -1,0 +1,65 @@
+[0.533s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.610s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.824s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.852s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.338s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.347s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.846s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[2.285s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.318s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.330s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.334s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.894s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.901s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.326s] -- Found Qhull version 8.0.2
+[3.796s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[6.437s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.559s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.559s] -- Configured cppcheck include dirs: 
+[6.559s] -- Configured cppcheck exclude dirs and/or files: 
+[6.565s] -- Added test 'lint_cmake' to check CMake code style
+[6.565s] -- Added test 'uncrustify' to check C / C++ code style
+[6.566s] -- Configured uncrustify additional arguments: 
+[6.566s] -- Added test 'xmllint' to check XML markup files
+[6.566s] -- Configuring done
+[6.931s] -- Generating done
+[7.022s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[7.083s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[7.083s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[7.084s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[7.088s] [35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[7.094s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[7.094s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_rgb_edge_pfh_detector[0m
+[7.094s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[7.094s] [35m[1mConsolidate compiler generated dependencies of target rgb_edge_filter[0m
+[7.094s] [35m[1mConsolidate compiler generated dependencies of target cup_segmentation_color[0m
+[7.096s] [35m[1mConsolidate compiler generated dependencies of target hsv_color_filter[0m
+[7.096s] [35m[1mConsolidate compiler generated dependencies of target image_based_hsv_color_filter[0m
+[7.097s] [35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[7.110s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[7.142s] [  7%] Built target point_cloud_circle_detector
+[7.155s] [ 15%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[7.155s] [ 19%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[7.162s] [ 26%] Built target point_cloud_cylinder_detector
+[7.162s] [ 34%] Built target cup_pointcloud_segmentation_color
+[7.162s] [ 42%] Built target rgb_edge_filter
+[7.162s] [ 50%] Built target cup_segmentation_color
+[7.164s] [ 57%] Built target point_cloud_plantpot_detector
+[7.164s] [ 65%] Built target image_based_hsv_color_filter
+[7.166s] [ 73%] Built target point_cloud_plantpot_ppf_detector
+[7.167s] [ 80%] Built target point_cloud_plantpot_edge_pfh_detector
+[7.167s] [ 88%] Built target hsv_color_filter
+[7.172s] [ 96%] Built target point_cloud_plantpot_pfh_detector
+[8.538s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[8.538s]     4 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[8.538s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.538s] compilation terminated.
+[8.555s] gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Error 1
+[8.555s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Error 2
+[8.555s] gmake: *** [Makefile:146: all] Error 2
+[8.559s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

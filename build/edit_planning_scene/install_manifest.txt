@@ -1,3 +1,4 @@
+/home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene/pointcloud_to_octomap
 /home/buhrmann/ws_moveit/install/edit_planning_scene/lib/edit_planning_scene/add_object_to_planning_scene_node
 /home/buhrmann/ws_moveit/install/edit_planning_scene/share/ament_index/resource_index/package_run_dependencies/edit_planning_scene
 /home/buhrmann/ws_moveit/install/edit_planning_scene/share/ament_index/resource_index/parent_prefix_path/edit_planning_scene

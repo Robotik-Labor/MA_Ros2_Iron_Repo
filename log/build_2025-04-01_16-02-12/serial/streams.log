@@ -1,0 +1,36 @@
+[0.522s] Invoking command in '/home/buhrmann/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/serial -- -j28 -l28
+[0.693s] [100%] Built target serial
+[1.269s] Invoked command in '/home/buhrmann/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/serial -- -j28 -l28
+[1.271s] Invoking command in '/home/buhrmann/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/serial
+[1.311s] -- Install configuration: ""
+[1.311s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/lib/libserial.a
+[1.311s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include
+[1.311s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial
+[1.311s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial/serial.h
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial/v8stdint.h
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial/impl
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial/impl/win.h
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/include/serial/impl/unix.h
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/library_path.sh
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/library_path.dsv
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/path.sh
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/environment/path.dsv
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.bash
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.sh
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.zsh
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/local_setup.dsv
+[1.313s] -- Installing: /home/buhrmann/ws_moveit/install/serial/share/serial/package.dsv
+[1.313s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/ament_index/resource_index/packages/serial
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/export_serialExport.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/serialConfig.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.314s] -- Up-to-date: /home/buhrmann/ws_moveit/install/serial/share/serial/package.xml
+[1.650s] Invoked command in '/home/buhrmann/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/serial

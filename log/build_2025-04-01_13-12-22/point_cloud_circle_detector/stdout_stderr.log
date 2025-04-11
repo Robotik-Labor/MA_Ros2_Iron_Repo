@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[  7%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 15%] Built target point_cloud_circle_detector
+[ 23%] Built target point_cloud_cylinder_detector
+[ 30%] Built target cup_pointcloud_segmentation_color
+[ 38%] Built target image_based_hsv_color_filter
+[ 46%] Built target point_cloud_plantpot_ppf_detector
+[ 53%] Built target cup_segmentation_color
+[ 61%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 69%] Built target point_cloud_plantpot_pfh_detector
+[ 76%] Built target rgb_edge_filter
+[ 84%] Built target point_cloud_plantpot_detector
+[ 92%] Built target hsv_color_filter
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:201:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krotation_matrix[m[K’ was not declared in this scope
+  201 |     [01;31m[Krotation_matrix[m[K = Eigen::AngleAxisf(M_PI / 2, Eigen::Vector3f::UnitY());
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:248:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kaligned_object[m[K’ was not declared in this scope
+  248 |         pcl::toROSMsg(*[01;31m[Kaligned_object[m[K, output_aligned);
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::filter_by_rgb(pcl::PointCloud<pcl::PointXYZRGB>::Ptr&, pcl::PointCloud<pcl::PointXYZRGB>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:320:95:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  320 |             if (point.r >= 80 && point.r <= 155 && point.g >= 20 && point.g <= 100 && [01;35m[Kpoint.b >= 0[m[K && point.b <= 70)
+      |                                                                                       [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::overrideOrientationAndPlaceOnPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_icp_conversion.cpp:339:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  339 | void overrideOrientationAndPlaceOnPlane([01;35m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr& cloud[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

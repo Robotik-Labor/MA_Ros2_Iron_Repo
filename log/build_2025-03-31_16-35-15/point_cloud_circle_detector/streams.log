@@ -1,0 +1,25 @@
+[0.402s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[0.499s] [ 16%] Built target point_cloud_circle_detector
+[0.499s] [ 16%] Built target rgb_edge_filter
+[0.500s] [ 25%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.500s] [ 33%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.501s] [ 41%] Built target point_cloud_plantpot_pfh_detector
+[0.503s] [ 50%] Built target cup_segmentation_color
+[0.503s] [ 58%] Built target hsv_color_filter
+[0.504s] [ 66%] Built target point_cloud_plantpot_ppf_detector
+[0.504s] [ 75%] Built target point_cloud_cylinder_detector
+[0.504s] [ 83%] Built target point_cloud_plantpot_detector
+[0.505s] [ 91%] Built target image_based_hsv_color_filter
+[0.507s] [ 95%] [32mBuilding CXX object CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o[0m
+[8.842s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.842s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class cv_bridge::CvImage[m[K’ {aka ‘[01m[Kclass cv_bridge::CvImage[m[K’} has no member named ‘[01m[Krotated_rgb_image[m[K’
+[8.842s]   129 |                     rgb = rgb_cv_ptr->[01;31m[Krotated_rgb_image[m[K.at<cv::Vec3b>(data[i+2], data[i+1]);
+[8.842s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.843s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.843s]   129 |                     rgb = rgb_cv_ptr->rotated_rgb_image.at<cv::Vec3b[01;31m[K>[m[K(data[i+2], data[i+1]);
+[8.843s]       |                                                                     [01;31m[K^[m[K
+[14.130s] gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+[14.130s] gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+[14.131s] gmake: *** [Makefile:146: all] Error 2
+[14.134s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

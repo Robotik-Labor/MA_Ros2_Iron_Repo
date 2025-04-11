@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/buhrmann/ws_moveit/build/edit_planning_scene
 
 # The main recursive "all" target.
 all: CMakeFiles/add_object_to_planning_scene_node.dir/all
+all: CMakeFiles/pointcloud_to_octomap.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/edit_planning_scene_uninstall.dir/clean
 clean: CMakeFiles/add_object_to_planning_scene_node.dir/clean
+clean: CMakeFiles/pointcloud_to_octomap.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ add_object_to_planning_scene_node: CMakeFiles/add_object_to_planning_scene_node.
 CMakeFiles/add_object_to_planning_scene_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_object_to_planning_scene_node.dir/build.make CMakeFiles/add_object_to_planning_scene_node.dir/clean
 .PHONY : CMakeFiles/add_object_to_planning_scene_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointcloud_to_octomap.dir
+
+# All Build rule for target.
+CMakeFiles/pointcloud_to_octomap.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buhrmann/ws_moveit/build/edit_planning_scene/CMakeFiles --progress-num=3,4 "Built target pointcloud_to_octomap"
+.PHONY : CMakeFiles/pointcloud_to_octomap.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointcloud_to_octomap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/edit_planning_scene/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointcloud_to_octomap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buhrmann/ws_moveit/build/edit_planning_scene/CMakeFiles 0
+.PHONY : CMakeFiles/pointcloud_to_octomap.dir/rule
+
+# Convenience name for target.
+pointcloud_to_octomap: CMakeFiles/pointcloud_to_octomap.dir/rule
+.PHONY : pointcloud_to_octomap
+
+# clean rule for target.
+CMakeFiles/pointcloud_to_octomap.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_to_octomap.dir/build.make CMakeFiles/pointcloud_to_octomap.dir/clean
+.PHONY : CMakeFiles/pointcloud_to_octomap.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

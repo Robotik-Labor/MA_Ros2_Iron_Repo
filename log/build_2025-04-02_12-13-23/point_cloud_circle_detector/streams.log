@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target plantplot_ransac_conversion[0m
+[0.130s] [  7%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.131s] [ 14%] Built target cup_segmentation_color
+[0.133s] [ 21%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.134s] [ 28%] Built target point_cloud_plantpot_ppf_detector
+[0.134s] [ 35%] Built target point_cloud_plantpot_pfh_detector
+[0.135s] [ 42%] Built target point_cloud_plantpot_detector
+[0.135s] [ 50%] Built target point_cloud_cylinder_detector
+[0.136s] [ 57%] Built target cup_pointcloud_segmentation_color
+[0.138s] [ 64%] Built target plantplot_icp_conversion
+[0.139s] [ 71%] Built target point_cloud_circle_detector
+[0.140s] [ 78%] Built target rgb_edge_filter
+[0.144s] [ 85%] Built target image_based_hsv_color_filter
+[0.144s] [ 92%] Built target hsv_color_filter
+[0.171s] [ 96%] [32mBuilding CXX object CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o[0m
+[9.244s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_ransac_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.244s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_ransac_conversion.cpp:167:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knormals[m[K’ was not declared in this scope
+[9.244s]   167 |             ne.compute(*[01;31m[Knormals[m[K);
+[9.244s]       |                         [01;31m[K^~~~~~~[m[K
+[26.336s] gmake[2]: *** [CMakeFiles/plantplot_ransac_conversion.dir/build.make:76: CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o] Error 1
+[26.336s] gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/plantplot_ransac_conversion.dir/all] Error 2
+[26.337s] gmake: *** [Makefile:146: all] Error 2
+[26.339s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

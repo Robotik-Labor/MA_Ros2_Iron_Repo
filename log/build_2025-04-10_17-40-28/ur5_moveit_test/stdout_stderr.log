@@ -1,0 +1,273 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[  7%] Built target gripper_close_moveit_test
+[ 15%] Built target ur5_moveit_test_object_detection
+[ 23%] Built target ur5_moveit_test_launch
+[ 30%] Built target gripper_open_moveit_test
+[ 38%] Built target ur5_moveit_test
+[ 46%] Built target ur5_probe_sensor_service
+[ 53%] Built target ur5_probe_sensor
+[ 61%] Built target ur5_read_positions
+[ 69%] Built target ur5_pickup_sensor
+[ 76%] Built target ur5_move_to_camera
+[ 84%] Built target ur5_move_to_home
+[ 92%] Built target ur5_drop_sensor
+[ 96%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kstd::pair<std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB> >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > > > filterGreenPointCloud(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr, const cv::Mat&, const CameraInfo&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:54:13:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kcv::Mat depth_image[m[K’ shadows a parameter
+   54 |     cv::Mat [01;31m[Kdepth_image[m[K;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:34:20:[m[K [01;36m[Knote: [m[K‘[01m[Kconst cv::Mat& depth_image[m[K’ previously declared here
+   34 |     [01;36m[Kconst cv::Mat& depth_image[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_depth_[m[K’ was not declared in this scope
+   56 |         [01;31m[Kcurrent_depth_[m[K = cv_bridge::toCvCopy(depth_msg, "16UC1")->image;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:56:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kdepth_image[m[K’?
+   56 |         current_depth_ = cv_bridge::toCvCopy([01;31m[Kdepth_msg[m[K, "16UC1")->image;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                              [32m[Kdepth_image[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:102:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kcv::Mat[m[K’
+  102 |             float x = (depth_image[01;31m[K->[m[Kwidth - u - camera_info.k[2]) * z / camera_info.k[0];
+      |                                   [01;31m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:103:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kcv::Mat[m[K’
+  103 |             float y = (depth_image[01;31m[K->[m[Kheight - v - camera_info.k[5]) * z / camera_info.k[4];
+      |                                   [01;31m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:34:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdepth_image[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 |     [01;35m[Kconst cv::Mat& depth_image[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:159:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_publisher[m[K’ was not declared in this scope
+  159 |   auto pointcloud_pub = [01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::PointCloud2>("/UR5/UR5_camera/depth/color/points/green_filtered", 1);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:159:25:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:41[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/create_publisher.hpp:113:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::create_publisher[m[K’
+  113 | [01;36m[Kcreate_publisher[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/create_publisher.hpp:46:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::detail::create_publisher[m[K’
+   46 | [01;36m[Kcreate_publisher[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:159:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  159 |   auto pointcloud_pub = create_publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K("/UR5/UR5_camera/depth/color/points/green_filtered", 1);
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:159:73:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  159 |   auto pointcloud_pub = create_publisher<sensor_msgs::msg::PointCloud2>([01;35m[K"/UR5/UR5_camera/depth/color/points/green_filtered"[m[K, 1);
+      |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:162:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  162 |   auto image_pub = create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/UR5/image/green_filtered", 1);
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:162:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  162 |   auto image_pub = create_publisher<sensor_msgs::msg::Image>([01;35m[K"/UR5/image/green_filtered"[m[K, 1);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:167:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 |     []([01;35m[Ksensor_msgs::msg::CameraInfo::ConstSharedPtr msg[m[K) {
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:174:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  174 |     []([01;35m[Ksensor_msgs::msg::Image::ConstSharedPtr msg[m[K) {
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:181:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  181 |     []([01;35m[Ksensor_msgs::msg::Image::ConstSharedPtr msg[m[K) {
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:196:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kfiltered_pointcloud[m[K’
+  196 |   [01;31m[Kfiltered_pointcloud[m[K , filtered_image = filterGreenPointCloud( rgb_sub, depth_sub,depth_info_sub);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:200:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgeometry_msgs[m[K’
+  200 |   [01;31m[Kgeometry_msgs[m[K::msg::TransformStamped transform_stamped =
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:204:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransform_eigen[m[K’?
+  204 |   Eigen::Isometry3d transform_eigen = tf2::transformToEigen([01;31m[Ktransform_stamped[m[K.transform);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Ktransform_eigen[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  207 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  207 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  207 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  207 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  207 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:207:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  207 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:210:14:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformPointCloud[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+  210 |         pcl::[01;31m[KtransformPointCloud[m[K(*filtered_pointcloud, *cloud_world, camera_to_world);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:222:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::z[m[K’?
+  222 |                     if ([01;31m[Kz[m[K > max_height) {
+      |                         [01;31m[K^[m[K
+      |                         [32m[Kpcl::fields::z[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+                 from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:3[m[K:
+[01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1782:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::z[m[K’ declared here
+ 1782 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZ,
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K At global scope:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:230:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  230 |   [01;31m[Kwhile[m[K (!client->wait_for_service(std::chrono::seconds(1))) {
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:242:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+  242 |   auto result_future = [01;31m[Kclient[m[K->async_send_request(request);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:245:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  245 |   [01;31m[Kif[m[K (rclcpp::spin_until_future_complete(node, result_future) ==
+      |   [01;31m[K^~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:393:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  393 |   } [01;31m[Kelse[m[K {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:400:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshoulder_pan_constraint[m[K’ does not name a type
+  400 |   [01;31m[Kshoulder_pan_constraint[m[K.joint_name = "UR5_shoulder_pan_joint"; // Name of the joint
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:401:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshoulder_pan_constraint[m[K’ does not name a type
+  401 |   [01;31m[Kshoulder_pan_constraint[m[K.position = M_PI / 2; // Center position (0 radians)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:402:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshoulder_pan_constraint[m[K’ does not name a type
+  402 |   [01;31m[Kshoulder_pan_constraint[m[K.tolerance_above = M_PI/2 ; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:403:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshoulder_pan_constraint[m[K’ does not name a type
+  403 |   [01;31m[Kshoulder_pan_constraint[m[K.tolerance_below = M_PI/2 ; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:404:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshoulder_pan_constraint[m[K’ does not name a type
+  404 |   [01;31m[Kshoulder_pan_constraint[m[K.weight = 0.8; // Explicitly setting weight to 1.0 for importance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:408:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_1_constraint[m[K’ does not name a type
+  408 |   [01;31m[Kwrist_1_constraint[m[K.joint_name = "UR5_wrist_1_joint"; // Name of the joint
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:409:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_1_constraint[m[K’ does not name a type
+  409 |   [01;31m[Kwrist_1_constraint[m[K.position = 0.0; // Center position (0 radians)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:410:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_1_constraint[m[K’ does not name a type
+  410 |   [01;31m[Kwrist_1_constraint[m[K.tolerance_above = M_PI; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:411:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_1_constraint[m[K’ does not name a type
+  411 |   [01;31m[Kwrist_1_constraint[m[K.tolerance_below = M_PI; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:412:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_1_constraint[m[K’ does not name a type
+  412 |   [01;31m[Kwrist_1_constraint[m[K.weight = 0.8; // Explicitly setting weight to 1.0 for importance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:415:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_2_constraint[m[K’ does not name a type
+  415 |   [01;31m[Kwrist_2_constraint[m[K.joint_name = "UR5_wrist_2_joint"; // Name of the joint
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:416:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_2_constraint[m[K’ does not name a type
+  416 |   [01;31m[Kwrist_2_constraint[m[K.position = M_PI/2;         // Center position (0 radians)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:417:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_2_constraint[m[K’ does not name a type
+  417 |   [01;31m[Kwrist_2_constraint[m[K.tolerance_above = M_PI; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:418:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_2_constraint[m[K’ does not name a type
+  418 |   [01;31m[Kwrist_2_constraint[m[K.tolerance_below = M_PI; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:419:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_2_constraint[m[K’ does not name a type
+  419 |   [01;31m[Kwrist_2_constraint[m[K.weight = 0.8; // Explicitly setting weight to 1.0 for importance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:422:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_constraint[m[K’ does not name a type
+  422 |   [01;31m[Kwrist_3_constraint[m[K.joint_name = "UR5_wrist_3_joint"; // Name of the joint
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:423:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_constraint[m[K’ does not name a type
+  423 |   [01;31m[Kwrist_3_constraint[m[K.position = M_PI;         // Center position (0 radians)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:424:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_constraint[m[K’ does not name a type
+  424 |   [01;31m[Kwrist_3_constraint[m[K.tolerance_above = M_PI/2; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:425:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_constraint[m[K’ does not name a type
+  425 |   [01;31m[Kwrist_3_constraint[m[K.tolerance_below = M_PI/2; // ±180 degrees tolerance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:426:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_constraint[m[K’ does not name a type
+  426 |   [01;31m[Kwrist_3_constraint[m[K.weight = 0.8; // Explicitly setting weight to 1.0 for importance
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:430:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraints[m[K’ does not name a type
+  430 |   [01;31m[Kconstraints[m[K.joint_constraints.push_back(wrist_1_constraint);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:431:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraints[m[K’ does not name a type
+  431 |   [01;31m[Kconstraints[m[K.joint_constraints.push_back(wrist_2_constraint);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:432:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraints[m[K’ does not name a type
+  432 |   [01;31m[Kconstraints[m[K.joint_constraints.push_back(wrist_3_constraint);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:433:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ does not name a type
+  433 |   [01;31m[Kmove_group_interface[m[K.setPathConstraints(constraints);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:447:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  447 |   [01;31m[Kfor[m[K (double degree : target_joint_degrees) {
+      |   [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:452:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  452 |   [01;31m[Kfor[m[K (int i = 0; i < target_poses.size(); i++) {
+      |   [01;31m[K^~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:452:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  452 |   for (int i = 0; [01;31m[Ki[m[K < target_poses.size(); i++) {
+      |                   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:452:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  452 |   for (int i = 0; i < target_poses.size(); [01;31m[Ki[m[K++) {
+      |                                            [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:465:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ does not name a type
+  465 |   [01;31m[Kmove_group_interface[m[K.setNamedTarget("Home");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:466:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ does not name a type
+  466 |   [01;31m[Ksuccess[m[K = (move_group_interface.plan(plan_to_home) == moveit::core::MoveItErrorCode::SUCCESS);
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:467:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ does not name a type
+  467 |   [01;31m[Kmove_group_interface[m[K.execute(plan_to_home);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:470:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  470 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:471:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  471 |   [01;31m[Kreturn[m[K 1;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:472:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  472 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

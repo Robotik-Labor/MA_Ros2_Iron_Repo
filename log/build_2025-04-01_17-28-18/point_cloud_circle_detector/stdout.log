@@ -1,0 +1,15 @@
+[  7%] Built target point_cloud_circle_detector
+[35m[1mConsolidate compiler generated dependencies of target plantplot_ransac_conversion[0m
+[ 14%] Built target cup_segmentation_color
+[ 21%] Built target point_cloud_plantpot_detector
+[ 28%] Built target point_cloud_cylinder_detector
+[ 35%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 42%] Built target point_cloud_plantpot_ppf_detector
+[ 50%] Built target rgb_edge_filter
+[ 57%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 64%] Built target cup_pointcloud_segmentation_color
+[ 71%] Built target image_based_hsv_color_filter
+[ 78%] Built target hsv_color_filter
+[ 85%] Built target point_cloud_plantpot_pfh_detector
+[ 92%] Built target plantplot_icp_conversion
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o[0m

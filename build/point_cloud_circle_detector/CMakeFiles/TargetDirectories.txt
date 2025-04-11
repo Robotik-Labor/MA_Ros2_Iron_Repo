@@ -10,6 +10,11 @@
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/rgb_edge_filter.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/cup_segmentation_color.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/cup_pointcloud_segmentation_color.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/hsv_color_filter.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/image_based_hsv_color_filter.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/plantplot_icp_conversion.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/plantplot_ransac_conversion.dir
+/home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/plantplot_placement.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/test.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/edit_cache.dir
 /home/buhrmann/ws_moveit/build/point_cloud_circle_detector/CMakeFiles/rebuild_cache.dir

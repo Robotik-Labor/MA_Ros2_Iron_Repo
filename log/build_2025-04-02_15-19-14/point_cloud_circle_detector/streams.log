@@ -1,0 +1,156 @@
+[0.020s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.076s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.281s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.325s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.335s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.735s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.138s] -- Found pcl_conversions: 2.5.4 (/opt/ros/iron/share/pcl_conversions/cmake)
+[1.430s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.445s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.453s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.464s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.026s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.035s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.416s] -- Found Qhull version 8.0.2
+[2.811s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[2.843s] -- Found moveit_ros_planning_interface: 2.11.0 (/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.857s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.128s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.201s] -- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+[4.219s] -- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[4.330s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.376s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.560s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.287s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[6.077s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[6.340s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.373s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[9.462s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.464s] -- Configured cppcheck include dirs: 
+[9.464s] -- Configured cppcheck exclude dirs and/or files: 
+[9.465s] -- Added test 'lint_cmake' to check CMake code style
+[9.468s] -- Added test 'uncrustify' to check C / C++ code style
+[9.468s] -- Configured uncrustify additional arguments: 
+[9.469s] -- Added test 'xmllint' to check XML markup files
+[9.471s] -- Configuring done
+[9.855s] -- Generating done
+[9.968s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/point_cloud_circle_detector
+[10.040s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_edge_pfh_detector[0m
+[10.040s] [35m[1mConsolidate compiler generated dependencies of target rgb_edge_filter[0m
+[10.041s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_cylinder_detector[0m
+[10.041s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_ppf_detector[0m
+[10.041s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_detector[0m
+[10.041s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_rgb_edge_pfh_detector[0m
+[10.042s] [35m[1mConsolidate compiler generated dependencies of target hsv_color_filter[0m
+[10.042s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_plantpot_pfh_detector[0m
+[10.042s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_circle_detector[0m
+[10.044s] [35m[1mConsolidate compiler generated dependencies of target cup_pointcloud_segmentation_color[0m
+[10.044s] [35m[1mConsolidate compiler generated dependencies of target cup_segmentation_color[0m
+[10.045s] [35m[1mConsolidate compiler generated dependencies of target image_based_hsv_color_filter[0m
+[10.045s] [35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[10.050s] [35m[1mConsolidate compiler generated dependencies of target plantplot_ransac_conversion[0m
+[10.062s] [  3%] [32mBuilding CXX object CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o[0m
+[10.072s] [ 10%] Built target cup_segmentation_color
+[10.072s] [ 16%] Built target image_based_hsv_color_filter
+[10.072s] [ 23%] Built target hsv_color_filter
+[10.072s] [ 30%] Built target point_cloud_plantpot_detector
+[10.072s] [ 36%] Built target rgb_edge_filter
+[10.072s] [ 43%] Built target point_cloud_plantpot_edge_pfh_detector
+[10.072s] [ 50%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[10.072s] [ 56%] Built target point_cloud_cylinder_detector
+[10.073s] [ 63%] Built target point_cloud_plantpot_ppf_detector
+[10.078s] [ 70%] Built target point_cloud_circle_detector
+[10.078s] [ 76%] Built target point_cloud_plantpot_pfh_detector
+[10.080s] [ 83%] Built target cup_pointcloud_segmentation_color
+[10.084s] [ 90%] Built target plantplot_icp_conversion
+[10.092s] [ 96%] Built target plantplot_ransac_conversion
+[19.381s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:239:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[19.381s]   239 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr scene_loaded_publisher_;
+[19.381s]       |                                      [01;31m[K^~~~~~[m[K
+[19.381s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:239:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.381s]   239 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr scene_loaded_publisher_;
+[19.381s]       |                                            [01;31m[K^[m[K
+[19.381s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:239:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[19.381s]   239 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K scene_loaded_publisher_;
+[19.381s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[19.381s]       |                                                        [32m[K;[m[K
+[19.400s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:239:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kscene_loaded_publisher_[m[K’ does not name a type
+[19.400s]   239 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kscene_loaded_publisher_[m[K;
+[19.400s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.539s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[19.539s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2::angle[m[K’?
+[19.539s]   196 |             [01;31m[Kangle[m[K = std::atan2(y, x);
+[19.539s]       |             [01;31m[K^~~~~[m[K
+[19.539s]       |             [32m[Ktf2::angle[m[K
+[19.540s] In file included from [01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Matrix3x3.h:20[m[K,
+[19.540s]                  from [01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Transform.h:21[m[K,
+[19.540s]                  from [01m[K/opt/ros/iron/include/tf2/tf2/buffer_core.h:47[m[K,
+[19.540s]                  from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/async_buffer_interface.h:39[m[K,
+[19.540s]                  from [01m[K/opt/ros/iron/include/tf2_ros/tf2_ros/buffer.h:41[m[K,
+[19.540s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:3[m[K:
+[19.540s] [01m[K/opt/ros/iron/include/tf2/tf2/LinearMath/Quaternion.h:410:1:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::angle[m[K’ declared here
+[19.540s]   410 | [01;36m[Kangle[m[K(const Quaternion& q1, const Quaternion& q2)
+[19.540s]       | [01;36m[K^~~~~[m[K
+[19.540s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::y[m[K’?
+[19.540s]   196 |             angle = std::atan2([01;31m[Ky[m[K, x);
+[19.541s]       |                                [01;31m[K^[m[K
+[19.541s]       |                                [32m[Kpcl::fields::y[m[K
+[19.541s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+[19.541s]                  from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+[19.541s]                  from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+[19.542s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:11[m[K:
+[19.542s] [01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1782:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::y[m[K’ declared here
+[19.542s]  1782 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZ,
+[19.542s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.542s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:196:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::x[m[K’?
+[19.542s]   196 |             angle = std::atan2(y, [01;31m[Kx[m[K);
+[19.542s]       |                                   [01;31m[K^[m[K
+[19.542s]       |                                   [32m[Kpcl::fields::x[m[K
+[19.542s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[19.542s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[19.543s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[19.543s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[19.543s]                  from [01m[K/usr/include/boost/mpl/if.hpp:19[m[K,
+[19.543s]                  from [01m[K/usr/include/boost/random/detail/seed_impl.hpp:24[m[K,
+[19.543s]                  from [01m[K/usr/include/boost/random/mersenne_twister.hpp:30[m[K,
+[19.543s]                  from [01m[K/opt/ros/iron/include/random_numbers/random_numbers.h:40[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h:45[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h:40[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:40[m[K,
+[19.543s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:11[m[K:
+[19.543s] [01m[K/usr/local/include/pcl-1.14/pcl/impl/point_types.hpp:1782:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::x[m[K’ declared here
+[19.543s]  1782 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZ,
+[19.543s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.543s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:206:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[19.544s]   206 |             [01;31m[Kstd[m[K::vector<moveit_msgs::msg::CollisionObject> collision_objects;
+[19.544s]       |             [01;31m[K^~~[m[K
+[19.591s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:215:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krpy_to_quaternion[m[K’ was not declared in this scope
+[19.591s]   215 |             object_pose.orientation = [01;31m[Krpy_to_quaternion[m[K(roll, pitch, yaw);
+[19.592s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[19.637s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:219:64:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateMeshObject[m[K’ was not declared in this scope
+[19.637s]   219 |             moveit_msgs::msg::CollisionObject sensor_station = [01;31m[KcreateMeshObject[m[K("Sensor_Station", stl_path, object_pose);
+[19.637s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[19.680s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement.cpp:220:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_objects[m[K’ was not declared in this scope
+[19.680s]   220 |             [01;31m[Kcollision_objects[m[K.push_back(sensor_station);
+[19.680s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[26.943s] gmake[2]: *** [CMakeFiles/plantplot_placement.dir/build.make:76: CMakeFiles/plantplot_placement.dir/src/plantplot_placement.cpp.o] Error 1
+[26.943s] gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/plantplot_placement.dir/all] Error 2
+[26.943s] gmake: *** [Makefile:146: all] Error 2
+[26.944s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

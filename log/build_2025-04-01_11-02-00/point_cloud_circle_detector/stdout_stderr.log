@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[  7%] Built target cup_segmentation_color
+[ 15%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 23%] Built target rgb_edge_filter
+[ 30%] Built target point_cloud_plantpot_detector
+[ 38%] Built target hsv_color_filter
+[ 46%] Built target point_cloud_circle_detector
+[ 53%] Built target point_cloud_cylinder_detector
+[ 61%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 69%] Built target image_based_hsv_color_filter
+[ 76%] Built target cup_pointcloud_segmentation_color
+[ 84%] Built target point_cloud_plantpot_pfh_detector
+[ 92%] Built target point_cloud_plantpot_ppf_detector
+[ 96%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Interrupt
+gmake: *** wait: No child processes.  Stop.
+gmake: *** Waiting for unfinished jobs....
+gmake: *** wait: No child processes.  Stop.

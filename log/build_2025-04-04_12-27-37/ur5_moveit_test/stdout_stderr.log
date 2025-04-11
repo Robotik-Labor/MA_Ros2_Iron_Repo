@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_move_to_home[0m
+[  8%] Built target ur5_moveit_test_object_detection
+[35m[1mConsolidate compiler generated dependencies of target ur5_move_to_camera[0m
+[ 16%] Built target gripper_close_moveit_test
+[ 25%] Built target gripper_open_moveit_test
+[ 33%] Built target ur5_probe_sensor
+[ 41%] Built target ur5_pickup_sensor
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_move_to_home.dir/src/ur5_move_to_home.cpp.o[0m
+[ 54%] Built target ur5_probe_sensor_service
+[ 62%] Built target ur5_moveit_test_launch
+[ 70%] Built target ur5_moveit_test
+[ 79%] Built target ur5_read_positions
+[ 87%] Built target ur5_drop_sensor
+[ 91%] [32mBuilding CXX object CMakeFiles/ur5_move_to_camera.dir/src/ur5_move_to_camera.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_home.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_home.cpp:121:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |   bool [01;35m[Ksuccess[m[K = (move_group_interface.plan(plan_home) ==
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_to_camera.cpp:127:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |   bool [01;35m[Ksuccess[m[K = (move_group_interface.plan(plan_camera) ==
+      |        [01;35m[K^~~~~~~[m[K
+[ 95%] [32m[1mLinking CXX executable ur5_move_to_home[0m
+[ 95%] Built target ur5_move_to_home
+[100%] [32m[1mLinking CXX executable ur5_move_to_camera[0m
+[100%] Built target ur5_move_to_camera
+-- Install configuration: ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/gripper_close_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/gripper_open_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test_launch
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_moveit_test_object_detection
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_read_positions
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_pickup_sensor
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_drop_sensor
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_probe_sensor
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_probe_sensor_service
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_probe_sensor_service" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_home
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_home" to ""
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_camera
+-- Set runtime path of "/home/buhrmann/ws_moveit/install/ur5_moveit_test/lib/ur5_moveit_test/ur5_move_to_camera" to ""
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_read_positions.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_probe_sensor_service.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_pickup_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/gripper_open_moveit_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test2.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_move_test_object_detection.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_drop_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/ur5_probe_sensor.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/launch/gripper_close_moveit_test.launch.py
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/package_run_dependencies/ur5_moveit_test
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/parent_prefix_path/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/path.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/environment/path.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.bash
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.sh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.zsh
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/local_setup.dsv
+-- Installing: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/package.dsv
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ament_index/resource_index/packages/ur5_moveit_test
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/cmake/ur5_moveit_testConfig.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/cmake/ur5_moveit_testConfig-version.cmake
+-- Up-to-date: /home/buhrmann/ws_moveit/install/ur5_moveit_test/share/ur5_moveit_test/package.xml

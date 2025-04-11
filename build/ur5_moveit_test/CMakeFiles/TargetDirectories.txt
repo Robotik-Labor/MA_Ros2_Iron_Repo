@@ -8,6 +8,11 @@
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_read_positions.dir
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_pickup_sensor.dir
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_drop_sensor.dir
+/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_probe_sensor.dir
+/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_probe_sensor_service.dir
+/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_move_to_home.dir
+/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_move_to_camera.dir
+/home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/ur5_image_octmap_path.dir
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/test.dir
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/edit_cache.dir
 /home/buhrmann/ws_moveit/build/ur5_moveit_test/CMakeFiles/rebuild_cache.dir

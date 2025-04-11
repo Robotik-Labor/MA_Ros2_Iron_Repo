@@ -1,0 +1,10 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::pointCloudCallback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class cv_bridge::CvImage[m[K’ {aka ‘[01m[Kclass cv_bridge::CvImage[m[K’} has no member named ‘[01m[Krotated_rgb_image[m[K’
+  129 |                     rgb = rgb_cv_ptr->[01;31m[Krotated_rgb_image[m[K.at<cv::Vec3b>(data[i+2], data[i+1]);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/cup_pointcloud_segmentation_and_coloring.cpp:129:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  129 |                     rgb = rgb_cv_ptr->rotated_rgb_image.at<cv::Vec3b[01;31m[K>[m[K(data[i+2], data[i+1]);
+      |                                                                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/cup_pointcloud_segmentation_color.dir/build.make:76: CMakeFiles/cup_pointcloud_segmentation_color.dir/src/cup_pointcloud_segmentation_and_coloring.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/cup_pointcloud_segmentation_color.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

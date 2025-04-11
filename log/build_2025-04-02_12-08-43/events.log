@@ -1,0 +1,599 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000224] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000246] (-) JobUnselected: {'identifier': 'edit_planning_scene'}
+[0.000266] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.000286] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.000305] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.000540] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.000891] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.000918] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.000937] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.000952] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000966] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000982] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000997] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001012] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001026] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001043] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001058] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001075] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001091] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001107] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001122] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001137] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001155] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001170] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001185] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001203] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001222] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001237] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001259] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001278] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001296] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001319] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001650] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001675] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001693] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001711] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001730] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001748] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001764] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001781] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001797] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001815] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001834] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.001853] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001870] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001888] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001907] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001924] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001941] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001958] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001977] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001996] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.002013] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.002032] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.002052] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002069] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.002518] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.002736] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.002761] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.002778] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002795] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.002812] (-) JobUnselected: {'identifier': 'object_creation'}
+[0.002829] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.002846] (-) JobUnselected: {'identifier': 'object_detection_pcl'}
+[0.002863] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.002878] (-) JobUnselected: {'identifier': 'picknik_accessories'}
+[0.002894] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.002910] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.002927] (-) JobUnselected: {'identifier': 'ppf_test_pkg'}
+[0.002943] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.002959] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.002977] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.002995] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.003013] (-) JobUnselected: {'identifier': 'ros2_azure_bridge'}
+[0.003031] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.003048] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.003095] (-) JobUnselected: {'identifier': 'serial'}
+[0.003118] (-) JobUnselected: {'identifier': 'ur3_camera_moveit_config'}
+[0.003137] (-) JobUnselected: {'identifier': 'ur3_description_controller'}
+[0.003156] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config'}
+[0.003181] (-) JobUnselected: {'identifier': 'ur5_camera_moveit_config2'}
+[0.003202] (-) JobUnselected: {'identifier': 'ur5_description_controller'}
+[0.003219] (-) JobUnselected: {'identifier': 'ur5_moveit_test'}
+[0.003252] (point_cloud_circle_detector) JobQueued: {'identifier': 'point_cloud_circle_detector', 'dependencies': OrderedDict()}
+[0.003287] (point_cloud_circle_detector) JobStarted: {'identifier': 'point_cloud_circle_detector'}
+[0.018208] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'cmake'}
+[0.020588] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'build'}
+[0.021726] (point_cloud_circle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', '--', '-j28', '-l28'], 'cwd': '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'buhrmann'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64:'), ('HOME', '/home/buhrmann'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/buhrmann/ws_moveit/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'buhrmann'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'buhrmann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/buhrmann/ws_moveit/install/moveit_core/bin:/opt/ros/iron/bin:/home/buhrmann/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/buhrmann-OptiPlex-SFF-Plus-7020:@/tmp/.ICE-unix/2121,unix/buhrmann-OptiPlex-SFF-Plus-7020:/tmp/.ICE-unix/2121'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bf30ffd_027b_46bb_b0dd_ad1ab0e7a348'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UIK732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/buhrmann/ws_moveit/install/picknik_accessories/share/picknik_accessories/descriptions/simulation_worlds'), ('CMAKE_MODULE_PATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron')]), 'shell': False}
+[0.100087] (-) TimerEvent: {}
+[0.151431] (point_cloud_circle_detector) StdoutLine: {'line': b'[  7%] Built target hsv_color_filter\n'}
+[0.151628] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 14%] Built target point_cloud_plantpot_pfh_detector\n'}
+[0.151690] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 21%] Built target point_cloud_plantpot_rgb_edge_pfh_detector\n'}
+[0.151743] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 35%] Built target point_cloud_plantpot_ppf_detector\n'}
+[0.151789] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 35%] Built target point_cloud_plantpot_edge_pfh_detector\n'}
+[0.151835] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 42%] Built target cup_segmentation_color\n'}
+[0.151888] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 50%] Built target point_cloud_circle_detector\n'}
+[0.151933] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 57%] Built target point_cloud_plantpot_detector\n'}
+[0.151976] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 64%] Built target point_cloud_cylinder_detector\n'}
+[0.155353] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 71%] Built target plantplot_icp_conversion\n'}
+[0.157147] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 78%] Built target cup_pointcloud_segmentation_color\n'}
+[0.160333] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 92%] Built target image_based_hsv_color_filter\n'}
+[0.160545] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 92%] Built target rgb_edge_filter\n'}
+[0.165915] (point_cloud_circle_detector) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o\x1b[0m\n'}
+[0.200285] (-) TimerEvent: {}
+[0.300886] (-) TimerEvent: {}
+[0.401407] (-) TimerEvent: {}
+[0.501724] (-) TimerEvent: {}
+[0.602227] (-) TimerEvent: {}
+[0.702741] (-) TimerEvent: {}
+[0.803002] (-) TimerEvent: {}
+[0.903248] (-) TimerEvent: {}
+[1.003614] (-) TimerEvent: {}
+[1.104149] (-) TimerEvent: {}
+[1.204589] (-) TimerEvent: {}
+[1.305197] (-) TimerEvent: {}
+[1.405542] (-) TimerEvent: {}
+[1.505827] (-) TimerEvent: {}
+[1.606335] (-) TimerEvent: {}
+[1.706971] (-) TimerEvent: {}
+[1.807461] (-) TimerEvent: {}
+[1.909381] (-) TimerEvent: {}
+[2.013386] (-) TimerEvent: {}
+[2.113801] (-) TimerEvent: {}
+[2.215385] (-) TimerEvent: {}
+[2.315755] (-) TimerEvent: {}
+[2.416066] (-) TimerEvent: {}
+[2.520379] (-) TimerEvent: {}
+[2.620690] (-) TimerEvent: {}
+[2.721020] (-) TimerEvent: {}
+[2.822461] (-) TimerEvent: {}
+[2.922939] (-) TimerEvent: {}
+[3.023247] (-) TimerEvent: {}
+[3.123808] (-) TimerEvent: {}
+[3.224344] (-) TimerEvent: {}
+[3.324689] (-) TimerEvent: {}
+[3.428550] (-) TimerEvent: {}
+[3.528935] (-) TimerEvent: {}
+[3.629300] (-) TimerEvent: {}
+[3.732413] (-) TimerEvent: {}
+[3.832885] (-) TimerEvent: {}
+[3.933202] (-) TimerEvent: {}
+[4.035388] (-) TimerEvent: {}
+[4.135742] (-) TimerEvent: {}
+[4.236052] (-) TimerEvent: {}
+[4.336380] (-) TimerEvent: {}
+[4.436670] (-) TimerEvent: {}
+[4.536941] (-) TimerEvent: {}
+[4.637227] (-) TimerEvent: {}
+[4.737539] (-) TimerEvent: {}
+[4.837832] (-) TimerEvent: {}
+[4.938140] (-) TimerEvent: {}
+[5.038504] (-) TimerEvent: {}
+[5.138793] (-) TimerEvent: {}
+[5.239177] (-) TimerEvent: {}
+[5.339638] (-) TimerEvent: {}
+[5.439913] (-) TimerEvent: {}
+[5.540193] (-) TimerEvent: {}
+[5.640803] (-) TimerEvent: {}
+[5.741859] (-) TimerEvent: {}
+[5.842626] (-) TimerEvent: {}
+[5.943031] (-) TimerEvent: {}
+[6.043770] (-) TimerEvent: {}
+[6.144075] (-) TimerEvent: {}
+[6.244368] (-) TimerEvent: {}
+[6.344749] (-) TimerEvent: {}
+[6.445079] (-) TimerEvent: {}
+[6.545375] (-) TimerEvent: {}
+[6.645705] (-) TimerEvent: {}
+[6.746215] (-) TimerEvent: {}
+[6.847103] (-) TimerEvent: {}
+[6.947369] (-) TimerEvent: {}
+[7.047639] (-) TimerEvent: {}
+[7.147968] (-) TimerEvent: {}
+[7.248525] (-) TimerEvent: {}
+[7.349094] (-) TimerEvent: {}
+[7.449498] (-) TimerEvent: {}
+[7.549811] (-) TimerEvent: {}
+[7.650231] (-) TimerEvent: {}
+[7.750983] (-) TimerEvent: {}
+[7.851541] (-) TimerEvent: {}
+[7.951795] (-) TimerEvent: {}
+[8.052207] (-) TimerEvent: {}
+[8.153002] (-) TimerEvent: {}
+[8.253771] (-) TimerEvent: {}
+[8.354158] (-) TimerEvent: {}
+[8.454509] (-) TimerEvent: {}
+[8.555013] (-) TimerEvent: {}
+[8.655345] (-) TimerEvent: {}
+[8.755785] (-) TimerEvent: {}
+[8.856113] (-) TimerEvent: {}
+[8.956515] (-) TimerEvent: {}
+[9.056800] (-) TimerEvent: {}
+[9.157097] (-) TimerEvent: {}
+[9.257584] (-) TimerEvent: {}
+[9.358176] (-) TimerEvent: {}
+[9.458496] (-) TimerEvent: {}
+[9.558912] (-) TimerEvent: {}
+[9.659490] (-) TimerEvent: {}
+[9.759760] (-) TimerEvent: {}
+[9.860031] (-) TimerEvent: {}
+[9.960361] (-) TimerEvent: {}
+[10.060694] (-) TimerEvent: {}
+[10.161026] (-) TimerEvent: {}
+[10.261332] (-) TimerEvent: {}
+[10.361703] (-) TimerEvent: {}
+[10.462095] (-) TimerEvent: {}
+[10.562537] (-) TimerEvent: {}
+[10.663201] (-) TimerEvent: {}
+[10.763490] (-) TimerEvent: {}
+[10.863883] (-) TimerEvent: {}
+[10.964282] (-) TimerEvent: {}
+[11.064748] (-) TimerEvent: {}
+[11.165012] (-) TimerEvent: {}
+[11.265298] (-) TimerEvent: {}
+[11.365581] (-) TimerEvent: {}
+[11.466022] (-) TimerEvent: {}
+[11.566587] (-) TimerEvent: {}
+[11.666939] (-) TimerEvent: {}
+[11.767223] (-) TimerEvent: {}
+[11.867543] (-) TimerEvent: {}
+[11.967874] (-) TimerEvent: {}
+[12.068189] (-) TimerEvent: {}
+[12.168437] (-) TimerEvent: {}
+[12.268739] (-) TimerEvent: {}
+[12.369035] (-) TimerEvent: {}
+[12.469334] (-) TimerEvent: {}
+[12.569730] (-) TimerEvent: {}
+[12.670218] (-) TimerEvent: {}
+[12.770528] (-) TimerEvent: {}
+[12.870860] (-) TimerEvent: {}
+[12.971274] (-) TimerEvent: {}
+[13.071575] (-) TimerEvent: {}
+[13.171835] (-) TimerEvent: {}
+[13.272216] (-) TimerEvent: {}
+[13.372533] (-) TimerEvent: {}
+[13.472849] (-) TimerEvent: {}
+[13.573148] (-) TimerEvent: {}
+[13.673561] (-) TimerEvent: {}
+[13.774029] (-) TimerEvent: {}
+[13.874334] (-) TimerEvent: {}
+[13.974599] (-) TimerEvent: {}
+[14.074908] (-) TimerEvent: {}
+[14.175231] (-) TimerEvent: {}
+[14.275654] (-) TimerEvent: {}
+[14.376157] (-) TimerEvent: {}
+[14.476817] (-) TimerEvent: {}
+[14.577155] (-) TimerEvent: {}
+[14.677553] (-) TimerEvent: {}
+[14.777970] (-) TimerEvent: {}
+[14.878293] (-) TimerEvent: {}
+[14.978704] (-) TimerEvent: {}
+[15.079211] (-) TimerEvent: {}
+[15.179531] (-) TimerEvent: {}
+[15.279812] (-) TimerEvent: {}
+[15.380134] (-) TimerEvent: {}
+[15.480568] (-) TimerEvent: {}
+[15.580915] (-) TimerEvent: {}
+[15.681257] (-) TimerEvent: {}
+[15.781811] (-) TimerEvent: {}
+[15.882582] (-) TimerEvent: {}
+[15.982869] (-) TimerEvent: {}
+[16.083156] (-) TimerEvent: {}
+[16.183452] (-) TimerEvent: {}
+[16.283773] (-) TimerEvent: {}
+[16.384213] (-) TimerEvent: {}
+[16.484542] (-) TimerEvent: {}
+[16.584828] (-) TimerEvent: {}
+[16.685110] (-) TimerEvent: {}
+[16.785375] (-) TimerEvent: {}
+[16.885663] (-) TimerEvent: {}
+[16.985933] (-) TimerEvent: {}
+[17.086261] (-) TimerEvent: {}
+[17.186592] (-) TimerEvent: {}
+[17.286882] (-) TimerEvent: {}
+[17.387183] (-) TimerEvent: {}
+[17.487470] (-) TimerEvent: {}
+[17.587774] (-) TimerEvent: {}
+[17.688120] (-) TimerEvent: {}
+[17.788546] (-) TimerEvent: {}
+[17.888921] (-) TimerEvent: {}
+[17.989464] (-) TimerEvent: {}
+[18.089771] (-) TimerEvent: {}
+[18.190091] (-) TimerEvent: {}
+[18.290497] (-) TimerEvent: {}
+[18.391086] (-) TimerEvent: {}
+[18.491384] (-) TimerEvent: {}
+[18.591692] (-) TimerEvent: {}
+[18.692001] (-) TimerEvent: {}
+[18.792326] (-) TimerEvent: {}
+[18.892680] (-) TimerEvent: {}
+[18.993067] (-) TimerEvent: {}
+[19.093548] (-) TimerEvent: {}
+[19.196382] (-) TimerEvent: {}
+[19.296698] (-) TimerEvent: {}
+[19.396998] (-) TimerEvent: {}
+[19.497257] (-) TimerEvent: {}
+[19.597559] (-) TimerEvent: {}
+[19.697965] (-) TimerEvent: {}
+[19.798557] (-) TimerEvent: {}
+[19.898854] (-) TimerEvent: {}
+[19.999136] (-) TimerEvent: {}
+[20.099400] (-) TimerEvent: {}
+[20.199896] (-) TimerEvent: {}
+[20.300751] (-) TimerEvent: {}
+[20.401915] (-) TimerEvent: {}
+[20.502256] (-) TimerEvent: {}
+[20.602628] (-) TimerEvent: {}
+[20.702916] (-) TimerEvent: {}
+[20.803207] (-) TimerEvent: {}
+[20.903503] (-) TimerEvent: {}
+[21.003811] (-) TimerEvent: {}
+[21.104280] (-) TimerEvent: {}
+[21.205151] (-) TimerEvent: {}
+[21.305653] (-) TimerEvent: {}
+[21.406016] (-) TimerEvent: {}
+[21.506958] (-) TimerEvent: {}
+[21.607339] (-) TimerEvent: {}
+[21.707677] (-) TimerEvent: {}
+[21.808060] (-) TimerEvent: {}
+[21.908379] (-) TimerEvent: {}
+[22.008752] (-) TimerEvent: {}
+[22.109218] (-) TimerEvent: {}
+[22.209624] (-) TimerEvent: {}
+[22.309903] (-) TimerEvent: {}
+[22.410230] (-) TimerEvent: {}
+[22.510689] (-) TimerEvent: {}
+[22.611089] (-) TimerEvent: {}
+[22.711387] (-) TimerEvent: {}
+[22.811695] (-) TimerEvent: {}
+[22.911963] (-) TimerEvent: {}
+[23.012254] (-) TimerEvent: {}
+[23.112562] (-) TimerEvent: {}
+[23.213089] (-) TimerEvent: {}
+[23.313591] (-) TimerEvent: {}
+[23.414256] (-) TimerEvent: {}
+[23.514560] (-) TimerEvent: {}
+[23.614860] (-) TimerEvent: {}
+[23.715217] (-) TimerEvent: {}
+[23.815587] (-) TimerEvent: {}
+[23.917379] (-) TimerEvent: {}
+[24.017745] (-) TimerEvent: {}
+[24.118185] (-) TimerEvent: {}
+[24.218562] (-) TimerEvent: {}
+[24.319160] (-) TimerEvent: {}
+[24.420076] (-) TimerEvent: {}
+[24.520522] (-) TimerEvent: {}
+[24.620855] (-) TimerEvent: {}
+[24.721155] (-) TimerEvent: {}
+[24.821499] (-) TimerEvent: {}
+[24.921979] (-) TimerEvent: {}
+[25.022268] (-) TimerEvent: {}
+[25.122724] (-) TimerEvent: {}
+[25.223057] (-) TimerEvent: {}
+[25.323449] (-) TimerEvent: {}
+[25.423742] (-) TimerEvent: {}
+[25.524058] (-) TimerEvent: {}
+[25.624392] (-) TimerEvent: {}
+[25.724707] (-) TimerEvent: {}
+[25.824993] (-) TimerEvent: {}
+[25.925316] (-) TimerEvent: {}
+[26.025608] (-) TimerEvent: {}
+[26.125928] (-) TimerEvent: {}
+[26.226260] (-) TimerEvent: {}
+[26.326527] (-) TimerEvent: {}
+[26.426816] (-) TimerEvent: {}
+[26.527123] (-) TimerEvent: {}
+[26.627416] (-) TimerEvent: {}
+[26.727837] (-) TimerEvent: {}
+[26.828157] (-) TimerEvent: {}
+[26.928480] (-) TimerEvent: {}
+[27.028792] (-) TimerEvent: {}
+[27.129043] (-) TimerEvent: {}
+[27.229428] (-) TimerEvent: {}
+[27.329993] (-) TimerEvent: {}
+[27.431039] (-) TimerEvent: {}
+[27.531340] (-) TimerEvent: {}
+[27.631692] (-) TimerEvent: {}
+[27.732094] (-) TimerEvent: {}
+[27.832569] (-) TimerEvent: {}
+[27.932855] (-) TimerEvent: {}
+[28.033157] (-) TimerEvent: {}
+[28.133649] (-) TimerEvent: {}
+[28.234173] (-) TimerEvent: {}
+[28.334673] (-) TimerEvent: {}
+[28.435244] (-) TimerEvent: {}
+[28.535533] (-) TimerEvent: {}
+[28.635814] (-) TimerEvent: {}
+[28.736166] (-) TimerEvent: {}
+[28.836567] (-) TimerEvent: {}
+[28.936892] (-) TimerEvent: {}
+[29.037333] (-) TimerEvent: {}
+[29.137668] (-) TimerEvent: {}
+[29.237973] (-) TimerEvent: {}
+[29.338270] (-) TimerEvent: {}
+[29.438565] (-) TimerEvent: {}
+[29.538861] (-) TimerEvent: {}
+[29.639254] (-) TimerEvent: {}
+[29.739819] (-) TimerEvent: {}
+[29.840368] (-) TimerEvent: {}
+[29.940706] (-) TimerEvent: {}
+[30.041081] (-) TimerEvent: {}
+[30.141352] (-) TimerEvent: {}
+[30.241621] (-) TimerEvent: {}
+[30.341898] (-) TimerEvent: {}
+[30.442241] (-) TimerEvent: {}
+[30.542529] (-) TimerEvent: {}
+[30.642796] (-) TimerEvent: {}
+[30.743120] (-) TimerEvent: {}
+[30.843467] (-) TimerEvent: {}
+[30.943811] (-) TimerEvent: {}
+[31.044192] (-) TimerEvent: {}
+[31.144515] (-) TimerEvent: {}
+[31.244845] (-) TimerEvent: {}
+[31.345109] (-) TimerEvent: {}
+[31.445383] (-) TimerEvent: {}
+[31.545739] (-) TimerEvent: {}
+[31.646025] (-) TimerEvent: {}
+[31.746330] (-) TimerEvent: {}
+[31.846608] (-) TimerEvent: {}
+[31.946927] (-) TimerEvent: {}
+[32.047318] (-) TimerEvent: {}
+[32.147609] (-) TimerEvent: {}
+[32.247905] (-) TimerEvent: {}
+[32.348197] (-) TimerEvent: {}
+[32.448503] (-) TimerEvent: {}
+[32.548838] (-) TimerEvent: {}
+[32.649260] (-) TimerEvent: {}
+[32.749751] (-) TimerEvent: {}
+[32.850343] (-) TimerEvent: {}
+[32.950632] (-) TimerEvent: {}
+[33.051140] (-) TimerEvent: {}
+[33.151991] (-) TimerEvent: {}
+[33.252393] (-) TimerEvent: {}
+[33.352811] (-) TimerEvent: {}
+[33.453118] (-) TimerEvent: {}
+[33.553377] (-) TimerEvent: {}
+[33.654256] (-) TimerEvent: {}
+[33.754533] (-) TimerEvent: {}
+[33.854907] (-) TimerEvent: {}
+[33.955503] (-) TimerEvent: {}
+[34.055883] (-) TimerEvent: {}
+[34.156393] (-) TimerEvent: {}
+[34.256676] (-) TimerEvent: {}
+[34.356944] (-) TimerEvent: {}
+[34.457434] (-) TimerEvent: {}
+[34.558199] (-) TimerEvent: {}
+[34.658623] (-) TimerEvent: {}
+[34.758918] (-) TimerEvent: {}
+[34.859285] (-) TimerEvent: {}
+[34.959770] (-) TimerEvent: {}
+[35.060186] (-) TimerEvent: {}
+[35.160590] (-) TimerEvent: {}
+[35.261133] (-) TimerEvent: {}
+[35.361396] (-) TimerEvent: {}
+[35.461714] (-) TimerEvent: {}
+[35.562050] (-) TimerEvent: {}
+[35.662337] (-) TimerEvent: {}
+[35.762607] (-) TimerEvent: {}
+[35.862882] (-) TimerEvent: {}
+[35.963279] (-) TimerEvent: {}
+[36.063846] (-) TimerEvent: {}
+[36.164159] (-) TimerEvent: {}
+[36.264459] (-) TimerEvent: {}
+[36.368566] (-) TimerEvent: {}
+[36.469079] (-) TimerEvent: {}
+[36.569732] (-) TimerEvent: {}
+[36.670059] (-) TimerEvent: {}
+[36.770464] (-) TimerEvent: {}
+[36.870783] (-) TimerEvent: {}
+[36.973470] (-) TimerEvent: {}
+[37.073895] (-) TimerEvent: {}
+[37.174364] (-) TimerEvent: {}
+[37.274960] (-) TimerEvent: {}
+[37.375665] (-) TimerEvent: {}
+[37.475926] (-) TimerEvent: {}
+[37.576212] (-) TimerEvent: {}
+[37.676617] (-) TimerEvent: {}
+[37.777073] (-) TimerEvent: {}
+[37.877729] (-) TimerEvent: {}
+[37.978024] (-) TimerEvent: {}
+[38.078370] (-) TimerEvent: {}
+[38.178692] (-) TimerEvent: {}
+[38.279012] (-) TimerEvent: {}
+[38.379555] (-) TimerEvent: {}
+[38.480258] (-) TimerEvent: {}
+[38.580760] (-) TimerEvent: {}
+[38.681524] (-) TimerEvent: {}
+[38.781856] (-) TimerEvent: {}
+[38.882212] (-) TimerEvent: {}
+[38.982516] (-) TimerEvent: {}
+[39.083017] (-) TimerEvent: {}
+[39.183363] (-) TimerEvent: {}
+[39.283794] (-) TimerEvent: {}
+[39.384165] (-) TimerEvent: {}
+[39.484569] (-) TimerEvent: {}
+[39.584258] (point_cloud_circle_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plantplot_ransac_conversion\x1b[0m\n'}
+[39.584614] (-) TimerEvent: {}
+[39.684959] (-) TimerEvent: {}
+[39.785279] (-) TimerEvent: {}
+[39.885896] (-) TimerEvent: {}
+[39.986282] (-) TimerEvent: {}
+[40.086598] (-) TimerEvent: {}
+[40.186962] (-) TimerEvent: {}
+[40.287520] (-) TimerEvent: {}
+[40.388232] (-) TimerEvent: {}
+[40.488523] (-) TimerEvent: {}
+[40.588841] (-) TimerEvent: {}
+[40.689407] (-) TimerEvent: {}
+[40.789792] (-) TimerEvent: {}
+[40.890258] (-) TimerEvent: {}
+[40.990562] (-) TimerEvent: {}
+[41.090929] (-) TimerEvent: {}
+[41.192459] (-) TimerEvent: {}
+[41.292986] (-) TimerEvent: {}
+[41.393441] (-) TimerEvent: {}
+[41.493902] (-) TimerEvent: {}
+[41.594300] (-) TimerEvent: {}
+[41.694930] (-) TimerEvent: {}
+[41.795928] (-) TimerEvent: {}
+[41.896236] (-) TimerEvent: {}
+[41.996582] (-) TimerEvent: {}
+[42.097003] (-) TimerEvent: {}
+[42.197288] (-) TimerEvent: {}
+[42.297580] (-) TimerEvent: {}
+[42.398184] (-) TimerEvent: {}
+[42.498694] (-) TimerEvent: {}
+[42.599016] (-) TimerEvent: {}
+[42.699371] (-) TimerEvent: {}
+[42.799677] (-) TimerEvent: {}
+[42.900084] (-) TimerEvent: {}
+[43.000375] (-) TimerEvent: {}
+[43.100777] (-) TimerEvent: {}
+[43.201491] (-) TimerEvent: {}
+[43.301848] (-) TimerEvent: {}
+[43.402180] (-) TimerEvent: {}
+[43.502488] (-) TimerEvent: {}
+[43.602827] (-) TimerEvent: {}
+[43.703143] (-) TimerEvent: {}
+[43.803503] (-) TimerEvent: {}
+[43.903913] (-) TimerEvent: {}
+[44.004283] (-) TimerEvent: {}
+[44.104724] (-) TimerEvent: {}
+[44.205036] (-) TimerEvent: {}
+[44.305385] (-) TimerEvent: {}
+[44.405843] (-) TimerEvent: {}
+[44.506205] (-) TimerEvent: {}
+[44.606502] (-) TimerEvent: {}
+[44.706831] (-) TimerEvent: {}
+[44.807128] (-) TimerEvent: {}
+[44.907434] (-) TimerEvent: {}
+[45.007937] (-) TimerEvent: {}
+[45.108217] (-) TimerEvent: {}
+[45.208537] (-) TimerEvent: {}
+[45.239767] (point_cloud_circle_detector) StdoutLine: {'line': b'[100%] Built target plantplot_ransac_conversion\n'}
+[45.258240] (point_cloud_circle_detector) CommandEnded: {'returncode': 0}
+[45.259032] (point_cloud_circle_detector) JobProgress: {'identifier': 'point_cloud_circle_detector', 'progress': 'install'}
+[45.275294] (point_cloud_circle_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector'], 'cwd': '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'buhrmann'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64:'), ('HOME', '/home/buhrmann'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/buhrmann/ws_moveit/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'buhrmann'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'buhrmann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/buhrmann/ws_moveit/install/moveit_core/bin:/opt/ros/iron/bin:/home/buhrmann/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/buhrmann-OptiPlex-SFF-Plus-7020:@/tmp/.ICE-unix/2121,unix/buhrmann-OptiPlex-SFF-Plus-7020:/tmp/.ICE-unix/2121'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bf30ffd_027b_46bb_b0dd_ad1ab0e7a348'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UIK732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/buhrmann/ws_moveit/install/picknik_accessories/share/picknik_accessories/descriptions/simulation_worlds'), ('CMAKE_MODULE_PATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron')]), 'shell': False}
+[45.287056] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.287952] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_circle_detector\n'}
+[45.288099] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_cylinder_detector\n'}
+[45.288162] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_detector\n'}
+[45.288222] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_ppf_detector\n'}
+[45.288315] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_pfh_detector\n'}
+[45.288498] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_edge_pfh_detector\n'}
+[45.288760] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/point_cloud_plantpot_rgb_edge_pfh_detector\n'}
+[45.289013] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/rgb_edge_filter\n'}
+[45.289255] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_segmentation_color\n'}
+[45.289526] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/cup_pointcloud_segmentation_color\n'}
+[45.289797] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/hsv_color_filter\n'}
+[45.290025] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/image_based_hsv_color_filter\n'}
+[45.290653] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/plantplot_icp_conversion\n'}
+[45.290767] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/plantplot_ransac_conversion\n'}
+[45.304902] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/buhrmann/ws_moveit/install/point_cloud_circle_detector/lib/point_cloud_circle_detector/plantplot_ransac_conversion" to ""\n'}
+[45.305111] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd\n'}
+[45.305164] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_lesssamples.pcd\n'}
+[45.305212] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_14.pcd\n'}
+[45.305259] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod_14_2.pcd\n'}
+[45.305342] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/pcd/plantpod.pcd\n'}
+[45.305433] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/package_run_dependencies/point_cloud_circle_detector\n'}
+[45.305479] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/parent_prefix_path/point_cloud_circle_detector\n'}
+[45.305524] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.sh\n'}
+[45.305569] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/ament_prefix_path.dsv\n'}
+[45.305641] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.sh\n'}
+[45.305680] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/environment/path.dsv\n'}
+[45.305719] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.bash\n'}
+[45.305758] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.sh\n'}
+[45.305797] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.zsh\n'}
+[45.305835] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/local_setup.dsv\n'}
+[45.305873] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Installing: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.dsv\n'}
+[45.305910] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/ament_index/resource_index/packages/point_cloud_circle_detector\n'}
+[45.305949] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig.cmake\n'}
+[45.305987] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/cmake/point_cloud_circle_detectorConfig-version.cmake\n'}
+[45.306026] (point_cloud_circle_detector) StdoutLine: {'line': b'-- Up-to-date: /home/buhrmann/ws_moveit/install/point_cloud_circle_detector/share/point_cloud_circle_detector/package.xml\n'}
+[45.307010] (point_cloud_circle_detector) CommandEnded: {'returncode': 0}
+[45.308702] (-) TimerEvent: {}
+[45.326412] (point_cloud_circle_detector) JobEnded: {'identifier': 'point_cloud_circle_detector', 'rc': 0}
+[45.327469] (-) EventReactorShutdown: {}

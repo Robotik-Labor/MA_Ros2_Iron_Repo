@@ -36,14 +36,14 @@ public:
         
 
         pointcloud_pub_ = create_publisher<sensor_msgs::msg::PointCloud2>(
-            "/generated_pointcloud", 10
+            "/UR5/plantpod_reduced_pointcloud", 10
         );
         
     }
 
 private:
 
-    bool rotate_by_180 = false;
+    bool rotate_by_180 = true;
     
 
 
@@ -109,24 +109,46 @@ private:
         cloud->is_dense = false;
         cloud->points.resize(cloud->width * cloud->height);
         cv::Mat rotated_depth_image;
+        cv::Mat rotated_rgb_image;
+        cv::Mat hsv_image;
         if (rotate_by_180) {
             cv::rotate(depth_cv_ptr->image, rotated_depth_image, cv::ROTATE_180);
             RCLCPP_INFO(get_logger(), "Rotated Width: %u", rotated_depth_image.cols);
             RCLCPP_INFO(get_logger(), "Rotated Height: %u", rotated_depth_image.rows);
+            cv::rotate(rgb_cv_ptr->image, rotated_rgb_image, cv::ROTATE_180);
+    	    RCLCPP_INFO(get_logger(), "Rotated RGB Width: %u", rotated_rgb_image.cols);
+            RCLCPP_INFO(get_logger(), "Rotated RGB Height: %u", rotated_rgb_image.rows);
+            cv::cvtColor(rotated_rgb_image, hsv_image, cv::COLOR_RGB2HSV);
         }
+        else{
+	    cv::cvtColor(rgb_cv_ptr->image, hsv_image, cv::COLOR_RGB2HSV);
+	}
+	// Define the red color range
+	cv::Mat mask1, mask2;
+	cv::inRange(hsv_image, cv::Scalar(0, 70, 50), cv::Scalar(20, 255, 255), mask1);
+	cv::inRange(hsv_image, cv::Scalar(160, 70, 50), cv::Scalar(180, 255, 255), mask2);
 
+	// Combine the masks
+	cv::Mat mask = mask1 | mask2;
+	
         for (size_t i = 0; i < data.size(); i += 3) //
         {       
                 uint16_t depth;
+                cv::Vec3b rgb;
                 // Tiefenwert extrahieren
                 if (rotate_by_180) {
                     depth = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+                    //hsv = hsv_image.at<cv::Vec3b>(data[i+2], data[i+1]);
                 }else{
                     depth = depth_cv_ptr->image.at<uint16_t>(data[i+2], data[i+1]);
+                    //rgb = hsv_image.at<cv::Vec3b>(data[i+2], data[i+1]);
                 }
+                
 
                 // Nur gültige Tiefen verarbeiten
-                if (depth == 0) continue;
+                if (depth == 0 || depth <= 500 || mask.at<uchar>(data[i+2], data[i+1]) == 0) {
+		    continue;
+		}
 
                 float z = depth * 0.001; // Umrechnung in Meter
 

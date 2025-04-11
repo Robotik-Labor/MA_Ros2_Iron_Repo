@@ -1,0 +1,13 @@
+[  3%] Built target moveit_servo_lib_parameters
+[ 10%] Built target gtest_main
+[ 17%] Built target servo_node
+[ 25%] Built target gtest
+[ 32%] Built target servo_keyboard_input
+[ 50%] Built target moveit_servo_lib_cpp
+[ 57%] Built target moveit_servo_ros_integration_test
+[ 64%] Built target demo_pose
+[ 71%] Built target moveit_servo_cpp_integration_test
+[ 85%] Built target moveit_servo_lib_ros
+[ 85%] Built target demo_twist
+[ 92%] Built target moveit_servo_utils_test
+[100%] Built target demo_joint_jog

@@ -1,0 +1,21 @@
+[  3%] [32mBuilding CXX object CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o[0m
+[ 10%] Built target cup_segmentation_color
+[ 17%] Built target point_cloud_plantpot_pfh_detector
+[ 25%] Built target point_cloud_cylinder_detector
+[ 32%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 46%] Built target point_cloud_plantpot_ppf_detector
+[ 60%] Built target plantplot_icp_conversion
+[ 46%] Built target point_cloud_circle_detector
+[ 67%] Built target point_cloud_plantpot_detector
+[ 53%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 75%] Built target hsv_color_filter
+[ 82%] Built target cup_pointcloud_segmentation_color
+[ 89%] Built target image_based_hsv_color_filter
+[ 96%] Built target rgb_edge_filter
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_ransac_conversion.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+    6 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/plantplot_ransac_conversion.dir/build.make:76: CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/plantplot_ransac_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

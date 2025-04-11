@@ -1,0 +1,148 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:254:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  254 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In constructor ‘[01m[KOccupancyMapNode::OccupancyMapNode()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+   33 |     [01;31m[Kframe_id_[m[K = this->get_parameter("frame_id").as_string();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+   34 |     [01;31m[Kresolution_[m[K = this->get_parameter("resolution").as_double();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+   35 |     [01;31m[Ktransform_timeout_[m[K = this->get_parameter("transform_timeout").as_double();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+   38 |     [01;31m[Koctomap_[m[K = std::make_shared<octomap::OcTree>(resolution_);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+   41 |     [01;31m[Kplanning_scene_interface_[m[K = std::make_shared<moveit::planning_interface::PlanningSceneInterface>("/UR5");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   44 |     [01;31m[Ktf_buffer_[m[K = std::make_unique<tf2_ros::Buffer>(this->get_clock());
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_listener_[m[K’ was not declared in this scope
+   45 |     [01;31m[Ktf_listener_[m[K = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpointcloud_topic[m[K’?
+   51 |     [01;31m[Kpointcloud_sub_[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpointcloud_topic[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_timer[m[K’?
+   57 |     [01;31m[Kupdate_timer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_timer[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:59:36:[m[K [01;31m[Kerror: [m[K‘[01m[KupdatePlanningScene[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+   59 |       std::bind(&OccupancyMapNode::[01;31m[KupdatePlanningScene[m[K, this));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_service_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_service[m[K’?
+   62 |     [01;31m[Kclear_service_[m[K = this->create_service<std_srvs::srv::Empty>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Kcreate_service[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[KclearOctomapCallback[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+   64 |       std::bind(&OccupancyMapNode::[01;31m[KclearOctomapCallback[m[K, this,
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   69 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Clear service available at: %s"[m[K,
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                 [32m[Kthis->get_name() + std::string("/clear_octomap")[m[K);
+      |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |     RCLCPP_INFO(this->get_logger(), "Clear service available at: [01;36m[K%s[m[K",
+      |                                                                  [01;36m[K~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Kchar*[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In member function ‘[01m[Kvoid OccupancyMapNode::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:80:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+   80 |       if (msg->header.frame_id != [01;31m[Kframe_id_[m[K) {
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:85:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   85 |         if (![01;31m[Ktf_buffer_[m[K->canTransform(frame_id_, msg->header.frame_id, tf2::TimePointZero,
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:86:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+   86 |                                     tf2::durationFromSec([01;31m[Ktransform_timeout_[m[K))) {
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransformed_cloud[m[K’ was not declared in this scope
+   94 |         [01;31m[Ktransformed_cloud[m[K = std::make_shared<sensor_msgs::msg::PointCloud2>();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   96 |                         [01;31m[Ktf_buffer_[m[K->lookupTransform(frame_id_, msg->header.frame_id, tf2::TimePointZero));
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransformed_cloud[m[K’ was not declared in this scope
+  101 |         [01;31m[Ktransformed_cloud[m[K = msg;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:115:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+  115 |     voxel_filter.setLeafSize([01;31m[Kresolution_[m[K, resolution_, resolution_);
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:119:5:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateOctomap[m[K’ was not declared in this scope
+  119 |     [01;31m[KupdateOctomap[m[K(cloud_filtered, msg->header.frame_id);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:122:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[KupdateOctomap[m[K’
+  122 |   void [01;31m[KupdateOctomap[m[K(const pcl::PointCloud<pcl::PointXYZ>::Ptr& cloud, const std::string& frame_id)
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:122:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KupdateOctomap[m[K’
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:122:8:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KupdateOctomap[m[K’
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:123:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+  123 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:122:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  122 |   void [01;36m[KupdateOctomap[m[K(const pcl::PointCloud<pcl::PointXYZ>::Ptr& cloud, const std::string& frame_id)
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:125:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+  125 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                      [32m[Koctomap_msgs[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:128:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+  128 |     for (const auto& point : [01;31m[Kcloud[m[K->points)
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  132 |         [01;31m[Koctomap_[m[K->updateNode(octomap::point3d(point.x, point.y, point.z), true);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:137:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+  137 |     [01;31m[Koctomap_[m[K->updateInnerOccupancy();
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Koctomap[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:141:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  141 |     if (![01;31m[Kframe_id[m[K.empty())
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:143:7:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+  143 |       [01;31m[Klast_frame_id_[m[K = frame_id;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:150:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  150 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:190:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  190 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:197:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  197 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:244:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresolution_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  244 |   double [01;35m[Kresolution_[m[K;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K At global scope:
+[01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:254:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  254 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pointcloud_to_octomap.dir/build.make:76: CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pointcloud_to_octomap.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,391 @@
+[0.041s] Invoking command in '/home/buhrmann/ws_moveit/build/edit_planning_scene': AMENT_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/opt/ros/iron CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron LD_LIBRARY_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/home/buhrmann/ws_moveit/install/common_services_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64 PYTHONPATH=/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/edit_planning_scene -- -j28 -l28
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_octomap[0m
+[0.109s] [ 50%] Built target add_object_to_planning_scene_node
+[0.115s] [ 75%] [32mBuilding CXX object CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o[0m
+[4.184s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:152:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+[4.184s]   152 |   } [01;31m[Kcatch[m[K (tf2::TransformException &ex) {
+[4.184s]       |     [01;31m[K^~~~~[m[K
+[4.184s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:154:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+[4.184s]   154 |       } [01;31m[Kcatch[m[K (std::exception &ex) {
+[4.184s]       |         [01;31m[K^~~~~[m[K
+[4.184s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:157:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.184s]   157 |   }
+[4.184s]       |    [01;31m[K^[m[K
+[4.184s]       |    [32m[K;[m[K
+[4.197s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In constructor ‘[01m[KOccupancyMapNode::OccupancyMapNode()[m[K’:
+[4.197s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[4.197s]    33 |     [01;31m[Kframe_id_[m[K = this->get_parameter("frame_id").as_string();
+[4.197s]       |     [01;31m[K^~~~~~~~~[m[K
+[4.209s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[4.209s]    34 |     [01;31m[Kresolution_[m[K = this->get_parameter("resolution").as_double();
+[4.209s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.230s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+[4.230s]    35 |     [01;31m[Ktransform_timeout_[m[K = this->get_parameter("transform_timeout").as_double();
+[4.230s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.238s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.238s]    38 |     [01;31m[Koctomap_[m[K = std::make_shared<octomap::OcTree>(resolution_);
+[4.238s]       |     [01;31m[K^~~~~~~~[m[K
+[4.238s]       |     [32m[Koctomap[m[K
+[4.267s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+[4.267s]    41 |     [01;31m[Kplanning_scene_interface_[m[K = std::make_shared<moveit::planning_interface::PlanningSceneInterface>("/UR5");
+[4.267s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.279s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[4.279s]    44 |     [01;31m[Ktf_buffer_[m[K = std::make_unique<tf2_ros::Buffer>(this->get_clock());
+[4.279s]       |     [01;31m[K^~~~~~~~~~[m[K
+[4.297s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_listener_[m[K’ was not declared in this scope
+[4.297s]    45 |     [01;31m[Ktf_listener_[m[K = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+[4.297s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.312s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpointcloud_topic[m[K’?
+[4.312s]    51 |     [01;31m[Kpointcloud_sub_[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+[4.312s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.312s]       |     [32m[Kpointcloud_topic[m[K
+[4.350s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_timer[m[K’?
+[4.350s]    57 |     [01;31m[Kupdate_timer_[m[K = this->create_wall_timer(
+[4.350s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.350s]       |     [32m[Kcreate_timer[m[K
+[4.350s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:59:36:[m[K [01;31m[Kerror: [m[K‘[01m[KupdatePlanningScene[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+[4.350s]    59 |       std::bind(&OccupancyMapNode::[01;31m[KupdatePlanningScene[m[K, this));
+[4.350s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.363s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_service_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_service[m[K’?
+[4.363s]    62 |     [01;31m[Kclear_service_[m[K = this->create_service<std_srvs::srv::Empty>(
+[4.363s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.363s]       |     [32m[Kcreate_service[m[K
+[4.363s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[KclearOctomapCallback[m[K’ is not a member of ‘[01m[KOccupancyMapNode[m[K’
+[4.363s]    64 |       std::bind(&OccupancyMapNode::[01;31m[KclearOctomapCallback[m[K, this,
+[4.363s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.364s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.364s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.364s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.364s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.364s]    69 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Clear service available at: %s"[m[K,
+[4.364s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.364s]    70 |                 [32m[Kthis->get_name() + std::string("/clear_octomap")[m[K);
+[4.364s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.364s]       |                                  [32m[K|[m[K
+[4.364s]       |                                  [32m[Kstd::__cxx11::basic_string<char>[m[K
+[4.364s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:69:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.364s]    69 |     RCLCPP_INFO(this->get_logger(), "Clear service available at: [01;36m[K%s[m[K",
+[4.364s]       |                                                                  [01;36m[K~^[m[K
+[4.364s]       |                                                                   [01;36m[K|[m[K
+[4.364s]       |                                                                   [01;36m[Kchar*[m[K
+[4.731s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In member function ‘[01m[Kvoid OccupancyMapNode::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.731s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:105:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[4.731s]   105 |         if (filtered_msg->header.frame_id != [01;31m[Kframe_id_[m[K) {
+[4.731s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[4.744s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:109:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[4.744s]   109 |             if (![01;31m[Ktf_buffer_[m[K->canTransform(frame_id_, filtered_msg->header.frame_id, tf2::TimePointZero,
+[4.744s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[4.764s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:110:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_timeout_[m[K’ was not declared in this scope
+[4.764s]   110 |                                           tf2::durationFromSec([01;31m[Ktransform_timeout_[m[K))) {
+[4.764s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.774s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:119:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[4.774s]   119 |                              [01;31m[Ktf_buffer_[m[K->lookupTransform(frame_id_, filtered_msg->header.frame_id, tf2::TimePointZero));
+[4.774s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[4.791s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:147:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[4.791s]   147 |     voxel_filter.setLeafSize([01;31m[Kresolution_[m[K, resolution_, resolution_);
+[4.791s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[4.806s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateOctomap[m[K’ was not declared in this scope
+[4.806s]   151 |     [01;31m[KupdateOctomap[m[K(cloud_filtered, msg->header.frame_id);
+[4.806s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.816s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid updateOctomap(const Ptr&, const string&)[m[K’:
+[4.816s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:162:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+[4.816s]   162 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+[4.816s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.816s]       |                                      [32m[Koctomap_msgs[m[K
+[4.821s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:169:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.821s]   169 |         [01;31m[Koctomap_[m[K->updateNode(octomap::point3d(point.x, point.y, point.z), true);
+[4.821s]       |         [01;31m[K^~~~~~~~[m[K
+[4.821s]       |         [32m[Koctomap[m[K
+[4.826s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.826s]   174 |     [01;31m[Koctomap_[m[K->updateInnerOccupancy();
+[4.826s]       |     [01;31m[K^~~~~~~~[m[K
+[4.826s]       |     [32m[Koctomap[m[K
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:180:7:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+[4.837s]   180 |       [01;31m[Klast_frame_id_[m[K = frame_id;
+[4.837s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.837s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.837s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.837s]   183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.837s]       |                 [01;31m[K^~~~[m[K
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.837s]   183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.837s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.837s]   183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.837s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.837s]   183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.837s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.837s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.837s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.837s]   183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.837s]       |                 [01;31m[K^~~~[m[K
+[4.837s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:183:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.837s]   183 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap updated, now has %lu nodes", octomap_->size());
+[4.838s]       |                 [01;31m[K^~~~[m[K
+[4.848s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid updatePlanningScene()[m[K’:
+[4.848s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:188:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+[4.848s]   188 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+[4.848s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.848s]       |                                      [32m[Koctomap_msgs[m[K
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:190:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.854s]   190 |     if ([01;31m[Koctomap_[m[K->size() == 0)
+[4.854s]       |         [01;31m[K^~~~~~~~[m[K
+[4.854s]       |         [32m[Koctomap[m[K
+[4.854s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.854s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.854s]   192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.854s]       |                   [01;31m[K^~~~[m[K
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.854s]   192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.854s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.854s]   192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.854s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.854s]   192 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.854s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[4.854s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.854s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.854s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.854s]   192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.854s]       |                   [01;31m[K^~~~[m[K
+[4.854s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:192:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.855s]   192 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap is empty, skipping planning scene update");
+[4.855s]       |                   [01;31m[K^~~~[m[K
+[4.865s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:202:41:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+[4.865s]   202 |     collision_object.header.frame_id = ![01;31m[Klast_frame_id_[m[K.empty() ? last_frame_id_ : frame_id_;
+[4.865s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.872s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:202:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[4.872s]   202 |     collision_object.header.frame_id = !last_frame_id_.empty() ? last_frame_id_ : [01;31m[Kframe_id_[m[K;
+[4.872s]       |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[4.872s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:203:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.872s]   203 |     collision_object.header.stamp = [01;31m[Kthis[m[K->now();
+[4.872s]       |                                     [01;31m[K^~~~[m[K
+[4.877s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:211:35:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.877s]   211 |     octomap_msgs::binaryMapToMsg(*[01;31m[Koctomap_[m[K, octomap_msg);
+[4.877s]       |                                   [01;31m[K^~~~~~~~[m[K
+[4.877s]       |                                   [32m[Koctomap[m[K
+[4.896s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:218:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+[4.896s]   218 |     [01;31m[Kplanning_scene_interface_[m[K->applyPlanningScene(planning_scene);
+[4.896s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.896s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.896s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.896s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.897s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.897s]   220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |                 [01;31m[K^~~~[m[K
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.897s]   220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.897s]   220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.897s]   220 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.897s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.897s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.897s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.897s]   220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |                 [01;31m[K^~~~[m[K
+[4.897s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:220:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.897s]   220 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published updated occupancy map to planning scene");
+[4.897s]       |                 [01;31m[K^~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid clearOctomapCallback(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:228:5:[m[K [01;31m[Kerror: [m[K‘[01m[KclearOctomap[m[K’ was not declared in this scope
+[4.909s]   228 |     [01;31m[KclearOctomap[m[K();
+[4.909s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.909s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.909s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.909s]   229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+[4.909s]       |                 [01;31m[K^~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.909s]   229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+[4.909s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.909s]   229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+[4.909s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.909s]   229 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Octomap cleared via service call");
+[4.909s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.909s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.909s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.909s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.909s]   229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+[4.909s]       |                 [01;31m[K^~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:229:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.909s]   229 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Octomap cleared via service call");
+[4.909s]       |                 [01;31m[K^~~~[m[K
+[4.909s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:225:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.909s]   225 |     [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[4.910s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.910s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:226:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.910s]   226 |     [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[4.910s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.918s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K In function ‘[01m[Kvoid clearOctomap()[m[K’:
+[4.918s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:235:38:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap_msgs[m[K’?
+[4.918s]   235 |     std::lock_guard<std::mutex> lock([01;31m[Koctomap_mutex_[m[K);
+[4.918s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.919s]       |                                      [32m[Koctomap_msgs[m[K
+[4.923s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:238:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koctomap_[m[K’ was not declared in this scope; did you mean ‘[01m[Koctomap[m[K’?
+[4.923s]   238 |     [01;31m[Koctomap_[m[K = std::make_shared<octomap::OcTree>(resolution_);
+[4.923s]       |     [01;31m[K^~~~~~~~[m[K
+[4.923s]       |     [32m[Koctomap[m[K
+[4.932s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:238:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[4.932s]   238 |     octomap_ = std::make_shared<octomap::OcTree>([01;31m[Kresolution_[m[K);
+[4.932s]       |                                                  [01;31m[K^~~~~~~~~~~[m[K
+[4.945s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:246:41:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_frame_id_[m[K’ was not declared in this scope
+[4.945s]   246 |     collision_object.header.frame_id = ![01;31m[Klast_frame_id_[m[K.empty() ? last_frame_id_ : frame_id_;
+[4.945s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.952s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:246:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[4.952s]   246 |     collision_object.header.frame_id = !last_frame_id_.empty() ? last_frame_id_ : [01;31m[Kframe_id_[m[K;
+[4.952s]       |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[4.952s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:247:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.952s]   247 |     collision_object.header.stamp = [01;31m[Kthis[m[K->now();
+[4.952s]       |                                     [01;31m[K^~~~[m[K
+[4.971s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:255:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface_[m[K’ was not declared in this scope
+[4.971s]   255 |     [01;31m[Kplanning_scene_interface_[m[K->applyPlanningScene(planning_scene);
+[4.971s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.971s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.971s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.971s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.971s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.971s]   257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+[4.971s]       |                 [01;31m[K^~~~[m[K
+[4.971s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.972s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.972s]   257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+[4.972s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.972s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.972s]   257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+[4.972s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.972s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.972s]   257 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cleared octomap and removed from planning scene");
+[4.972s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.972s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.972s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.972s]                  from [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:2[m[K:
+[4.972s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.972s]   257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+[4.972s]       |                 [01;31m[K^~~~[m[K
+[4.972s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:257:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.972s]   257 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Cleared octomap and removed from planning scene");
+[4.972s]       |                 [01;31m[K^~~~[m[K
+[4.984s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:[m[K At global scope:
+[4.984s] [01m[K/home/buhrmann/ws_moveit/src/edit_planning_scene/src/octo_map.cpp:283:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.984s]   283 | [01;31m[K}[m[K;
+[4.984s]       | [01;31m[K^[m[K
+[7.185s] gmake[2]: *** [CMakeFiles/pointcloud_to_octomap.dir/build.make:76: CMakeFiles/pointcloud_to_octomap.dir/src/octo_map.cpp.o] Error 1
+[7.185s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pointcloud_to_octomap.dir/all] Error 2
+[7.185s] gmake: *** [Makefile:146: all] Error 2
+[7.187s] Invoked command in '/home/buhrmann/ws_moveit/build/edit_planning_scene' returned '2': AMENT_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/opt/ros/iron CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron LD_LIBRARY_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/home/buhrmann/ws_moveit/install/common_services_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64 PYTHONPATH=/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/edit_planning_scene -- -j28 -l28

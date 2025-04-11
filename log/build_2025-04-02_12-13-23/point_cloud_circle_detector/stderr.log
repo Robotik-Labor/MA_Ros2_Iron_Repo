@@ -1,0 +1,7 @@
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_ransac_conversion.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCustomObjectMatcher::listener_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_ransac_conversion.cpp:167:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knormals[m[K’ was not declared in this scope
+  167 |             ne.compute(*[01;31m[Knormals[m[K);
+      |                         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantplot_ransac_conversion.dir/build.make:76: CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/plantplot_ransac_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+[0.574s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target plantplot_icp_conversion[0m
+[0.791s] [  7%] Built target cup_segmentation_color
+[0.795s] [ 15%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.796s] [ 23%] Built target rgb_edge_filter
+[0.800s] [ 30%] Built target point_cloud_plantpot_detector
+[0.801s] [ 38%] Built target hsv_color_filter
+[0.812s] [ 46%] Built target point_cloud_circle_detector
+[0.814s] [ 53%] Built target point_cloud_cylinder_detector
+[0.818s] [ 61%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.822s] [ 69%] Built target image_based_hsv_color_filter
+[0.824s] [ 76%] Built target cup_pointcloud_segmentation_color
+[0.827s] [ 84%] Built target point_cloud_plantpot_pfh_detector
+[0.832s] [ 92%] Built target point_cloud_plantpot_ppf_detector
+[0.838s] [ 96%] [32mBuilding CXX object CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o[0m
+[9.916s] gmake[2]: *** [CMakeFiles/plantplot_icp_conversion.dir/build.make:76: CMakeFiles/plantplot_icp_conversion.dir/src/plantplot_icp_conversion.cpp.o] Interrupt
+[9.916s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/plantplot_icp_conversion.dir/all] Interrupt
+[9.919s] gmake: *** wait: No child processes.  Stop.
+[9.919s] gmake: *** Waiting for unfinished jobs....
+[9.919s] gmake: *** wait: No child processes.  Stop.
+[9.991s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
