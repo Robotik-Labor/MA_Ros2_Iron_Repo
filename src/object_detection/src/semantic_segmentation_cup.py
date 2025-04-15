@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 from PIL import Image as PILImage
 import torch
+import time
 
 from transformers import AutoProcessor, AutoModelForUniversalSegmentation
 
@@ -208,6 +209,7 @@ class OneFormerCupDetectionNode(Node):
             f"Detected {len(cup_pixel_groups)} Cup Groups: " + 
             ", ".join([f"Group {i+1}: {len(group['pixels'])} pixels" for i, group in enumerate(cup_pixel_groups)])
         )
+        time.sleep(1)
 
     def convert_to_ros_image(self, segmentation_map, header):
         """
@@ -239,7 +241,7 @@ def main(args=None):
     node = OneFormerCupDetectionNode()
     
     try:
-        rclpy.spin(node)
+        rclpy.spin_once(node)
     except KeyboardInterrupt:
         node.get_logger().info('Shutting down OneFormer Cup Detection Node')
     finally:

@@ -1,0 +1,16 @@
+[  6%] Built target point_cloud_cylinder_detector
+[ 12%] Built target point_cloud_plantpot_detector
+[ 18%] Built target point_cloud_plantpot_ppf_detector
+[ 25%] Built target point_cloud_circle_detector
+[ 31%] Built target point_cloud_plantpot_pfh_detector
+[ 37%] Built target rgb_edge_filter
+[ 43%] Built target cup_segmentation_color
+[ 50%] Built target cup_pointcloud_segmentation_color
+[ 56%] Built target hsv_color_filter
+[ 62%] Built target plantplot_icp_conversion
+[ 68%] Built target image_based_hsv_color_filter
+[ 78%] Built target plantplot_ransac_conversion
+[ 81%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 87%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 93%] Built target plantplot_placement
+[ 96%] [32mBuilding CXX object CMakeFiles/plantpod_pointcloud_segmentation_and_coloring_service.dir/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp.o[0m

@@ -51,6 +51,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_generator_type_description/common_services_package/srv/GetPointCloud2.json")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_generator_type_description/common_services_package/srv/GetFloat32Array.json")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/common_services_package/common_services_package" TYPE DIRECTORY FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_generator_c/common_services_package/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -364,6 +372,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package/srv/GetPointCloud2.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package/srv/GetFloat32Array.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/src/common_services_package/srv/GetPlantpotCoords.srv")
 endif()
 
@@ -373,6 +389,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_cmake/srv/GetPlantpotCoords_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/src/common_services_package/srv/GetPointCloud2.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_cmake/srv/GetPointCloud2_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_cmake/srv/GetPointCloud2_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/src/common_services_package/srv/GetFloat32Array.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_cmake/srv/GetFloat32Array_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common_services_package/srv" TYPE FILE FILES "/home/buhrmann/ws_moveit/build/common_services_package/rosidl_cmake/srv/GetFloat32Array_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,6 +1,8 @@
 {
   "package_name": "common_services_package",
   "non_idl_tuples": [
-    "/home/buhrmann/ws_moveit/src/common_services_package:srv/GetPlantpotCoords.srv"
+    "/home/buhrmann/ws_moveit/src/common_services_package:srv/GetPlantpotCoords.srv",
+    "/home/buhrmann/ws_moveit/src/common_services_package:srv/GetPointCloud2.srv",
+    "/home/buhrmann/ws_moveit/src/common_services_package:srv/GetFloat32Array.srv"
   ]
 }

@@ -139,9 +139,6 @@ plantplot_placement: /opt/ros/iron/lib/libstd_msgs__rosidl_typesupport_introspec
 plantplot_placement: /opt/ros/iron/lib/libstd_msgs__rosidl_typesupport_cpp.so
 plantplot_placement: /opt/ros/iron/lib/libstd_msgs__rosidl_generator_py.so
 plantplot_placement: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-plantplot_placement: /usr/lib/libOpenNI.so
-plantplot_placement: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
-plantplot_placement: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 plantplot_placement: /usr/local/lib/libpcl_surface.so
 plantplot_placement: /usr/local/lib/libpcl_keypoints.so
 plantplot_placement: /usr/local/lib/libpcl_tracking.so
@@ -150,7 +147,6 @@ plantplot_placement: /usr/local/lib/libpcl_stereo.so
 plantplot_placement: /usr/local/lib/libpcl_outofcore.so
 plantplot_placement: /usr/local/lib/libpcl_people.so
 plantplot_placement: /usr/lib/libOpenNI.so
-plantplot_placement: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 plantplot_placement: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
 plantplot_placement: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 plantplot_placement: /usr/lib/x86_64-linux-gnu/libflann_cpp.so

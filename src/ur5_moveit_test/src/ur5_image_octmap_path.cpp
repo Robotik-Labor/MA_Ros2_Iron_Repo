@@ -1,3 +1,6 @@
+#define EIGEN_DONT_ALIGN_STATICALLY
+#define EIGEN_DONT_VECTORIZE
+
 #include <memory>
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
@@ -23,6 +26,9 @@
 #include <cv_bridge/cv_bridge.hpp>
 #include <opencv2/opencv.hpp>
 #include <sensor_msgs/msg/camera_info.hpp>
+
+#include <moveit_visual_tools/moveit_visual_tools.h>
+
 
 std::pair<pcl::PointCloud<pcl::PointXYZRGB>::Ptr, sensor_msgs::msg::Image::SharedPtr> 
 filterGreenPointCloud(
@@ -344,7 +350,7 @@ private:
         //calculation Point nearest (0,0,z)
         double start_angle = atan2(center_y, center_x) + M_PI;
 
-        double Angles[5] = {start_angle - M_PI/2 + M_PI/2, start_angle - M_PI/4+ M_PI/2, start_angle+ M_PI/2, start_angle + M_PI/4+ M_PI/2, start_angle + M_PI/2+ M_PI/2};
+        double Angles[5] = {start_angle - M_PI/4 , start_angle , start_angle + M_PI/4 , start_angle + M_PI/2, start_angle + M_PI/4 + M_PI/2};
         
         const float colors[10][3] = {
             {1.0f, 0.0f, 0.0f},     // Red
@@ -368,11 +374,11 @@ private:
             geometry_msgs::msg::Pose target_pose;
             target_pose.position.x = x;
             target_pose.position.y = y;
-            target_pose.position.z = max_height;
+            target_pose.position.z = max_height + 0.1;
 
             double vx = center_x - x;
             double vy = center_y - y;
-            double vz = center_z - max_height;
+            double vz = center_z - max_height - 0.1;
 
             double Norm = sqrt(vx*vx + vy*vy + vz*vz);
 
@@ -491,6 +497,22 @@ private:
                 move_group_interface.setPlannerId("BiTRRT");
                 move_group_interface.setNumPlanningAttempts(20);
                 move_group_interface.setGoalJointTolerance(0.03);
+
+                namespace rvt = rviz_visual_tools;
+                moveit_visual_tools::MoveItVisualTools visual_tools(
+                    shared_from_this(), "world", "/UR5/move_group_tutorial",
+                    move_group_interface.getRobotModel());
+                visual_tools.deleteAllMarkers();
+
+                Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
+                text_pose.translation().z() = 1.0;
+                visual_tools.publishText(text_pose, "Creating_Occupancy_Map", rvt::WHITE,
+                                        rvt::XLARGE);
+                visual_tools.trigger();
+
+                const moveit::core::RobotModelConstPtr& robot_model = move_group_interface.getRobotModel();
+                const moveit::core::JointModelGroup* joint_model_group = robot_model->getJointModelGroup("ur5_arm");
+
                 
                 // Add your existing constraints code here
                 moveit_msgs::msg::JointConstraint shoulder_pan_constraint;
@@ -533,17 +555,35 @@ private:
                 // Execute motion to each target pose
                 bool success;
                 moveit::planning_interface::MoveGroupInterface::Plan plan;
+                moveit::planning_interface::MoveGroupInterface::Plan plan_to_camera;
+
+                std::vector<double> target_joint_degrees = {90.0, -156.0, 103.0, 80.0, 91.0, 0.0};  // Example joint values in degrees
+                std::vector<double> radians;
+                for (double degree : target_joint_degrees) {
+                        radians.push_back(degree * M_PI / 180.0);  // Convert to radians
+                    }
                 
                 for (size_t i = 0; i < target_poses.size(); i++) {
                     RCLCPP_INFO(this->get_logger(), "Motion planning to target %zu", i);
                     move_group_interface.setPoseTarget(target_poses[i]);
+
+                    visual_tools.deleteAllMarkers();
+                    visual_tools.publishText(text_pose, "Calculating_Path_to_Pose_" + std::to_string(i + 1) , rvt::WHITE, rvt::XLARGE);
+                    visual_tools.trigger();
 
                     success = (move_group_interface.plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
                     if (!success) {
                         RCLCPP_WARN(this->get_logger(), "Planning failed for target %zu", i);
                         continue;
                     }
-                    
+
+                    visual_tools.deleteAllMarkers();
+                    RCLCPP_INFO(this->get_logger(), "Visualizing Pose trajectory line");
+                    visual_tools.publishText(text_pose, "Moving_to_Pose_" + std::to_string(i + 1), rvt::WHITE, rvt::XLARGE);
+                    visual_tools.publishTrajectoryLine(plan.trajectory, joint_model_group);
+                    visual_tools.trigger();
+
+
                     RCLCPP_INFO(this->get_logger(), "Moving to target %zu", i);
                     move_group_interface.execute(plan);
                     
@@ -573,13 +613,37 @@ private:
                     } else {
                         RCLCPP_WARN(this->get_logger(), "Failed to get fresh camera data at target %zu", i);
                     }
+                    move_group_interface.setJointValueTarget(radians);
+                    visual_tools.deleteAllMarkers();
+                    visual_tools.publishText(text_pose, "Calculating_Path_to_Camera" , rvt::WHITE, rvt::XLARGE);
+                    visual_tools.trigger();
+
+                    success = (move_group_interface.plan(plan_to_camera) == moveit::core::MoveItErrorCode::SUCCESS);
+
+                    visual_tools.deleteAllMarkers();
+                    RCLCPP_INFO(this->get_logger(), "Visualizing Camera trajectory line");
+                    visual_tools.publishText(text_pose, "Moving_back_to_Camera", rvt::WHITE, rvt::XLARGE);
+                    visual_tools.publishTrajectoryLine(plan_to_camera.trajectory, joint_model_group);
+                    visual_tools.trigger();
+
+                    move_group_interface.execute(plan_to_camera);
                 }
                 
                 // Return to home position
                 RCLCPP_INFO(this->get_logger(), "Moving to home position");
                 move_group_interface.setNamedTarget("Home");
+                visual_tools.deleteAllMarkers();
+                visual_tools.publishText(text_pose, "Calculating_Path_to_Home" , rvt::WHITE, rvt::XLARGE);
+                visual_tools.trigger();
+
                 success = (move_group_interface.plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
                 if (success) {
+                    visual_tools.deleteAllMarkers();
+                    RCLCPP_INFO(this->get_logger(), "Visualizing Camera trajectory line");
+                    visual_tools.publishText(text_pose, "Moving_to_Home", rvt::WHITE, rvt::XLARGE);
+                    visual_tools.publishTrajectoryLine(plan.trajectory, joint_model_group);
+                    visual_tools.trigger();
+
                     move_group_interface.execute(plan);
                 } else {
                     RCLCPP_WARN(this->get_logger(), "Failed to plan motion to home position");
@@ -587,6 +651,8 @@ private:
                 
                 // Signal completion
                 RCLCPP_INFO(this->get_logger(), "Motion sequence completed");
+                visual_tools.deleteAllMarkers();
+                visual_tools.trigger();
                 rclcpp::shutdown();
             }
             catch (const std::exception& e) {

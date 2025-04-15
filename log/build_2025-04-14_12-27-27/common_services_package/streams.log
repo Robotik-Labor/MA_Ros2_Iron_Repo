@@ -1,0 +1,40 @@
+[0.204s] Invoking command in '/home/buhrmann/ws_moveit/build/common_services_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/common_services_package -- -j28 -l28
+[0.231s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.355s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.417s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.481s] -- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[0.751s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.141s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.155s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.155s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.233s] -- Configuring done
+[1.255s] -- Generating done
+[1.262s] -- Build files have been written to: /home/buhrmann/ws_moveit/build/common_services_package
+[1.296s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.301s] [  1%] Built target ament_cmake_python_copy_common_services_package
+[1.447s] Traceback (most recent call last):
+[1.447s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[1.447s]     sys.exit(main())
+[1.447s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[1.447s]     generate_type_hash(args.generator_arguments_file)
+[1.447s]   File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[1.447s]     pkg_dir = include_map[pkg]
+[1.447s] KeyError: 'sensor_msgs'
+[1.456s] running egg_info
+[1.457s] writing common_services_package.egg-info/PKG-INFO
+[1.457s] writing dependency_links to common_services_package.egg-info/dependency_links.txt
+[1.457s] writing top-level names to common_services_package.egg-info/top_level.txt
+[1.458s] reading manifest file 'common_services_package.egg-info/SOURCES.txt'
+[1.459s] writing manifest file 'common_services_package.egg-info/SOURCES.txt'
+[1.469s] gmake[2]: *** [CMakeFiles/common_services_package__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/common_services_package/srv/GetPlantpotCoords.json] Error 1
+[1.469s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/common_services_package__rosidl_generator_type_description.dir/all] Error 2
+[1.469s] gmake[1]: *** Waiting for unfinished jobs....
+[1.477s] [  1%] Built target ament_cmake_python_build_common_services_package_egg
+[1.477s] gmake: *** [Makefile:146: all] Error 2
+[1.479s] Invoked command in '/home/buhrmann/ws_moveit/build/common_services_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/common_services_package -- -j28 -l28

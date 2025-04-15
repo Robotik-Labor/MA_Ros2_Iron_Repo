@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aed419ff8f6abf41097d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "point_cloud_circle_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cup_pointcloud_segmentation_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cup_pointcloud_segmentation_color-2a9f2eae59996c12fc88.json",
+					"name" : "cup_pointcloud_segmentation_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cup_segmentation_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cup_segmentation_color-36bc622dbc8acef8ec99.json",
+					"name" : "cup_segmentation_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hsv_color_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hsv_color_filter-a0b6989c028427b223d5.json",
+					"name" : "hsv_color_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_based_hsv_color_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_based_hsv_color_filter-d5406f5b761aa60c6e11.json",
+					"name" : "image_based_hsv_color_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plantplot_icp_conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plantplot_icp_conversion-c3bd063652efffaa0fbd.json",
+					"name" : "plantplot_icp_conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plantplot_placement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plantplot_placement-c5bd01798d0cf937d56c.json",
+					"name" : "plantplot_placement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plantplot_ransac_conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plantplot_ransac_conversion-728bdc9f222d4c24d825.json",
+					"name" : "plantplot_ransac_conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plantpot_placement_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plantpot_placement_service-09582729fb2adc7ba495.json",
+					"name" : "plantpot_placement_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plantpot_pointcloud_segmentation_and_coloring_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plantpot_pointcloud_segmentation_and_coloring_service-8d93ae09178714f9cc0a.json",
+					"name" : "plantpot_pointcloud_segmentation_and_coloring_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_circle_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_circle_detector-49097520c1c28f6919ff.json",
+					"name" : "point_cloud_circle_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_circle_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_circle_detector_uninstall-45b7249109170d3b22f6.json",
+					"name" : "point_cloud_circle_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_cylinder_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_cylinder_detector-3946a4a8ad73de635a4e.json",
+					"name" : "point_cloud_cylinder_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_detector-59284164ba53460b576d.json",
+					"name" : "point_cloud_plantpot_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_edge_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_edge_pfh_detector-43806290af9d4ecf46c6.json",
+					"name" : "point_cloud_plantpot_edge_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_pfh_detector-e2986603416362636238.json",
+					"name" : "point_cloud_plantpot_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_ppf_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_ppf_detector-da3630ee09ff55a051f8.json",
+					"name" : "point_cloud_plantpot_ppf_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_plantpot_rgb_edge_pfh_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_plantpot_rgb_edge_pfh_detector-75b06268bd09d847db50.json",
+					"name" : "point_cloud_plantpot_rgb_edge_pfh_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgb_edge_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgb_edge_filter-8663d03c8447798b443a.json",
+					"name" : "rgb_edge_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-938be922fcfb613676da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/point_cloud_circle_detector",
+		"source" : "/home/buhrmann/ws_moveit/src/point_cloud_circle_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

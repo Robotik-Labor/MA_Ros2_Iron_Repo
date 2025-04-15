@@ -1,0 +1,13 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_plantpot_to_home.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_plantpot_to_home.cpp:115:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcurrent_pose[m[K’
+  115 |   [01;31m[Kcurrent_pose[m[K = move_group_interface.getCurrentPose(end_effector_link);
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_plantpot_to_home.cpp:124:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ was not declared in this scope
+  124 |   probe_pose = [01;31m[Kcurrent_pose[m[K.pose;
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_move_plantpot_to_home.cpp:169:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  169 |   bool [01;35m[Ksuccess[m[K = (move_group_interface.plan(plan_home) ==
+      |        [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_move_plantpot_to_home.dir/build.make:76: CMakeFiles/ur5_move_plantpot_to_home.dir/src/ur5_move_plantpot_to_home.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/ur5_move_plantpot_to_home.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

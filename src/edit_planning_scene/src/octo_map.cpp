@@ -16,6 +16,8 @@
 #include <tf2_ros/buffer.h>
 #include <tf2_sensor_msgs/tf2_sensor_msgs.hpp>
 #include <std_srvs/srv/empty.hpp>  // For the clear service
+#include <pcl/filters/statistical_outlier_removal.h>
+#include <pcl/surface/convex_hull.h>
 
 class OccupancyMapNode : public rclcpp::Node
 {
@@ -141,12 +143,12 @@ private:
     pcl::PointCloud<pcl::PointXYZ>::Ptr range_filtered_cloud(new pcl::PointCloud<pcl::PointXYZ>);
     // Iterate through the original cloud
     for (const auto& point : cloud->points) {
-	    if (point.y <= 1.0 && point.z >= 0.02) {
+	    if (point.y <= 1.0 && point.z >= 0.12) {
 		range_filtered_cloud->points.push_back(point);
 	    }
 	}
     
-    
+    RCLCPP_INFO(this->get_logger(),"After range filtering: %zu points", range_filtered_cloud->points.size());
     
     // Optional: Downsample pointcloud for efficiency
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered(new pcl::PointCloud<pcl::PointXYZ>);
@@ -155,8 +157,28 @@ private:
     voxel_filter.setLeafSize(resolution_, resolution_, resolution_);
     voxel_filter.filter(*cloud_filtered);
     
+    RCLCPP_INFO(this->get_logger(),"After voxel grid filtering: %zu points", cloud_filtered->points.size());
+
+	// Add Statistical Outlier Removal
+	pcl::PointCloud<pcl::PointXYZ>::Ptr outlier_filtered_cloud(new pcl::PointCloud<pcl::PointXYZ>);
+	pcl::StatisticalOutlierRemoval<pcl::PointXYZ> sor;
+	sor.setInputCloud(cloud_filtered);
+	sor.setMeanK(50);  // Number of neighbors to analyze
+	sor.setStddevMulThresh(1.0);  // Standard deviation threshold
+	sor.filter(*outlier_filtered_cloud);
+   
+   RCLCPP_INFO(this->get_logger(),"After outlier removal: %zu points", outlier_filtered_cloud->points.size());
+	// Create a convex hull
+	pcl::PointCloud<pcl::PointXYZ>::Ptr hull_cloud(new pcl::PointCloud<pcl::PointXYZ>);
+	pcl::ConvexHull<pcl::PointXYZ> hull;
+	hull.setInputCloud(outlier_filtered_cloud);
+	hull.setDimension(3);  // 3D convex hull
+	hull.reconstruct(*hull_cloud);
+   RCLCPP_INFO(this->get_logger(),"After Convex Hull: %zu points", hull_cloud->points.size());
+    
+    
     // Update octomap with pointcloud data
-    updateOctomap(cloud_filtered, filtered_msg->header.frame_id);
+    updateOctomap(outlier_filtered_cloud, filtered_msg->header.frame_id);
   } catch (tf2::TransformException &ex) {
       RCLCPP_WARN(this->get_logger(), "Could not transform pointcloud: %s", ex.what());
       } catch (std::exception &ex) {

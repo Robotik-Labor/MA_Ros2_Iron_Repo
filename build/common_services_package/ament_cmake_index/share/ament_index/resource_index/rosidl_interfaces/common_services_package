@@ -1,4 +1,12 @@
+srv/GetFloat32Array.idl
+srv/GetFloat32Array.srv
+srv/GetFloat32Array_Request.msg
+srv/GetFloat32Array_Response.msg
 srv/GetPlantpotCoords.idl
 srv/GetPlantpotCoords.srv
 srv/GetPlantpotCoords_Request.msg
 srv/GetPlantpotCoords_Response.msg
+srv/GetPointCloud2.idl
+srv/GetPointCloud2.srv
+srv/GetPointCloud2_Request.msg
+srv/GetPointCloud2_Response.msg

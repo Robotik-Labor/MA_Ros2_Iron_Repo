@@ -1,0 +1,21 @@
+[0.183s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection_pcl -- -j28 -l28
+[0.312s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/object_detection_pcl -- -j28 -l28
+[0.313s] Invoking command in '/home/buhrmann/ws_moveit/build/object_detection_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection_pcl
+[0.383s] -- Install configuration: ""
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/lib/object_detection_pcl/object_detection_pcl.py
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/ament_index/resource_index/package_run_dependencies/object_detection_pcl
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/ament_index/resource_index/parent_prefix_path/object_detection_pcl
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/environment/ament_prefix_path.sh
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/environment/ament_prefix_path.dsv
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/environment/path.sh
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/environment/path.dsv
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/local_setup.bash
+[0.383s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/local_setup.sh
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/local_setup.zsh
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/local_setup.dsv
+[0.384s] -- Installing: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/package.dsv
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/ament_index/resource_index/packages/object_detection_pcl
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/cmake/object_detection_pclConfig.cmake
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/cmake/object_detection_pclConfig-version.cmake
+[0.384s] -- Up-to-date: /home/buhrmann/ws_moveit/install/object_detection_pcl/share/object_detection_pcl/package.xml
+[0.431s] Invoked command in '/home/buhrmann/ws_moveit/build/object_detection_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/object_detection_pcl

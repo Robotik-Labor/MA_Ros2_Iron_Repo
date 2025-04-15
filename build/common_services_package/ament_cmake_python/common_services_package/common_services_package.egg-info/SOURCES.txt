@@ -5,4 +5,6 @@ common_services_package.egg-info/SOURCES.txt
 common_services_package.egg-info/dependency_links.txt
 common_services_package.egg-info/top_level.txt
 common_services_package/srv/__init__.py
+common_services_package/srv/_get_float32_array.py
 common_services_package/srv/_get_plantpot_coords.py
+common_services_package/srv/_get_point_cloud2.py

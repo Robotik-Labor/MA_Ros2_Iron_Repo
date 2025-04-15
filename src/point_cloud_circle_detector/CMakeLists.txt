@@ -19,6 +19,7 @@ find_package(pcl_conversions REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
+find_package(common_services_package REQUIRED)
 # Specify the PCL version you want to use
 #find_package(PCL 1.14.1 EXACT REQUIRED)
 
@@ -40,8 +41,8 @@ add_executable(image_based_hsv_color_filter src/image_based_hsv_color_filter.cpp
 add_executable(plantplot_icp_conversion src/plantplot_icp_conversion.cpp)
 add_executable(plantplot_ransac_conversion src/plantplot_ransac_conversion.cpp)
 add_executable(plantplot_placement src/plantplot_placement.cpp)
-
-
+add_executable(plantpot_pointcloud_segmentation_and_coloring_service src/plantpot_pointcloud_segmentation_and_coloring_service.cpp)
+add_executable(plantpot_placement_service src/plantpot_placement_service.cpp)
 
 # Link libraries (add necessary PCL components)
 ament_target_dependencies(point_cloud_circle_detector rclcpp sensor_msgs pcl_conversions)
@@ -59,6 +60,8 @@ ament_target_dependencies(image_based_hsv_color_filter rclcpp sensor_msgs pcl_co
 ament_target_dependencies(plantplot_icp_conversion rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
 ament_target_dependencies(plantplot_ransac_conversion rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
 ament_target_dependencies(plantplot_placement rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface)
+ament_target_dependencies(plantpot_pointcloud_segmentation_and_coloring_service rclcpp sensor_msgs pcl_conversions cv_bridge common_services_package)
+ament_target_dependencies(plantpot_placement_service rclcpp sensor_msgs pcl_conversions geometry_msgs moveit_ros_planning_interface common_services_package)
 
 # Install targets
 install(TARGETS point_cloud_circle_detector DESTINATION lib/${PROJECT_NAME})
@@ -76,6 +79,9 @@ install(TARGETS image_based_hsv_color_filter DESTINATION lib/${PROJECT_NAME})
 install(TARGETS plantplot_icp_conversion DESTINATION lib/${PROJECT_NAME})
 install(TARGETS plantplot_ransac_conversion DESTINATION lib/${PROJECT_NAME})
 install(TARGETS plantplot_placement DESTINATION lib/${PROJECT_NAME})
+install(TARGETS plantpot_pointcloud_segmentation_and_coloring_service DESTINATION lib/${PROJECT_NAME})
+install(TARGETS plantpot_placement_service DESTINATION lib/${PROJECT_NAME})
+
 
 # Install pcd directory
 install(
@@ -105,7 +111,9 @@ target_link_libraries(plantplot_icp_conversion ${PCL_LIBRARIES}
 )
 target_link_libraries(plantplot_ransac_conversion ${PCL_LIBRARIES}
 )
-target_link_libraries(plantplot_placement ${PCL_LIBRARIES}
+target_link_libraries(plantpot_placement_service ${PCL_LIBRARIES}
+)
+target_link_libraries(plantpot_pointcloud_segmentation_and_coloring_service ${PCL_LIBRARIES}
 )
 # Testing
 if(BUILD_TESTING)

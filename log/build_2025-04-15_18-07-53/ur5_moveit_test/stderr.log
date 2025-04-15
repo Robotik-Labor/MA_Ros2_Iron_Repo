@@ -1,0 +1,183 @@
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:506:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ has no member named ‘[01m[Ktranslation[m[K’
+  506 |                 text_pose.[01;31m[Ktranslation[m[K().z() = 1.0;
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:507:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, const char [23], rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  507 |                 [01;31m[Kvisual_tools.publishText(text_pose, "Creating_Occupancy_Map", rvt::WHITE,[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  508 | [01;31m[K                                        rvt::XLARGE)[m[K;
+      |                                         [01;31m[K~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:569:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, std::__cxx11::basic_string<char>, rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  569 |                     [01;31m[Kvisual_tools.publishText(text_pose, "Calculating_Path_to_Pose_" + std::to_string(i + 1) , rvt::WHITE, rvt::XLARGE)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:580:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, std::__cxx11::basic_string<char>, rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  580 |                     [01;31m[Kvisual_tools.publishText(text_pose, "Moving_to_Pose_" + std::to_string(i + 1), rvt::WHITE, rvt::XLARGE)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, const char [22], rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  619 |                     [01;31m[Kvisual_tools.publishText(text_pose, "Moving_back_to_Camera", rvt::WHITE, rvt::XLARGE)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:630:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, const char [25], rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  630 |                 [01;31m[Kvisual_tools.publishText(text_pose, "Calculating_Path_to_Home" , rvt::WHITE, rvt::XLARGE)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:637:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishText(std::shared_ptr<Eigen::Transform<double, 3, 1> >&, const char [15], rviz_visual_tools::Colors, rviz_visual_tools::Scales)[m[K’
+  637 |                     [01;31m[Kvisual_tools.publishText(text_pose, "Moving_to_Home", rvt::WHITE, rvt::XLARGE)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/buhrmann/ws_moveit/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:27[m[K:
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1039 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color = WHITE,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1039:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1039 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color = WHITE,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Isometry3d&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1041 |   bool [01;36m[KpublishText[m[K(const Eigen::Isometry3d& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1041:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+ 1041 |   bool publishText([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, rviz_visual_tools::Scales, bool)[m[K’
+ 1043 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1043:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1043 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishText(const Pose&, const string&, rviz_visual_tools::Colors, geometry_msgs::msg::Vector3, bool)[m[K’
+ 1045 |   bool [01;36m[KpublishText[m[K(const geometry_msgs::msg::Pose& pose, const std::string& text, Colors color,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:1045:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+ 1045 |   bool publishText([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& text, Colors color,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

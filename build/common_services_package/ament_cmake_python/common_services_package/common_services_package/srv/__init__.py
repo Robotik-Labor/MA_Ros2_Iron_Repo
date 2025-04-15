@@ -1,4 +1,12 @@
+from common_services_package.srv._get_float32_array import GetFloat32Array  # noqa: F401
+from common_services_package.srv._get_float32_array import GetFloat32Array_Event  # noqa: F401
+from common_services_package.srv._get_float32_array import GetFloat32Array_Request  # noqa: F401
+from common_services_package.srv._get_float32_array import GetFloat32Array_Response  # noqa: F401
 from common_services_package.srv._get_plantpot_coords import GetPlantpotCoords  # noqa: F401
 from common_services_package.srv._get_plantpot_coords import GetPlantpotCoords_Event  # noqa: F401
 from common_services_package.srv._get_plantpot_coords import GetPlantpotCoords_Request  # noqa: F401
 from common_services_package.srv._get_plantpot_coords import GetPlantpotCoords_Response  # noqa: F401
+from common_services_package.srv._get_point_cloud2 import GetPointCloud2  # noqa: F401
+from common_services_package.srv._get_point_cloud2 import GetPointCloud2_Event  # noqa: F401
+from common_services_package.srv._get_point_cloud2 import GetPointCloud2_Request  # noqa: F401
+from common_services_package.srv._get_point_cloud2 import GetPointCloud2_Response  # noqa: F401

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "common_services_package/srv/detail/get_plantpot_coords__struct.h"
-#include "common_services_package/srv/detail/get_plantpot_coords__functions.h"
 #include "common_services_package/srv/detail/get_plantpot_coords__type_support.h"
+#include "common_services_package/srv/detail/get_plantpot_coords__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "common_services_package/srv/detail/get_plantpot_coords__functions.h"
 
 #ifdef __cplusplus
 extern "C"

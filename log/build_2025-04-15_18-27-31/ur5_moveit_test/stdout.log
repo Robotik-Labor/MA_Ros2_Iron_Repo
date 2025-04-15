@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_move_plantpot_to_home[0m
+[35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[  7%] Built target ur5_moveit_test_object_detection
+[ 14%] Built target ur5_probe_sensor
+[ 21%] Built target ur5_pickup_sensor
+[ 28%] Built target ur5_moveit_test_launch
+[ 35%] Built target ur5_probe_sensor_service
+[ 42%] Built target gripper_open_moveit_test
+[ 50%] Built target gripper_close_moveit_test
+[ 57%] Built target ur5_moveit_test
+[ 64%] Built target ur5_move_to_home
+[ 71%] Built target ur5_read_positions
+[ 78%] Built target ur5_drop_sensor
+[ 85%] Built target ur5_move_to_camera
+[ 89%] [32mBuilding CXX object CMakeFiles/ur5_move_plantpot_to_home.dir/src/ur5_move_plantpot_to_home.cpp.o[0m
+[ 96%] Built target ur5_image_octmap_path

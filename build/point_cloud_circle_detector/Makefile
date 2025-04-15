@@ -392,6 +392,32 @@ plantplot_placement/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_placement.dir/build.make CMakeFiles/plantplot_placement.dir/build
 .PHONY : plantplot_placement/fast
 
+#=============================================================================
+# Target rules for targets named plantpot_pointcloud_segmentation_and_coloring_service
+
+# Build rule for target.
+plantpot_pointcloud_segmentation_and_coloring_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantpot_pointcloud_segmentation_and_coloring_service
+.PHONY : plantpot_pointcloud_segmentation_and_coloring_service
+
+# fast build rule for target.
+plantpot_pointcloud_segmentation_and_coloring_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build
+.PHONY : plantpot_pointcloud_segmentation_and_coloring_service/fast
+
+#=============================================================================
+# Target rules for targets named plantpot_placement_service
+
+# Build rule for target.
+plantpot_placement_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plantpot_placement_service
+.PHONY : plantpot_placement_service
+
+# fast build rule for target.
+plantpot_placement_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_placement_service.dir/build.make CMakeFiles/plantpot_placement_service.dir/build
+.PHONY : plantpot_placement_service/fast
+
 src/cup_pointcloud_segmentation_and_coloring.o: src/cup_pointcloud_segmentation_and_coloring.cpp.o
 .PHONY : src/cup_pointcloud_segmentation_and_coloring.o
 
@@ -559,6 +585,54 @@ src/plantplot_ransac_conversion.s: src/plantplot_ransac_conversion.cpp.s
 src/plantplot_ransac_conversion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantplot_ransac_conversion.dir/build.make CMakeFiles/plantplot_ransac_conversion.dir/src/plantplot_ransac_conversion.cpp.s
 .PHONY : src/plantplot_ransac_conversion.cpp.s
+
+src/plantpot_placement_service.o: src/plantpot_placement_service.cpp.o
+.PHONY : src/plantpot_placement_service.o
+
+# target to build an object file
+src/plantpot_placement_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_placement_service.dir/build.make CMakeFiles/plantpot_placement_service.dir/src/plantpot_placement_service.cpp.o
+.PHONY : src/plantpot_placement_service.cpp.o
+
+src/plantpot_placement_service.i: src/plantpot_placement_service.cpp.i
+.PHONY : src/plantpot_placement_service.i
+
+# target to preprocess a source file
+src/plantpot_placement_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_placement_service.dir/build.make CMakeFiles/plantpot_placement_service.dir/src/plantpot_placement_service.cpp.i
+.PHONY : src/plantpot_placement_service.cpp.i
+
+src/plantpot_placement_service.s: src/plantpot_placement_service.cpp.s
+.PHONY : src/plantpot_placement_service.s
+
+# target to generate assembly for a file
+src/plantpot_placement_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_placement_service.dir/build.make CMakeFiles/plantpot_placement_service.dir/src/plantpot_placement_service.cpp.s
+.PHONY : src/plantpot_placement_service.cpp.s
+
+src/plantpot_pointcloud_segmentation_and_coloring_service.o: src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.o
+
+# target to build an object file
+src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o
+
+src/plantpot_pointcloud_segmentation_and_coloring_service.i: src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.i
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.i
+
+# target to preprocess a source file
+src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.i
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.i
+
+src/plantpot_pointcloud_segmentation_and_coloring_service.s: src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.s
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.s
+
+# target to generate assembly for a file
+src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.s
+.PHONY : src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.s
 
 src/point_cloud_circle_detector.o: src/point_cloud_circle_detector.cpp.o
 .PHONY : src/point_cloud_circle_detector.o
@@ -774,6 +848,8 @@ help:
 	@echo "... plantplot_icp_conversion"
 	@echo "... plantplot_placement"
 	@echo "... plantplot_ransac_conversion"
+	@echo "... plantpot_placement_service"
+	@echo "... plantpot_pointcloud_segmentation_and_coloring_service"
 	@echo "... point_cloud_circle_detector"
 	@echo "... point_cloud_cylinder_detector"
 	@echo "... point_cloud_plantpot_detector"
@@ -803,6 +879,12 @@ help:
 	@echo "... src/plantplot_ransac_conversion.o"
 	@echo "... src/plantplot_ransac_conversion.i"
 	@echo "... src/plantplot_ransac_conversion.s"
+	@echo "... src/plantpot_placement_service.o"
+	@echo "... src/plantpot_placement_service.i"
+	@echo "... src/plantpot_placement_service.s"
+	@echo "... src/plantpot_pointcloud_segmentation_and_coloring_service.o"
+	@echo "... src/plantpot_pointcloud_segmentation_and_coloring_service.i"
+	@echo "... src/plantpot_pointcloud_segmentation_and_coloring_service.s"
 	@echo "... src/point_cloud_circle_detector.o"
 	@echo "... src/point_cloud_circle_detector.i"
 	@echo "... src/point_cloud_circle_detector.s"

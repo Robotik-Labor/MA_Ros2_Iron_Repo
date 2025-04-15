@@ -1,0 +1,44 @@
+[  6%] Built target point_cloud_cylinder_detector
+[ 12%] Built target point_cloud_plantpot_detector
+[ 18%] Built target point_cloud_plantpot_ppf_detector
+[ 25%] Built target point_cloud_circle_detector
+[ 31%] Built target point_cloud_plantpot_pfh_detector
+[ 37%] Built target rgb_edge_filter
+[ 43%] Built target cup_segmentation_color
+[ 50%] Built target cup_pointcloud_segmentation_color
+[ 56%] Built target hsv_color_filter
+[ 62%] Built target plantplot_icp_conversion
+[ 68%] Built target image_based_hsv_color_filter
+[ 78%] Built target plantplot_ransac_conversion
+[ 81%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 87%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 93%] Built target plantplot_placement
+[ 96%] [32mBuilding CXX object CMakeFiles/plantpod_pointcloud_segmentation_and_coloring_service.dir/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:232:50:[m[K [01;31m[Kerror: [m[K‘[01m[KGetFloat32MultiArray[m[K’ is not a member of ‘[01m[Kcommon_services_package::srv[m[K’; did you mean ‘[01m[KGetFloat32Array[m[K’?
+  232 |     rclcpp::Client<common_services_package::srv::[01;31m[KGetFloat32MultiArray[m[K>::SharedPtr cup_service_client_;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [32m[KGetFloat32Array[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:232:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  232 |     rclcpp::Client<common_services_package::srv::GetFloat32MultiArray[01;31m[K>[m[K::SharedPtr cup_service_client_;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:232:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  232 |     rclcpp::Client<common_services_package::srv::GetFloat32MultiArray>::[01;31m[KSharedPtr[m[K cup_service_client_;
+      |                                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                                  [32m[K;[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:232:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kcup_service_client_[m[K’ does not name a type
+  232 |     rclcpp::Client<common_services_package::srv::GetFloat32MultiArray>::SharedPtr [01;31m[Kcup_service_client_[m[K;
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcup_service_client_[m[K’ was not declared in this scope
+   43 |         [01;31m[Kcup_service_client_[m[K = create_client<common_services_package::srv::GetFloat32Array>("/UR5/service/cup_pixel_coordinates");
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::call_cup_service()[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:97:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcup_service_client_[m[K’ was not declared in this scope
+   97 |         if (![01;31m[Kcup_service_client_[m[K->wait_for_service(1s)) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp:114:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcup_service_client_[m[K’ was not declared in this scope
+  114 |         auto future = [01;31m[Kcup_service_client_[m[K->async_send_request(request, response_received_callback);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantpod_pointcloud_segmentation_and_coloring_service.dir/build.make:76: CMakeFiles/plantpod_pointcloud_segmentation_and_coloring_service.dir/src/plantpod_pointcloud_segmentation_and_coloring_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:557: CMakeFiles/plantpod_pointcloud_segmentation_and_coloring_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

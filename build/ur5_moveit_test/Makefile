@@ -366,6 +366,19 @@ ur5_image_octmap_path/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/build
 .PHONY : ur5_image_octmap_path/fast
 
+#=============================================================================
+# Target rules for targets named ur5_move_plantpot_to_home
+
+# Build rule for target.
+ur5_move_plantpot_to_home: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur5_move_plantpot_to_home
+.PHONY : ur5_move_plantpot_to_home
+
+# fast build rule for target.
+ur5_move_plantpot_to_home/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_plantpot_to_home.dir/build.make CMakeFiles/ur5_move_plantpot_to_home.dir/build
+.PHONY : ur5_move_plantpot_to_home/fast
+
 src/gripper_close_moveit_test.o: src/gripper_close_moveit_test.cpp.o
 .PHONY : src/gripper_close_moveit_test.o
 
@@ -461,6 +474,30 @@ src/ur5_image_octmap_path.s: src/ur5_image_octmap_path.cpp.s
 src/ur5_image_octmap_path.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_image_octmap_path.dir/build.make CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.s
 .PHONY : src/ur5_image_octmap_path.cpp.s
+
+src/ur5_move_plantpot_to_home.o: src/ur5_move_plantpot_to_home.cpp.o
+.PHONY : src/ur5_move_plantpot_to_home.o
+
+# target to build an object file
+src/ur5_move_plantpot_to_home.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_plantpot_to_home.dir/build.make CMakeFiles/ur5_move_plantpot_to_home.dir/src/ur5_move_plantpot_to_home.cpp.o
+.PHONY : src/ur5_move_plantpot_to_home.cpp.o
+
+src/ur5_move_plantpot_to_home.i: src/ur5_move_plantpot_to_home.cpp.i
+.PHONY : src/ur5_move_plantpot_to_home.i
+
+# target to preprocess a source file
+src/ur5_move_plantpot_to_home.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_plantpot_to_home.dir/build.make CMakeFiles/ur5_move_plantpot_to_home.dir/src/ur5_move_plantpot_to_home.cpp.i
+.PHONY : src/ur5_move_plantpot_to_home.cpp.i
+
+src/ur5_move_plantpot_to_home.s: src/ur5_move_plantpot_to_home.cpp.s
+.PHONY : src/ur5_move_plantpot_to_home.s
+
+# target to generate assembly for a file
+src/ur5_move_plantpot_to_home.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur5_move_plantpot_to_home.dir/build.make CMakeFiles/ur5_move_plantpot_to_home.dir/src/ur5_move_plantpot_to_home.cpp.s
+.PHONY : src/ur5_move_plantpot_to_home.cpp.s
 
 src/ur5_move_to_camera.o: src/ur5_move_to_camera.cpp.o
 .PHONY : src/ur5_move_to_camera.o
@@ -697,6 +734,7 @@ help:
 	@echo "... gripper_open_moveit_test"
 	@echo "... ur5_drop_sensor"
 	@echo "... ur5_image_octmap_path"
+	@echo "... ur5_move_plantpot_to_home"
 	@echo "... ur5_move_to_camera"
 	@echo "... ur5_move_to_home"
 	@echo "... ur5_moveit_test"
@@ -718,6 +756,9 @@ help:
 	@echo "... src/ur5_image_octmap_path.o"
 	@echo "... src/ur5_image_octmap_path.i"
 	@echo "... src/ur5_image_octmap_path.s"
+	@echo "... src/ur5_move_plantpot_to_home.o"
+	@echo "... src/ur5_move_plantpot_to_home.i"
+	@echo "... src/ur5_move_plantpot_to_home.s"
 	@echo "... src/ur5_move_to_camera.o"
 	@echo "... src/ur5_move_to_camera.i"
 	@echo "... src/ur5_move_to_camera.s"

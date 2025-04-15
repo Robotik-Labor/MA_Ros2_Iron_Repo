@@ -7,6 +7,7 @@
 #include <cmath>   // For trigonometrical functions
 #include <tf2/LinearMath/Quaternion.h>
 #include <common_services_package/srv/get_plantpot_coords.hpp>   // Import service message - adjust to your actual service type
+#include <moveit_visual_tools/moveit_visual_tools.h>
 
 int main(int argc, char **argv) {
   // Initialize ROS and create the Node
@@ -32,6 +33,25 @@ int main(int argc, char **argv) {
   move_group_interface.setNumPlanningAttempts(20);
   move_group_interface.setGoalJointTolerance(0.03);
 
+  namespace rvt = rviz_visual_tools;
+  moveit_visual_tools::MoveItVisualTools visual_tools(
+      node, "world", "/UR5/move_group_tutorial",
+      move_group_interface.getRobotModel());
+  visual_tools.deleteAllMarkers();
+
+  // RViz provides many types of markers, in this demo we will use text,
+  // cylinders, and spheres
+  Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
+  text_pose.translation().z() = 1.0;
+  visual_tools.publishText(text_pose, "Probing_Plant", rvt::WHITE,
+                           rvt::XLARGE);
+  visual_tools.trigger();
+
+  const moveit::core::RobotModelConstPtr& robot_model = move_group_interface.getRobotModel();
+  const moveit::core::JointModelGroup* joint_model_group = robot_model->getJointModelGroup("ur5_arm");
+
+  
+
   // Create the MoveGroup interface for the gripper
   moveit::planning_interface::MoveGroupInterface::Options gripper_options(
       "gripper", "robot_description", "/UR5");
@@ -39,7 +59,7 @@ int main(int argc, char **argv) {
 
   // Create a publisher for visualization markers
   auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker>(
-    "UR5/probe_points", rclcpp::QoS(10));
+    "UR5/probe_points", rclcpp::QoS(16));
 
   // Vector to store target poses
   std::vector<geometry_msgs::msg::Pose> target_poses;
@@ -75,13 +95,13 @@ int main(int argc, char **argv) {
 
     // Define the radius of the semicircle
     const double radius = 0.24;
-    const int num_positions = 5;
+    const int num_positions = 8;
     const double angle_step = M_PI / (num_positions - 1);  // Divide the semicircle into equal parts
 
     //calculation Point nearest (0,0,z)
     double start_angle = atan2(center_y, center_x) + M_PI;
 
-    double Angles[5] = {start_angle - M_PI/2 + M_PI/2, start_angle - M_PI/4 + M_PI/2, start_angle + M_PI/2, start_angle + M_PI/4 + M_PI/2,  start_angle + M_PI/2 + M_PI/2};
+    double Angles[8] = {start_angle , start_angle + M_PI * 3/28, start_angle +  M_PI * 6/28, start_angle + M_PI * 9/28, start_angle +  M_PI * 12/28, start_angle +  M_PI * 15/28 , start_angle +  M_PI * 18/28,  start_angle + M_PI * 3/4};
     
     const float colors[10][3] = {
       {1.0f, 0.0f, 0.0f},     // Red
@@ -271,10 +291,22 @@ int main(int argc, char **argv) {
   
   for (int i = 0; i < target_poses.size(); i++) {
       RCLCPP_INFO(logger, "Motion_planning_start");
+
+      visual_tools.deleteAllMarkers();
+      visual_tools.publishText(text_pose, "Checking_Path_to_Pose_" + std::to_string(i + 1) , rvt::WHITE, rvt::XLARGE);
+      visual_tools.trigger();
+      
       move_group_interface.setPoseTarget(target_poses[i]);
 
       success = (move_group_interface.plan(plan_to_above) == moveit::core::MoveItErrorCode::SUCCESS);
       if (!success){ continue;}
+      visual_tools.deleteAllMarkers();
+      visual_tools.trigger();
+      RCLCPP_INFO(logger, "Visualizing Probe trajectory line");
+      visual_tools.publishText(text_pose, "Moving_to_Probe_point_" + std::to_string(i + 1), rvt::WHITE, rvt::XLARGE);
+      visual_tools.publishTrajectoryLine(plan_to_above.trajectory, joint_model_group);
+      visual_tools.trigger();
+
       move_group_interface.execute(plan_to_above);
       waypoints.clear();
 
@@ -289,6 +321,14 @@ int main(int argc, char **argv) {
       if (fraction > 0.8) {
         RCLCPP_INFO(logger, "Motion_planning_successful...");
         plan_linar_down.trajectory = trajectory_down;
+        visual_tools.deleteAllMarkers();
+        visual_tools.trigger();
+        RCLCPP_INFO(logger, "Visualizing Home trajectory line");
+        visual_tools.publishText(text_pose, "Moving_Down", rvt::WHITE, rvt::XLARGE);
+        visual_tools.publishTrajectoryLine(plan_linar_down.trajectory, joint_model_group);
+        visual_tools.trigger();
+
+
         move_group_interface.execute(plan_linar_down);
         break;
       }
@@ -296,13 +336,20 @@ int main(int argc, char **argv) {
       {
         move_group_interface.setNamedTarget("Home");
         success = (move_group_interface.plan(plan_to_home) == moveit::core::MoveItErrorCode::SUCCESS);
+        visual_tools.deleteAllMarkers();
+        visual_tools.trigger();
+        RCLCPP_INFO(logger, "Visualizing Home trajectory line");
+        visual_tools.publishText(text_pose, "Failed_Moving_Failed", rvt::WHITE, rvt::XLARGE);
+        visual_tools.publishTrajectoryLine(plan_to_home.trajectory, joint_model_group);
+        visual_tools.trigger();
         move_group_interface.execute(plan_to_home);
       }
   }
-  
-  move_group_interface.setNamedTarget("Home");
-  success = (move_group_interface.plan(plan_to_home) == moveit::core::MoveItErrorCode::SUCCESS);
-  move_group_interface.execute(plan_to_home);
+  visual_tools.deleteAllMarkers();
+  visual_tools.trigger();
+  //move_group_interface.setNamedTarget("Home");
+  //success = (move_group_interface.plan(plan_to_home) == moveit::core::MoveItErrorCode::SUCCESS);
+  //move_group_interface.execute(plan_to_home);
   
   // Shutdown ROS after the task is finished
   rclcpp::shutdown();

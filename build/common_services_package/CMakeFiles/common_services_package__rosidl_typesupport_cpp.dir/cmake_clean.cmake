@@ -1,9 +1,15 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_float32_array__type_support.cpp.o"
+  "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_float32_array__type_support.cpp.o.d"
   "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_plantpot_coords__type_support.cpp.o"
   "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_plantpot_coords__type_support.cpp.o.d"
+  "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_point_cloud2__type_support.cpp.o"
+  "CMakeFiles/common_services_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_services_package/srv/get_point_cloud2__type_support.cpp.o.d"
   "libcommon_services_package__rosidl_typesupport_cpp.pdb"
   "libcommon_services_package__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/common_services_package/srv/get_float32_array__type_support.cpp"
   "rosidl_typesupport_cpp/common_services_package/srv/get_plantpot_coords__type_support.cpp"
+  "rosidl_typesupport_cpp/common_services_package/srv/get_point_cloud2__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

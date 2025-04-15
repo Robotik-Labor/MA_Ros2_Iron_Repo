@@ -1,0 +1,40 @@
+[0.184s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.279s] [35m[1mConsolidate compiler generated dependencies of target plantplot_placement_service[0m
+[0.279s] [  5%] Built target point_cloud_circle_detector
+[0.279s] [ 11%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.279s] [ 17%] Built target rgb_edge_filter
+[0.280s] [ 23%] Built target point_cloud_plantpot_detector
+[0.281s] [ 29%] Built target point_cloud_cylinder_detector
+[0.281s] [ 35%] Built target point_cloud_plantpot_ppf_detector
+[0.281s] [ 41%] Built target point_cloud_plantpot_pfh_detector
+[0.281s] [ 47%] Built target cup_segmentation_color
+[0.281s] [ 52%] Built target image_based_hsv_color_filter
+[0.294s] [ 58%] Built target hsv_color_filter
+[0.296s] [ 64%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.297s] [ 70%] Built target cup_pointcloud_segmentation_color
+[0.297s] [ 76%] Built target plantplot_icp_conversion
+[0.302s] [ 82%] Built target plantplot_ransac_conversion
+[0.302s] [ 88%] Built target plantpod_pointcloud_segmentation_and_coloring_service
+[0.302s] [ 94%] Built target plantplot_placement
+[0.303s] [ 97%] [32mBuilding CXX object CMakeFiles/plantplot_placement_service.dir/src/plantplot_placement_service.cpp.o[0m
+[5.084s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement_service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.084s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement_service.cpp:223:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudCustomObjectMatcher[m[K’ was not declared in this scope
+[5.084s]   223 |     rclcpp::spin(std::make_shared<[01;31m[KPointCloudCustomObjectMatcher[m[K>());
+[5.084s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.084s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement_service.cpp:223:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[5.084s]   223 |     rclcpp::spin([01;31m[Kstd::make_shared<PointCloudCustomObjectMatcher>()[m[K);
+[5.084s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.085s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[5.085s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[5.085s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement_service.cpp:2[m[K:
+[5.085s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[5.085s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[5.085s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.085s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.085s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantplot_placement_service.cpp:223:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.085s]   223 |     rclcpp::spin([01;31m[Kstd::make_shared<PointCloudCustomObjectMatcher>()[m[K);
+[5.085s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.544s] gmake[2]: *** [CMakeFiles/plantplot_placement_service.dir/build.make:76: CMakeFiles/plantplot_placement_service.dir/src/plantplot_placement_service.cpp.o] Error 1
+[7.544s] gmake[1]: *** [CMakeFiles/Makefile2:585: CMakeFiles/plantplot_placement_service.dir/all] Error 2
+[7.544s] gmake: *** [Makefile:146: all] Error 2
+[7.546s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

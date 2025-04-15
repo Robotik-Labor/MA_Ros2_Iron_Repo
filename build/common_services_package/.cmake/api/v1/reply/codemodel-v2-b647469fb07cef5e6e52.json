@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-540a547b7afb7fbdfce9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "common_services_package__py",
+					"jsonFile" : "directory-common_services_package__py-1889eda16ee80fcf1101.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/buhrmann/ws_moveit/build/common_services_package/common_services_package__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "common_services_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_common_services_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_common_services_package_egg-c01d24683f06b437d4a0.json",
+					"name" : "ament_cmake_python_build_common_services_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_common_services_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_common_services_package-b77a36bf703ebf48e43a.json",
+					"name" : "ament_cmake_python_copy_common_services_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package-4892a3b4b9b5dc706762.json",
+					"name" : "common_services_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__cpp-ce700ebae9799419826e.json",
+					"name" : "common_services_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common_services_package__py::@d670f33d6aa9f68695c5",
+					"jsonFile" : "target-common_services_package__py-67a2ac1730abf4ca2654.json",
+					"name" : "common_services_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_generator_c-76290a9fa5d68df0a077.json",
+					"name" : "common_services_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_generator_py-1ecf78506e2815d254ee.json",
+					"name" : "common_services_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_generator_type_description-294f82729e9bc34db8fb.json",
+					"name" : "common_services_package__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_c-15c1c460ed92446b60aa.json",
+					"name" : "common_services_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_c__pyext-6d368718ee7a10eb584d.json",
+					"name" : "common_services_package__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_cpp-c528c908c857c3e1be25.json",
+					"name" : "common_services_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_fastrtps_c-4092f4216a9187e5627f.json",
+					"name" : "common_services_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_fastrtps_c__pyext-3b749e42e5ac26d1e7a8.json",
+					"name" : "common_services_package__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_fastrtps_cpp-f6d84f18b51c6ee00eb9.json",
+					"name" : "common_services_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_introspection_c-b3a7fb453aa0022ff18c.json",
+					"name" : "common_services_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_introspection_c__pyext-8568d07f6931a7acf5dd.json",
+					"name" : "common_services_package__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package__rosidl_typesupport_introspection_cpp-1969a4932f6252c3831e.json",
+					"name" : "common_services_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "common_services_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common_services_package_uninstall-df01702abd52aed9fdd6.json",
+					"name" : "common_services_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b550fe6825425a86a475.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/common_services_package",
+		"source" : "/home/buhrmann/ws_moveit/src/common_services_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

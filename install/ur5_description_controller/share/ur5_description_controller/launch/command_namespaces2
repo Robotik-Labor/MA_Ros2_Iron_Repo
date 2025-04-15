@@ -2,7 +2,12 @@ source /opt/ros/iron/setup.bash
 source install/setup.bash
 
 
+sudo chmod 666 /dev/ttyACM0
+sudo chmod 666 /dev/ttyACM1
+
 ros2 launch ur5_description_controller ur_control.namespace.launch.py ur_type:=ur5 robot_ip:=10.136.4.168 description_package:=ur5_description_controller description_file:=ur.urdf.xacro runtime_config_package:=ur5_description_controller tf_prefix:=UR5_ use_fake_hardware:=false kinematics_params_file:=/home/buhrmann/ws_moveit/src/ur5_description_controller/config/my_robot_calibration.yaml
+
+
 
 ros2 launch realsense2_camera rs_launch.py camera_namespace:=UR5 camera_name:=UR5_camera enable_rgbd:=true enable_sync:=true align_depth.enable:=true enable_color:=true enable_depth:=true pointcloud.enable:=true rgb_camera.color_profile:=848x480x30
 
@@ -24,5 +29,9 @@ ros2 run point_cloud_circle_detector plantplot_placement
 ros2 launch ros2_azure_bridge service_calls.launch.py 
 ros2 launch ur5_moveit_test ur5_probe_sensor_service.launch.py 
 
+
+ros2 run object_detection semantic_segmentation_cup.py
+ros2 run point_cloud_circle_detector plantpot_pointcloud_segmentation_and_coloring_service
+ros2 run point_cloud_circle_detector plantpot_placement_service
 
 https://eater.net/quaternions/video/intro

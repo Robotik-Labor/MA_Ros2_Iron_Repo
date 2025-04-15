@@ -34,7 +34,7 @@ add_executable(ur5_probe_sensor_service src/ur5_probe_sensor_service.cpp)
 add_executable(ur5_move_to_home src/ur5_move_to_home.cpp)
 add_executable(ur5_move_to_camera src/ur5_move_to_camera.cpp)
 add_executable(ur5_image_octmap_path src/ur5_image_octmap_path.cpp)
-
+add_executable(ur5_move_plantpot_to_home src/ur5_move_plantpot_to_home.cpp)
 target_compile_features(ur5_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(gripper_close_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(gripper_open_moveit_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
@@ -144,6 +144,14 @@ ament_target_dependencies(
   "pcl_conversions"
 )
 
+ament_target_dependencies(
+   ur5_move_plantpot_to_home
+  "moveit_visual_tools"
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "trajectory_msgs"
+)
+
 install(TARGETS ur5_moveit_test
   DESTINATION lib/${PROJECT_NAME})
   
@@ -183,6 +191,8 @@ install(TARGETS ur5_move_to_camera
 install(TARGETS ur5_image_octmap_path
   DESTINATION lib/${PROJECT_NAME})
 
+install(TARGETS ur5_move_plantpot_to_home
+  DESTINATION lib/${PROJECT_NAME})
 
 install(
   DIRECTORY launch 

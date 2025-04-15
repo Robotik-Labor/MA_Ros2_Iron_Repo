@@ -1,1 +1,3 @@
 /home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package:srv/GetPlantpotCoords.idl
+/home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package:srv/GetPointCloud2.idl
+/home/buhrmann/ws_moveit/build/common_services_package/rosidl_adapter/common_services_package:srv/GetFloat32Array.idl

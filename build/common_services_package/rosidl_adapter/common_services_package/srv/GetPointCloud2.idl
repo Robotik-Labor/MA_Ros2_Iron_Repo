@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from common_services_package/srv/GetPointCloud2.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module common_services_package {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: No input, the service will just return the last known coordinates")
+    struct GetPointCloud2_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response: success (bool), message (string), and the last known coordinates (Point)")
+    struct GetPointCloud2_Response {
+      boolean success;
+
+      string message;
+
+      sensor_msgs::msg::PointCloud2 cloud;
+    };
+  };
+};
