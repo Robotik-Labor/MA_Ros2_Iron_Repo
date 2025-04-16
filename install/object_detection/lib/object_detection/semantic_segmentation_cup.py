@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image as ROSImage
-from std_msgs.msg import Float32MultiArray, MultiArrayDimension
+from std_msgs.msg import Float32MultiArray, MultiArrayDimension, String
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
@@ -37,6 +37,13 @@ class OneFormerCupDetectionNode(Node):
             self.image_callback, 
             1
         )
+        
+        self.cloud_message_publisher = self.create_publisher(
+            String, 
+            '/UR5/cloud_messages', 
+            10
+        )
+        
         
         # Create publishers for semantic segmentation and cup coordinates
         self.semantic_publisher = self.create_publisher(ROSImage, semantic_topic, 10)
@@ -209,6 +216,12 @@ class OneFormerCupDetectionNode(Node):
             f"Detected {len(cup_pixel_groups)} Cup Groups: " + 
             ", ".join([f"Group {i+1}: {len(group['pixels'])} pixels" for i, group in enumerate(cup_pixel_groups)])
         )
+        
+        msg = String()
+        msg.data = "Segementation_Complete"
+        self.cloud_message_publisher.publish(msg)
+        
+        
         time.sleep(1)
 
     def convert_to_ros_image(self, segmentation_map, header):

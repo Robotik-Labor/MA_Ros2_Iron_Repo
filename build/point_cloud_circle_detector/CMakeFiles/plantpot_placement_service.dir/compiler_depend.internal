@@ -743,6 +743,10 @@ CMakeFiles/plantpot_placement_service.dir/src/plantpot_placement_service.cpp.o
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/string.hpp
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__struct.hpp
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__builder.hpp
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__traits.hpp
  /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/point.hpp
  /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
  /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp

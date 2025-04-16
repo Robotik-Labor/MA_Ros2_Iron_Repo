@@ -2,6 +2,7 @@
 #include <sensor_msgs/msg/image.hpp>
 #include <sensor_msgs/msg/camera_info.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
+#include <std_msgs/msg/string.hpp>
 #include <cv_bridge/cv_bridge.hpp>
 #include <opencv2/opencv.hpp>
 #include <pcl_conversions/pcl_conversions.h>
@@ -46,6 +47,10 @@ public:
         pointcloud_pub_ = create_publisher<sensor_msgs::msg::PointCloud2>(
             "/UR5/plantpod_reduced_pointcloud", 10
         );
+        
+        cloud_message_publisher_ = create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
+        
+        
         
         // Timer to check if all data is available and then call service
         timer_ = create_wall_timer(1s, std::bind(&PointCloudGenerator::check_and_call_service, this));
@@ -174,7 +179,7 @@ private:
         // Combine the masks
         cv::Mat mask = mask1 | mask2;
         
-        for (size_t i = 0; i < data.size(); i += 3) {
+        for (size_t i = 0; i < data.size(); i += 3) {  
             uint16_t depth;
             
             // Extract depth value
@@ -221,6 +226,11 @@ private:
         
         RCLCPP_INFO(get_logger(), "Point cloud published, shutting down node");
         processing_completed_ = true;
+        
+        std_msgs::msg::String msg;
+  	msg.data = "PointCloud_Creation_Complete";
+  	cloud_message_publisher_->publish(msg);
+        
         std::this_thread::sleep_for(std::chrono::seconds(1));
         // Schedule node shutdown
         rclcpp::shutdown();
@@ -231,6 +241,7 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr depth_info_sub_;
     rclcpp::Client<common_services_package::srv::GetFloat32Array>::SharedPtr cup_service_client_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pointcloud_pub_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr cloud_message_publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
 
     sensor_msgs::msg::Image::SharedPtr current_rgb_;

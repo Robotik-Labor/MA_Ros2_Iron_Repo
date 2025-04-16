@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1d570335d643cbd6e998.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur5_moveit_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_close_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_close_moveit_test-8bf1066a8fb9a293e614.json",
+					"name" : "gripper_close_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_open_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_open_moveit_test-859e42285645ce8ba80a.json",
+					"name" : "gripper_open_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4edb1a5498830ebc2018.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_drop_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_drop_sensor-78e090dc0cf828fb952a.json",
+					"name" : "ur5_drop_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_image_octmap_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_image_octmap_path-e3927a6a7cdd31f4c763.json",
+					"name" : "ur5_image_octmap_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_move_plantpot_to_home::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_move_plantpot_to_home-635b5c82b48b10688ed0.json",
+					"name" : "ur5_move_plantpot_to_home",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_move_to_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_move_to_camera-0dd34bc75c792d3ddd50.json",
+					"name" : "ur5_move_to_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_move_to_home::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_move_to_home-4dcfcf59a44073d9eea8.json",
+					"name" : "ur5_move_to_home",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test-9655f77c9c2a7bcd32e7.json",
+					"name" : "ur5_moveit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_launch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_launch-7feca9c05924808100e4.json",
+					"name" : "ur5_moveit_test_launch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_object_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_object_detection-6dacad2ef2bffc738cdd.json",
+					"name" : "ur5_moveit_test_object_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_moveit_test_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_moveit_test_uninstall-43a9661ff1dbac802970.json",
+					"name" : "ur5_moveit_test_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_pickup_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_pickup_sensor-d9158ad8a99d568836ab.json",
+					"name" : "ur5_pickup_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_probe_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_probe_sensor-871f2e3f9788d2e21f93.json",
+					"name" : "ur5_probe_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_probe_sensor_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_probe_sensor_service-659a52a490dc817d936d.json",
+					"name" : "ur5_probe_sensor_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur5_read_positions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur5_read_positions-b42f34b78a99c6e9e56e.json",
+					"name" : "ur5_read_positions",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/buhrmann/ws_moveit/build/ur5_moveit_test",
+		"source" : "/home/buhrmann/ws_moveit/src/ur5_moveit_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

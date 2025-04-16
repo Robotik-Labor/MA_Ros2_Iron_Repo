@@ -26,6 +26,8 @@
 #include <cv_bridge/cv_bridge.hpp>
 #include <opencv2/opencv.hpp>
 #include <sensor_msgs/msg/camera_info.hpp>
+#include <std_msgs/msg/string.hpp>
+#include <std_srvs/srv/empty.hpp>
 
 #include <moveit_visual_tools/moveit_visual_tools.h>
 
@@ -37,7 +39,7 @@ filterGreenPointCloud(
     const sensor_msgs::msg::CameraInfo::SharedPtr camera_info) {
     
     int h_min = 30;
-    int h_max = 90;
+    int h_max = 75;
     int s_min = 65;
     int s_max = 210;
     int v_min = 40;
@@ -48,14 +50,14 @@ filterGreenPointCloud(
     try {
         rgb_image = cv_bridge::toCvCopy(rgb_msg, "bgr8")->image;
     } catch (const cv_bridge::Exception& e) {
-        RCLCPP_ERROR(rclcpp::get_logger("sensor_probe_node"), "Could not convert RGB image: %s", e.what());
+        RCLCPP_ERROR(rclcpp::get_logger("create_octomap_node"), "Could not convert RGB image: %s", e.what());
         return {nullptr, nullptr};
     }
     cv::Mat depth_image;
     try {
         depth_image = cv_bridge::toCvCopy(depth_msg, "16UC1")->image;   
     } catch (const cv_bridge::Exception& e) {
-        RCLCPP_ERROR(rclcpp::get_logger("sensor_probe_node"), "Could not convert depth image: %s", e.what());
+        RCLCPP_ERROR(rclcpp::get_logger("create_octomap_node"), "Could not convert depth image: %s", e.what());
         return {nullptr, nullptr};
     }
     
@@ -127,7 +129,7 @@ filterGreenPointCloud(
 
 class SensorProbeNode : public rclcpp::Node {
 public:
-    SensorProbeNode() : Node("sensor_probe_node") {
+    SensorProbeNode() : Node("create_octomap_node") {
         // Set up TF2 buffer and listener
         tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
         tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
@@ -152,9 +154,14 @@ public:
             "/UR5/UR5_camera/color/image_raw",
             rclcpp::SensorDataQoS(),
             std::bind(&SensorProbeNode::rgbImageCallback, this, std::placeholders::_1));
-            
+        
+        cloud_message_publisher_ = this->create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
+        
+       
         // Create service client
         client_ = this->create_client<common_services_package::srv::GetPlantpotCoords>("/UR5/service/plantpot_coords");
+        
+        clear_octomap_client_ = this->create_client<std_srvs::srv::Empty>("/occupancy_map_node/clear_octomap");
         
         // Initialize MoveIt interface
         //auto timer = this->create_wall_timer(
@@ -226,6 +233,28 @@ private:
     }
 
 
+   void callClearOctomapService()
+   {
+    // Check if the service is available
+    if (!clear_octomap_client_->wait_for_service(std::chrono::seconds(5)))
+    {
+      RCLCPP_ERROR(this->get_logger(), "Clear octomap service not available");
+      return;
+    }
+
+    // Create an empty request
+    auto request = std::make_shared<std_srvs::srv::Empty::Request>();
+    
+    // Call the service asynchronously
+    auto future = clear_octomap_client_->async_send_request(request,
+      [this](rclcpp::Client<std_srvs::srv::Empty>::SharedFuture future) {
+        // This callback gets called when the service call completes
+        RCLCPP_INFO(this->get_logger(), "Clear octomap service call completed");
+      });
+    
+    RCLCPP_INFO(this->get_logger(), "Clear octomap service call sent");
+   }
+
     // Wait for new Data
     bool waitForFreshCameraData(double timeout_seconds = 5.0) {
     auto start_time = this->now();
@@ -277,6 +306,7 @@ private:
         
         // Transform point cloud to world coordinates
         try {
+            callClearOctomapService();
             geometry_msgs::msg::TransformStamped transform_stamped = 
                 tf_buffer_->lookupTransform("world", "UR5_camera_color_optical_frame", rclcpp::Time(0), std::chrono::seconds(1));
                 
@@ -306,7 +336,6 @@ private:
             if (filtered_pointcloud->empty()) {
              RCLCPP_WARN(this->get_logger(), "Filtered point cloud is empty, not publishing");
             }
-            
             // Publish transformed point cloud
             sensor_msgs::msg::PointCloud2 cloud_msg;
             pcl::toROSMsg(*filtered_pointcloud, cloud_msg);
@@ -653,6 +682,11 @@ private:
                 RCLCPP_INFO(this->get_logger(), "Motion sequence completed");
                 visual_tools.deleteAllMarkers();
                 visual_tools.trigger();
+                std_msgs::msg::String msg;
+  	            msg.data = "Octomap_Created";
+  	            cloud_message_publisher_->publish(msg);     
+                std::this_thread::sleep_for(std::chrono::seconds(1));
+
                 rclcpp::shutdown();
             }
             catch (const std::exception& e) {
@@ -673,6 +707,7 @@ private:
     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pointcloud_pub_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_pub_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr cloud_message_publisher_;
     
     // Subscribers
     rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr depth_info_sub_;
@@ -692,6 +727,7 @@ private:
     
     // Service client
     rclcpp::Client<common_services_package::srv::GetPlantpotCoords>::SharedPtr client_;
+    rclcpp::Client<std_srvs::srv::Empty>::SharedPtr clear_octomap_client_;
     
     // MoveIt interface
     //std::shared_ptr<moveit::planning_interface::MoveGroupInterface> move_group_interface_;

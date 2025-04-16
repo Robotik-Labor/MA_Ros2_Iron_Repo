@@ -312,7 +312,7 @@ int main(int argc, char **argv) {
 
   // Set the target pose for lifting (7cm in z direction)
   geometry_msgs::msg::Pose lift_waypoint = start_pose;
-  lift_waypoint.position.z += 0.07; // 7cm up
+  lift_waypoint.position.z += 0.08; // 7cm up
 
   waypoints.push_back(lift_waypoint);
 

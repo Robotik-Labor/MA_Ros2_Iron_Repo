@@ -1,0 +1,1416 @@
+[0.046s] Invoking command in '/home/buhrmann/ws_moveit/build/ur5_moveit_test': AMENT_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/opt/ros/iron CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron LD_LIBRARY_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/home/buhrmann/ws_moveit/install/common_services_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64 PYTHONPATH=/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur5_moveit_test -- -j28 -l28
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target ur5_image_octmap_path[0m
+[0.124s] [  7%] Built target ur5_moveit_test
+[0.124s] [ 14%] Built target ur5_pickup_sensor
+[0.125s] [ 21%] Built target ur5_moveit_test_object_detection
+[0.125s] [ 28%] Built target ur5_moveit_test_launch
+[0.125s] [ 50%] Built target ur5_move_to_camera
+[0.125s] [ 50%] Built target gripper_close_moveit_test
+[0.125s] [ 50%] Built target ur5_probe_sensor
+[0.126s] [ 57%] Built target ur5_probe_sensor_service
+[0.126s] [ 64%] Built target gripper_open_moveit_test
+[0.126s] [ 75%] Built target ur5_read_positions
+[0.126s] [ 78%] Built target ur5_move_plantpot_to_home
+[0.127s] [ 85%] Built target ur5_drop_sensor
+[0.127s] [ 92%] Built target ur5_move_to_home
+[0.140s] [ 96%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m
+[6.191s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:172:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_processing_timer_[m[K’ does not name a type
+[6.191s]   172 |         [01;31m[Kstart_processing_timer_[m[K = this->create_wall_timer(
+[6.191s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.204s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In constructor ‘[01m[KSensorProbeNode::SensorProbeNode()[m[K’:
+[6.204s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:134:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[6.204s]   134 |         [01;31m[Ktf_buffer_[m[K = std::make_shared<tf2_ros::Buffer>(this->get_clock());
+[6.204s]       |         [01;31m[K^~~~~~~~~~[m[K
+[6.223s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:135:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_listener_[m[K’ was not declared in this scope
+[6.223s]   135 |         [01;31m[Ktf_listener_[m[K = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+[6.223s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.239s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[6.239s]   138 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>("UR5/probe_points", 10);
+[6.239s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.264s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:139:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+[6.264s]   139 |         [01;31m[Kpointcloud_pub_[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("/UR5/UR5_camera/depth/color/points/green_filtered", rclcpp::QoS(10).transient_local());
+[6.264s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.283s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[6.283s]   140 |         [01;31m[Kimage_pub_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/UR5/image/green_filtered", 1);
+[6.283s]       |         [01;31m[K^~~~~~~~~~[m[K
+[6.307s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:143:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_info_sub_[m[K’ was not declared in this scope
+[6.307s]   143 |         [01;31m[Kdepth_info_sub_[m[K = this->create_subscription<sensor_msgs::msg::CameraInfo>(
+[6.307s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.307s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:146:41:[m[K [01;31m[Kerror: [m[K‘[01m[KcameraInfoCallback[m[K’ is not a member of ‘[01m[KSensorProbeNode[m[K’
+[6.307s]   146 |             std::bind(&SensorProbeNode::[01;31m[KcameraInfoCallback[m[K, this, std::placeholders::_1));
+[6.307s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.323s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_sub_[m[K’ was not declared in this scope
+[6.323s]   148 |         [01;31m[Kdepth_sub_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+[6.323s]       |         [01;31m[K^~~~~~~~~~[m[K
+[6.323s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:151:41:[m[K [01;31m[Kerror: [m[K‘[01m[KdepthImageCallback[m[K’ is not a member of ‘[01m[KSensorProbeNode[m[K’
+[6.323s]   151 |             std::bind(&SensorProbeNode::[01;31m[KdepthImageCallback[m[K, this, std::placeholders::_1));
+[6.323s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.335s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:153:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_sub_[m[K’ was not declared in this scope
+[6.335s]   153 |         [01;31m[Krgb_sub_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+[6.335s]       |         [01;31m[K^~~~~~~~[m[K
+[6.335s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:156:41:[m[K [01;31m[Kerror: [m[K‘[01m[KrgbImageCallback[m[K’ is not a member of ‘[01m[KSensorProbeNode[m[K’
+[6.335s]   156 |             std::bind(&SensorProbeNode::[01;31m[KrgbImageCallback[m[K, this, std::placeholders::_1));
+[6.335s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.366s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_message_publisher_[m[K’ was not declared in this scope
+[6.367s]   158 |         [01;31m[Kcloud_message_publisher_[m[K = this->create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
+[6.367s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.379s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:162:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[6.379s]   162 |         [01;31m[Kclient_[m[K = this->create_client<common_services_package::srv::GetPlantpotCoords>("/UR5/service/plantpot_coords");
+[6.379s]       |         [01;31m[K^~~~~~~[m[K
+[6.443s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_octomap_client_[m[K’ was not declared in this scope
+[6.443s]   164 |         [01;31m[Kclear_octomap_client_[m[K = this->create_client<std_srvs::srv::Empty>("/occupancy_map_node/clear_octomap");}
+[6.443s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.477s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K At global scope:
+[6.477s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:177:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[6.477s]   177 | [01;31m[Kprivate[m[K:
+[6.477s]       | [01;31m[K^~~~~~~[m[K
+[6.494s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid depthImageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.494s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:208:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_data_mutex_[m[K’ was not declared in this scope
+[6.494s]   208 |     std::lock_guard<std::mutex> lock([01;31m[Kcamera_data_mutex_[m[K);
+[6.494s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.504s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:209:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_msg_[m[K’ was not declared in this scope
+[6.504s]   209 |     [01;31m[Kdepth_msg_[m[K = msg;
+[6.504s]       |     [01;31m[K^~~~~~~~~~[m[K
+[6.519s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:210:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_depth_data_[m[K’ was not declared in this scope
+[6.519s]   210 |     [01;31m[Knew_depth_data_[m[K = true;
+[6.519s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.535s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid rgbImageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.535s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:214:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_data_mutex_[m[K’ was not declared in this scope
+[6.535s]   214 |     std::lock_guard<std::mutex> lock([01;31m[Kcamera_data_mutex_[m[K);
+[6.535s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.543s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_msg_[m[K’ was not declared in this scope
+[6.543s]   215 |     [01;31m[Krgb_msg_[m[K = msg;
+[6.543s]       |     [01;31m[K^~~~~~~~[m[K
+[6.556s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:216:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_rgb_data_[m[K’ was not declared in this scope
+[6.556s]   216 |     [01;31m[Knew_rgb_data_[m[K = true;
+[6.556s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.576s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid startProcessing()[m[K’:
+[6.576s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:221:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_processing_timer_[m[K’ was not declared in this scope
+[6.576s]   221 |         [01;31m[Kstart_processing_timer_[m[K->cancel();
+[6.576s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.589s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:223:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[6.589s]   223 |         if (![01;31m[Kcamera_info_[m[K || !depth_msg_ || !rgb_msg_) {
+[6.589s]       |              [01;31m[K^~~~~~~~~~~~[m[K
+[6.599s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:223:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_msg_[m[K’ was not declared in this scope
+[6.599s]   223 |         if (!camera_info_ || ![01;31m[Kdepth_msg_[m[K || !rgb_msg_) {
+[6.599s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[6.607s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:223:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_msg_[m[K’ was not declared in this scope
+[6.607s]   223 |         if (!camera_info_ || !depth_msg_ || ![01;31m[Krgb_msg_[m[K) {
+[6.607s]       |                                              [01;31m[K^~~~~~~~[m[K
+[6.607s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.607s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.607s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.607s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.607s]   224 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for camera data...");
+[6.607s]       |                         [01;31m[K^~~~[m[K
+[6.607s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.608s]   224 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for camera data...");
+[6.608s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.608s]   224 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for camera data...");
+[6.608s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.608s]   224 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for camera data...");
+[6.608s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.608s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.608s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.608s]   224 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for camera data...");
+[6.608s]       |                         [01;31m[K^~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:224:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.608s]   224 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for camera data...");
+[6.608s]       |                         [01;31m[K^~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:225:39:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.608s]   225 |             start_processing_timer_ = [01;31m[Kthis[m[K->create_wall_timer(
+[6.608s]       |                                       [01;31m[K^~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:227:45:[m[K [01;31m[Kerror: [m[K‘[01m[KstartProcessing[m[K’ is not a member of ‘[01m[KSensorProbeNode[m[K’
+[6.608s]   227 |                 std::bind(&SensorProbeNode::[01;31m[KstartProcessing[m[K, this));
+[6.608s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:227:62:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.608s]   227 |                 std::bind(&SensorProbeNode::startProcessing, [01;31m[Kthis[m[K));
+[6.608s]       |                                                              [01;31m[K^~~~[m[K
+[6.608s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.608s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.608s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.608s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.609s]   231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Starting main processing task");
+[6.609s]       |                     [01;31m[K^~~~[m[K
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.609s]   231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Starting main processing task");
+[6.609s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.609s]   231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Starting main processing task");
+[6.609s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.609s]   231 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Starting main processing task");
+[6.609s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.609s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.609s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.609s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.609s]   231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Starting main processing task");
+[6.609s]       |                     [01;31m[K^~~~[m[K
+[6.609s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:231:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.609s]   231 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Starting main processing task");
+[6.609s]       |                     [01;31m[K^~~~[m[K
+[6.614s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:232:9:[m[K [01;31m[Kerror: [m[K‘[01m[KrunMain[m[K’ was not declared in this scope
+[6.614s]   232 |         [01;31m[KrunMain[m[K();
+[6.614s]       |         [01;31m[K^~~~~~~[m[K
+[6.632s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid callClearOctomapService()[m[K’:
+[6.632s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:239:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_octomap_client_[m[K’ was not declared in this scope
+[6.632s]   239 |     if (![01;31m[Kclear_octomap_client_[m[K->wait_for_service(std::chrono::seconds(5)))
+[6.632s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.632s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.632s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.632s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.632s]   241 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Clear octomap service not available");
+[6.632s]       |                    [01;31m[K^~~~[m[K
+[6.632s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.632s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.632s]   241 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Clear octomap service not available");
+[6.632s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[6.633s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.633s]   241 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Clear octomap service not available");
+[6.633s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[6.633s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.633s]   241 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Clear octomap service not available");
+[6.633s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[6.633s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.633s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.633s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.633s]   241 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Clear octomap service not available");
+[6.633s]       |                    [01;31m[K^~~~[m[K
+[6.633s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:241:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.633s]   241 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Clear octomap service not available");
+[6.633s]       |                    [01;31m[K^~~~[m[K
+[6.652s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:249:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_octomap_client_[m[K’ was not declared in this scope
+[6.652s]   249 |     auto future = [01;31m[Kclear_octomap_client_[m[K->async_send_request(request,
+[6.652s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.652s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:250:8:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.652s]   250 |       [[01;31m[Kthis[m[K](rclcpp::Client<std_srvs::srv::Empty>::SharedFuture future) {
+[6.652s]       |        [01;31m[K^~~~[m[K
+[6.652s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.653s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.653s]   252 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call completed");
+[6.653s]       |                     [01;31m[K^~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.653s]   252 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call completed");
+[6.653s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.653s]   252 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call completed");
+[6.653s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.653s]   252 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call completed");
+[6.653s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.653s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.653s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.653s]   252 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call completed");
+[6.653s]       |                     [01;31m[K^~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:252:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.653s]   252 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call completed");
+[6.653s]       |                     [01;31m[K^~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:250:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.653s]   250 |       [this]([01;35m[Krclcpp::Client<std_srvs::srv::Empty>::SharedFuture future[m[K) {
+[6.653s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.653s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.653s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.653s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid callClearOctomapService()[m[K’:
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.653s]   255 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call sent");
+[6.653s]       |                 [01;31m[K^~~~[m[K
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.653s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.653s]   255 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call sent");
+[6.654s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.654s]   255 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call sent");
+[6.654s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.654s]   255 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Clear octomap service call sent");
+[6.654s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[6.654s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.654s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.654s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.654s]   255 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call sent");
+[6.654s]       |                 [01;31m[K^~~~[m[K
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:255:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.654s]   255 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Clear octomap service call sent");
+[6.654s]       |                 [01;31m[K^~~~[m[K
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kbool waitForFreshCameraData(double)[m[K’:
+[6.654s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:260:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.654s]   260 |     auto start_time = [01;31m[Kthis[m[K->now();
+[6.654s]       |                       [01;31m[K^~~~[m[K
+[6.669s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:264:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_data_mutex_[m[K’ was not declared in this scope
+[6.669s]   264 |         std::lock_guard<std::mutex> lock([01;31m[Kcamera_data_mutex_[m[K);
+[6.669s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.683s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:265:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_rgb_data_[m[K’ was not declared in this scope
+[6.683s]   265 |         [01;31m[Knew_rgb_data_[m[K = false;
+[6.683s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.698s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:266:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_depth_data_[m[K’ was not declared in this scope
+[6.699s]   266 |         [01;31m[Knew_depth_data_[m[K = false;
+[6.699s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.714s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:267:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_camera_info_[m[K’ was not declared in this scope
+[6.714s]   267 |         [01;31m[Knew_camera_info_[m[K = false;
+[6.714s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.731s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:273:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_data_mutex_[m[K’ was not declared in this scope
+[6.731s]   273 |         std::lock_guard<std::mutex> lock([01;31m[Kcamera_data_mutex_[m[K);
+[6.731s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.744s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:274:13:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_rgb_data_[m[K’ was not declared in this scope
+[6.744s]   274 |         if ([01;31m[Knew_rgb_data_[m[K && new_depth_data_ && new_camera_info_) {
+[6.744s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[6.759s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:274:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_depth_data_[m[K’ was not declared in this scope
+[6.759s]   274 |         if (new_rgb_data_ && [01;31m[Knew_depth_data_[m[K && new_camera_info_) {
+[6.759s]       |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:274:49:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_camera_info_[m[K’ was not declared in this scope
+[6.775s]   274 |         if (new_rgb_data_ && new_depth_data_ && [01;31m[Knew_camera_info_[m[K) {
+[6.775s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:280:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.775s]   280 |         auto current_time = [01;31m[Kthis[m[K->now();
+[6.775s]       |                             [01;31m[K^~~~[m[K
+[6.775s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.775s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.775s]   282 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Camera Data Time Out");
+[6.775s]       |                      [01;31m[K^~~~[m[K
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.775s]   282 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Camera Data Time Out");
+[6.775s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.775s]   282 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Camera Data Time Out");
+[6.775s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.775s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.775s]   282 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Camera Data Time Out");
+[6.776s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.776s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.776s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.776s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.776s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.776s]   282 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Camera Data Time Out");
+[6.776s]       |                      [01;31m[K^~~~[m[K
+[6.776s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:282:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.776s]   282 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Camera Data Time Out");
+[6.776s]       |                      [01;31m[K^~~~[m[K
+[6.784s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid runMain()[m[K’:
+[6.784s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:295:76:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_msg_[m[K’ was not declared in this scope
+[6.784s]   295 |         auto [filtered_pointcloud, filtered_image] = filterGreenPointCloud([01;31m[Krgb_msg_[m[K, depth_msg_, camera_info_);
+[6.784s]       |                                                                            [01;31m[K^~~~~~~~[m[K
+[6.794s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:295:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_msg_[m[K’ was not declared in this scope
+[6.794s]   295 |         auto [filtered_pointcloud, filtered_image] = filterGreenPointCloud(rgb_msg_, [01;31m[Kdepth_msg_[m[K, camera_info_);
+[6.794s]       |                                                                                      [01;31m[K^~~~~~~~~~[m[K
+[6.806s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:295:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[6.806s]   295 |         auto [filtered_pointcloud, filtered_image] = filterGreenPointCloud(rgb_msg_, depth_msg_, [01;31m[Kcamera_info_[m[K);
+[6.806s]       |                                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[6.806s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.806s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.806s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.806s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.807s]   298 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to filter point cloud");
+[6.807s]       |                          [01;31m[K^~~~[m[K
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.807s]   298 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to filter point cloud");
+[6.807s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.807s]   298 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to filter point cloud");
+[6.807s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.807s]   298 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to filter point cloud");
+[6.807s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.807s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.807s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.807s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.807s]   298 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to filter point cloud");
+[6.807s]       |                          [01;31m[K^~~~[m[K
+[6.807s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:298:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.807s]   298 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to filter point cloud");
+[6.807s]       |                          [01;31m[K^~~~[m[K
+[6.818s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:304:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[6.818s]   304 |             [01;31m[Kimage_pub_[m[K->publish(*filtered_image);
+[6.818s]       |             [01;31m[K^~~~~~~~~~[m[K
+[6.827s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:311:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[6.827s]   311 |                 [01;31m[Ktf_buffer_[m[K->lookupTransform("world", "UR5_camera_color_optical_frame", rclcpp::Time(0), std::chrono::seconds(1));
+[6.828s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[6.834s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.834s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.834s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.834s]   317 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+[6.834s]       |                         [01;31m[K^~~~[m[K
+[6.834s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.834s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.835s]   317 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+[6.835s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.835s]   317 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+[6.835s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.835s]   317 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got transform from camera to world");
+[6.835s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.835s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.835s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.835s]   317 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+[6.835s]       |                         [01;31m[K^~~~[m[K
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:317:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.835s]   317 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got transform from camera to world");
+[6.835s]       |                         [01;31m[K^~~~[m[K
+[6.835s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.835s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.835s]   333 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Maximum height found: %.3f", max_height);
+[6.835s]       |                         [01;31m[K^~~~[m[K
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.835s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.835s]   333 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Maximum height found: %.3f", max_height);
+[6.835s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.836s]   333 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Maximum height found: %.3f", max_height);
+[6.836s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.836s]   333 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Maximum height found: %.3f", max_height);
+[6.836s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.836s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.836s]   333 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Maximum height found: %.3f", max_height);
+[6.836s]       |                         [01;31m[K^~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:333:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.836s]   333 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Maximum height found: %.3f", max_height);
+[6.836s]       |                         [01;31m[K^~~~[m[K
+[6.836s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.836s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.836s]   337 |              RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.836s]       |                          [01;31m[K^~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:14:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.836s]   337 |              [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.836s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:14:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.836s]   337 |              [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.836s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:14:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.836s]   337 |              [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.836s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[6.836s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.836s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.837s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.837s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.837s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.837s]   337 |              RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.837s]       |                          [01;31m[K^~~~[m[K
+[6.837s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:337:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.837s]   337 |              RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Filtered point cloud is empty, not publishing");
+[6.837s]       |                          [01;31m[K^~~~[m[K
+[6.837s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:343:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.837s]   343 |             cloud_msg.header.stamp = [01;31m[Kthis[m[K->now();
+[6.837s]       |                                      [01;31m[K^~~~[m[K
+[6.849s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:344:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+[6.849s]   344 |             [01;31m[Kpointcloud_pub_[m[K->publish(cloud_msg);
+[6.849s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.857s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:346:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[6.857s]   346 |             if (![01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1))) {
+[6.857s]       |                  [01;31m[K^~~~~~~[m[K
+[6.857s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.857s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.857s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.857s]   347 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for service to appear...");
+[6.857s]       |                             [01;31m[K^~~~[m[K
+[6.857s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.857s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.857s]   347 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for service to appear...");
+[6.858s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.858s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.858s]   347 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for service to appear...");
+[6.858s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.858s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.858s]   347 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for service to appear...");
+[6.858s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.858s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.858s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.858s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.858s]   347 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for service to appear...");
+[6.858s]       |                             [01;31m[K^~~~[m[K
+[6.858s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:347:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.858s]   347 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for service to appear...");
+[6.858s]       |                             [01;31m[K^~~~[m[K
+[6.864s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:355:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[6.864s]   355 |             auto result_future = [01;31m[Kclient_[m[K->async_send_request(request,
+[6.864s]       |                                  [01;31m[K^~~~~~~[m[K
+[6.864s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:356:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.864s]   356 |                 [[01;31m[Kthis[m[K, max_height](rclcpp::Client<common_services_package::srv::GetPlantpotCoords>::SharedFuture future) {
+[6.864s]       |                  [01;31m[K^~~~[m[K
+[6.864s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.865s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.865s]   358 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                                 [01;31m[K^~~~[m[K
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.865s]   358 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.865s]   358 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.865s]   358 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.865s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.865s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.865s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.865s]   358 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                                 [01;31m[K^~~~[m[K
+[6.865s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:358:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.865s]   358 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received point: x=%.3f, y=%.3f, z=%.3f", msg.x, msg.y, msg.z);
+[6.865s]       |                                 [01;31m[K^~~~[m[K
+[6.894s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:359:21:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessTargetCoordinates[m[K’ was not declared in this scope
+[6.894s]   359 |                     [01;31m[KprocessTargetCoordinates[m[K(msg, max_height);
+[6.894s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.895s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.895s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid runMain()[m[K’:
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.895s]   363 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |                          [01;31m[K^~~~[m[K
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.895s]   363 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.895s]   363 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.895s]   363 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.895s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.895s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.895s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.895s]   363 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |                          [01;31m[K^~~~[m[K
+[6.895s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:363:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.895s]   363 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to get transform: %s", e.what());
+[6.895s]       |                          [01;31m[K^~~~[m[K
+[6.896s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid processTargetCoordinates(const Point&, float)[m[K’:
+[6.896s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:462:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.896s]   462 |             marker.header.stamp = [01;31m[Kthis[m[K->now();
+[6.896s]       |                                   [01;31m[K^~~~[m[K
+[6.906s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:478:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[6.906s]   478 |             [01;31m[Kmarker_pub_[m[K->publish(marker);
+[6.906s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.906s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.906s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.907s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.907s]   509 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |                     [01;31m[K^~~~[m[K
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.907s]   509 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.907s]   509 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.907s]   509 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.907s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.907s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.907s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.907s]   509 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |                     [01;31m[K^~~~[m[K
+[6.907s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:509:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.907s]   509 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Positions calculated, moving to target positions...");
+[6.907s]       |                     [01;31m[K^~~~[m[K
+[6.920s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:510:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToTargets[m[K’ was not declared in this scope
+[6.920s]   510 |         [01;31m[KmoveToTargets[m[K(target_poses);
+[6.920s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.920s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In function ‘[01m[Kvoid moveToTargets(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[6.920s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:515:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.920s]   515 |         std::thread motion_thread([[01;31m[Kthis[m[K, target_poses]() {
+[6.920s]       |                                    [01;31m[K^~~~[m[K
+[6.943s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K In lambda function:
+[6.943s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:520:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_from_this[m[K’ was not declared in this scope
+[6.943s]   520 |                 auto move_group_interface = MoveGroupInterface([01;31m[Kshared_from_this[m[K(), options);
+[6.943s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.944s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.944s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.944s]   576 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                             [01;31m[K^~~~[m[K
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.944s]   576 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.944s]   576 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.944s]   576 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[6.944s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.944s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.944s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.944s]   576 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                             [01;31m[K^~~~[m[K
+[6.944s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:576:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.944s]   576 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %lu", target_poses.size());
+[6.944s]       |                             [01;31m[K^~~~[m[K
+[6.945s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.945s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.945s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.945s]   596 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %zu", i);
+[6.945s]       |                                 [01;31m[K^~~~[m[K
+[6.945s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.945s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.945s]   596 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %zu", i);
+[6.945s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.945s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.945s]   596 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %zu", i);
+[6.945s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.945s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.945s]   596 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion planning to target %zu", i);
+[6.945s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.945s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.945s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.946s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.946s]   596 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %zu", i);
+[6.946s]       |                                 [01;31m[K^~~~[m[K
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:596:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.946s]   596 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion planning to target %zu", i);
+[6.946s]       |                                 [01;31m[K^~~~[m[K
+[6.946s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.946s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.946s]   605 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Planning failed for target %zu", i);
+[6.946s]       |                                     [01;31m[K^~~~[m[K
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.946s]   605 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Planning failed for target %zu", i);
+[6.946s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.946s]   605 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Planning failed for target %zu", i);
+[6.946s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.946s]   605 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Planning failed for target %zu", i);
+[6.946s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[6.946s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.946s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.946s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.946s]   605 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Planning failed for target %zu", i);
+[6.946s]       |                                     [01;31m[K^~~~[m[K
+[6.946s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:605:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.946s]   605 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Planning failed for target %zu", i);
+[6.947s]       |                                     [01;31m[K^~~~[m[K
+[6.947s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.947s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.947s]   610 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                                 [01;31m[K^~~~[m[K
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.947s]   610 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.947s]   610 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.947s]   610 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.947s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.947s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.947s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.947s]   610 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                                 [01;31m[K^~~~[m[K
+[6.947s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:610:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.947s]   610 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Pose trajectory line");
+[6.947s]       |                                 [01;31m[K^~~~[m[K
+[6.948s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.948s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.948s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.948s]   616 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to target %zu", i);
+[6.948s]       |                                 [01;31m[K^~~~[m[K
+[6.948s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.948s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.948s]   616 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to target %zu", i);
+[6.948s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.948s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.948s]   616 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to target %zu", i);
+[6.948s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.948s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.948s]   616 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to target %zu", i);
+[6.948s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.948s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.948s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.949s]   616 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to target %zu", i);
+[6.949s]       |                                 [01;31m[K^~~~[m[K
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:616:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.949s]   616 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to target %zu", i);
+[6.949s]       |                                 [01;31m[K^~~~[m[K
+[6.949s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.949s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.949s]   619 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                                 [01;31m[K^~~~[m[K
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.949s]   619 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.949s]   619 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.949s]   619 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[6.949s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[6.949s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.949s]   619 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                                 [01;31m[K^~~~[m[K
+[6.949s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:619:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[6.949s]   619 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Processing point cloud at target %zu", i);
+[6.949s]       |                                 [01;31m[K^~~~[m[K
+[6.971s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:623:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_data_mutex_[m[K’ was not declared in this scope
+[6.971s]   623 |                         std::lock_guard<std::mutex> lock([01;31m[Kcamera_data_mutex_[m[K);
+[6.971s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.984s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:624:29:[m[K [01;31m[Kerror: [m[K‘[01m[Krgb_msg_[m[K’ was not declared in this scope
+[6.984s]   624 |                         if ([01;31m[Krgb_msg_[m[K && depth_msg_ && camera_info_) {
+[6.984s]       |                             [01;31m[K^~~~~~~~[m[K
+[6.998s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:624:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_msg_[m[K’ was not declared in this scope
+[6.998s]   624 |                         if (rgb_msg_ && [01;31m[Kdepth_msg_[m[K && camera_info_) {
+[6.998s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[7.015s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:624:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_[m[K’ was not declared in this scope
+[7.016s]   624 |                         if (rgb_msg_ && depth_msg_ && [01;31m[Kcamera_info_[m[K) {
+[7.016s]       |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+[7.016s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:632:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.016s]   632 |                                 cloud_msg.header.stamp = [01;31m[Kthis[m[K->now();
+[7.016s]       |                                                          [01;31m[K^~~~[m[K
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:633:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_pub_[m[K’ was not declared in this scope
+[7.036s]   633 |                                 [01;31m[Kpointcloud_pub_[m[K->publish(cloud_msg);
+[7.036s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.036s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.036s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:45:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.036s]   634 |                                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published point cloud at target %zu", i);
+[7.036s]       |                                             [01;31m[K^~~~[m[K
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:45:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.036s]   634 |                                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published point cloud at target %zu", i);
+[7.036s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.036s]   634 |                                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published point cloud at target %zu", i);
+[7.036s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[7.036s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.036s]   634 |                                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Published point cloud at target %zu", i);
+[7.036s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[7.036s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.036s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.037s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.037s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.037s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.037s]   634 |                                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published point cloud at target %zu", i);
+[7.037s]       |                                             [01;31m[K^~~~[m[K
+[7.037s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:634:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.037s]   634 |                                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Published point cloud at target %zu", i);
+[7.037s]       |                                             [01;31m[K^~~~[m[K
+[7.053s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:639:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[7.053s]   639 |                                 [01;31m[Kimage_pub_[m[K->publish(*filtered_img);
+[7.053s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[7.053s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.053s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.053s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.053s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.053s]   643 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.053s]       |                                     [01;31m[K^~~~[m[K
+[7.053s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.054s]   643 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.054s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.054s]   643 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.054s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.054s]   643 |                         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.054s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.054s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.054s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.054s]   643 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.054s]       |                                     [01;31m[K^~~~[m[K
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:643:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.054s]   643 |                         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to get fresh camera data at target %zu", i);
+[7.054s]       |                                     [01;31m[K^~~~[m[K
+[7.054s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.054s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.054s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.054s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.055s]   653 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                                 [01;31m[K^~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   653 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   653 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   653 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.055s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.055s]   653 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                                 [01;31m[K^~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:653:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.055s]   653 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.055s]       |                                 [01;31m[K^~~~[m[K
+[7.055s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.055s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.055s]   662 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to home position");
+[7.055s]       |                             [01;31m[K^~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   662 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to home position");
+[7.055s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   662 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to home position");
+[7.055s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.055s]   662 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving to home position");
+[7.055s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.055s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.055s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.056s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.056s]   662 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to home position");
+[7.056s]       |                             [01;31m[K^~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:662:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.056s]   662 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Moving to home position");
+[7.056s]       |                             [01;31m[K^~~~[m[K
+[7.056s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.056s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.056s]   671 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                                 [01;31m[K^~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.056s]   671 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.056s]   671 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.056s]   671 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.056s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.056s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.056s]   671 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                                 [01;31m[K^~~~[m[K
+[7.056s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:671:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.056s]   671 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Visualizing Camera trajectory line");
+[7.056s]       |                                 [01;31m[K^~~~[m[K
+[7.056s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.056s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.057s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.057s]   678 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                                 [01;31m[K^~~~[m[K
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.057s]   678 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.057s]   678 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.057s]   678 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[7.057s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.057s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.057s]   678 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                                 [01;31m[K^~~~[m[K
+[7.057s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:678:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.057s]   678 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Failed to plan motion to home position");
+[7.057s]       |                                 [01;31m[K^~~~[m[K
+[7.057s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.057s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.058s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.058s]   682 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion sequence completed");
+[7.058s]       |                             [01;31m[K^~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   682 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion sequence completed");
+[7.058s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   682 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion sequence completed");
+[7.058s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   682 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Motion sequence completed");
+[7.058s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[7.058s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.058s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.058s]   682 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion sequence completed");
+[7.058s]       |                             [01;31m[K^~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:682:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.058s]   682 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Motion sequence completed");
+[7.058s]       |                             [01;31m[K^~~~[m[K
+[7.058s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.058s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.058s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.058s]   688 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Exception during motion: %s", e.what());
+[7.058s]       |                              [01;31m[K^~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   688 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Exception during motion: %s", e.what());
+[7.058s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   688 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Exception during motion: %s", e.what());
+[7.058s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[7.058s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.058s]   688 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Exception during motion: %s", e.what());
+[7.059s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[7.059s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.059s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[7.059s]                  from [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:5[m[K:
+[7.059s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.059s]   688 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Exception during motion: %s", e.what());
+[7.059s]       |                              [01;31m[K^~~~[m[K
+[7.059s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:688:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[7.059s]   688 |                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Exception during motion: %s", e.what());
+[7.059s]       |                              [01;31m[K^~~~[m[K
+[7.110s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:[m[K At global scope:
+[7.110s] [01m[K/home/buhrmann/ws_moveit/src/ur5_moveit_test/src/ur5_image_octmap_path.cpp:733:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[7.110s]   733 | [01;31m[K}[m[K;
+[7.110s]       | [01;31m[K^[m[K
+[9.773s] gmake[2]: *** [CMakeFiles/ur5_image_octmap_path.dir/build.make:76: CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o] Error 1
+[9.774s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/ur5_image_octmap_path.dir/all] Error 2
+[9.774s] gmake: *** [Makefile:146: all] Error 2
+[9.776s] Invoked command in '/home/buhrmann/ws_moveit/build/ur5_moveit_test' returned '2': AMENT_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_configs_utils:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/opt/ros/iron CMAKE_PREFIX_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface:/home/buhrmann/ws_moveit/install/moveit_ros_move_group:/home/buhrmann/ws_moveit/install/moveit_visual_tools:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse:/home/buhrmann/ws_moveit/install/moveit_kinematics:/home/buhrmann/ws_moveit/install/moveit_ros_planning:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/buhrmann/ws_moveit/install/moveit_core:/home/buhrmann/ws_moveit/install/moveit_resources_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/buhrmann/ws_moveit/install/rviz_visual_tools:/home/buhrmann/ws_moveit/install/moveit_resources_pr2_description:/home/buhrmann/ws_moveit/install/moveit_resources_panda_description:/home/buhrmann/ws_moveit/install/moveit_resources_fanuc_description:/home/buhrmann/ws_moveit/install/moveit_msgs:/home/buhrmann/ws_moveit/install/moveit_common:/home/buhrmann/ws_moveit/install/ur5_moveit_test:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config2:/home/buhrmann/ws_moveit/install/ur5_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur5_description_controller:/home/buhrmann/ws_moveit/install/ur3_camera_moveit_config:/home/buhrmann/ws_moveit/install/ur3_description_controller:/home/buhrmann/ws_moveit/install/robotiq_hardware_tests:/home/buhrmann/ws_moveit/install/robotiq_driver:/home/buhrmann/ws_moveit/install/serial:/home/buhrmann/ws_moveit/install/moveit2_tutorials:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core:/home/buhrmann/ws_moveit/install/rviz_marker_tools:/home/buhrmann/ws_moveit/install/picknik_accessories:/home/buhrmann/ws_moveit/install/kortex_bringup:/home/buhrmann/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/buhrmann/ws_moveit/install/kortex_description:/home/buhrmann/ws_moveit/install/robotiq_description:/home/buhrmann/ws_moveit/install/robotiq_controllers:/home/buhrmann/ws_moveit/install/ppf_test_pkg:/home/buhrmann/ws_moveit/install/point_cloud_circle_detector:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/buhrmann/ws_moveit/install/moveit_runtime:/home/buhrmann/ws_moveit/install/moveit:/home/buhrmann/ws_moveit/install/moveit_planners:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner:/home/buhrmann/ws_moveit/install/pick_ik:/home/buhrmann/ws_moveit/install/object_detection_pcl:/home/buhrmann/ws_moveit/install/object_detection:/home/buhrmann/ws_moveit/install/object_creation:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface:/home/buhrmann/ws_moveit/install/moveit_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_assistant:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_controllers:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins:/home/buhrmann/ws_moveit/install/moveit_setup_framework:/home/buhrmann/ws_moveit/install/moveit_servo:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache:/home/buhrmann/ws_moveit/install/moveit_ros:/home/buhrmann/ws_moveit/install/moveit_ros_visualization:/home/buhrmann/ws_moveit/install/moveit_py:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning:/home/buhrmann/ws_moveit/install/edit_planning_scene:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction:/home/buhrmann/ws_moveit/install/moveit_ros_perception:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_ompl:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_support:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/buhrmann/ws_moveit/install/moveit_resources:/home/buhrmann/ws_moveit/install/dual_arm_panda_moveit_config:/home/buhrmann/ws_moveit/install/moveit_planners_stomp:/home/buhrmann/ws_moveit/install/moveit_planners_chomp:/home/buhrmann/ws_moveit/install/chomp_motion_planner:/home/buhrmann/ws_moveit/install/kortex_driver:/home/buhrmann/ws_moveit/install/kortex_api:/home/buhrmann/ws_moveit/install/common_services_package:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron LD_LIBRARY_PATH=/home/buhrmann/ws_moveit/install/moveit_ros_planning_interface/lib:/home/buhrmann/ws_moveit/install/moveit_ros_move_group/lib:/home/buhrmann/ws_moveit/install/moveit_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_ros_warehouse/lib:/home/buhrmann/ws_moveit/install/moveit_kinematics/lib:/home/buhrmann/ws_moveit/install/moveit_ros_planning/lib:/home/buhrmann/ws_moveit/install/moveit_simple_controller_manager/lib:/home/buhrmann/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/buhrmann/ws_moveit/install/moveit_core/lib:/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib:/home/buhrmann/ws_moveit/install/moveit_msgs/lib:/home/buhrmann/ws_moveit/install/robotiq_driver/lib:/home/buhrmann/ws_moveit/install/serial/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_demo/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib:/home/buhrmann/ws_moveit/install/rviz_marker_tools/lib:/home/buhrmann/ws_moveit/install/robotiq_controllers/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/buhrmann/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/buhrmann/ws_moveit/install/pick_ik/lib:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/buhrmann/ws_moveit/install/moveit_ros_control_interface/lib:/home/buhrmann/ws_moveit/install/moveit_setup_assistant/lib:/home/buhrmann/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_core_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_controllers/lib:/home/buhrmann/ws_moveit/install/moveit_setup_app_plugins/lib:/home/buhrmann/ws_moveit/install/moveit_setup_framework/lib:/home/buhrmann/ws_moveit/install/moveit_servo/lib:/home/buhrmann/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/buhrmann/ws_moveit/install/moveit_ros_visualization/lib:/home/buhrmann/ws_moveit/install/moveit_py/lib:/home/buhrmann/ws_moveit/install/moveit_hybrid_planning/lib:/home/buhrmann/ws_moveit/install/moveit_ros_benchmarks/lib:/home/buhrmann/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/buhrmann/ws_moveit/install/moveit_ros_perception/lib:/home/buhrmann/ws_moveit/install/moveit_planners_ompl/lib:/home/buhrmann/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/buhrmann/ws_moveit/install/moveit_planners_stomp/lib:/home/buhrmann/ws_moveit/install/moveit_planners_chomp/lib:/home/buhrmann/ws_moveit/install/chomp_motion_planner/lib:/home/buhrmann/ws_moveit/install/kortex_driver/lib:/home/buhrmann/ws_moveit/install/common_services_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/amd64 PYTHONPATH=/home/buhrmann/ws_moveit/install/moveit_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_core/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/ros2_azure_bridge/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/moveit_py/lib/python3.10/site-packages:/home/buhrmann/ws_moveit/install/common_services_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/ur5_moveit_test -- -j28 -l28

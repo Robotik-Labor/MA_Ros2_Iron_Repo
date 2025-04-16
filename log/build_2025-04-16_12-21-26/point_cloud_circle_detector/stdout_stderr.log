@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target plantpot_pointcloud_segmentation_and_coloring_service[0m
+[  5%] Built target point_cloud_cylinder_detector
+[ 11%] Built target point_cloud_plantpot_edge_pfh_detector
+[ 20%] Built target point_cloud_plantpot_pfh_detector
+[ 23%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[ 29%] Built target cup_segmentation_color
+[ 35%] Built target point_cloud_plantpot_detector
+[ 41%] Built target point_cloud_circle_detector
+[ 47%] Built target cup_pointcloud_segmentation_color
+[ 52%] Built target point_cloud_plantpot_ppf_detector
+[ 58%] Built target hsv_color_filter
+[ 64%] Built target rgb_edge_filter
+[ 70%] Built target image_based_hsv_color_filter
+[ 76%] Built target plantplot_ransac_conversion
+[ 82%] Built target plantplot_icp_conversion
+[ 88%] Built target plantpot_placement_service
+[ 94%] Built target plantplot_placement
+[ 97%] [32mBuilding CXX object CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o[0m
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:182:54:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  182 |         for (size_t i = 0; i < data.size(); i += 3) {[01;31m[K#[m[Kinclude "std_msgs/msg/string.hpp"
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::process_point_cloud(const Float32MultiArray&)[m[K’:
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:182:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ was not declared in this scope
+  182 |         for (size_t i = 0; i < data.size(); i += 3) {#[01;31m[Kinclude[m[K "std_msgs/msg/string.hpp"
+      |                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:187:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  187 |                 [01;31m[Kdepth[m[K = rotated_depth_image.at<uint16_t>(data[i+2], data[i+1]);
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:189:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  189 |                 [01;31m[Kdepth[m[K = depth_cv_ptr->image.at<uint16_t>(data[i+2], data[i+1]);
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:193:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  193 |             if ([01;31m[Kdepth[m[K == 0 || depth <= 500 || mask.at<uchar>(data[i+2], data[i+1]) == 0) {
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:197:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ was not declared in this scope
+  197 |             float z = [01;31m[Kdepth[m[K * 0.001; // Convert to meters
+      |                       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make:76: CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

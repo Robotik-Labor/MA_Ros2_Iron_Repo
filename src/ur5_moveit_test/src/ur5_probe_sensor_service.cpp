@@ -8,6 +8,7 @@
 #include <tf2/LinearMath/Quaternion.h>
 #include <common_services_package/srv/get_plantpot_coords.hpp>   // Import service message - adjust to your actual service type
 #include <moveit_visual_tools/moveit_visual_tools.h>
+#include <std_msgs/msg/string.hpp>
 
 int main(int argc, char **argv) {
   // Initialize ROS and create the Node
@@ -60,6 +61,9 @@ int main(int argc, char **argv) {
   // Create a publisher for visualization markers
   auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker>(
     "UR5/probe_points", rclcpp::QoS(16));
+
+  auto cloud_message_publisher = node->create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
+
 
   // Vector to store target poses
   std::vector<geometry_msgs::msg::Pose> target_poses;
@@ -350,7 +354,11 @@ int main(int argc, char **argv) {
   //move_group_interface.setNamedTarget("Home");
   //success = (move_group_interface.plan(plan_to_home) == moveit::core::MoveItErrorCode::SUCCESS);
   //move_group_interface.execute(plan_to_home);
-  
+  std_msgs::msg::String msg;
+  msg.data = "Sensor_placed";
+  cloud_message_publisher->publish(msg);
+  std::this_thread::sleep_for(std::chrono::seconds(1));
+
   // Shutdown ROS after the task is finished
   rclcpp::shutdown();
   return 1;

@@ -1,0 +1,14 @@
+[  7%] Built target ur5_moveit_test
+[ 14%] Built target gripper_close_moveit_test
+[ 21%] Built target gripper_open_moveit_test
+[ 28%] Built target ur5_moveit_test_launch
+[ 35%] Built target ur5_moveit_test_object_detection
+[ 50%] Built target ur5_read_positions
+[ 50%] Built target ur5_drop_sensor
+[ 57%] Built target ur5_pickup_sensor
+[ 64%] Built target ur5_probe_sensor_service
+[ 71%] Built target ur5_probe_sensor
+[ 85%] Built target ur5_move_to_camera
+[ 85%] Built target ur5_move_to_home
+[ 92%] Built target ur5_move_plantpot_to_home
+[ 96%] [32mBuilding CXX object CMakeFiles/ur5_image_octmap_path.dir/src/ur5_image_octmap_path.cpp.o[0m

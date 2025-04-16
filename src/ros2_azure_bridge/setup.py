@@ -29,6 +29,7 @@ setup(
         'console_scripts': [
             'azure_bridge_node = ros2_azure_bridge.ros2_azure_iot_bridge:main',
             'service_calls = ros2_azure_bridge.service_calls:main',
+            'test_exceutor = ros2_azure_bridge.sequential_executor:main',
         ],
     },
 )

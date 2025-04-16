@@ -1,0 +1,167 @@
+[0.187s] Invoking command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28
+[0.291s] [  5%] Built target point_cloud_plantpot_edge_pfh_detector
+[0.291s] [ 11%] Built target point_cloud_cylinder_detector
+[0.291s] [ 17%] Built target point_cloud_plantpot_pfh_detector
+[0.292s] [ 23%] Built target rgb_edge_filter
+[0.292s] [ 29%] Built target cup_segmentation_color
+[0.292s] [ 35%] Built target image_based_hsv_color_filter
+[0.292s] [ 41%] Built target plantplot_ransac_conversion
+[0.292s] [ 47%] Built target point_cloud_plantpot_ppf_detector
+[0.292s] [ 52%] Built target plantplot_icp_conversion
+[0.292s] [ 58%] Built target hsv_color_filter
+[0.292s] [ 64%] Built target point_cloud_circle_detector
+[0.292s] [ 70%] Built target cup_pointcloud_segmentation_color
+[0.293s] [ 76%] Built target point_cloud_plantpot_rgb_edge_pfh_detector
+[0.293s] [ 82%] Built target point_cloud_plantpot_detector
+[0.293s] [ 88%] Built target plantplot_placement
+[0.293s] [ 91%] [32mBuilding CXX object CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o[0m
+[0.293s] [ 97%] Built target plantpot_placement_service
+[3.844s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:243:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kcv::String[m[K’?
+[3.844s]   243 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr cloud_message_publisher_;
+[3.844s]       |                                      [01;31m[K^~~~~~[m[K
+[3.844s] In file included from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[3.844s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[3.844s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.844s]                  from [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.hpp:43[m[K,
+[3.844s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:5[m[K:
+[3.844s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.hpp:152:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::String[m[K’ declared here
+[3.844s]   152 | typedef std::string [01;36m[KString[m[K;
+[3.844s]       |                     [01;36m[K^~~~~~[m[K
+[3.844s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:243:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.844s]   243 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr cloud_message_publisher_;
+[3.844s]       |                                            [01;31m[K^[m[K
+[3.852s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:243:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.852s]   243 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K cloud_message_publisher_;
+[3.852s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[3.852s]       |                                                        [32m[K;[m[K
+[3.864s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:243:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_message_publisher_[m[K’ does not name a type
+[3.864s]   243 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kcloud_message_publisher_[m[K;
+[3.864s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.899s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:[m[K In constructor ‘[01m[KPointCloudGenerator::PointCloudGenerator()[m[K’:
+[3.899s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_message_publisher_[m[K’ was not declared in this scope
+[3.899s]    50 |         [01;31m[Kcloud_message_publisher_[m[K = create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
+[3.899s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.900s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:50:68:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kcv::String[m[K’?
+[3.900s]    50 |         cloud_message_publisher_ = create_publisher<std_msgs::msg::[01;31m[KString[m[K>("/UR5/cloud_messages", 10);
+[3.900s]       |                                                                    [01;31m[K^~~~~~[m[K
+[3.900s] In file included from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[3.900s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[3.900s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.900s]                  from [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.hpp:43[m[K,
+[3.900s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:5[m[K:
+[3.900s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.hpp:152:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::String[m[K’ declared here
+[3.901s]   152 | typedef std::string [01;36m[KString[m[K;
+[3.901s]       |                     [01;36m[K^~~~~~[m[K
+[3.901s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:50:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPointCloudGenerator::create_publisher<<expression error> >(const char [20], int)[m[K’
+[3.901s]    50 |         cloud_message_publisher_ = [01;31m[Kcreate_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10)[m[K;
+[3.901s]       |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.901s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[3.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.901s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.901s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:1[m[K:
+[3.901s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.901s]    73 | [01;36m[KNode[m[K::create_publisher(
+[3.901s]       | [01;36m[K^~~~[m[K
+[3.901s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.901s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:50:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.901s]    50 |         cloud_message_publisher_ = [01;31m[Kcreate_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10)[m[K;
+[3.901s]       |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.928s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:[m[K In member function ‘[01m[Kvoid PointCloudGenerator::process_point_cloud(const Float32MultiArray&)[m[K’:
+[3.928s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:229:24:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kcv::String[m[K’?
+[3.929s]   229 |         std_msgs::msg::[01;31m[KString[m[K msg;
+[3.929s]       |                        [01;31m[K^~~~~~[m[K
+[3.929s] In file included from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:58[m[K,
+[3.929s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[3.929s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.929s]                  from [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.hpp:43[m[K,
+[3.929s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:5[m[K:
+[3.929s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.hpp:152:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::String[m[K’ declared here
+[3.929s]   152 | typedef std::string [01;36m[KString[m[K;
+[3.929s]       |                     [01;36m[K^~~~~~[m[K
+[3.929s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:230:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[3.930s]   230 |         [01;31m[Kmsg[m[K.data = "PointCloud_Creation_Complete";
+[3.930s]       |         [01;31m[K^~~[m[K
+[3.930s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:230:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.930s] In file included from [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:18[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.930s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:1[m[K:
+[3.930s] [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[3.930s]    27 | namespace [01;36m[Kmsg[m[K
+[3.930s]       |           [01;36m[K^~~[m[K
+[3.930s] In file included from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[3.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.931s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:1[m[K:
+[3.931s] [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[3.931s]    27 | namespace [01;36m[Kmsg[m[K
+[3.931s]       |           [01;36m[K^~~[m[K
+[3.931s] In file included from [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.931s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:1[m[K:
+[3.931s] [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[3.931s]    27 | namespace [01;36m[Kmsg[m[K
+[3.931s]       |           [01;36m[K^~~[m[K
+[3.931s] In file included from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:236[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.931s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:1[m[K:
+[3.931s] [01m[K/opt/ros/iron/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[3.931s]    31 | namespace [01;36m[Kmsg[m[K
+[3.931s]       |           [01;36m[K^~~[m[K
+[3.931s] In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[3.931s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.931s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:2[m[K:
+[3.931s] [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[3.932s]    31 | namespace [01;36m[Kmsg[m[K
+[3.932s]       |           [01;36m[K^~~[m[K
+[3.932s] In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.932s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:2[m[K:
+[3.932s] [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[3.932s]    31 | namespace [01;36m[Kmsg[m[K
+[3.932s]       |           [01;36m[K^~~[m[K
+[3.932s] In file included from [01m[K/opt/ros/iron/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:7[m[K,
+[3.932s]                  from [01m[K/opt/ros/iron/include/pcl_conversions/pcl_conversions/pcl_conversions.h:62[m[K,
+[3.932s]                  from [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:7[m[K:
+[3.932s] [01m[K/opt/ros/iron/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl_msgs::msg[m[K’
+[3.932s]    31 | namespace [01;36m[Kmsg[m[K
+[3.932s]       |           [01;36m[K^~~[m[K
+[3.955s] [01m[K/home/buhrmann/ws_moveit/src/point_cloud_circle_detector/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp:231:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_message_publisher_[m[K’ was not declared in this scope
+[3.955s]   231 |         [01;31m[Kcloud_message_publisher_[m[K->publish(msg);
+[3.956s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.305s] gmake[2]: *** [CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/build.make:76: CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpot_pointcloud_segmentation_and_coloring_service.cpp.o] Error 1
+[6.305s] gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/all] Error 2
+[6.305s] gmake: *** [Makefile:146: all] Error 2
+[6.307s] Invoked command in '/home/buhrmann/ws_moveit/build/point_cloud_circle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/point_cloud_circle_detector -- -j28 -l28

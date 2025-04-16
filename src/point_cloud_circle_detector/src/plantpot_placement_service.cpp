@@ -2,6 +2,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <std_msgs/msg/float32_multi_array.hpp>
+#include <std_msgs/msg/string.hpp>
 #include <geometry_msgs/msg/point.hpp>
 #include <geometry_msgs/msg/pose.hpp>
 #include <geometry_msgs/msg/transform_stamped.hpp>
@@ -53,6 +54,8 @@ public:
         // Client for service
         cloud_service_client_ = this->create_client<common_services_package::srv::GetPointCloud2>(
             "/UR5/service/pointcloud_data");
+
+	cloud_message_publisher_ = create_publisher<std_msgs::msg::String>("/UR5/cloud_messages", 10);
 
         // Timer to initiate service call
         timer_ = create_wall_timer(1s, std::bind(&PointCloudServiceProcessor::call_service, this));
@@ -200,6 +203,11 @@ void on_service_response(rclcpp::Client<common_services_package::srv::GetPointCl
         pre_segmentation_publisher_->publish(out_msg);
 
         RCLCPP_INFO(this->get_logger(), "Processing complete. Published target position and point cloud.");
+	
+	std_msgs::msg::String msg;
+  	msg.data = "3D_Model_of_Plantpot_placed";
+  	cloud_message_publisher_->publish(msg);        
+        
         std::this_thread::sleep_for(std::chrono::seconds(1));
         rclcpp::shutdown();
     }
@@ -207,6 +215,7 @@ void on_service_response(rclcpp::Client<common_services_package::srv::GetPointCl
     rclcpp::Client<common_services_package::srv::GetPointCloud2>::SharedPtr cloud_service_client_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pre_segmentation_publisher_;
     rclcpp::Publisher<geometry_msgs::msg::Point>::SharedPtr plantpot_coord_publisher_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr cloud_message_publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
 
     std::shared_ptr<moveit::planning_interface::PlanningSceneInterface> planning_scene_interface_;

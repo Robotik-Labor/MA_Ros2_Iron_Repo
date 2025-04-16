@@ -142,7 +142,7 @@ int main(int argc, char **argv) {
   std_msgs::msg::String msg;
   msg.data = "Move_to_Camera_Complete";
   cloud_message_publisher->publish(msg);
-
+  std::this_thread::sleep_for(std::chrono::seconds(1));
   // Shutdown ROS
   rclcpp::shutdown();
   return 0;

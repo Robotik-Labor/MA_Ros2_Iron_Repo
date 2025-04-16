@@ -18,6 +18,7 @@
 #include <std_srvs/srv/empty.hpp>  // For the clear service
 #include <pcl/filters/statistical_outlier_removal.h>
 #include <pcl/surface/convex_hull.h>
+#include <std_srvs/srv/empty.hpp>
 
 class OccupancyMapNode : public rclcpp::Node
 {
@@ -284,8 +285,27 @@ private:
     // Publish the planning scene to remove the occupancy map
     planning_scene_interface_->applyPlanningScene(planning_scene);
     
-    RCLCPP_INFO(this->get_logger(), "Cleared octomap and removed from planning scene");
+    auto client = this->create_client<std_srvs::srv::Empty>("/clear_octomap");
+  
+  // Wait for the service to be available
+  if (!client->wait_for_service(std::chrono::seconds(5))) {
+    RCLCPP_WARN(this->get_logger(), "Clear octomap service not available, RViz visualization may not update");
+  } else {
+    // Call the service
+    auto request = std::make_shared<std_srvs::srv::Empty::Request>();
+    auto future = client->async_send_request(request);
+    
+    // Wait for the result
+    if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future) ==
+        rclcpp::FutureReturnCode::SUCCESS) {
+      RCLCPP_INFO(this->get_logger(), "Successfully called clear_octomap service");
+    } else {
+      RCLCPP_ERROR(this->get_logger(), "Failed to call clear_octomap service");
+    }
   }
+  
+  RCLCPP_INFO(this->get_logger(), "Cleared octomap and removed from planning scene");
+}
 
   // Subscribers and publishers
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr pointcloud_sub_;

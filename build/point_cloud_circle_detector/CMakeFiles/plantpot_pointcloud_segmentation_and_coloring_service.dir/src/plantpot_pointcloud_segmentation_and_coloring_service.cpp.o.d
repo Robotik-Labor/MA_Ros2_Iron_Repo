@@ -675,6 +675,10 @@ CMakeFiles/plantpot_pointcloud_segmentation_and_coloring_service.dir/src/plantpo
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
