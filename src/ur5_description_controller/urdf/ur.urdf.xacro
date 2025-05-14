@@ -128,7 +128,7 @@
     <xacro:include filename="$(find realsense2_description)/urdf/_d435i.urdf.xacro"/>
     
     
-    <xacro:ur_realsense_camera_adapter prefix="$(arg tf_prefix)" parent="$(arg tf_prefix)tool0" child_tool="$(arg tf_prefix)ur_coupler_joint" child_camera="$(arg tf_prefix)camera_joint">
+    <xacro:ur_realsense_camera_adapter prefix="$(arg tf_prefix)" parent="$(arg tf_prefix)tool0" child_tool="$(arg tf_prefix)ur_coupler_joint" child_camera="$(arg tf_prefix)camera_joint" camera_mount_pitch_offset="0.13962634">
     </xacro:ur_realsense_camera_adapter>
     
     <link name="$(arg tf_prefix)wrist_camera">
@@ -167,6 +167,38 @@
     <xacro:sensor_d435i parent="$(arg tf_prefix)camera_joint" name="$(arg tf_prefix)camera" >
        <origin xyz="0 0 0" rpy="0 0 0" />
     </xacro:sensor_d435i>
+    
+    <!-- Add a box link -->
+	<link name="$(arg tf_prefix)sensor_box">
+	  <visual>
+	    <origin xyz="0 0 0" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.022 0.008 0.035"/>  <!-- 22mm x 8mm x 30mm box -->
+	    </geometry>
+	    <material name="black">
+	      <color rgba="0 0 0 1"/>
+	    </material>
+	  </visual>
+	  <collision>
+	    <origin xyz="0 0 0" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.022 0.008 0.035"/>  <!-- 22mm x 8mm x 30mm box -->
+	    </geometry>
+	  </collision>
+	  <inertial>
+	    <mass value="0.01"/>
+	    <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+	  </inertial>
+	</link>
+
+  <joint name="$(arg tf_prefix)camera_box_joint" type="fixed">
+  <origin xyz="-0.006 -0.0535 0.0122" rpy="-1.5707963267948966 -1.5707963267948966 0"/>  <!-- Adjust this position as needed -->
+  <parent link="$(arg tf_prefix)camera_joint"/>
+  <child link="$(arg tf_prefix)sensor_box"/>
+  </joint>
+    
+    
+    
    
     <xacro:robotiq_gripper name="RobotiqGripperHardwareInterface" prefix="$(arg tf_prefix)"
         parent="$(arg tf_prefix)wrist_camera">
