@@ -31,6 +31,9 @@ class CommandSequencer(Node):
         self.current_command_index = 0
         self.waiting_for_confirmation = False
         self.current_process = None
+        self.cleanup_delay = 3.0  # Delay after process termination
+        self.startup_delay = 2.0  # Delay before starting next command
+        
         self.timer = self.create_timer(2.0, self.start_execution)
         self.get_logger().info('Command sequencer initialized. Starting execution in 2 seconds...')
 
@@ -56,14 +59,21 @@ class CommandSequencer(Node):
 
             while self.waiting_for_confirmation:
                 # Non-blocking wait; process is running
-                time.sleep(0.5)
+                time.sleep(2)
 
             # After confirmation, kill the process if still running
             if self.current_process and self.current_process.poll() is None:
                 self.get_logger().info(f'Terminating process for: {command}')
                 self.current_process.terminate()
-                self.current_process.wait()
-                self.get_logger().info(f'Process terminated.')
+                
+                # Give the process time to terminate gracefully
+                try:
+                    self.current_process.wait(timeout=5.0)
+                    self.get_logger().info(f'Process terminated gracefully.')
+                except subprocess.TimeoutExpired:
+                    self.get_logger().warn(f'Process did not terminate gracefully, forcing kill.')
+                    self.current_process.kill()
+                    self.current_process.wait()
 
             msg = String()
             msg.data = f"TERMINATED: {command}"
@@ -71,6 +81,10 @@ class CommandSequencer(Node):
             self.get_logger().info(f'Published termination message: {msg.data}')
 
             self.current_process = None
+            
+            # Wait for cleanup delay to ensure proper resource cleanup
+            self.get_logger().info(f'Waiting {self.cleanup_delay} seconds for cleanup...')
+            time.sleep(self.cleanup_delay)
 
         except Exception as e:
             self.get_logger().error(f'Exception occurred: {str(e)}')
@@ -78,7 +92,11 @@ class CommandSequencer(Node):
             msg.data = f"EXCEPTION: {command} - {str(e)}"
             self.publisher.publish(msg)
 
-        # Move to next command after termination or exception
+        # Additional delay before starting next command to prevent overlap
+        self.get_logger().info(f'Waiting {self.startup_delay} seconds before starting next command...')
+        time.sleep(self.startup_delay)
+
+        # Move to next command after all delays
         self.current_command_index += 1
         self.execute_next_command()
 

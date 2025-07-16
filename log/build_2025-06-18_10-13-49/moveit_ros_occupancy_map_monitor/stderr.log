@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/moveit_ros_occupancy_map_server.dir/build.make:76: CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/moveit_ros_occupancy_map_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

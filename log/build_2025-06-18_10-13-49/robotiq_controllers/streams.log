@@ -1,0 +1,38 @@
+[0.229s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_controllers -- -j28 -l28
+[0.387s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
+[11.461s] [100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
+[12.091s] [100%] Built target robotiq_controllers
+[12.170s] Invoked command in '/home/buhrmann/ws_moveit/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/robotiq_controllers -- -j28 -l28
+[12.173s] Invoking command in '/home/buhrmann/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/robotiq_controllers
+[12.239s] -- Install configuration: ""
+[12.239s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/controller_plugins.xml
+[12.240s] -- Installing: /home/buhrmann/ws_moveit/install/robotiq_controllers/lib/librobotiq_controllers.so
+[12.242s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/robotiq_controllers/lib/librobotiq_controllers.so" to ""
+[12.242s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/include
+[12.244s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/include/robotiq_controllers
+[12.244s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+[12.244s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+[12.245s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+[12.246s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+[12.246s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+[12.246s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+[12.246s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+[12.246s] -- Installing: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+[12.253s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-noconfig.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+[12.254s] -- Up-to-date: /home/buhrmann/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/package.xml
+[12.270s] Invoked command in '/home/buhrmann/ws_moveit/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/robotiq_controllers

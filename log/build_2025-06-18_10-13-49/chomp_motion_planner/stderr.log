@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/chomp_motion_planner.dir/build.make:118: CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chomp_motion_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

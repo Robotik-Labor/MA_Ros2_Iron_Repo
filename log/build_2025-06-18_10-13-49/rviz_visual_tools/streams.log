@@ -1,0 +1,113 @@
+[0.216s] Invoking command in '/home/buhrmann/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/rviz_visual_tools -- -j28 -l28
+[0.363s] [  2%] [34m[1mAutomatic MOC for target gtest[0m
+[0.363s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[0.363s] [  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[0.363s] [ 10%] [34m[1mAutomatic MOC for target gtest_main[0m
+[0.383s] [ 10%] Built target gtest_autogen
+[0.389s] [ 10%] Built target gtest_main_autogen
+[0.389s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[0.419s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[0.428s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.428s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.428s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[0.449s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[1.159s] [ 25%] Built target rviz_visual_tools_gui_autogen
+[1.252s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[1.263s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[1.274s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[1.285s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[1.490s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.788s] [ 38%] Built target gtest_main
+[9.790s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.030s] [ 41%] Built target gtest
+[27.961s] [ 43%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[28.732s] [ 43%] Built target rviz_visual_tools_remote_control
+[28.778s] [ 46%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[28.827s] [ 46%] Built target rviz_visual_tools_autogen
+[28.890s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[28.895s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[28.902s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[28.941s] [ 56%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[32.975s] [ 56%] Built target rviz_visual_tools_gui
+[53.543s] [ 58%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[54.233s] [ 58%] Built target rviz_visual_tools
+[54.262s] [ 61%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[54.265s] [ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[54.267s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[54.294s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[54.297s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[54.297s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[54.332s] [ 69%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[54.338s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[54.338s] [ 74%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[54.342s] [ 76%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[54.344s] [ 79%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[54.345s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[59.536s] [ 84%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[59.877s] [ 84%] Built target rviz_visual_tools_imarker_simple
+[59.916s] [ 87%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[59.952s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[59.996s] [ 89%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[59.999s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[61.251s] [ 94%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[61.825s] [ 94%] Built target rviz_visual_tools_rvt_test
+[62.309s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[62.769s] [ 97%] Built target rviz_visual_tools_demo
+[64.888s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[65.276s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[65.296s] Invoked command in '/home/buhrmann/ws_moveit/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --build /home/buhrmann/ws_moveit/build/rviz_visual_tools -- -j28 -l28
+[65.300s] Invoking command in '/home/buhrmann/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/rviz_visual_tools
+[65.312s] -- Install configuration: ""
+[65.312s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[65.312s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[65.318s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[65.318s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[65.321s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[65.321s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[65.324s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[65.325s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[65.325s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[65.326s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[65.326s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+[65.327s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[65.327s] -- Set runtime path of "/home/buhrmann/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+[65.327s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include
+[65.327s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools
+[65.327s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[65.327s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[65.328s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[65.329s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[65.330s] -- Installing: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-noconfig.cmake
+[65.330s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[65.331s] -- Up-to-date: /home/buhrmann/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[65.334s] Invoked command in '/home/buhrmann/ws_moveit/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/buhrmann/ws_moveit/install/ros2_azure_bridge:/home/buhrmann/ws_moveit/install/moveit_configs_utils:/opt/ros/iron /usr/bin/cmake --install /home/buhrmann/ws_moveit/build/rviz_visual_tools
